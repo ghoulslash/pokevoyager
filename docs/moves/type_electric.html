@@ -1,0 +1,463 @@
+<!-- Automatically generated -->
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: attack dex heading -->
+
+
+<table id="moves">
+    <thead>
+        <tr>
+            <th onclick="sortTable()">Name</th>
+            <th onclick="sortTable()">Type</th>
+            <th onclick="sortTable()">Category</th>
+            <th onclick="sortTable()">PP</th>
+            <th onclick="sortTable()">Power</th>
+            <th onclick="sortTable()">Accuracy</th>
+            <th                      >Description</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="thunder_punch"><a href="moves/thunder_punch.html">Thunder Punch</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>An electrified punch that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunder_shock"><a href="moves/thunder_shock.html">Thunder Shock</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>An electrical attack that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunderbolt"><a href="moves/thunderbolt.html">Thunderbolt</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>A strong electrical attack that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunder_wave"><a href="moves/thunder_wave.html">Thunder Wave</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">90</td>
+            <td>A weak jolt of electricity that paralyzes the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunder"><a href="moves/thunder.html">Thunder</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">70</td>
+            <td>A lightning attack that may cause paralysis.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="zap_cannon"><a href="moves/zap_cannon.html">Zap Cannon</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">50</td>
+            <td>Powerful and sure to cause paralysis, but inaccurate.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spark"><a href="moves/spark.html">Spark</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>An electrified tackle that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="charge"><a href="moves/charge.html">Charge</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Charges power to boost the electric move used next.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="volt_tackle"><a href="moves/volt_tackle.html">Volt Tackle</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>A life-risking tackle that slightly hurts the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shock_wave"><a href="moves/shock_wave.html">Shock Wave</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">0</td>
+            <td>A fast and unavoidable electric attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magnet_rise"><a href="moves/magnet_rise.html">Magnet Rise</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>The user levitates with electromagnetism.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunder_fang"><a href="moves/thunder_fang.html">Thunder Fang</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">95</td>
+            <td>May cause flinching or leave the foe paralyzed.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="discharge"><a href="moves/discharge.html">Discharge</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Zaps the foes with electri- city. May paralyze them.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="charge_beam"><a href="moves/charge_beam.html">Charge Beam</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">90</td>
+            <td>Fires a beam of electricity. May raise Sp. Atk.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="electro_ball"><a href="moves/electro_ball.html">Electro Ball</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">1</td>
+            <td id="Accuracy">100</td>
+            <td>Hurls an orb that does more damage to slower foes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="volt_switch"><a href="moves/volt_switch.html">Volt Switch</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>Does damage then switches out the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="electroweb"><a href="moves/electroweb.html">Electroweb</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">55</td>
+            <td id="Accuracy">95</td>
+            <td>Snares the foe with an electric net. Lowers Speed.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wild_charge"><a href="moves/wild_charge.html">Wild Charge</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>An electrical tackle that also hurts the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bolt_strike"><a href="moves/bolt_strike.html">Bolt Strike</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">130</td>
+            <td id="Accuracy">85</td>
+            <td>Strikes with a great amount of lightning. May paralyze.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fusion_bolt"><a href="moves/fusion_bolt.html">Fusion Bolt</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>Summons a thunderbolt. Works well with a fireball.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ion_deluge"><a href="moves/ion_deluge.html">Ion Deluge</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Electrifies Normal-type moves with charged atoms.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="parabolic_charge"><a href="moves/parabolic_charge.html">Parabolic Charge</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>Damages adjacent Pokémon and heals up by half of it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="electrify"><a href="moves/electrify.html">Electrify</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Electrifies the foe, making its next move Electric-type.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="eerie_impulse"><a href="moves/eerie_impulse.html">Eerie Impulse</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Exposes the foe to a pulse that sharply cuts Sp. Atk.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magnetic_flux"><a href="moves/magnetic_flux.html">Magnetic Flux</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Boosts the defenses of those with Plus or Minus.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="electric_terrain"><a href="moves/electric_terrain.html">Electric Terrain</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Electrifies the ground for 5 turns. Prevents sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="nuzzle"><a href="moves/nuzzle.html">Nuzzle</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">20</td>
+            <td id="Accuracy">100</td>
+            <td>Rubs its cheecks against the foe, paralyzing it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="zing_zap"><a href="moves/zing_zap.html">Zing Zap</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>An electrified impact that can cause flinching.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="plasma_fists"><a href="moves/plasma_fists.html">Plasma Fists</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>Hits with electrical fists. Normal moves become Electric.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="zippy_zap"><a href="moves/zippy_zap.html">Zippy Zap</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>Electric bursts always go first and land a critical hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="pika_papow"><a href="moves/pika_papow.html">Pika Papow</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">1</td>
+            <td id="Accuracy">0</td>
+            <td>Pikachu's love increases its power. It never misses.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="buzzy_buzz"><a href="moves/buzzy_buzz.html">Buzzy Buzz</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Shoots a jolt of electricity that always paralyzes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bolt_beak"><a href="moves/bolt_beak.html">Bolt Beak</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">100</td>
+            <td>Double power if the user moves before the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aura_wheel"><a href="moves/aura_wheel.html">Aura Wheel</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">100</td>
+            <td>Raises Speed to attack. The Type is based on its form.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="overdrive"><a href="moves/overdrive.html">Overdrive</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user twangs its guitar, causing strong vibrations.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rising_voltage"><a href="moves/rising_voltage.html">Rising Voltage</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>This move's power doubles when on Electric Terrain.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunder_cage"><a href="moves/thunder_cage.html">Thunder Cage</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">90</td>
+            <td>Traps the foe in a cage of electricity for 2 to 5 turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="solar_ingest"><a href="moves/solar_ingest.html">Solar Ingest</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Absorbs energy to sharply stats but lose 40% HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="solar_erupt"><a href="moves/solar_erupt.html">Solar Erupt</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">95</td>
+            <td>The user enamates intense energy but lowers all stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="epic_tempest"><a href="moves/epic_tempest.html">Epic Tempest</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>A plasma storm to lower user's Special stats and may paralyze.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="amp_overload"><a href="moves/amp_overload.html">Amp Overload</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user blows a circuit and may burn the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="solar_flare"><a href="moves/solar_flare.html">Solar Flare</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Magnetizes the air to summon a Solar Wind.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunderstorm"><a href="moves/thunderstorm.html">Thunderstorm</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>A booming thunderstorm is summoned for 5 turns.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+</body>
