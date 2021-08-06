@@ -1,0 +1,155 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Quick Claw
+</h1>
+
+<p>
+A hold item that occasionally allows the first strike.
+</p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Sneasel"><a href="species/sneasel.html">Sneasel</a></td>
+            <td><a href="species/sneasel.html"><img class="frontsprite" src="sprites/pokemon/sneasel.png"></a></td>
+
+            <td id="Type" data-sortkey="DARKICE"><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/inner_focus.html">Inner Focus</a>
+
+                <br>
+<a href="abilities/keen_eye.html">Keen Eye</a>
+
+                <br>
+<a href="abilities/pickpocket.html">Pickpocket</a>
+
+            </td>
+            <td id="HP">55</td>
+            <td id="Attack">95</td>
+            <td id="Defense">55</td>
+            <td id="Speed">115</td>
+            <td id="SpAttack">35</td>
+            <td id="SpDefense">75</td>
+            <td id="Total">430</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Weavile"><a href="species/weavile.html">Weavile</a></td>
+            <td><a href="species/weavile.html"><img class="frontsprite" src="sprites/pokemon/weavile.png"></a></td>
+
+            <td id="Type" data-sortkey="DARKICE"><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/pressure.html">Pressure</a>
+
+                
+                <br>
+<a href="abilities/pickpocket.html">Pickpocket</a>
+
+            </td>
+            <td id="HP">70</td>
+            <td id="Attack">120</td>
+            <td id="Defense">65</td>
+            <td id="Speed">125</td>
+            <td id="SpAttack">45</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">510</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/sneasel.html"><img class="frontsprite" src="sprites/pokemon/sneasel.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/weavile.html"><img class="frontsprite" src="sprites/pokemon/weavile.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
+
+</body>

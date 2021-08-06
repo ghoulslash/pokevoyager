@@ -1,0 +1,415 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Technician
+</h1>
+
+<p>
+Boosts weaker moves.
+</p>
+
+<h2>
+Natural Ability
+</h2>
+The following Pokémon can have this ability when you find them in the wild.
+
+
+
+
+<div class="tab">
+    <button id="tab_natural_list" content-id="natural_list" class="tablinks" onclick="changetab(event, 'natural_list')">List</button>
+    <button id="tab_natural_grid" content-id="natural_grid" class="tablinks" onclick="changetab(event, 'natural_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="natural_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Scyther"><a href="species/scyther.html">Scyther</a></td>
+            <td><a href="species/scyther.html"><img class="frontsprite" src="sprites/pokemon/scyther.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/swarm.html">Swarm</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+                <br>
+<a href="abilities/steadfast.html">Steadfast</a>
+
+            </td>
+            <td id="HP">70</td>
+            <td id="Attack">110</td>
+            <td id="Defense">80</td>
+            <td id="Speed">105</td>
+            <td id="SpAttack">55</td>
+            <td id="SpDefense">80</td>
+            <td id="Total">500</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Scizor"><a href="species/scizor.html">Scizor</a></td>
+            <td><a href="species/scizor.html"><img class="frontsprite" src="sprites/pokemon/scizor.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGSTEEL"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/steel.html"><img src="sprites/icons/steel.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/swarm.html">Swarm</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+                <br>
+<a href="abilities/light_metal.html">Light Metal</a>
+
+            </td>
+            <td id="HP">70</td>
+            <td id="Attack">130</td>
+            <td id="Defense">100</td>
+            <td id="Speed">65</td>
+            <td id="SpAttack">55</td>
+            <td id="SpDefense">80</td>
+            <td id="Total">500</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
+            <td><a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a></td>
+
+            <td id="Type" data-sortkey="NORMAL" colspan=2 align="center"><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/own_tempo.html">Own Tempo</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+                <br>
+<a href="abilities/moody.html">Moody</a>
+
+            </td>
+            <td id="HP">55</td>
+            <td id="Attack">20</td>
+            <td id="Defense">35</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">20</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">250</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="natural_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/scyther.html"><img class="frontsprite" src="sprites/pokemon/scyther.png"></a>
+</td>
+
+
+<td>
+<a href="species/scizor.html"><img class="frontsprite" src="sprites/pokemon/scizor.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_natural_list').click();
+</script>
+
+
+
+
+
+<h2>
+Hidden Ability
+</h2>
+The following Pokémon can have this ability as their hidden ability.
+
+
+
+
+<div class="tab">
+    <button id="tab_hidden_list" content-id="hidden_list" class="tablinks" onclick="changetab(event, 'hidden_list')">List</button>
+    <button id="tab_hidden_grid" content-id="hidden_grid" class="tablinks" onclick="changetab(event, 'hidden_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="hidden_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Spruvyne"><a href="species/spruvyne.html">Spruvyne</a></td>
+            <td><a href="species/spruvyne.html"><img class="frontsprite" src="sprites/pokemon/spruvyne.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASS" colspan=2 align="center"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/chlorophyll.html">Chlorophyll</a>
+
+                <br>
+<a href="abilities/sturdy.html">Sturdy</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+            </td>
+            <td id="HP">55</td>
+            <td id="Attack">61</td>
+            <td id="Defense">58</td>
+            <td id="Speed">48</td>
+            <td id="SpAttack">42</td>
+            <td id="SpDefense">51</td>
+            <td id="Total">315</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Quervyne"><a href="species/quervyne.html">Quervyne</a></td>
+            <td><a href="species/quervyne.html"><img class="frontsprite" src="sprites/pokemon/quervyne.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASSDRAGON"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td><a href="pokedex/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/chlorophyll.html">Chlorophyll</a>
+
+                <br>
+<a href="abilities/sturdy.html">Sturdy</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+            </td>
+            <td id="HP">73</td>
+            <td id="Attack">87</td>
+            <td id="Defense">81</td>
+            <td id="Speed">54</td>
+            <td id="SpAttack">63</td>
+            <td id="SpDefense">62</td>
+            <td id="Total">420</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Sampervyne"><a href="species/sampervyne.html">Sampervyne</a></td>
+            <td><a href="species/sampervyne.html"><img class="frontsprite" src="sprites/pokemon/sampervyne.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASSDRAGON"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td><a href="pokedex/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/chlorophyll.html">Chlorophyll</a>
+
+                <br>
+<a href="abilities/sturdy.html">Sturdy</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+            </td>
+            <td id="HP">80</td>
+            <td id="Attack">110</td>
+            <td id="Defense">100</td>
+            <td id="Speed">65</td>
+            <td id="SpAttack">80</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">520</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Breloom"><a href="species/breloom.html">Breloom</a></td>
+            <td><a href="species/breloom.html"><img class="frontsprite" src="sprites/pokemon/breloom.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASSFIGHTING"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/effect_spore.html">Effect Spore</a>
+
+                <br>
+<a href="abilities/poison_heal.html">Poison Heal</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+            </td>
+            <td id="HP">60</td>
+            <td id="Attack">130</td>
+            <td id="Defense">80</td>
+            <td id="Speed">70</td>
+            <td id="SpAttack">60</td>
+            <td id="SpDefense">60</td>
+            <td id="Total">460</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Toxtricity"><a href="species/toxtricity.html">Toxtricity</a></td>
+            <td><a href="species/toxtricity.html"><img class="frontsprite" src="sprites/pokemon/toxtricity.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRICPOISON"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td><a href="pokedex/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/punk_rock.html">Punk Rock</a>
+
+                <br>
+<a href="abilities/static.html">Static</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+            </td>
+            <td id="HP">75</td>
+            <td id="Attack">98</td>
+            <td id="Defense">70</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">114</td>
+            <td id="SpDefense">70</td>
+            <td id="Total">502</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="hidden_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/spruvyne.html"><img class="frontsprite" src="sprites/pokemon/spruvyne.png"></a>
+</td>
+
+
+<td>
+<a href="species/quervyne.html"><img class="frontsprite" src="sprites/pokemon/quervyne.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/sampervyne.html"><img class="frontsprite" src="sprites/pokemon/sampervyne.png"></a>
+</td>
+
+
+<td>
+<a href="species/breloom.html"><img class="frontsprite" src="sprites/pokemon/breloom.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/toxtricity.html"><img class="frontsprite" src="sprites/pokemon/toxtricity.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_hidden_list').click();
+</script>
+
+
+
+
+
+
+
+
+</body>

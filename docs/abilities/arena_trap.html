@@ -1,0 +1,243 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Arena Trap
+</h1>
+
+<p>
+Prevents fleeing.
+</p>
+
+<h2>
+Natural Ability
+</h2>
+The following Pokémon can have this ability when you find them in the wild.
+
+
+
+
+<div class="tab">
+    <button id="tab_natural_list" content-id="natural_list" class="tablinks" onclick="changetab(event, 'natural_list')">List</button>
+    <button id="tab_natural_grid" content-id="natural_grid" class="tablinks" onclick="changetab(event, 'natural_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="natural_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Diglett"><a href="species/diglett.html">Diglett</a></td>
+            <td><a href="species/diglett.html"><img class="frontsprite" src="sprites/pokemon/diglett.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUND" colspan=2 align="center"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/sand_veil.html">Sand Veil</a>
+
+                <br>
+<a href="abilities/arena_trap.html">Arena Trap</a>
+
+                <br>
+<a href="abilities/sand_force.html">Sand Force</a>
+
+            </td>
+            <td id="HP">10</td>
+            <td id="Attack">55</td>
+            <td id="Defense">25</td>
+            <td id="Speed">95</td>
+            <td id="SpAttack">35</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">265</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Dugtrio"><a href="species/dugtrio.html">Dugtrio</a></td>
+            <td><a href="species/dugtrio.html"><img class="frontsprite" src="sprites/pokemon/dugtrio.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUND" colspan=2 align="center"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/sand_veil.html">Sand Veil</a>
+
+                <br>
+<a href="abilities/arena_trap.html">Arena Trap</a>
+
+                <br>
+<a href="abilities/sand_force.html">Sand Force</a>
+
+            </td>
+            <td id="HP">35</td>
+            <td id="Attack">100</td>
+            <td id="Defense">50</td>
+            <td id="Speed">120</td>
+            <td id="SpAttack">50</td>
+            <td id="SpDefense">70</td>
+            <td id="Total">425</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Trapinch"><a href="species/trapinch.html">Trapinch</a></td>
+            <td><a href="species/trapinch.html"><img class="frontsprite" src="sprites/pokemon/trapinch.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUND" colspan=2 align="center"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/hyper_cutter.html">Hyper Cutter</a>
+
+                <br>
+<a href="abilities/arena_trap.html">Arena Trap</a>
+
+                <br>
+<a href="abilities/sheer_force.html">Sheer Force</a>
+
+            </td>
+            <td id="HP">45</td>
+            <td id="Attack">100</td>
+            <td id="Defense">45</td>
+            <td id="Speed">10</td>
+            <td id="SpAttack">45</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">290</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="natural_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/diglett.html"><img class="frontsprite" src="sprites/pokemon/diglett.png"></a>
+</td>
+
+
+<td>
+<a href="species/dugtrio.html"><img class="frontsprite" src="sprites/pokemon/dugtrio.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/trapinch.html"><img class="frontsprite" src="sprites/pokemon/trapinch.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_natural_list').click();
+</script>
+
+
+
+
+
+<h2>
+Hidden Ability
+</h2>
+The following Pokémon can have this ability as their hidden ability.
+
+
+
+
+<div class="tab">
+    <button id="tab_hidden_list" content-id="hidden_list" class="tablinks" onclick="changetab(event, 'hidden_list')">List</button>
+    <button id="tab_hidden_grid" content-id="hidden_grid" class="tablinks" onclick="changetab(event, 'hidden_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="hidden_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="hidden_grid" class="tabcontent">
+<table>
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_hidden_list').click();
+</script>
+
+
+
+
+
+
+
+
+</body>

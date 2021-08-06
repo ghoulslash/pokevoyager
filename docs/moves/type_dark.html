@@ -1,0 +1,623 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+
+
+
+<br>
+
+<table class="center">
+    <tr colspan=9 align="center">
+        <td colspan=9>
+            <a href="moves/index.html"><img src="images/pokemon_voyager.png"></a>
+        </td>
+    </tr>
+    <tr colspan=9 align="center">
+        <td colspan=9>
+            Version 0.2.0
+        </td>
+    </tr>
+    <tr>
+        <td>
+            
+    <a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_water.html"><img src="sprites/icons/water.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            
+    <a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_rock.html"><img src="sprites/icons/rock.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_ghost.html"><img src="sprites/icons/ghost.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_dragon.html"><img src="sprites/icons/dragon.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a>
+
+        </td>
+        <td>
+            
+    <a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan=9 align="center">
+            <a href="moves/new_moves.html" />Voyager New Moves</a>
+        </td>
+    </tr>
+</table>
+
+
+
+
+<table id="moves">
+    <thead>
+        <tr>
+            <th onclick="sortTable()">Name</th>
+            <th onclick="sortTable()">Type</th>
+            <th onclick="sortTable()">Category</th>
+            <th onclick="sortTable()">PP</th>
+            <th onclick="sortTable()">Power</th>
+            <th onclick="sortTable()">Accuracy</th>
+            <th                      >Description</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="bite"><a href="moves/bite.html">Bite</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>Bites with vicious fangs. May cause flinching.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thief"><a href="moves/thief.html">Thief</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>While attacking, it may steal the foe's held item.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="faint_attack"><a href="moves/faint_attack.html">Faint Attack</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">0</td>
+            <td>Draws the foe close, then strikes without fail.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="pursuit"><a href="moves/pursuit.html">Pursuit</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>Inflicts bad damage if used on a foe switching out.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="crunch"><a href="moves/crunch.html">Crunch</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Crunches with sharp fangs. May lower Defense.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="beat_up"><a href="moves/beat_up.html">Beat Up</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">10</td>
+            <td id="Accuracy">100</td>
+            <td>Summons party Pokémon to join in the attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="torment"><a href="moves/torment.html">Torment</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Torments the foe and stops successive use of a move.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flatter"><a href="moves/flatter.html">Flatter</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Confuses the foe, but raises its Sp. Atk.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="memento"><a href="moves/memento.html">Memento</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>The user faints and lowers the foe's abilities.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="taunt"><a href="moves/taunt.html">Taunt</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Taunts the foe into only using attack moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="knock_off"><a href="moves/knock_off.html">Knock Off</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>Knocks down the foe's held item to prevent its use.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="snatch"><a href="moves/snatch.html">Snatch</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Steals the effects of the move the target uses next.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fake_tears"><a href="moves/fake_tears.html">Fake Tears</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Feigns crying to sharply lower the foe's Sp. Def.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="payback"><a href="moves/payback.html">Payback</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>An attack that gains power if the user moves last.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="assurance"><a href="moves/assurance.html">Assurance</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>An attack that gains power if the foe has been hurt.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="embargo"><a href="moves/embargo.html">Embargo</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Prevents the foe from using any items.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fling"><a href="moves/fling.html">Fling</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">1</td>
+            <td id="Accuracy">100</td>
+            <td>The effectiveness varies with the held item.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="punishment"><a href="moves/punishment.html">Punishment</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>Does more damage if the foe has powered up.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sucker_punch"><a href="moves/sucker_punch.html">Sucker Punch</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>Strikes first if the foe is preparing an attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dark_pulse"><a href="moves/dark_pulse.html">Dark Pulse</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Attacks with a horrible aura. May cause flinching.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="night_slash"><a href="moves/night_slash.html">Night Slash</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>Hits as soon as possible. High critical-hit ratio.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="switcheroo"><a href="moves/switcheroo.html">Switcheroo</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Swaps items with the foe faster than the eye can see.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="nasty_plot"><a href="moves/nasty_plot.html">Nasty Plot</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Thinks bad thoughts to sharply boost Sp. Atk.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dark_void"><a href="moves/dark_void.html">Dark Void</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">50</td>
+            <td>Drags the foe into total darkness, inducing Sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hone_claws"><a href="moves/hone_claws.html">Hone Claws</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Sharpens its claws to raise Attack and Accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="foul_play"><a href="moves/foul_play.html">Foul Play</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">95</td>
+            <td id="Accuracy">100</td>
+            <td>The higher the foe's Attack the more damage caused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="quash"><a href="moves/quash.html">Quash</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Suppresses the foe, making it move last.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="night_daze"><a href="moves/night_daze.html">Night Daze</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">95</td>
+            <td>Looses a pitch-black shock wave. May lower accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="snarl"><a href="moves/snarl.html">Snarl</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">55</td>
+            <td id="Accuracy">95</td>
+            <td>Yells and rants at the foe lowering its Sp. Atk.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="parting_shot"><a href="moves/parting_shot.html">Parting Shot</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Lowers the foe's Attack and Sp. Atk, then switches out.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="topsy_turvy"><a href="moves/topsy_turvy.html">Topsy-Turvy</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Swaps all stat changes that affect the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hyperspace_fury"><a href="moves/hyperspace_fury.html">Hyperspace Fury</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">0</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">0</td>
+            <td>Uses a warp hole to attack. Can't be evaded.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="darkest_lariat"><a href="moves/darkest_lariat.html">Darkest Lariat</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">100</td>
+            <td>Swings the arms to strike It ignores stat changes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="throat_chop"><a href="moves/throat_chop.html">Throat Chop</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Chops the throat to disable sound moves for a while.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_trip"><a href="moves/power_trip.html">Power Trip</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">20</td>
+            <td id="Accuracy">100</td>
+            <td>It hits harder the more stat boosts the user has.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="brutal_swing"><a href="moves/brutal_swing.html">Brutal Swing</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>Violently swings around to hurt everyone nearby.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="baddy_bad"><a href="moves/baddy_bad.html">Baddy Bad</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Acting badly, attacks. Sets wall, lowering Attack damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="jaw_lock"><a href="moves/jaw_lock.html">Jaw Lock</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Prevents the user and the target from escaping.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="obstruct"><a href="moves/obstruct.html">Obstruct</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">100</td>
+            <td>Protects itself, harshly lowering Def on contact.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="false_surrender"><a href="moves/false_surrender.html">False Surrender</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">0</td>
+            <td>Bows to stab the foe with hair. It never misses.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lash_out"><a href="moves/lash_out.html">Lash Out</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>If stats lowered during this turn, power is doubled.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wicked_blow"><a href="moves/wicked_blow.html">Wicked Blow</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Mastering the Dark style, strikes with a critical hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fiery_wrath"><a href="moves/fiery_wrath.html">Fiery Wrath</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>An attack fueled by your wrath. May cause flinching.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="amygda_pulse"><a href="moves/amygda_pulse.html">Amygda Pulse</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">30</td>
+            <td id="Accuracy">90</td>
+            <td>Grates the amygdala to stop the use of status moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="black_hole"><a href="moves/black_hole.html">Black Hole</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">75</td>
+            <td>The foe is trapped for 2-5 turns in a sea of black holes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sinful_smash"><a href="moves/sinful_smash.html">Sinful Smash</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>Cloaked in evil, the user slams the foe but recoils.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="morbid_terrain"><a href="moves/morbid_terrain.html">Morbid Terrain</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power"></td>
+            <td id="Accuracy">0</td>
+            <td>Invert stat changes, boost Dark attacks.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+</body>
