@@ -1,3 +1,6 @@
+## Game Information
+- Check out the [Pokémon Voyager wiki](https://ghoulslash.github.io/pokevoyager/)!
+
 ## How to Play
 - Download the pokevoyager.bps patch file
 - Obtain a clean copy of Pokémon Emerald
