@@ -1,4 +1,7 @@
 ## Game Information
+- Pokemon Voyager is a rom hack of Pokemon Emerald with a custom story and region.
+- [Pokecommunity Page](https://www.pokecommunity.com/showthread.php?t=446148)
+- Join our [Discord](https://discord.gg/sDnQH9s8nH)!
 - Check out the [Pokémon Voyager wiki](https://ghoulslash.github.io/pokevoyager/)!
 
 ## How to Play
