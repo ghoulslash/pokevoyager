@@ -1,0 +1,186 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Power Herb
+</h1>
+
+<p>
+Allows the immediate use of a move that charges first.
+</p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Seedot"><a href="species/seedot.html">Seedot</a></td>
+            <td><a href="species/seedot.html"><img class="frontsprite" src="sprites/pokemon/seedot.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASS" colspan=2 align="center"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/chlorophyll.html">Chlorophyll</a>
+
+                <br>
+<a href="abilities/early_bird.html">Early Bird</a>
+
+                <br>
+<a href="abilities/pickpocket.html">Pickpocket</a>
+
+            </td>
+            <td id="HP">40</td>
+            <td id="Attack">40</td>
+            <td id="Defense">50</td>
+            <td id="Speed">30</td>
+            <td id="SpAttack">30</td>
+            <td id="SpDefense">30</td>
+            <td id="Total">220</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Nuzleaf"><a href="species/nuzleaf.html">Nuzleaf</a></td>
+            <td><a href="species/nuzleaf.html"><img class="frontsprite" src="sprites/pokemon/nuzleaf.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASSDARK"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/chlorophyll.html">Chlorophyll</a>
+
+                <br>
+<a href="abilities/early_bird.html">Early Bird</a>
+
+                <br>
+<a href="abilities/pickpocket.html">Pickpocket</a>
+
+            </td>
+            <td id="HP">70</td>
+            <td id="Attack">70</td>
+            <td id="Defense">40</td>
+            <td id="Speed">60</td>
+            <td id="SpAttack">60</td>
+            <td id="SpDefense">40</td>
+            <td id="Total">340</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Shiftry"><a href="species/shiftry.html">Shiftry</a></td>
+            <td><a href="species/shiftry.html"><img class="frontsprite" src="sprites/pokemon/shiftry.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASSDARK"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/chlorophyll.html">Chlorophyll</a>
+
+                <br>
+<a href="abilities/early_bird.html">Early Bird</a>
+
+                <br>
+<a href="abilities/pickpocket.html">Pickpocket</a>
+
+            </td>
+            <td id="HP">90</td>
+            <td id="Attack">100</td>
+            <td id="Defense">60</td>
+            <td id="Speed">80</td>
+            <td id="SpAttack">90</td>
+            <td id="SpDefense">60</td>
+            <td id="Total">480</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/seedot.html"><img class="frontsprite" src="sprites/pokemon/seedot.png"></a>
+</td>
+
+
+<td>
+<a href="species/nuzleaf.html"><img class="frontsprite" src="sprites/pokemon/nuzleaf.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/shiftry.html"><img class="frontsprite" src="sprites/pokemon/shiftry.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
+
+</body>

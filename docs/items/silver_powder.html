@@ -1,0 +1,181 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Silver Powder
+</h1>
+
+<p>
+A hold item that raises the power of Bug-type moves.
+</p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Volcarona"><a href="species/volcarona.html">Volcarona</a></td>
+            <td><a href="species/volcarona.html"><img class="frontsprite" src="sprites/pokemon/volcarona.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGFIRE"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/flame_body.html">Flame Body</a>
+
+                
+                <br>
+<a href="abilities/swarm.html">Swarm</a>
+
+            </td>
+            <td id="HP">85</td>
+            <td id="Attack">60</td>
+            <td id="Defense">65</td>
+            <td id="Speed">100</td>
+            <td id="SpAttack">135</td>
+            <td id="SpDefense">105</td>
+            <td id="Total">550</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Volcarona"><a href="species/volcarona.html">Volcarona</a></td>
+            <td><a href="species/volcarona.html"><img class="frontsprite" src="sprites/pokemon/volcarona.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGFIRE"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/flame_body.html">Flame Body</a>
+
+                
+                <br>
+<a href="abilities/swarm.html">Swarm</a>
+
+            </td>
+            <td id="HP">85</td>
+            <td id="Attack">60</td>
+            <td id="Defense">65</td>
+            <td id="Speed">100</td>
+            <td id="SpAttack">135</td>
+            <td id="SpDefense">105</td>
+            <td id="Total">550</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Butterfree"><a href="species/butterfree.html">Butterfree</a></td>
+            <td><a href="species/butterfree.html"><img class="frontsprite" src="sprites/pokemon/butterfree.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/compound_eyes.html">Compound Eyes</a>
+
+                
+                <br>
+<a href="abilities/tinted_lens.html">Tinted Lens</a>
+
+            </td>
+            <td id="HP">60</td>
+            <td id="Attack">45</td>
+            <td id="Defense">50</td>
+            <td id="Speed">70</td>
+            <td id="SpAttack">90</td>
+            <td id="SpDefense">80</td>
+            <td id="Total">395</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/volcarona.html"><img class="frontsprite" src="sprites/pokemon/volcarona.png"></a>
+</td>
+
+
+<td>
+<a href="species/volcarona.html"><img class="frontsprite" src="sprites/pokemon/volcarona.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/butterfree.html"><img class="frontsprite" src="sprites/pokemon/butterfree.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
+
+</body>
