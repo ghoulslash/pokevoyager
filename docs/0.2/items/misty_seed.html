@@ -1,0 +1,121 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Misty Seed
+</h1>
+
+<p>
+Consume and sharply boost Defense in Misty Terrain.
+</p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Filtring"><a href="species/filtring.html">Filtring</a></td>
+            <td><a href="species/filtring.html"><img class="frontsprite" src="sprites/pokemon/filtring.png"></a></td>
+
+            <td id="Type" data-sortkey="POISONFAIRY"><a href="pokedex/poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td><a href="pokedex/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/levitate.html">Levitate</a>
+
+                <br>
+<a href="abilities/neutralizing_gas.html">Neutralizing Gas</a>
+
+                <br>
+<a href="abilities/misty_surge.html">Misty Surge</a>
+
+            </td>
+            <td id="HP">65</td>
+            <td id="Attack">90</td>
+            <td id="Defense">120</td>
+            <td id="Speed">60</td>
+            <td id="SpAttack">85</td>
+            <td id="SpDefense">70</td>
+            <td id="Total">490</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/filtring.html"><img class="frontsprite" src="sprites/pokemon/filtring.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
+
+</body>

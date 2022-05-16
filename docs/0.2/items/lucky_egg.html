@@ -1,0 +1,186 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Lucky Egg
+</h1>
+
+<p>
+A hold item that boosts Exp. points earned in battle.
+</p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Totsicle"><a href="species/totsicle.html">Totsicle</a></td>
+            <td><a href="species/totsicle.html"><img class="frontsprite" src="sprites/pokemon/totsicle.png"></a></td>
+
+            <td id="Type" data-sortkey="ICEDRAGON"><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td><a href="pokedex/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/ice_body.html">Ice Body</a>
+
+                <br>
+<a href="abilities/thick_fat.html">Thick Fat</a>
+
+                <br>
+<a href="abilities/frostbite.html">Frostbite</a>
+
+            </td>
+            <td id="HP">56</td>
+            <td id="Attack">43</td>
+            <td id="Defense">57</td>
+            <td id="Speed">42</td>
+            <td id="SpAttack">71</td>
+            <td id="SpDefense">61</td>
+            <td id="Total">330</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Frostidon"><a href="species/frostidon.html">Frostidon</a></td>
+            <td><a href="species/frostidon.html"><img class="frontsprite" src="sprites/pokemon/frostidon.png"></a></td>
+
+            <td id="Type" data-sortkey="ICEDRAGON"><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td><a href="pokedex/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/ice_body.html">Ice Body</a>
+
+                <br>
+<a href="abilities/thick_fat.html">Thick Fat</a>
+
+                <br>
+<a href="abilities/frostbite.html">Frostbite</a>
+
+            </td>
+            <td id="HP">81</td>
+            <td id="Attack">76</td>
+            <td id="Defense">84</td>
+            <td id="Speed">72</td>
+            <td id="SpAttack">117</td>
+            <td id="SpDefense">100</td>
+            <td id="Total">530</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Blissey"><a href="species/blissey.html">Blissey</a></td>
+            <td><a href="species/blissey.html"><img class="frontsprite" src="sprites/pokemon/blissey.png"></a></td>
+
+            <td id="Type" data-sortkey="NORMAL" colspan=2 align="center"><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/natural_cure.html">Natural Cure</a>
+
+                <br>
+<a href="abilities/serene_grace.html">Serene Grace</a>
+
+                <br>
+<a href="abilities/healer.html">Healer</a>
+
+            </td>
+            <td id="HP">255</td>
+            <td id="Attack">10</td>
+            <td id="Defense">10</td>
+            <td id="Speed">55</td>
+            <td id="SpAttack">75</td>
+            <td id="SpDefense">135</td>
+            <td id="Total">540</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/totsicle.html"><img class="frontsprite" src="sprites/pokemon/totsicle.png"></a>
+</td>
+
+
+<td>
+<a href="species/frostidon.html"><img class="frontsprite" src="sprites/pokemon/frostidon.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/blissey.html"><img class="frontsprite" src="sprites/pokemon/blissey.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
+
+</body>

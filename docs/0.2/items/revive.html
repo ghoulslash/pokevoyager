@@ -1,0 +1,153 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Revive
+</h1>
+
+<p>
+Revives a fainted Pokémon with half its HP.
+</p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Phenyxy"><a href="species/phenyxy.html">Phenyxy</a></td>
+            <td><a href="species/phenyxy.html"><img class="frontsprite" src="sprites/pokemon/phenyxy.png"></a></td>
+
+            <td id="Type" data-sortkey="FIREFLYING"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td><a href="pokedex/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/serene_grace.html">Serene Grace</a>
+
+                
+                <br>
+<a href="abilities/magma_surge.html">Magma Surge</a>
+
+            </td>
+            <td id="HP">100</td>
+            <td id="Attack">50</td>
+            <td id="Defense">45</td>
+            <td id="Speed">55</td>
+            <td id="SpAttack">80</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">375</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Resuraketh"><a href="species/resuraketh.html">Resuraketh</a></td>
+            <td><a href="species/resuraketh.html"><img class="frontsprite" src="sprites/pokemon/resuraketh.png"></a></td>
+
+            <td id="Type" data-sortkey="FIREDRAGON"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td><a href="pokedex/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/serene_grace.html">Serene Grace</a>
+
+                
+                <br>
+<a href="abilities/dragons_maw.html">Dragons Maw</a>
+
+            </td>
+            <td id="HP">160</td>
+            <td id="Attack">80</td>
+            <td id="Defense">60</td>
+            <td id="Speed">90</td>
+            <td id="SpAttack">130</td>
+            <td id="SpDefense">80</td>
+            <td id="Total">600</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/phenyxy.html"><img class="frontsprite" src="sprites/pokemon/phenyxy.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/resuraketh.html"><img class="frontsprite" src="sprites/pokemon/resuraketh.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
+
+</body>

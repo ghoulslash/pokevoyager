@@ -24,6 +24,8 @@ Dry Skin
 Prefers moisture to heat.
 </p>
 
+
+
 <h2>
 Natural Ability
 </h2>
@@ -244,6 +246,420 @@ document.getElementById('tab_hidden_list').click();
 
 
 
+
+
+<h2>
+Tutored Ability
+</h2>
+The following Pokémon can be taught this ability.
+
+
+
+
+<div class="tab">
+    <button id="tab_tutor_list" content-id="tutor_list" class="tablinks" onclick="changetab(event, 'tutor_list')">List</button>
+    <button id="tab_tutor_grid" content-id="tutor_grid" class="tablinks" onclick="changetab(event, 'tutor_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="tutor_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Diglett"><a href="species/diglett.html">Diglett</a></td>
+            <td><a href="species/diglett.html"><img class="frontsprite" src="sprites/pokemon/diglett.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUND" colspan=2 align="center"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/sand_veil.html">Sand Veil</a>
+
+                <br>
+<a href="abilities/arena_trap.html">Arena Trap</a>
+
+                <br>
+<a href="abilities/sand_force.html">Sand Force</a>
+
+            </td>
+            <td id="HP">10</td>
+            <td id="Attack">55</td>
+            <td id="Defense">25</td>
+            <td id="Speed">95</td>
+            <td id="SpAttack">35</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">265</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Dugtrio"><a href="species/dugtrio.html">Dugtrio</a></td>
+            <td><a href="species/dugtrio.html"><img class="frontsprite" src="sprites/pokemon/dugtrio.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUND" colspan=2 align="center"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/sand_veil.html">Sand Veil</a>
+
+                <br>
+<a href="abilities/arena_trap.html">Arena Trap</a>
+
+                <br>
+<a href="abilities/sand_force.html">Sand Force</a>
+
+            </td>
+            <td id="HP">35</td>
+            <td id="Attack">100</td>
+            <td id="Defense">50</td>
+            <td id="Speed">120</td>
+            <td id="SpAttack">50</td>
+            <td id="SpDefense">70</td>
+            <td id="Total">425</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Jynx"><a href="species/jynx.html">Jynx</a></td>
+            <td><a href="species/jynx.html"><img class="frontsprite" src="sprites/pokemon/jynx.png"></a></td>
+
+            <td id="Type" data-sortkey="ICEPSYCHIC"><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td><a href="pokedex/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/oblivious.html">Oblivious</a>
+
+                <br>
+<a href="abilities/forewarn.html">Forewarn</a>
+
+                <br>
+<a href="abilities/dry_skin.html">Dry Skin</a>
+
+            </td>
+            <td id="HP">65</td>
+            <td id="Attack">50</td>
+            <td id="Defense">35</td>
+            <td id="Speed">95</td>
+            <td id="SpAttack">115</td>
+            <td id="SpDefense">95</td>
+            <td id="Total">455</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
+            <td><a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a></td>
+
+            <td id="Type" data-sortkey="NORMAL" colspan=2 align="center"><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/own_tempo.html">Own Tempo</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+                <br>
+<a href="abilities/moody.html">Moody</a>
+
+            </td>
+            <td id="HP">55</td>
+            <td id="Attack">20</td>
+            <td id="Defense">35</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">20</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">250</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Helioptile"><a href="species/helioptile.html">Helioptile</a></td>
+            <td><a href="species/helioptile.html"><img class="frontsprite" src="sprites/pokemon/helioptile.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRICNORMAL"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/dry_skin.html">Dry Skin</a>
+
+                <br>
+<a href="abilities/sand_veil.html">Sand Veil</a>
+
+                <br>
+<a href="abilities/solar_power.html">Solar Power</a>
+
+            </td>
+            <td id="HP">44</td>
+            <td id="Attack">38</td>
+            <td id="Defense">33</td>
+            <td id="Speed">70</td>
+            <td id="SpAttack">61</td>
+            <td id="SpDefense">43</td>
+            <td id="Total">289</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Heliolisk"><a href="species/heliolisk.html">Heliolisk</a></td>
+            <td><a href="species/heliolisk.html"><img class="frontsprite" src="sprites/pokemon/heliolisk.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRICNORMAL"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/dry_skin.html">Dry Skin</a>
+
+                <br>
+<a href="abilities/sand_veil.html">Sand Veil</a>
+
+                <br>
+<a href="abilities/solar_power.html">Solar Power</a>
+
+            </td>
+            <td id="HP">62</td>
+            <td id="Attack">55</td>
+            <td id="Defense">52</td>
+            <td id="Speed">109</td>
+            <td id="SpAttack">109</td>
+            <td id="SpDefense">94</td>
+            <td id="Total">481</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Nemelt"><a href="species/nemelt.html">Nemelt</a></td>
+            <td><a href="species/nemelt.html"><img class="frontsprite" src="sprites/pokemon/nemelt.png"></a></td>
+
+            <td id="Type" data-sortkey="FIRE" colspan=2 align="center"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/blaze.html">Blaze</a>
+
+                
+                <br>
+<a href="abilities/flame_body.html">Flame Body</a>
+
+            </td>
+            <td id="HP">49</td>
+            <td id="Attack">65</td>
+            <td id="Defense">65</td>
+            <td id="Speed">43</td>
+            <td id="SpAttack">44</td>
+            <td id="SpDefense">44</td>
+            <td id="Total">310</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Varaflare"><a href="species/varaflare.html">Varaflare</a></td>
+            <td><a href="species/varaflare.html"><img class="frontsprite" src="sprites/pokemon/varaflare.png"></a></td>
+
+            <td id="Type" data-sortkey="FIRE" colspan=2 align="center"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/blaze.html">Blaze</a>
+
+                
+                <br>
+<a href="abilities/flame_body.html">Flame Body</a>
+
+            </td>
+            <td id="HP">70</td>
+            <td id="Attack">95</td>
+            <td id="Defense">83</td>
+            <td id="Speed">55</td>
+            <td id="SpAttack">61</td>
+            <td id="SpDefense">66</td>
+            <td id="Total">430</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Komodor"><a href="species/komodor.html">Komodor</a></td>
+            <td><a href="species/komodor.html"><img class="frontsprite" src="sprites/pokemon/komodor.png"></a></td>
+
+            <td id="Type" data-sortkey="FIREPOISON"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td><a href="pokedex/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/blaze.html">Blaze</a>
+
+                
+                <br>
+<a href="abilities/calderize.html">Calderize</a>
+
+            </td>
+            <td id="HP">90</td>
+            <td id="Attack">110</td>
+            <td id="Defense">115</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">70</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">545</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Vaileye"><a href="species/vaileye.html">Vaileye</a></td>
+            <td><a href="species/vaileye.html"><img class="frontsprite" src="sprites/pokemon/vaileye.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRIC" colspan=2 align="center"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/unnerve.html">Unnerve</a>
+
+                <br>
+<a href="abilities/no_guard.html">No Guard</a>
+
+                <br>
+<a href="abilities/bad_dreams.html">Bad Dreams</a>
+
+            </td>
+            <td id="HP">85</td>
+            <td id="Attack">50</td>
+            <td id="Defense">15</td>
+            <td id="Speed">90</td>
+            <td id="SpAttack">75</td>
+            <td id="SpDefense">60</td>
+            <td id="Total">375</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Bloodnaut"><a href="species/bloodnaut.html">Bloodnaut</a></td>
+            <td><a href="species/bloodnaut.html"><img class="frontsprite" src="sprites/pokemon/bloodnaut.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRICDARK"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/unnerve.html">Unnerve</a>
+
+                <br>
+<a href="abilities/no_guard.html">No Guard</a>
+
+                <br>
+<a href="abilities/bad_dreams.html">Bad Dreams</a>
+
+            </td>
+            <td id="HP">115</td>
+            <td id="Attack">90</td>
+            <td id="Defense">25</td>
+            <td id="Speed">90</td>
+            <td id="SpAttack">125</td>
+            <td id="SpDefense">90</td>
+            <td id="Total">535</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="tutor_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/diglett.html"><img class="frontsprite" src="sprites/pokemon/diglett.png"></a>
+</td>
+
+
+<td>
+<a href="species/dugtrio.html"><img class="frontsprite" src="sprites/pokemon/dugtrio.png"></a>
+</td>
+
+
+<td>
+<a href="species/jynx.html"><img class="frontsprite" src="sprites/pokemon/jynx.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a>
+</td>
+
+
+<td>
+<a href="species/helioptile.html"><img class="frontsprite" src="sprites/pokemon/helioptile.png"></a>
+</td>
+
+
+<td>
+<a href="species/heliolisk.html"><img class="frontsprite" src="sprites/pokemon/heliolisk.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/nemelt.html"><img class="frontsprite" src="sprites/pokemon/nemelt.png"></a>
+</td>
+
+
+<td>
+<a href="species/varaflare.html"><img class="frontsprite" src="sprites/pokemon/varaflare.png"></a>
+</td>
+
+
+<td>
+<a href="species/komodor.html"><img class="frontsprite" src="sprites/pokemon/komodor.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/vaileye.html"><img class="frontsprite" src="sprites/pokemon/vaileye.png"></a>
+</td>
+
+
+<td>
+<a href="species/bloodnaut.html"><img class="frontsprite" src="sprites/pokemon/bloodnaut.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_tutor_list').click();
+</script>
 
 
 

@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -168,6 +171,104 @@ Plasma Fists
 
 
 
+<h2>
+Level-Up
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_levelup_list" content-id="levelup_list" class="tablinks" onclick="changetab(event, 'levelup_list')">List</button>
+    <button id="tab_levelup_grid" content-id="levelup_grid" class="tablinks" onclick="changetab(event, 'levelup_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="levelup_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2 colspan=1 align="center" onclick="sortTable()">Level</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Electivire"><a href="species/electivire.html">Electivire</a></td>
+            <td><a href="species/electivire.html"><img class="frontsprite" src="sprites/pokemon/electivire.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRICFIGHTING"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+            <td id="Level">Evolve</td>
+
+            <td>
+                
+<a href="abilities/motor_drive.html">Motor Drive</a>
+
+                
+                <br>
+<a href="abilities/vital_spirit.html">Vital Spirit</a>
+
+            </td>
+            <td id="HP">75</td>
+            <td id="Attack">123</td>
+            <td id="Defense">67</td>
+            <td id="Speed">95</td>
+            <td id="SpAttack">95</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">540</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="levelup_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/electivire.html"><img class="frontsprite" src="sprites/pokemon/electivire.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_levelup_list').click();
+</script>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -290,6 +391,57 @@ Tutor
             <td id="Total">540</td>
         </tr>
 
+        <tr>
+            <td id="Name" data-sortkey="Electabuzz"><a href="species/electabuzz.html">Electabuzz</a></td>
+            <td><a href="species/electabuzz.html"><img class="frontsprite" src="sprites/pokemon/electabuzz.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRIC" colspan=2 align="center"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/static.html">Static</a>
+
+                
+                <br>
+<a href="abilities/vital_spirit.html">Vital Spirit</a>
+
+            </td>
+            <td id="HP">65</td>
+            <td id="Attack">83</td>
+            <td id="Defense">57</td>
+            <td id="Speed">105</td>
+            <td id="SpAttack">95</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">490</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Electivire"><a href="species/electivire.html">Electivire</a></td>
+            <td><a href="species/electivire.html"><img class="frontsprite" src="sprites/pokemon/electivire.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRICFIGHTING"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/motor_drive.html">Motor Drive</a>
+
+                
+                <br>
+<a href="abilities/vital_spirit.html">Vital Spirit</a>
+
+            </td>
+            <td id="HP">75</td>
+            <td id="Attack">123</td>
+            <td id="Defense">67</td>
+            <td id="Speed">95</td>
+            <td id="SpAttack">95</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">540</td>
+        </tr>
+
     </tbody>
 </table>
 </div>
@@ -313,6 +465,19 @@ Tutor
 
 <td>
 <a href="species/gravitomix.html"><img class="frontsprite" src="sprites/pokemon/gravitomix.png"></a>
+</td>
+
+
+<td>
+<a href="species/electabuzz.html"><img class="frontsprite" src="sprites/pokemon/electabuzz.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/electivire.html"><img class="frontsprite" src="sprites/pokemon/electivire.png"></a>
 </td>
 
 

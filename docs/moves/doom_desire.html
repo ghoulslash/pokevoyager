@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -160,6 +163,106 @@ Doom Desire
     <tbody>
     </tbody>
 </table>
+
+
+
+
+
+
+
+
+<h2>
+Level-Up
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_levelup_list" content-id="levelup_list" class="tablinks" onclick="changetab(event, 'levelup_list')">List</button>
+    <button id="tab_levelup_grid" content-id="levelup_grid" class="tablinks" onclick="changetab(event, 'levelup_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="levelup_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2 colspan=1 align="center" onclick="sortTable()">Level</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Sarphon"><a href="species/sarphon.html">Sarphon</a></td>
+            <td><a href="species/sarphon.html"><img class="frontsprite" src="sprites/pokemon/sarphon.png"></a></td>
+
+            <td id="Type" data-sortkey="ROCKGHOST"><a href="pokedex/rock.html"><img src="sprites/icons/rock.png"></a></td>
+            <td><a href="pokedex/ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+
+
+            <td id="Level">57</td>
+
+            <td>
+                
+<a href="abilities/mummy.html">Mummy</a>
+
+                <br>
+<a href="abilities/stench.html">Stench</a>
+
+                <br>
+<a href="abilities/drowsy_aura.html">Drowsy Aura</a>
+
+            </td>
+            <td id="HP">100</td>
+            <td id="Attack">41</td>
+            <td id="Defense">81</td>
+            <td id="Speed">20</td>
+            <td id="SpAttack">67</td>
+            <td id="SpDefense">46</td>
+            <td id="Total">355</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="levelup_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/sarphon.html"><img class="frontsprite" src="sprites/pokemon/sarphon.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_levelup_list').click();
+</script>
+
 
 
 
@@ -401,10 +504,10 @@ Tutor
             <td id="HP">135</td>
             <td id="Attack">62</td>
             <td id="Defense">120</td>
-            <td id="Speed">26</td>
-            <td id="SpAttack">90</td>
+            <td id="Speed">41</td>
+            <td id="SpAttack">95</td>
             <td id="SpDefense">62</td>
-            <td id="Total">495</td>
+            <td id="Total">515</td>
         </tr>
 
         <tr>

@@ -24,6 +24,8 @@ Chilling Neigh
 KOs boost Attack stat.
 </p>
 
+
+
 <h2>
 Natural Ability
 </h2>
@@ -136,6 +138,159 @@ document.getElementById('tab_hidden_list').click();
 
 
 
+
+
+<h2>
+Tutored Ability
+</h2>
+The following Pokémon can be taught this ability.
+
+
+
+
+<div class="tab">
+    <button id="tab_tutor_list" content-id="tutor_list" class="tablinks" onclick="changetab(event, 'tutor_list')">List</button>
+    <button id="tab_tutor_grid" content-id="tutor_grid" class="tablinks" onclick="changetab(event, 'tutor_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="tutor_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Mudbray"><a href="species/mudbray.html">Mudbray</a></td>
+            <td><a href="species/mudbray.html"><img class="frontsprite" src="sprites/pokemon/mudbray.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUND" colspan=2 align="center"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/own_tempo.html">Own Tempo</a>
+
+                <br>
+<a href="abilities/stamina.html">Stamina</a>
+
+                <br>
+<a href="abilities/inner_focus.html">Inner Focus</a>
+
+            </td>
+            <td id="HP">70</td>
+            <td id="Attack">100</td>
+            <td id="Defense">70</td>
+            <td id="Speed">45</td>
+            <td id="SpAttack">45</td>
+            <td id="SpDefense">55</td>
+            <td id="Total">385</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Mudsdale"><a href="species/mudsdale.html">Mudsdale</a></td>
+            <td><a href="species/mudsdale.html"><img class="frontsprite" src="sprites/pokemon/mudsdale.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUND" colspan=2 align="center"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/own_tempo.html">Own Tempo</a>
+
+                <br>
+<a href="abilities/stamina.html">Stamina</a>
+
+                <br>
+<a href="abilities/inner_focus.html">Inner Focus</a>
+
+            </td>
+            <td id="HP">100</td>
+            <td id="Attack">125</td>
+            <td id="Defense">100</td>
+            <td id="Speed">35</td>
+            <td id="SpAttack">55</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">500</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
+            <td><a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a></td>
+
+            <td id="Type" data-sortkey="NORMAL" colspan=2 align="center"><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/own_tempo.html">Own Tempo</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+                <br>
+<a href="abilities/moody.html">Moody</a>
+
+            </td>
+            <td id="HP">55</td>
+            <td id="Attack">20</td>
+            <td id="Defense">35</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">20</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">250</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="tutor_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/mudbray.html"><img class="frontsprite" src="sprites/pokemon/mudbray.png"></a>
+</td>
+
+
+<td>
+<a href="species/mudsdale.html"><img class="frontsprite" src="sprites/pokemon/mudsdale.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_tutor_list').click();
+</script>
 
 
 

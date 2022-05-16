@@ -1,0 +1,121 @@
+<!-- Automatically generated -->
+
+
+
+
+
+<head>
+    <base href="..">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="scripts/species_list.js"></script>
+    <script src="scripts/table_util.js"></script>
+</head>
+
+<body>
+
+<!-- TODO at some point: item dex heading -->
+
+
+<h1>
+Ultra Ball
+</h1>
+
+<p>
+A better Ball with a higher catch rate than a Great Ball.
+</p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Mountegrom"><a href="species/mountegrom.html">Mountegrom</a></td>
+            <td><a href="species/mountegrom.html"><img class="frontsprite" src="sprites/pokemon/mountegrom.png"></a></td>
+
+            <td id="Type" data-sortkey="GROUNDFAIRY"><a href="pokedex/ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td><a href="pokedex/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/prankster.html">Prankster</a>
+
+                <br>
+<a href="abilities/pickpocket.html">Pickpocket</a>
+
+                <br>
+<a href="abilities/obliviate.html">Obliviate</a>
+
+            </td>
+            <td id="HP">106</td>
+            <td id="Attack">66</td>
+            <td id="Defense">99</td>
+            <td id="Speed">65</td>
+            <td id="SpAttack">73</td>
+            <td id="SpDefense">107</td>
+            <td id="Total">516</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/mountegrom.html"><img class="frontsprite" src="sprites/pokemon/mountegrom.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
+
+</body>

@@ -24,6 +24,8 @@ Ice Scales
 Halves special damage.
 </p>
 
+
+
 <h2>
 Natural Ability
 </h2>
@@ -136,6 +138,225 @@ document.getElementById('tab_hidden_list').click();
 
 
 
+
+
+<h2>
+Tutored Ability
+</h2>
+The following Pokémon can be taught this ability.
+
+
+
+
+<div class="tab">
+    <button id="tab_tutor_list" content-id="tutor_list" class="tablinks" onclick="changetab(event, 'tutor_list')">List</button>
+    <button id="tab_tutor_grid" content-id="tutor_grid" class="tablinks" onclick="changetab(event, 'tutor_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="tutor_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Frostidon"><a href="species/frostidon.html">Frostidon</a></td>
+            <td><a href="species/frostidon.html"><img class="frontsprite" src="sprites/pokemon/frostidon.png"></a></td>
+
+            <td id="Type" data-sortkey="ICEDRAGON"><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td><a href="pokedex/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/ice_body.html">Ice Body</a>
+
+                <br>
+<a href="abilities/thick_fat.html">Thick Fat</a>
+
+                <br>
+<a href="abilities/frozen_body.html">Frozen Body</a>
+
+            </td>
+            <td id="HP">81</td>
+            <td id="Attack">76</td>
+            <td id="Defense">84</td>
+            <td id="Speed">72</td>
+            <td id="SpAttack">117</td>
+            <td id="SpDefense">100</td>
+            <td id="Total">530</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Ameoberg"><a href="species/ameoberg.html">Ameoberg</a></td>
+            <td><a href="species/ameoberg.html"><img class="frontsprite" src="sprites/pokemon/ameoberg.png"></a></td>
+
+            <td id="Type" data-sortkey="ICEPOISON"><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td><a href="pokedex/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/liquid_ooze.html">Liquid Ooze</a>
+
+                
+                <br>
+<a href="abilities/frozen_body.html">Frozen Body</a>
+
+            </td>
+            <td id="HP">76</td>
+            <td id="Attack">94</td>
+            <td id="Defense">107</td>
+            <td id="Speed">52</td>
+            <td id="SpAttack">83</td>
+            <td id="SpDefense">78</td>
+            <td id="Total">490</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Glaceon"><a href="species/glaceon.html">Glaceon</a></td>
+            <td><a href="species/glaceon.html"><img class="frontsprite" src="sprites/pokemon/glaceon.png"></a></td>
+
+            <td id="Type" data-sortkey="ICE" colspan=2 align="center"><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/snow_cloak.html">Snow Cloak</a>
+
+                
+                <br>
+<a href="abilities/ice_body.html">Ice Body</a>
+
+            </td>
+            <td id="HP">65</td>
+            <td id="Attack">60</td>
+            <td id="Defense">110</td>
+            <td id="Speed">65</td>
+            <td id="SpAttack">130</td>
+            <td id="SpDefense">95</td>
+            <td id="Total">525</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
+            <td><a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a></td>
+
+            <td id="Type" data-sortkey="NORMAL" colspan=2 align="center"><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/own_tempo.html">Own Tempo</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+                <br>
+<a href="abilities/moody.html">Moody</a>
+
+            </td>
+            <td id="HP">55</td>
+            <td id="Attack">20</td>
+            <td id="Defense">35</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">20</td>
+            <td id="SpDefense">45</td>
+            <td id="Total">250</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Crabominable"><a href="species/crabominable.html">Crabominable</a></td>
+            <td><a href="species/crabominable.html"><img class="frontsprite" src="sprites/pokemon/crabominable.png"></a></td>
+
+            <td id="Type" data-sortkey="FIGHTINGICE"><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/hyper_cutter.html">Hyper Cutter</a>
+
+                <br>
+<a href="abilities/iron_fist.html">Iron Fist</a>
+
+                <br>
+<a href="abilities/anger_point.html">Anger Point</a>
+
+            </td>
+            <td id="HP">97</td>
+            <td id="Attack">132</td>
+            <td id="Defense">77</td>
+            <td id="Speed">43</td>
+            <td id="SpAttack">62</td>
+            <td id="SpDefense">67</td>
+            <td id="Total">478</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="tutor_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/frostidon.html"><img class="frontsprite" src="sprites/pokemon/frostidon.png"></a>
+</td>
+
+
+<td>
+<a href="species/ameoberg.html"><img class="frontsprite" src="sprites/pokemon/ameoberg.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/glaceon.html"><img class="frontsprite" src="sprites/pokemon/glaceon.png"></a>
+</td>
+
+
+<td>
+<a href="species/smeargle.html"><img class="frontsprite" src="sprites/pokemon/smeargle.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/crabominable.html"><img class="frontsprite" src="sprites/pokemon/crabominable.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_tutor_list').click();
+</script>
 
 
 

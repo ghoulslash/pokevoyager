@@ -25,6 +25,131 @@ A hold item that raises the power of Normal-type moves.
 </p>
 
 
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Trubbish"><a href="species/trubbish.html">Trubbish</a></td>
+            <td><a href="species/trubbish.html"><img class="frontsprite" src="sprites/pokemon/trubbish.png"></a></td>
+
+            <td id="Type" data-sortkey="POISON" colspan=2 align="center"><a href="pokedex/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/stench.html">Stench</a>
+
+                <br>
+<a href="abilities/sticky_hold.html">Sticky Hold</a>
+
+                <br>
+<a href="abilities/aftermath.html">Aftermath</a>
+
+            </td>
+            <td id="HP">50</td>
+            <td id="Attack">50</td>
+            <td id="Defense">62</td>
+            <td id="Speed">65</td>
+            <td id="SpAttack">40</td>
+            <td id="SpDefense">62</td>
+            <td id="Total">329</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Garbodor"><a href="species/garbodor.html">Garbodor</a></td>
+            <td><a href="species/garbodor.html"><img class="frontsprite" src="sprites/pokemon/garbodor.png"></a></td>
+
+            <td id="Type" data-sortkey="POISON" colspan=2 align="center"><a href="pokedex/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/stench.html">Stench</a>
+
+                <br>
+<a href="abilities/weak_armor.html">Weak Armor</a>
+
+                <br>
+<a href="abilities/aftermath.html">Aftermath</a>
+
+            </td>
+            <td id="HP">80</td>
+            <td id="Attack">95</td>
+            <td id="Defense">82</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">60</td>
+            <td id="SpDefense">82</td>
+            <td id="Total">474</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/trubbish.html"><img class="frontsprite" src="sprites/pokemon/trubbish.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/garbodor.html"><img class="frontsprite" src="sprites/pokemon/garbodor.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
 
 
 </body>

@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -155,7 +158,7 @@ Morbid Terrain
             <td>10</td>
             <td></td>
             <td>0</td>
-            <td>Invert stat changes, boost Dark attacks.</td>
+            <td>Boost negative stat changes and Dark attacks.</td>
         </tr>
     <tbody>
     </tbody>
@@ -168,9 +171,12 @@ Details
 
 <p>-Boosts dark-type damage by 30%</p>
 
-<p>-Inverts stat changes</p>
+<p>-Doubles negative stat changes for grounded battlers</p>
 
-<p>NOTES: this terrain will likely be changed, it is expected that it is too powerful</p>
+<p>-This does stack with Simple and Simple herb</p>
+
+
+
 
 
 
@@ -1076,32 +1082,6 @@ Tutor
         </tr>
 
         <tr>
-            <td id="Name" data-sortkey="Ghoulslash"><a href="species/ghoulslash.html">Ghoulslash</a></td>
-            <td><a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a></td>
-
-            <td id="Type" data-sortkey="GHOSTDARK"><a href="pokedex/ghost.html"><img src="sprites/icons/ghost.png"></a></td>
-            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
-
-
-            <td>
-                
-<a href="abilities/clear_body.html">Clear Body</a>
-
-                
-                <br>
-<a href="abilities/shadow_tag.html">Shadow Tag</a>
-
-            </td>
-            <td id="HP">78</td>
-            <td id="Attack">112</td>
-            <td id="Defense">75</td>
-            <td id="Speed">109</td>
-            <td id="SpAttack">73</td>
-            <td id="SpDefense">85</td>
-            <td id="Total">532</td>
-        </tr>
-
-        <tr>
             <td id="Name" data-sortkey="Archigloom"><a href="species/archigloom.html">Archigloom</a></td>
             <td><a href="species/archigloom.html"><img class="frontsprite" src="sprites/pokemon/archigloom.png"></a></td>
 
@@ -1127,6 +1107,33 @@ Tutor
             <td id="SpAttack">94</td>
             <td id="SpDefense">90</td>
             <td id="Total">535</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Absol"><a href="species/absol.html">Absol</a></td>
+            <td><a href="species/absol.html"><img class="frontsprite" src="sprites/pokemon/absol.png"></a></td>
+
+            <td id="Type" data-sortkey="DARK" colspan=2 align="center"><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/pressure.html">Pressure</a>
+
+                <br>
+<a href="abilities/super_luck.html">Super Luck</a>
+
+                <br>
+<a href="abilities/justified.html">Justified</a>
+
+            </td>
+            <td id="HP">65</td>
+            <td id="Attack">130</td>
+            <td id="Defense">60</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">75</td>
+            <td id="SpDefense">60</td>
+            <td id="Total">465</td>
         </tr>
 
         <tr>
@@ -1241,7 +1248,8 @@ Tutor
             <td id="Name" data-sortkey="Chrysal"><a href="species/chrysal.html">Chrysal</a></td>
             <td><a href="species/chrysal.html"><img class="frontsprite" src="sprites/pokemon/chrysal.png"></a></td>
 
-            <td id="Type" data-sortkey="NORMAL" colspan=2 align="center"><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Type" data-sortkey="BUGDARK"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
 
 
             <td>
@@ -1312,6 +1320,90 @@ Tutor
             <td id="SpAttack">118</td>
             <td id="SpDefense">108</td>
             <td id="Total">540</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Inkay"><a href="species/inkay.html">Inkay</a></td>
+            <td><a href="species/inkay.html"><img class="frontsprite" src="sprites/pokemon/inkay.png"></a></td>
+
+            <td id="Type" data-sortkey="DARKPSYCHIC"><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td><a href="pokedex/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/contrary.html">Contrary</a>
+
+                <br>
+<a href="abilities/suction_cups.html">Suction Cups</a>
+
+                <br>
+<a href="abilities/infiltrator.html">Infiltrator</a>
+
+            </td>
+            <td id="HP">53</td>
+            <td id="Attack">54</td>
+            <td id="Defense">53</td>
+            <td id="Speed">45</td>
+            <td id="SpAttack">37</td>
+            <td id="SpDefense">46</td>
+            <td id="Total">288</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Malamar"><a href="species/malamar.html">Malamar</a></td>
+            <td><a href="species/malamar.html"><img class="frontsprite" src="sprites/pokemon/malamar.png"></a></td>
+
+            <td id="Type" data-sortkey="DARKPSYCHIC"><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td><a href="pokedex/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/contrary.html">Contrary</a>
+
+                <br>
+<a href="abilities/suction_cups.html">Suction Cups</a>
+
+                <br>
+<a href="abilities/infiltrator.html">Infiltrator</a>
+
+            </td>
+            <td id="HP">86</td>
+            <td id="Attack">92</td>
+            <td id="Defense">88</td>
+            <td id="Speed">73</td>
+            <td id="SpAttack">68</td>
+            <td id="SpDefense">75</td>
+            <td id="Total">482</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Ghoulslash"><a href="species/ghoulslash.html">Ghoulslash</a></td>
+            <td><a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a></td>
+
+            <td id="Type" data-sortkey="GHOSTDARK"><a href="pokedex/ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/clear_body.html">Clear Body</a>
+
+                <br>
+<a href="abilities/shadow_tag.html">Shadow Tag</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+            </td>
+            <td id="HP">78</td>
+            <td id="Attack">112</td>
+            <td id="Defense">75</td>
+            <td id="Speed">109</td>
+            <td id="SpAttack">73</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">532</td>
         </tr>
 
     </tbody>
@@ -1417,12 +1509,12 @@ Tutor
 
 
 <td>
-<a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a>
+<a href="species/archigloom.html"><img class="frontsprite" src="sprites/pokemon/archigloom.png"></a>
 </td>
 
 
 <td>
-<a href="species/archigloom.html"><img class="frontsprite" src="sprites/pokemon/archigloom.png"></a>
+<a href="species/absol.html"><img class="frontsprite" src="sprites/pokemon/absol.png"></a>
 </td>
 
 
@@ -1464,6 +1556,21 @@ Tutor
 
 <td>
 <a href="species/vellidaxos.html"><img class="frontsprite" src="sprites/pokemon/vellidaxos.png"></a>
+</td>
+
+
+<td>
+<a href="species/inkay.html"><img class="frontsprite" src="sprites/pokemon/inkay.png"></a>
+</td>
+
+
+<td>
+<a href="species/malamar.html"><img class="frontsprite" src="sprites/pokemon/malamar.png"></a>
+</td>
+
+
+<td>
+<a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a>
 </td>
 
 

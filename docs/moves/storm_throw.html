@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -168,6 +171,106 @@ Storm Throw
 
 
 
+<h2>
+Level-Up
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_levelup_list" content-id="levelup_list" class="tablinks" onclick="changetab(event, 'levelup_list')">List</button>
+    <button id="tab_levelup_grid" content-id="levelup_grid" class="tablinks" onclick="changetab(event, 'levelup_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="levelup_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2 colspan=1 align="center" onclick="sortTable()">Level</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Maxhitaur"><a href="species/maxhitaur.html">Maxhitaur</a></td>
+            <td><a href="species/maxhitaur.html"><img class="frontsprite" src="sprites/pokemon/maxhitaur.png"></a></td>
+
+            <td id="Type" data-sortkey="FIGHTINGFAIRY"><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td><a href="pokedex/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+            <td id="Level">Evolve</td>
+
+            <td>
+                
+<a href="abilities/intimidate.html">Intimidate</a>
+
+                <br>
+<a href="abilities/anger_point.html">Anger Point</a>
+
+                <br>
+<a href="abilities/combatize.html">Combatize</a>
+
+            </td>
+            <td id="HP">80</td>
+            <td id="Attack">130</td>
+            <td id="Defense">100</td>
+            <td id="Speed">65</td>
+            <td id="SpAttack">85</td>
+            <td id="SpDefense">90</td>
+            <td id="Total">550</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="levelup_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/maxhitaur.html"><img class="frontsprite" src="sprites/pokemon/maxhitaur.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_levelup_list').click();
+</script>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,6 +308,34 @@ Tutor
         </tr>
     </thead>
     <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Maxhitaur"><a href="species/maxhitaur.html">Maxhitaur</a></td>
+            <td><a href="species/maxhitaur.html"><img class="frontsprite" src="sprites/pokemon/maxhitaur.png"></a></td>
+
+            <td id="Type" data-sortkey="FIGHTINGFAIRY"><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td><a href="pokedex/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/intimidate.html">Intimidate</a>
+
+                <br>
+<a href="abilities/anger_point.html">Anger Point</a>
+
+                <br>
+<a href="abilities/combatize.html">Combatize</a>
+
+            </td>
+            <td id="HP">80</td>
+            <td id="Attack">130</td>
+            <td id="Defense">100</td>
+            <td id="Speed">65</td>
+            <td id="SpAttack">85</td>
+            <td id="SpDefense">90</td>
+            <td id="Total">550</td>
+        </tr>
 
         <tr>
             <td id="Name" data-sortkey="Utabazai"><a href="species/utabazai.html">Utabazai</a></td>
@@ -269,6 +400,11 @@ Tutor
 <table>
 
 <td>
+<a href="species/maxhitaur.html"><img class="frontsprite" src="sprites/pokemon/maxhitaur.png"></a>
+</td>
+
+
+<td>
 <a href="species/utabazai.html"><img class="frontsprite" src="sprites/pokemon/utabazai.png"></a>
 </td>
 
@@ -279,9 +415,6 @@ Tutor
 <td>
 <a href="species/silgaunt.html"><img class="frontsprite" src="sprites/pokemon/silgaunt.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 </tr>

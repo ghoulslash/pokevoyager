@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -160,6 +163,9 @@ Laser Focus
     <tbody>
     </tbody>
 </table>
+
+
+
 
 
 
@@ -404,6 +410,97 @@ document.getElementById('tab_levelup_list').click();
 
 
 
+<h2>
+Egg
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_egg_list" content-id="egg_list" class="tablinks" onclick="changetab(event, 'egg_list')">List</button>
+    <button id="tab_egg_grid" content-id="egg_grid" class="tablinks" onclick="changetab(event, 'egg_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="egg_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Birrobird"><a href="species/birrobird.html">Birrobird</a></td>
+            <td><a href="species/birrobird.html"><img class="frontsprite" src="sprites/pokemon/birrobird.png"></a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td><a href="pokedex/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/keen_eye.html">Keen Eye</a>
+
+                <br>
+<a href="abilities/big_pecks.html">Big Pecks</a>
+
+                <br>
+<a href="abilities/gale_wings.html">Gale Wings</a>
+
+            </td>
+            <td id="HP">46</td>
+            <td id="Attack">54</td>
+            <td id="Defense">43</td>
+            <td id="Speed">67</td>
+            <td id="SpAttack">47</td>
+            <td id="SpDefense">43</td>
+            <td id="Total">300</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="egg_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/birrobird.html"><img class="frontsprite" src="sprites/pokemon/birrobird.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_egg_list').click();
+</script>
+
+
+
+
 
 
 
@@ -441,6 +538,32 @@ Tutor
         </tr>
     </thead>
     <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Flairdries"><a href="species/flairdries.html">Flairdries</a></td>
+            <td><a href="species/flairdries.html"><img class="frontsprite" src="sprites/pokemon/flairdries.png"></a></td>
+
+            <td id="Type" data-sortkey="FIREFAIRY"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td><a href="pokedex/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/blaze.html">Blaze</a>
+
+                
+                <br>
+<a href="abilities/comatose.html">Comatose</a>
+
+            </td>
+            <td id="HP">105</td>
+            <td id="Attack">75</td>
+            <td id="Defense">101</td>
+            <td id="Speed">70</td>
+            <td id="SpAttack">91</td>
+            <td id="SpDefense">103</td>
+            <td id="Total">545</td>
+        </tr>
 
         <tr>
             <td id="Name" data-sortkey="Scuiret"><a href="species/scuiret.html">Scuiret</a></td>
@@ -681,13 +804,13 @@ Tutor
 <a href="abilities/gale_wings.html">Gale Wings</a>
 
             </td>
-            <td id="HP">95</td>
+            <td id="HP">90</td>
             <td id="Attack">104</td>
-            <td id="Defense">83</td>
-            <td id="Speed">124</td>
+            <td id="Defense">74</td>
+            <td id="Speed">122</td>
             <td id="SpAttack">68</td>
-            <td id="SpDefense">91</td>
-            <td id="Total">565</td>
+            <td id="SpDefense">82</td>
+            <td id="Total">540</td>
         </tr>
 
         <tr>
@@ -922,6 +1045,32 @@ Tutor
         </tr>
 
         <tr>
+            <td id="Name" data-sortkey="Ninefluffs"><a href="species/ninefluffs.html">Ninefluffs</a></td>
+            <td><a href="species/ninefluffs.html"><img class="frontsprite" src="sprites/pokemon/ninefluffs.png"></a></td>
+
+            <td id="Type" data-sortkey="ICEFAIRY"><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td><a href="pokedex/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/snow_cloak.html">Snow Cloak</a>
+
+                
+                <br>
+<a href="abilities/snow_warning.html">Snow Warning</a>
+
+            </td>
+            <td id="HP">73</td>
+            <td id="Attack">67</td>
+            <td id="Defense">75</td>
+            <td id="Speed">109</td>
+            <td id="SpAttack">81</td>
+            <td id="SpDefense">100</td>
+            <td id="Total">505</td>
+        </tr>
+
+        <tr>
             <td id="Name" data-sortkey="Sampervyne"><a href="species/sampervyne.html">Sampervyne</a></td>
             <td><a href="species/sampervyne.html"><img class="frontsprite" src="sprites/pokemon/sampervyne.png"></a></td>
 
@@ -1012,13 +1161,13 @@ Tutor
 
             <td>
                 
-<a href="abilities/rock_head.html">Rock Head</a>
+<a href="abilities/sturdy.html">Sturdy</a>
 
                 <br>
-<a href="abilities/hyper_cutter.html">Hyper Cutter</a>
+<a href="abilities/marvel_scale.html">Marvel Scale</a>
 
                 <br>
-<a href="abilities/heavy_metal.html">Heavy Metal</a>
+<a href="abilities/slush_rush.html">Slush Rush</a>
 
             </td>
             <td id="HP">70</td>
@@ -1040,13 +1189,13 @@ Tutor
 
             <td>
                 
-<a href="abilities/rock_head.html">Rock Head</a>
+<a href="abilities/sturdy.html">Sturdy</a>
 
                 <br>
-<a href="abilities/hyper_cutter.html">Hyper Cutter</a>
+<a href="abilities/marvel_scale.html">Marvel Scale</a>
 
                 <br>
-<a href="abilities/heavy_metal.html">Heavy Metal</a>
+<a href="abilities/slush_rush.html">Slush Rush</a>
 
             </td>
             <td id="HP">95</td>
@@ -2448,32 +2597,6 @@ Tutor
         </tr>
 
         <tr>
-            <td id="Name" data-sortkey="Ghoulslash"><a href="species/ghoulslash.html">Ghoulslash</a></td>
-            <td><a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a></td>
-
-            <td id="Type" data-sortkey="GHOSTDARK"><a href="pokedex/ghost.html"><img src="sprites/icons/ghost.png"></a></td>
-            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
-
-
-            <td>
-                
-<a href="abilities/clear_body.html">Clear Body</a>
-
-                
-                <br>
-<a href="abilities/shadow_tag.html">Shadow Tag</a>
-
-            </td>
-            <td id="HP">78</td>
-            <td id="Attack">112</td>
-            <td id="Defense">75</td>
-            <td id="Speed">109</td>
-            <td id="SpAttack">73</td>
-            <td id="SpDefense">85</td>
-            <td id="Total">532</td>
-        </tr>
-
-        <tr>
             <td id="Name" data-sortkey="Archigloom"><a href="species/archigloom.html">Archigloom</a></td>
             <td><a href="species/archigloom.html"><img class="frontsprite" src="sprites/pokemon/archigloom.png"></a></td>
 
@@ -2558,6 +2681,32 @@ Tutor
         </tr>
 
         <tr>
+            <td id="Name" data-sortkey="Blaziken"><a href="species/blaziken.html">Blaziken</a></td>
+            <td><a href="species/blaziken.html"><img class="frontsprite" src="sprites/pokemon/blaziken.png"></a></td>
+
+            <td id="Type" data-sortkey="FIREFIGHTING"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/blaze.html">Blaze</a>
+
+                
+                <br>
+<a href="abilities/speed_boost.html">Speed Boost</a>
+
+            </td>
+            <td id="HP">80</td>
+            <td id="Attack">120</td>
+            <td id="Defense">70</td>
+            <td id="Speed">80</td>
+            <td id="SpAttack">110</td>
+            <td id="SpDefense">70</td>
+            <td id="Total">530</td>
+        </tr>
+
+        <tr>
             <td id="Name" data-sortkey="Golisopod"><a href="species/golisopod.html">Golisopod</a></td>
             <td><a href="species/golisopod.html"><img class="frontsprite" src="sprites/pokemon/golisopod.png"></a></td>
 
@@ -2607,6 +2756,136 @@ Tutor
             <td id="SpAttack">54</td>
             <td id="SpDefense">86</td>
             <td id="Total">500</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Nautilazer"><a href="species/nautilazer.html">Nautilazer</a></td>
+            <td><a href="species/nautilazer.html"><img class="frontsprite" src="sprites/pokemon/nautilazer.png"></a></td>
+
+            <td id="Type" data-sortkey="WATERBUG"><a href="pokedex/water.html"><img src="sprites/icons/water.png"></a></td>
+            <td><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/shell_armor.html">Shell Armor</a>
+
+                
+                <br>
+<a href="abilities/mega_launcher.html">Mega Launcher</a>
+
+            </td>
+            <td id="HP">75</td>
+            <td id="Attack">100</td>
+            <td id="Defense">100</td>
+            <td id="Speed">45</td>
+            <td id="SpAttack">100</td>
+            <td id="SpDefense">100</td>
+            <td id="Total">520</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Vespiquen"><a href="species/vespiquen.html">Vespiquen</a></td>
+            <td><a href="species/vespiquen.html"><img class="frontsprite" src="sprites/pokemon/vespiquen.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/pressure.html">Pressure</a>
+
+                
+                <br>
+<a href="abilities/unnerve.html">Unnerve</a>
+
+            </td>
+            <td id="HP">70</td>
+            <td id="Attack">80</td>
+            <td id="Defense">102</td>
+            <td id="Speed">40</td>
+            <td id="SpAttack">80</td>
+            <td id="SpDefense">102</td>
+            <td id="Total">474</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Boltund"><a href="species/boltund.html">Boltund</a></td>
+            <td><a href="species/boltund.html"><img class="frontsprite" src="sprites/pokemon/boltund.png"></a></td>
+
+            <td id="Type" data-sortkey="ELECTRIC" colspan=2 align="center"><a href="pokedex/electric.html"><img src="sprites/icons/electric.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/strong_jaw.html">Strong Jaw</a>
+
+                
+                <br>
+<a href="abilities/competitive.html">Competitive</a>
+
+            </td>
+            <td id="HP">69</td>
+            <td id="Attack">90</td>
+            <td id="Defense">60</td>
+            <td id="Speed">121</td>
+            <td id="SpAttack">90</td>
+            <td id="SpDefense">60</td>
+            <td id="Total">490</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Beedrill"><a href="species/beedrill.html">Beedrill</a></td>
+            <td><a href="species/beedrill.html"><img class="frontsprite" src="sprites/pokemon/beedrill.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/swarm.html">Swarm</a>
+
+                
+                <br>
+<a href="abilities/sniper.html">Sniper</a>
+
+            </td>
+            <td id="HP">65</td>
+            <td id="Attack">90</td>
+            <td id="Defense">40</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">45</td>
+            <td id="SpDefense">80</td>
+            <td id="Total">395</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Absol"><a href="species/absol.html">Absol</a></td>
+            <td><a href="species/absol.html"><img class="frontsprite" src="sprites/pokemon/absol.png"></a></td>
+
+            <td id="Type" data-sortkey="DARK" colspan=2 align="center"><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/pressure.html">Pressure</a>
+
+                <br>
+<a href="abilities/super_luck.html">Super Luck</a>
+
+                <br>
+<a href="abilities/justified.html">Justified</a>
+
+            </td>
+            <td id="HP">65</td>
+            <td id="Attack">130</td>
+            <td id="Defense">60</td>
+            <td id="Speed">75</td>
+            <td id="SpAttack">75</td>
+            <td id="SpDefense">60</td>
+            <td id="Total">465</td>
         </tr>
 
         <tr>
@@ -2720,6 +2999,58 @@ Tutor
             <td id="Total">535</td>
         </tr>
 
+        <tr>
+            <td id="Name" data-sortkey="Xenofuge"><a href="species/xenofuge.html">Xenofuge</a></td>
+            <td><a href="species/xenofuge.html"><img class="frontsprite" src="sprites/pokemon/xenofuge.png"></a></td>
+
+            <td id="Type" data-sortkey="BUGGHOST"><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td><a href="pokedex/ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/solar_being.html">Solar Being</a>
+
+                
+                
+            </td>
+            <td id="HP">80</td>
+            <td id="Attack">70</td>
+            <td id="Defense">120</td>
+            <td id="Speed">60</td>
+            <td id="SpAttack">95</td>
+            <td id="SpDefense">105</td>
+            <td id="Total">530</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Ghoulslash"><a href="species/ghoulslash.html">Ghoulslash</a></td>
+            <td><a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a></td>
+
+            <td id="Type" data-sortkey="GHOSTDARK"><a href="pokedex/ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+            <td><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/clear_body.html">Clear Body</a>
+
+                <br>
+<a href="abilities/shadow_tag.html">Shadow Tag</a>
+
+                <br>
+<a href="abilities/technician.html">Technician</a>
+
+            </td>
+            <td id="HP">78</td>
+            <td id="Attack">112</td>
+            <td id="Defense">75</td>
+            <td id="Speed">109</td>
+            <td id="SpAttack">73</td>
+            <td id="SpDefense">85</td>
+            <td id="Total">532</td>
+        </tr>
+
     </tbody>
 </table>
 </div>
@@ -2727,6 +3058,11 @@ Tutor
 
 <div id="tutor_grid" class="tabcontent">
 <table>
+
+<td>
+<a href="species/flairdries.html"><img class="frontsprite" src="sprites/pokemon/flairdries.png"></a>
+</td>
+
 
 <td>
 <a href="species/scuiret.html"><img class="frontsprite" src="sprites/pokemon/scuiret.png"></a>
@@ -2820,6 +3156,11 @@ Tutor
 <a href="species/ninetales.html"><img class="frontsprite" src="sprites/pokemon/ninetales.png"></a>
 </td>
 
+
+<td>
+<a href="species/ninefluffs.html"><img class="frontsprite" src="sprites/pokemon/ninefluffs.png"></a>
+</td>
+
 </tr>
 <tr>
 
@@ -2868,13 +3209,13 @@ Tutor
 <a href="species/amunatu.html"><img class="frontsprite" src="sprites/pokemon/amunatu.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/marowak.html"><img class="frontsprite" src="sprites/pokemon/marowak.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -2916,9 +3257,6 @@ Tutor
 <a href="species/weavile.html"><img class="frontsprite" src="sprites/pokemon/weavile.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/slowking.html"><img class="frontsprite" src="sprites/pokemon/slowking.png"></a>
@@ -2928,6 +3266,9 @@ Tutor
 <td>
 <a href="species/eevee.html"><img class="frontsprite" src="sprites/pokemon/eevee.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -2964,9 +3305,6 @@ Tutor
 <a href="species/leafeon.html"><img class="frontsprite" src="sprites/pokemon/leafeon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/sylveon.html"><img class="frontsprite" src="sprites/pokemon/sylveon.png"></a>
@@ -2981,6 +3319,9 @@ Tutor
 <td>
 <a href="species/blissey.html"><img class="frontsprite" src="sprites/pokemon/blissey.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3012,9 +3353,6 @@ Tutor
 <a href="species/mienshao.html"><img class="frontsprite" src="sprites/pokemon/mienshao.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/arcanine.html"><img class="frontsprite" src="sprites/pokemon/arcanine.png"></a>
@@ -3034,6 +3372,9 @@ Tutor
 <td>
 <a href="species/gabite.html"><img class="frontsprite" src="sprites/pokemon/gabite.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3060,9 +3401,6 @@ Tutor
 <a href="species/utabazai.html"><img class="frontsprite" src="sprites/pokemon/utabazai.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/horsea.html"><img class="frontsprite" src="sprites/pokemon/horsea.png"></a>
@@ -3088,6 +3426,9 @@ Tutor
 <a href="species/chandelure.html"><img class="frontsprite" src="sprites/pokemon/chandelure.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/togekiss.html"><img class="frontsprite" src="sprites/pokemon/togekiss.png"></a>
@@ -3108,9 +3449,6 @@ Tutor
 <a href="species/vibrava.html"><img class="frontsprite" src="sprites/pokemon/vibrava.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/flygon.html"><img class="frontsprite" src="sprites/pokemon/flygon.png"></a>
@@ -3128,11 +3466,6 @@ Tutor
 
 
 <td>
-<a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a>
-</td>
-
-
-<td>
 <a href="species/archigloom.html"><img class="frontsprite" src="sprites/pokemon/archigloom.png"></a>
 </td>
 
@@ -3146,6 +3479,14 @@ Tutor
 <a href="species/lucario.html"><img class="frontsprite" src="sprites/pokemon/lucario.png"></a>
 </td>
 
+</tr>
+<tr>
+
+
+<td>
+<a href="species/blaziken.html"><img class="frontsprite" src="sprites/pokemon/blaziken.png"></a>
+</td>
+
 
 <td>
 <a href="species/golisopod.html"><img class="frontsprite" src="sprites/pokemon/golisopod.png"></a>
@@ -3156,8 +3497,30 @@ Tutor
 <a href="species/barbaracle.html"><img class="frontsprite" src="sprites/pokemon/barbaracle.png"></a>
 </td>
 
-</tr>
-<tr>
+
+<td>
+<a href="species/nautilazer.html"><img class="frontsprite" src="sprites/pokemon/nautilazer.png"></a>
+</td>
+
+
+<td>
+<a href="species/vespiquen.html"><img class="frontsprite" src="sprites/pokemon/vespiquen.png"></a>
+</td>
+
+
+<td>
+<a href="species/boltund.html"><img class="frontsprite" src="sprites/pokemon/boltund.png"></a>
+</td>
+
+
+<td>
+<a href="species/beedrill.html"><img class="frontsprite" src="sprites/pokemon/beedrill.png"></a>
+</td>
+
+
+<td>
+<a href="species/absol.html"><img class="frontsprite" src="sprites/pokemon/absol.png"></a>
+</td>
 
 
 <td>
@@ -3169,6 +3532,9 @@ Tutor
 <a href="species/silgaunt.html"><img class="frontsprite" src="sprites/pokemon/silgaunt.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/vaileye.html"><img class="frontsprite" src="sprites/pokemon/vaileye.png"></a>
@@ -3177,6 +3543,16 @@ Tutor
 
 <td>
 <a href="species/bloodnaut.html"><img class="frontsprite" src="sprites/pokemon/bloodnaut.png"></a>
+</td>
+
+
+<td>
+<a href="species/xenofuge.html"><img class="frontsprite" src="sprites/pokemon/xenofuge.png"></a>
+</td>
+
+
+<td>
+<a href="species/ghoulslash.html"><img class="frontsprite" src="sprites/pokemon/ghoulslash.png"></a>
 </td>
 
 

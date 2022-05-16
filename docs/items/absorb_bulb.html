@@ -25,6 +25,97 @@ Raises Sp. Atk if the holder is hit by a Water-type move.
 </p>
 
 
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="wild_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Whimsicott"><a href="species/whimsicott.html">Whimsicott</a></td>
+            <td><a href="species/whimsicott.html"><img class="frontsprite" src="sprites/pokemon/whimsicott.png"></a></td>
+
+            <td id="Type" data-sortkey="GRASSFAIRY"><a href="pokedex/grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td><a href="pokedex/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/prankster.html">Prankster</a>
+
+                <br>
+<a href="abilities/infiltrator.html">Infiltrator</a>
+
+                <br>
+<a href="abilities/chlorophyll.html">Chlorophyll</a>
+
+            </td>
+            <td id="HP">60</td>
+            <td id="Attack">67</td>
+            <td id="Defense">85</td>
+            <td id="Speed">116</td>
+            <td id="SpAttack">77</td>
+            <td id="SpDefense">75</td>
+            <td id="Total">480</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/whimsicott.html"><img class="frontsprite" src="sprites/pokemon/whimsicott.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
 
 
 </body>

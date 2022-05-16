@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -165,6 +168,9 @@ Jump Kick
 
 
 
+
+
+
 <h2>
 Level-Up
 </h2>
@@ -297,6 +303,96 @@ document.getElementById('tab_levelup_list').click();
 
 
 
+<h2>
+Egg
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_egg_list" content-id="egg_list" class="tablinks" onclick="changetab(event, 'egg_list')">List</button>
+    <button id="tab_egg_grid" content-id="egg_grid" class="tablinks" onclick="changetab(event, 'egg_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="egg_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Rangife"><a href="species/rangife.html">Rangife</a></td>
+            <td><a href="species/rangife.html"><img class="frontsprite" src="sprites/pokemon/rangife.png"></a></td>
+
+            <td id="Type" data-sortkey="STEEL" colspan=2 align="center"><a href="pokedex/steel.html"><img src="sprites/icons/steel.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/sturdy.html">Sturdy</a>
+
+                <br>
+<a href="abilities/marvel_scale.html">Marvel Scale</a>
+
+                <br>
+<a href="abilities/slush_rush.html">Slush Rush</a>
+
+            </td>
+            <td id="HP">48</td>
+            <td id="Attack">71</td>
+            <td id="Defense">100</td>
+            <td id="Speed">30</td>
+            <td id="SpAttack">24</td>
+            <td id="SpDefense">42</td>
+            <td id="Total">315</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="egg_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/rangife.html"><img class="frontsprite" src="sprites/pokemon/rangife.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_egg_list').click();
+</script>
+
+
+
+
 
 
 
@@ -354,13 +450,13 @@ Tutor
 <a href="abilities/gale_wings.html">Gale Wings</a>
 
             </td>
-            <td id="HP">95</td>
+            <td id="HP">90</td>
             <td id="Attack">104</td>
-            <td id="Defense">83</td>
-            <td id="Speed">124</td>
+            <td id="Defense">74</td>
+            <td id="Speed">122</td>
             <td id="SpAttack">68</td>
-            <td id="SpDefense">91</td>
-            <td id="Total">565</td>
+            <td id="SpDefense">82</td>
+            <td id="Total">540</td>
         </tr>
 
         <tr>
@@ -372,13 +468,13 @@ Tutor
 
             <td>
                 
-<a href="abilities/rock_head.html">Rock Head</a>
+<a href="abilities/sturdy.html">Sturdy</a>
+
+                <br>
+<a href="abilities/marvel_scale.html">Marvel Scale</a>
 
                 <br>
 <a href="abilities/slush_rush.html">Slush Rush</a>
-
-                <br>
-<a href="abilities/heavy_metal.html">Heavy Metal</a>
 
             </td>
             <td id="HP">48</td>
@@ -399,13 +495,13 @@ Tutor
 
             <td>
                 
-<a href="abilities/rock_head.html">Rock Head</a>
+<a href="abilities/sturdy.html">Sturdy</a>
 
                 <br>
-<a href="abilities/hyper_cutter.html">Hyper Cutter</a>
+<a href="abilities/marvel_scale.html">Marvel Scale</a>
 
                 <br>
-<a href="abilities/heavy_metal.html">Heavy Metal</a>
+<a href="abilities/slush_rush.html">Slush Rush</a>
 
             </td>
             <td id="HP">70</td>
@@ -427,13 +523,13 @@ Tutor
 
             <td>
                 
-<a href="abilities/rock_head.html">Rock Head</a>
+<a href="abilities/sturdy.html">Sturdy</a>
 
                 <br>
-<a href="abilities/hyper_cutter.html">Hyper Cutter</a>
+<a href="abilities/marvel_scale.html">Marvel Scale</a>
 
                 <br>
-<a href="abilities/heavy_metal.html">Heavy Metal</a>
+<a href="abilities/slush_rush.html">Slush Rush</a>
 
             </td>
             <td id="HP">95</td>
@@ -499,7 +595,7 @@ Tutor
             <td id="Name" data-sortkey="Llurscayf"><a href="species/llurscayf.html">Llurscayf</a></td>
             <td><a href="species/llurscayf.html"><img class="frontsprite" src="sprites/pokemon/llurscayf.png"></a></td>
 
-            <td id="Type" data-sortkey="DARKBUG"><a href="pokedex/dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Type" data-sortkey="DRAGONBUG"><a href="pokedex/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
             <td><a href="pokedex/bug.html"><img src="sprites/icons/bug.png"></a></td>
 
 
@@ -511,7 +607,7 @@ Tutor
 <a href="abilities/strong_jaw.html">Strong Jaw</a>
 
                 <br>
-<a href="abilities/beast_boost.html">Beast Boost</a>
+<a href="abilities/jump_scare.html">Jump Scare</a>
 
             </td>
             <td id="HP">100</td>

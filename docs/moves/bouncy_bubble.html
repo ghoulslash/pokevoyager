@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -167,6 +170,136 @@ Bouncy Bubble
 
 
 
+
+
+
+
+
+
+
+<h2>
+Tutor
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_tutor_list" content-id="tutor_list" class="tablinks" onclick="changetab(event, 'tutor_list')">List</button>
+    <button id="tab_tutor_grid" content-id="tutor_grid" class="tablinks" onclick="changetab(event, 'tutor_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="tutor_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Aquana"><a href="species/aquana.html">Aquana</a></td>
+            <td><a href="species/aquana.html"><img class="frontsprite" src="sprites/pokemon/aquana.png"></a></td>
+
+            <td id="Type" data-sortkey="WATERROCK"><a href="pokedex/water.html"><img src="sprites/icons/water.png"></a></td>
+            <td><a href="pokedex/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/hydration.html">Hydration</a>
+
+                <br>
+<a href="abilities/mirror_armor.html">Mirror Armor</a>
+
+                <br>
+<a href="abilities/color_change.html">Color Change</a>
+
+            </td>
+            <td id="HP">47</td>
+            <td id="Attack">45</td>
+            <td id="Defense">53</td>
+            <td id="Speed">60</td>
+            <td id="SpAttack">53</td>
+            <td id="SpDefense">67</td>
+            <td id="Total">325</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Iguastol"><a href="species/iguastol.html">Iguastol</a></td>
+            <td><a href="species/iguastol.html"><img class="frontsprite" src="sprites/pokemon/iguastol.png"></a></td>
+
+            <td id="Type" data-sortkey="WATERROCK"><a href="pokedex/water.html"><img src="sprites/icons/water.png"></a></td>
+            <td><a href="pokedex/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/hydration.html">Hydration</a>
+
+                <br>
+<a href="abilities/mirror_armor.html">Mirror Armor</a>
+
+                <br>
+<a href="abilities/color_change.html">Color Change</a>
+
+            </td>
+            <td id="HP">75</td>
+            <td id="Attack">65</td>
+            <td id="Defense">90</td>
+            <td id="Speed">85</td>
+            <td id="SpAttack">90</td>
+            <td id="SpDefense">120</td>
+            <td id="Total">525</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="tutor_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/aquana.html"><img class="frontsprite" src="sprites/pokemon/aquana.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/iguastol.html"><img class="frontsprite" src="sprites/pokemon/iguastol.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_tutor_list').click();
+</script>
 
 
 

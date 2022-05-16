@@ -5,6 +5,7 @@
 
 
 
+
 <head>
     <base href="..">
     <link rel="stylesheet" href="css/pokedex.css">
@@ -27,7 +28,9 @@
     </tr>
     <tr colspan=9 align="center">
         <td colspan=9>
-            Version 0.2.0
+            
+Version 0.3.0
+
         </td>
     </tr>
     <tr>
@@ -160,6 +163,9 @@ Shadow Bone
     <tbody>
     </tbody>
 </table>
+
+
+
 
 
 
@@ -331,6 +337,94 @@ document.getElementById('tab_levelup_list').click();
 
 
 
+<h2>
+Egg
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_egg_list" content-id="egg_list" class="tablinks" onclick="changetab(event, 'egg_list')">List</button>
+    <button id="tab_egg_grid" content-id="egg_grid" class="tablinks" onclick="changetab(event, 'egg_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="egg_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Gropp"><a href="species/gropp.html">Gropp</a></td>
+            <td><a href="species/gropp.html"><img class="frontsprite" src="sprites/pokemon/gropp.png"></a></td>
+
+            <td id="Type" data-sortkey="FIGHTING" colspan=2 align="center"><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/oblivious.html">Oblivious</a>
+
+                
+                <br>
+<a href="abilities/simple.html">Simple</a>
+
+            </td>
+            <td id="HP">78</td>
+            <td id="Attack">61</td>
+            <td id="Defense">104</td>
+            <td id="Speed">20</td>
+            <td id="SpAttack">38</td>
+            <td id="SpDefense">49</td>
+            <td id="Total">350</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="egg_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/gropp.html"><img class="frontsprite" src="sprites/pokemon/gropp.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_egg_list').click();
+</script>
+
+
+
+
 
 
 
@@ -398,6 +492,57 @@ Tutor
         </tr>
 
         <tr>
+            <td id="Name" data-sortkey="Gropp"><a href="species/gropp.html">Gropp</a></td>
+            <td><a href="species/gropp.html"><img class="frontsprite" src="sprites/pokemon/gropp.png"></a></td>
+
+            <td id="Type" data-sortkey="FIGHTING" colspan=2 align="center"><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/oblivious.html">Oblivious</a>
+
+                
+                <br>
+<a href="abilities/simple.html">Simple</a>
+
+            </td>
+            <td id="HP">78</td>
+            <td id="Attack">61</td>
+            <td id="Defense">104</td>
+            <td id="Speed">20</td>
+            <td id="SpAttack">38</td>
+            <td id="SpDefense">49</td>
+            <td id="Total">350</td>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="Cyclobber"><a href="species/cyclobber.html">Cyclobber</a></td>
+            <td><a href="species/cyclobber.html"><img class="frontsprite" src="sprites/pokemon/cyclobber.png"></a></td>
+
+            <td id="Type" data-sortkey="FIGHTINGROCK"><a href="pokedex/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td><a href="pokedex/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/oblivious.html">Oblivious</a>
+
+                
+                <br>
+<a href="abilities/simple.html">Simple</a>
+
+            </td>
+            <td id="HP">137</td>
+            <td id="Attack">90</td>
+            <td id="Defense">128</td>
+            <td id="Speed">30</td>
+            <td id="SpAttack">58</td>
+            <td id="SpDefense">92</td>
+            <td id="Total">535</td>
+        </tr>
+
+        <tr>
             <td id="Name" data-sortkey="Cranisect"><a href="species/cranisect.html">Cranisect</a></td>
             <td><a href="species/cranisect.html"><img class="frontsprite" src="sprites/pokemon/cranisect.png"></a></td>
 
@@ -459,6 +604,19 @@ Tutor
 
 <td>
 <a href="species/marowail.html"><img class="frontsprite" src="sprites/pokemon/marowail.png"></a>
+</td>
+
+
+<td>
+<a href="species/gropp.html"><img class="frontsprite" src="sprites/pokemon/gropp.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/cyclobber.html"><img class="frontsprite" src="sprites/pokemon/cyclobber.png"></a>
 </td>
 
 

@@ -15,26 +15,129 @@
     </table>
 
 <div class="heading">
-        0.2.3
+    0.3.0
 </div>
-        <b>Bug Fixes</b>
-        <ul>
-        <li>The events in Sycorax Ruins have been fixed.</li>
-        <li>Morelull's evolution data was missing and has been added.</li>
-        <li>Certain Pokemon would cause weird effects after evolving with a Rare Candy;
-            this has been fixed.</li>
-        <li>Some incorrect collision tiles in Enceladus Cavern, Sycorax Ruins,
-            and the Sirius Wharf gym have been corrected.</li>
-        <li>Achievements now show up in the Awards Menu properly.</li>
+	<b>Story Updates</b>
+	<ul>
+		<li>The main story has been completed up through Gym 5!</li>
+		<li>The order in which the player receives the Exp. All and Exp Share have been swapped.</li>
+		<li>The Centauri City Team Nova event is slightly tweaked.</li>
+		<li>The Sirius Wharf Team Nova event has been granted a much more interesting finale.</li>
+        <li>"Undiscovered Pokemon" have been weaved into existing story encounters.</li>
+	</ul>
+	
+	<b>Game Updates</b>
+    <ul>
+		<li>EV/IV values in summary screen must be unlocked from the Raising Your Team side quest.</li>
+		<li>New fire starter! Shleepy (credit to Artsy for the concept) has replaced Nemelt. Don't worry though, you can still find Nemelt in Mt. Tvashtar!</li>
+		<li>Several fakemon sprites, including the starters, have been redesigned! Huge thanks to our sprite artists for their work :)</li>
+		<li>This version is sporting a new Pokedex! Several new info screens have been added with more information to be found about each species. The new pages include: info, area, stats, learnsets, ability discs, and evolution info.</li>
+        <li>The way that battle experience is distributed has been changed. You can read about this in the <a href="features/battle_engine.html#experience">features guide</a>. The main story's level curve has been adjusted to account for these changes.</li>
+		<li>A new item description bar has been added!</li>
+		<li>A fresh new overworld tileset has been implemented! Thanks to Jaizu for creating new tiles based on work from TheDeadHeroAlistair, Javs, and Zeo.</li>
+		<li>The Egg Move Tutor's cost is now reduced as a function of number of Gym Badges (credit to Tardysoap for the idea)</li>
+		<li>The daycare is now accessible in Carina Outpost. The daycare mechanics have also been updated thanks to ExpoSpeed.</li>
+		<li>Pokemon Research! In this release you will encounter Pokemon that your Pokedex cannot recognize, and have the option to perform research to learn more about them!</li>
+		<li>Egg hatching speed is increased PER Pokemon in your party that can learn Flame Body, Flash Fire, Magma Armor, Steam Engine, Magma Surge, or Calderize via Ability Discs.</li>
+		<li>Increased Egg shiny rate for each parent with Super Luck</li>
+    </ul>
+	
+    <b>New Features</b>
+    <ul>
+		<li>Ability Tutor Discs! Teach your Pokemon new abilities from these single-use items.</li>
+		<li>
+			Base Stat randomizer. In chaos mode, each stat is individually randomized between 20 and 120,
+			but otherwise the base stat total of your Pokemon will remain roughly the same.
+		</li>
+		<li>Item Randomizer, which will randomize all items except key items, TMs, and Ability Discs</li>
+		<li>A Name challenge mode is implemented where you can only obtain Pokemon whose name starts with a set of letters!</li>
+        <li>
+            The commonly-used <b>species clause</b> Nuzlocke rule has been added!
+            With this clause, repeat encounters with Pokemon from the same evolutionary line
+            do not count for the Nuzlocke challenge, and also may not be caught!
+            This clause is turned <i>on</i> by default in Nuzlocke challenges,
+            but can be turned off from the custom difficulty settings menu
+            before beginning your playthrough.
+        </li>
+		<li>A new Pokedex identification system has been implemented for flavor (and maybe some other reason)!</li>
+        <li>A new way to find hiddem items has been implemented! Use <a href="moves/electric_terrain.html">Electric Terrain</a> on the field to generate a signal to the closest hidden item!</li>
+    </ul>
+	
+	<b>Battle Engine Updates</b>
+	<ul>
+		<li>
+			Faster battles! The intro slide-in speed has been increased (with a configurable option),
+			in addition to effect animations (stat changes, etc) running at the same time as the
+			associated string is printed.
+		</li>
+		<li>
+			SoS Battles have been added! some totem-boosted Pokemon will call allies,
+			and you can use Adrenaline Orbs to encourage wild Pokemon to call for help!
+			SoS Pokemon will have increased chances of hidden abilities, shininess, and
+			a higher number of perfect IVs.
+		</li>
+		<li>Morbid Terrain's effect has been changed to double negative stat changes.</li>
+		<li>More Gen 8 abilities are added such as Mirror Armor, Neutralizing Gas, and more!</li>
+		<li>Some vanilla move effects have been added in such as Sky Drop.</li>
+		<li>Some more custom moves such as Jettison, Drag to the Void, and more have been added</li>
+		<li>Press B on the "What will Pokémon do?" menu during wild battles to move the cursor to run. Credit to Deokishisu.</li>
+		<li>The Frozen status effect has been updated to LOA's Frostbite effect. This is a special-attack analog of Burn. More details on frostbite can be found in the battle engine guide</li>
+	</ul>
+	
+	<b>Quality-of-Life Changes</b>
+	<ul>
+		<li>In the Pokemon customization window at the casino, you can increase EVs by increments of 40 using the L and R buttons</li>
+		<li>Some of the ice puzzles around Enceladus Cavern have been given an "easy puzzle" configuration.</li>
+		<li>Cepheus Pass has been more streamlined to help the player find where to go.</li>
+		<li>Pressing START in the pokenav region map will return the cursor to the player's position</li>
+		<li>Field Moves with an interaction script are removed from the party menu.</li>
+		<li>Under certain challenge mode conditions, unlocked field moves can be used by any party member to prevent soft-locking</li>
+		<li>Newly added bag pocket indicators!</li>
+	</ul>
+	
+	<b>Bug Fixes</b>
+	<ul>
+		<li>Many quality of life and minor bug fixes</li>
+		<li>Menace has been fixed</li>
+		<li>Several text issues have been fixed</li>
+		<li>The species and move randomizers have been fixed</li>
+	</ul>
 
-        </ul>
-
-        <b>Graphics</b>
-        <ul>
-            <li>
-                <a href="species/rangife.html">Rangife</a> and its evolutions have received a graphical overhaul!  Thanks to <b>artsy</b>, <b>Dio_FBI</b>, and <b>Saleh</b> for their creative skills!
-            </li>
-        </ul>
+<div class="heading">
+    0.2.3
+</div>	
+	<b>Game Updates</b>
+	<ul>
+		<li>Can obtain a Sun Stone in Sirius Wharf</li>
+		<li>Auto wild encounters show shiny palettes where applicable!</li>
+	</ul>
+	
+	<b>New Features</b>
+	<ul>
+		<li>Expand Storage Boxes up to 18!</li>
+		<li>TV shows have been added back in!</li>
+		<li>Name Challenge! Limit yourself to catching only Pokémon whose names start with a given set of letters!</li>
+		<li></li>
+	</ul>
+	
+	<b>Feature Updates</b>
+	<ul>
+		<li>Stray Pokemon are gone after defeat</li>
+	</ul>
+	
+	<b>Bug Fixes</b>
+	<ul>
+		<li>Minor text fixes here and there.</li>
+		<li>Fix Gym 3 Collision Tiles</li>
+		<li>Fix some collision tiles in Enceladus Cavern, Sycorax Ruins</li>
+		<li>Achievements show up in the Awards Menu properly</li>
+		<li>Can fly from Ligeia Bridge</li>
+		<li>Fix roulette not working >32767 coins</li>
+		<li>Fix Menace ability softlock</li>
+		<li>Fix Slot Machine 5th digit issue</li>
+		<li>Fix stray pokemon graphics when loading a save file</li>
+		<li></li>
+	</ul>
 
 <div class="heading">
     0.2.2
@@ -44,7 +147,6 @@
 		<li>A proper variable is set after Gym 3 to enable the events in Umbricorp HQ</li>
 		<li>If you have completed Gym 3 already, you can enable the event by speaking to Klemniops in Sirius Wharf's Pokemon Center!</li>
 	</ul>
-
 
 <div class="heading">
     0.2.1
@@ -64,7 +166,6 @@
 		<li>Fix Mantine back sprite Y offset</li>
 		<li>Some minor text/grammar fixes.</li>
 	</ul>
-
 
 <div class="heading">
     0.2.0

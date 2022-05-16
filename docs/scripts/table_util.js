@@ -1,3 +1,27 @@
+function changetab(evt, divname) {
+    var i, tabcontent, tablinks
+
+    /** hide other tabs */
+    var alltabs
+    alltabs = evt.currentTarget.parentNode;
+    for (i = 0; i < alltabs.children.length; i++) {
+        alltabs.children[i].className = alltabs.children[i].className.replace(" active", "");
+        alltabs.children[i].style.background = "white";
+        alltabs.children[i].style.color = "black";
+    }
+    for (i = 0; i < alltabs.children.length; i++) {
+        var tabcontent = document.getElementById(alltabs.children[i].getAttribute("content-id"));
+        tabcontent.style.display = "none";
+    }
+
+    /** highlight this tab */
+    evt.currentTarget.style.background = "black";
+    evt.currentTarget.style.color = "white";
+
+    document.getElementById(divname).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
 function sortTable() {
     const th = event.srcElement;
     const header_id = th.textContent;
