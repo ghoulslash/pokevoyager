@@ -171,6 +171,103 @@ Steam Eruption
 
 
 
+<h2>
+Level-Up
+</h2>
+
+
+
+
+<div class="tab">
+    <button id="tab_levelup_list" content-id="levelup_list" class="tablinks" onclick="changetab(event, 'levelup_list')">List</button>
+    <button id="tab_levelup_grid" content-id="levelup_grid" class="tablinks" onclick="changetab(event, 'levelup_grid')" display="none">Visual</button>
+</div>
+
+
+<div id="levelup_list" class="tabcontent">
+<table id="species">
+    <thead>
+        <tr>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Name</th>
+            <th rowspan=2 colspan=2 align="center" onclick="sortTable()">Type</th>
+
+            <th rowspan=2 colspan=1 align="center" onclick="sortTable()">Level</th>
+
+            <th rowspan=2           align="center"                      >Abilities</th>
+            <th           colspan=7 align="center"                      >Base Stats</th>
+        </tr>
+        <tr>
+            <th align="center" onclick="sortTable()">HP</th>
+            <th align="center" onclick="sortTable()">Attack</th>
+            <th align="center" onclick="sortTable()">Defense</th>
+            <th align="center" onclick="sortTable()">Speed</th>
+            <th align="center" onclick="sortTable()">SpAttack</th>
+            <th align="center" onclick="sortTable()">SpDefense</th>
+            <th align="center" onclick="sortTable()">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td id="Name" data-sortkey="Cryorupt"><a href="species/cryorupt.html">Cryorupt</a></td>
+            <td><a href="species/cryorupt.html"><img class="frontsprite" src="sprites/pokemon/cryorupt.png"></a></td>
+
+            <td id="Type" data-sortkey="FIREICE"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+            <td id="Level">52</td>
+
+            <td>
+                
+<a href="abilities/battle_armor.html">Battle Armor</a>
+
+                <br>
+<a href="abilities/snow_warning.html">Snow Warning</a>
+
+                <br>
+<a href="abilities/slush_rush.html">Slush Rush</a>
+
+            </td>
+            <td id="HP">85</td>
+            <td id="Attack">90</td>
+            <td id="Defense">70</td>
+            <td id="Speed">30</td>
+            <td id="SpAttack">115</td>
+            <td id="SpDefense">70</td>
+            <td id="Total">460</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<div id="levelup_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/cryorupt.html"><img class="frontsprite" src="sprites/pokemon/cryorupt.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+
+
+<script>
+document.getElementById('tab_levelup_list').click();
+</script>
+
+
+
+
+
+
 
 
 
@@ -238,6 +335,34 @@ Tutor
             <td id="Total">550</td>
         </tr>
 
+        <tr>
+            <td id="Name" data-sortkey="Cryorupt"><a href="species/cryorupt.html">Cryorupt</a></td>
+            <td><a href="species/cryorupt.html"><img class="frontsprite" src="sprites/pokemon/cryorupt.png"></a></td>
+
+            <td id="Type" data-sortkey="FIREICE"><a href="pokedex/fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td><a href="pokedex/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+            <td>
+                
+<a href="abilities/battle_armor.html">Battle Armor</a>
+
+                <br>
+<a href="abilities/snow_warning.html">Snow Warning</a>
+
+                <br>
+<a href="abilities/slush_rush.html">Slush Rush</a>
+
+            </td>
+            <td id="HP">85</td>
+            <td id="Attack">90</td>
+            <td id="Defense">70</td>
+            <td id="Speed">30</td>
+            <td id="SpAttack">115</td>
+            <td id="SpDefense">70</td>
+            <td id="Total">460</td>
+        </tr>
+
     </tbody>
 </table>
 </div>
@@ -248,6 +373,14 @@ Tutor
 
 <td>
 <a href="species/kroaeakaoa.html"><img class="frontsprite" src="sprites/pokemon/kroaeakaoa.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/cryorupt.html"><img class="frontsprite" src="sprites/pokemon/cryorupt.png"></a>
 </td>
 
 </tr>
