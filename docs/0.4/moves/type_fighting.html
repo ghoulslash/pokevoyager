@@ -1,0 +1,693 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="arm_thrust"><a href="moves/arm_thrust.html">Arm Thrust</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">15</td>
+            <td id="Accuracy">100</td>
+            <td>The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aura_sphere"><a href="moves/aura_sphere.html">Aura Sphere</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">—</td>
+            <td>The user lets loose a blast of aura power from deep within its body. This attack never misses.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="axe_kick"><a href="moves/axe_kick.html">Axe Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">90</td>
+            <td>The user slams its heel into the target. It may confuse, but if it misses the user takes damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="battle_of_wits"><a href="moves/battle_of_wits.html">Battle of Wits</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user fights using its wits. This move's power scales with the user's Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="body_press"><a href="moves/body_press.html">Body Press</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user slams its body into the target. This move's power scales with the user's Defense.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="brick_break"><a href="moves/brick_break.html">Brick Break</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with a swift chop. It can also break barriers, such as Light Screen.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bulk_up"><a href="moves/bulk_up.html">Bulk Up</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="circle_throw"><a href="moves/circle_throw.html">Circle Throw</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">90</td>
+            <td>The target is thrown and switched. This ends a battle against a single wild Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="close_combat"><a href="moves/close_combat.html">Close Combat</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user fights the target up close without guarding itself, lowering its defensive stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="coaching"><a href="moves/coaching.html">Coaching</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>he user properly coaches its ally Pokémon, boosting their Attack and Defense stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="collision_course"><a href="moves/collision_course.html">Collision Course</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user causes a prehistoric explosion. This move's power is boosted if supereffective.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="combat_terrain"><a href="moves/combat_terrain.html">Combat Terrain</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, contact effects are more likely and Fighting type-moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="combat_torque"><a href="moves/combat_torque.html">Combat Torque</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A dextrous spinning attack that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="concussive_blast"><a href="moves/concussive_blast.html">Concussive Blast</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user focuses force in a narrow beam. This move deals physical damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="counter"><a href="moves/counter.html">Counter</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>A retaliation move that counters any physical hit with double the damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="cross_chop"><a href="moves/cross_chop.html">Cross Chop</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">80</td>
+            <td>The user delivers a double chop with its forearms crossed. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="detect"><a href="moves/detect.html">Detect</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="double_kick"><a href="moves/double_kick.html">Double Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">30</td>
+            <td id="Accuracy">100</td>
+            <td>The target is quickly kicked twice in succession using both feet.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="drain_punch"><a href="moves/drain_punch.html">Drain Punch</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>An energy-draining punch. The user's HP is restored by half the damage taken by the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dynamic_punch"><a href="moves/dynamic_punch.html">Dynamic Punch</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">50</td>
+            <td>The user punches the target with full power. This confuses the target if it hits.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="final_gambit"><a href="moves/final_gambit.html">Final Gambit</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user risks everything, fainting but inflicting damage equal to its HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flying_press"><a href="moves/flying_press.html">Flying Press</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">95</td>
+            <td>The user dives down from the sky. This move is Fighting and Flying type simultaneously.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="focus_blast"><a href="moves/focus_blast.html">Focus Blast</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">70</td>
+            <td>The user unleashes power with heightened focus. It may also lower the target's Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="focus_punch"><a href="moves/focus_punch.html">Focus Punch</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>The user focuses its mind before launching a punch. It fails if the user is hit first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="force_palm"><a href="moves/force_palm.html">Force Palm</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The target is attacked with a shock wave. This may also leave the target with paralysis.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hammer_arm"><a href="moves/hammer_arm.html">Hammer Arm</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">90</td>
+            <td>The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="high_jump_kick"><a href="moves/high_jump_kick.html">High Jump Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">130</td>
+            <td id="Accuracy">90</td>
+            <td>The target is hit with a knee kick from a jump. If it misses, the user is hurt instead.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="jump_kick"><a href="moves/jump_kick.html">Jump Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">95</td>
+            <td>The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="karate_chop"><a href="moves/karate_chop.html">Karate Chop</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>The target is attacked with a sharp chop. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="low_kick"><a href="moves/low_kick.html">Low Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>A powerful low kick that inflicts greater damage on heavier targets.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="low_sweep"><a href="moves/low_sweep.html">Low Sweep</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>The user makes a swift attack on the target's legs, which lowers the target's Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mach_punch"><a href="moves/mach_punch.html">Mach Punch</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user throws a punch at blinding speed. This move always goes first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mat_block"><a href="moves/mat_block.html">Mat Block</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Using a mat as a shield, the user protects itself and its allies from damaging moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="meteor_assault"><a href="moves/meteor_assault.html">Meteor Assault</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks wildly with its thick leek but can't move on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="no_retreat"><a href="moves/no_retreat.html">No Retreat</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>This move raises all the user's stats but prevents the user from switching out or fleeing.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="octolock"><a href="moves/octolock.html">Octolock</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user prevents the target from fleeing, lowering its defensive stats every turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_up_punch"><a href="moves/power_up_punch.html">Power-Up Punch</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>Striking opponents makes the user's fists harder. Hitting a target raises the Attack stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="quick_guard"><a href="moves/quick_guard.html">Quick Guard</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user protects itself and its allies from priority moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="revenge"><a href="moves/revenge.html">Revenge</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>This attack move's power is doubled if the target has hurt the user in the same turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="reversal"><a href="moves/reversal.html">Reversal</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>An all-out attack that becomes more powerful the less HP the user has.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rock_smash"><a href="moves/rock_smash.html">Rock Smash</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with a punch. This may also lower the target's Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rolling_kick"><a href="moves/rolling_kick.html">Rolling Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">85</td>
+            <td>The user lashes out with a quick, spinning kick. This may also make the target flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sacred_sword"><a href="moves/sacred_sword.html">Sacred Sword</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks by slicing with a long horn, ignoring the target's stat changes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="secret_sword"><a href="moves/secret_sword.html">Secret Sword</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">100</td>
+            <td>The user cuts with its long horn. The odd power contained inside does physical damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="seismic_toss"><a href="moves/seismic_toss.html">Seismic Toss</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>A gravity-fed throw that inflicts damage matching the user's level.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="seismic_wave"><a href="moves/seismic_wave.html">Seismic Wave</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">90</td>
+            <td>Seismic waves crash into the target. This may cause it to flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sky_uppercut"><a href="moves/sky_uppercut.html">Sky Uppercut</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">90</td>
+            <td>The user attacks the target with an uppercut thrown skyward with force.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="storm_throw"><a href="moves/storm_throw.html">Storm Throw</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user strikes the target with a fierce blow. This attack always results in a critical hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="submission"><a href="moves/submission.html">Submission</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user grabs the target and recklessly dives for the ground, also damaging the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="superpower"><a href="moves/superpower.html">Superpower</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks the target with great power but its Attack and Defense stats are lowered.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thunderous_kick"><a href="moves/thunderous_kick.html">Thunderous Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user overwhelms the target with an electrified kick. This also lowers its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="triple_arrows"><a href="moves/triple_arrows.html">Triple Arrows</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user fires three arrows. It lands critical hits more easily and may lower Def.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="triple_kick"><a href="moves/triple_kick.html">Triple Kick</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">10</td>
+            <td id="Accuracy">90</td>
+            <td>A consecutive three-kick attack that becomes more powerful with each hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="upper_hand"><a href="moves/upper_hand.html">Upper Hand</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>Intercepts the target's priority move if it is using one, but fails otherwise.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="vacuum_wave"><a href="moves/vacuum_wave.html">Vacuum Wave</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user whirls its fists to send a wave of pure vacuum. This move always goes first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="victory_dance"><a href="moves/victory_dance.html">Victory Dance</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user performs an intense dance to boost Attack, Defense, and Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="vital_throw"><a href="moves/vital_throw.html">Vital Throw</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">—</td>
+            <td>The user attacks last. In return, this throw move never misses.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wake_up_slap"><a href="moves/wake_up_slap.html">Wake-Up Slap</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="war_chant"><a href="moves/war_chant.html">War Chant</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user's war cry sharply raises its Speed stat and makes critical hits more likely.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>

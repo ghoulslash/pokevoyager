@@ -1,0 +1,393 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="bone_club"><a href="moves/bone_club.html">Bone Club</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
+            <td>The user clubs the target with a bone. This may also make the target flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bone_rush"><a href="moves/bone_rush.html">Bone Rush</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">25</td>
+            <td id="Accuracy">90</td>
+            <td>The user strikes the target with a hard bone two to five times in a row.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bonemerang"><a href="moves/bonemerang.html">Bonemerang</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">90</td>
+            <td>The user throws the bone it holds. The bone loops to hit the target twice.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bulldoze"><a href="moves/bulldoze.html">Bulldoze</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user strikes everything around it. This lowers the Speed stats of those hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dig"><a href="moves/dig.html">Dig</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user burrows into the ground, then attacks on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="drill_run"><a href="moves/drill_run.html">Drill Run</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">95</td>
+            <td>The user rotates its body like a drill and crashes into a target. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="earth_power"><a href="moves/earth_power.html">Earth Power</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user makes the ground under the target erupt with power. It may also lower its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="earthquake"><a href="moves/earthquake.html">Earthquake</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user sets off an earthquake that strikes every Pokémon around it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fissure"><a href="moves/fissure.html">Fissure</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">30</td>
+            <td>The user opens up a fissure in the ground and drops the target in, which faints instantly.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="headlong_rush"><a href="moves/headlong_rush.html">Headlong Rush</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user executes a full-body tackle. It also lower's the user's Def and Sp. Def.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="high_horsepower"><a href="moves/high_horsepower.html">High Horsepower</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">95</td>
+            <td id="Accuracy">95</td>
+            <td>The user fiercely attacks the target using its entire body.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lands_wrath"><a href="moves/lands_wrath.html">Land's Wrath</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user gathers the energy of the land and focuses that power on opposing Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magnitude"><a href="moves/magnitude.html">Magnitude</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks everything around it with a ground-shaking quake. Its power varies.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mud_bomb"><a href="moves/mud_bomb.html">Mud Bomb</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
+            <td>The user launches a hard-packed mud ball. It may also lower a target's accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mud_shot"><a href="moves/mud_shot.html">Mud Shot</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">55</td>
+            <td id="Accuracy">95</td>
+            <td>The user attacks by hurling a blob of mud at the target. This also lowers its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mud_slap"><a href="moves/mud_slap.html">Mud-Slap</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">20</td>
+            <td id="Accuracy">100</td>
+            <td>The user hurls mud in the target's face to inflict damage and lower its accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mud_sport"><a href="moves/mud_sport.html">Mud Sport</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user kicks up mud. This weakens Electric-type moves for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="muddy_terrain"><a href="moves/muddy_terrain.html">Muddy Terrain</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, muddy and ballstic moves as well as Ground type-moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="precipice_blades"><a href="moves/precipice_blades.html">Precipice Blades</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">85</td>
+            <td>Opposing Pokémon are hit by fearsome blades of stone with the power of the land.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rototiller"><a href="moves/rototiller.html">Rototiller</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Tilling the soil helps plants grow, raising the offensive stats of Grass-type Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sand_attack"><a href="moves/sand_attack.html">Sand Attack</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>Sand is hurled in the target's face, reducing the target's accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sand_tomb"><a href="moves/sand_tomb.html">Sand Tomb</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">35</td>
+            <td id="Accuracy">85</td>
+            <td>The user traps the target inside a harshly raging sandstorm for four to five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sandsear_storm"><a href="moves/sandsear_storm.html">Sandsear Storm</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">80</td>
+            <td>Wraps the foe in searingly hot sand. It may inflict a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="scorching_sands"><a href="moves/scorching_sands.html">Scorching Sands</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>The user throws scorching sand at the target. This may also leave it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shore_up"><a href="moves/shore_up.html">Shore Up</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user regains up to half of its max HP. It restores more HP in a sandstorm.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spikes"><a href="moves/spikes.html">Spikes</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user lays a trap of spikes at the opposing team's feet to hurt Pokémon switching in.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="stomping_tantrum"><a href="moves/stomping_tantrum.html">Stomping Tantrum</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>If the user's previous move has failed, its frustration doubles the power of this move.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thousand_arrows"><a href="moves/thousand_arrows.html">Thousand Arrows</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>This move also hits airborne opposing Pokémon and knocks them down to the ground.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="thousand_waves"><a href="moves/thousand_waves.html">Thousand Waves</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with a wave that crawls along the ground. Those hit can't flee the battle.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>

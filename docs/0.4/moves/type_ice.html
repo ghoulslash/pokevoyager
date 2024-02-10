@@ -1,0 +1,463 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="arctic_terrain"><a href="moves/arctic_terrain.html">Arctic Terrain</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, Ice type-Pokémon and Ice type-moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aurora_beam"><a href="moves/aurora_beam.html">Aurora Beam</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit with a rainbow-colored beam that may also lower its Attack stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aurora_veil"><a href="moves/aurora_veil.html">Aurora Veil</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Damage from all moves is halved for 5 turns. This move can be used only in a hailstorm.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="avalanche"><a href="moves/avalanche.html">Avalanche</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>This attack move's power is doubled if the target has hurt the user in the same turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blizzard"><a href="moves/blizzard.html">Blizzard</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">70</td>
+            <td>A howling blizzard strikes opposing Pokémon. This may also leave them with frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blubber_bump"><a href="moves/blubber_bump.html">Blubber Bump</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user blubs into the target. This move's power scales with the user's Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="chilly_reception"><a href="moves/chilly_reception.html">Chilly Reception</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>A chillingly bad joke summons a snowstorm for 5 turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="freeze_dry"><a href="moves/freeze_dry.html">Freeze-Dry</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>The target is rapidly cooled and may be frostbitten. It is super effective on Water types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="freeze_shock"><a href="moves/freeze_shock.html">Freeze Shock</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">140</td>
+            <td id="Accuracy">90</td>
+            <td>On the second turn, the target is hit with electrically charged ice that may paralyze.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="freezy_frost"><a href="moves/freezy_frost.html">Freezy Frost</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Crystal from cold haze hits. Eliminates all stat changes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="frost_breath"><a href="moves/frost_breath.html">Frost Breath</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">90</td>
+            <td>The user blows its cold breath on the target. This attack always results in a critical hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="frost_burn"><a href="moves/frost_burn.html">Frost Burn</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">85</td>
+            <td>The user lets loose a chilling burn that leaves the target with frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="glacial_lance"><a href="moves/glacial_lance.html">Glacial Lance</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">130</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="glacial_rift"><a href="moves/glacial_rift.html">Glacial Rift</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks everything around it with a fracture that hurts frostbitten Pokémon more.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="glacial_torque"><a href="moves/glacial_torque.html">Glacial Torque</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A frozen spinning attack that may inflict a frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="glaciate"><a href="moves/glaciate.html">Glaciate</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">95</td>
+            <td>The user blows freezing cold air at opposing Pokémon. This lowers their Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hail"><a href="moves/hail.html">Hail</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="haze"><a href="moves/haze.html">Haze</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a haze that eliminates all stat changes among all Pokémon in battle.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_ball"><a href="moves/ice_ball.html">Ice Ball</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">30</td>
+            <td id="Accuracy">90</td>
+            <td>The user attacks the target for five turns. The move's power increases each time it hits.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_beam"><a href="moves/ice_beam.html">Ice Beam</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The target is struck with an icy-cold beam of energy which may leave it with frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_burn"><a href="moves/ice_burn.html">Ice Burn</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">140</td>
+            <td id="Accuracy">90</td>
+            <td>On the second turn, an ultracold, freezing wind that may burn surrounds the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_fang"><a href="moves/ice_fang.html">Ice Fang</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">95</td>
+            <td>The user bites with ice-cold fangs. It may also make the target flinch or frostbitten.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_hammer"><a href="moves/ice_hammer.html">Ice Hammer</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">90</td>
+            <td>The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_punch"><a href="moves/ice_punch.html">Ice Punch</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>The target is punched with an icy fist. This may also leave the target with frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_shard"><a href="moves/ice_shard.html">Ice Shard</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user hurls flash-frozen chunks of ice at the target. This move always goes first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ice_spinner"><a href="moves/ice_spinner.html">Ice Spinner</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user twirls around to slam the foe. It destroys active Terrain.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="icicle_burst"><a href="moves/icicle_burst.html">Icicle Burst</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user retaliates any hit with greater power. The target may be left with frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="icicle_crash"><a href="moves/icicle_crash.html">Icicle Crash</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">90</td>
+            <td>The user harshly drops large icicles onto the target. This may also make it flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="icicle_spear"><a href="moves/icicle_spear.html">Icicle Spear</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">25</td>
+            <td id="Accuracy">100</td>
+            <td>The user launches sharp icicles at the target two to five times in a row.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="icy_wind"><a href="moves/icy_wind.html">Icy Wind</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">55</td>
+            <td id="Accuracy">95</td>
+            <td>The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mist"><a href="moves/mist.html">Mist</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user cloaks its side in mist preventing any stats from being lowered for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mountain_gale"><a href="moves/mountain_gale.html">Mountain Gale</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">85</td>
+            <td>The user hurls giant ice chunks to inflict damage. It may cause flinching.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="powder_snow"><a href="moves/powder_snow.html">Powder Snow</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with a chilling gust of powdery snow. This may also frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sheer_cold"><a href="moves/sheer_cold.html">Sheer Cold</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">30</td>
+            <td>The target faints instantly. It's less likely to hit if used by Pokémon other than Ice types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="snowscape"><a href="moves/snowscape.html">Snowscape</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user summons a snowstorm lasting five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="triple_axel"><a href="moves/triple_axel.html">Triple Axel</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">20</td>
+            <td id="Accuracy">90</td>
+            <td>A consecutive three-kick attack that becomes more powerful with each hit.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>

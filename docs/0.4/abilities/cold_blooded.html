@@ -1,0 +1,2375 @@
+<!-- Automatically generated -->
+
+<base href="..">
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+
+<!-- TODO at some point: ability dex heading -->
+
+
+<h1>
+Cold-Blooded
+</h1>
+
+<p>
+Boosts the Pokémon's Speed stat in harsh sunlight.
+</p>
+
+
+<h2>
+Details
+</h2>
+
+<p>This new ability doubles Speed during strong sunlight, just like Chlorophyll.</p>
+
+
+
+
+
+<h2>
+Level-Up
+</h2>
+The following Pokémon can equip this ability after reaching a certain level.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_levelup_list" content-id="levelup_list" class="tablinks" onclick="changetab(event, 'levelup_list')">List</button>
+    <button id="tab_levelup_grid" content-id="levelup_grid" class="tablinks" onclick="changetab(event, 'levelup_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="levelup_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+            <th scope="col" onclick="sortTable()">Level</th>
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>101</td>
+            <td style="width: 32px;"><a href="species/anorith.html"><img class="iconsprite" src="sprites/pokemon/anorith/icon.png"></a></td>
+            <td id="Name" data-sortkey="Anorith"><a href="species/anorith.html">Anorith</a></td>
+
+            <td id="Type" data-sortkey="ROCKBUG"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+            <td id="Level">25</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td style="width: 32px;"><a href="species/armaldo.html"><img class="iconsprite" src="sprites/pokemon/armaldo/icon.png"></a></td>
+            <td id="Name" data-sortkey="Armaldo"><a href="species/armaldo.html">Armaldo</a></td>
+
+            <td id="Type" data-sortkey="ROCKBUG"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+            <td id="Level">25</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>325</td>
+            <td style="width: 32px;"><a href="species/helioptile.html"><img class="iconsprite" src="sprites/pokemon/helioptile/icon.png"></a></td>
+            <td id="Name" data-sortkey="Helioptile"><a href="species/helioptile.html">Helioptile</a></td>
+
+            <td id="Type" data-sortkey="ELECTRICNORMAL"><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a>
+            <br><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+
+            <td id="Level">36</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>326</td>
+            <td style="width: 32px;"><a href="species/heliolisk.html"><img class="iconsprite" src="sprites/pokemon/heliolisk/icon.png"></a></td>
+            <td id="Name" data-sortkey="Heliolisk"><a href="species/heliolisk.html">Heliolisk</a></td>
+
+            <td id="Type" data-sortkey="ELECTRICNORMAL"><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a>
+            <br><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+
+            <td id="Level">36</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>335</td>
+            <td style="width: 32px;"><a href="species/treecko.html"><img class="iconsprite" src="sprites/pokemon/treecko/icon.png"></a></td>
+            <td id="Name" data-sortkey="Treecko"><a href="species/treecko.html">Treecko</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+            <td id="Level">10</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>336</td>
+            <td style="width: 32px;"><a href="species/grovyle.html"><img class="iconsprite" src="sprites/pokemon/grovyle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Grovyle"><a href="species/grovyle.html">Grovyle</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+            <td id="Level">10</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>337</td>
+            <td style="width: 32px;"><a href="species/sceptile.html"><img class="iconsprite" src="sprites/pokemon/sceptile/icon.png"></a></td>
+            <td id="Name" data-sortkey="Sceptile"><a href="species/sceptile.html">Sceptile</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+            <td id="Level">10</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>364</td>
+            <td style="width: 32px;"><a href="species/turtwig.html"><img class="iconsprite" src="sprites/pokemon/turtwig/icon.png"></a></td>
+            <td id="Name" data-sortkey="Turtwig"><a href="species/turtwig.html">Turtwig</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+            <td id="Level">10</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>365</td>
+            <td style="width: 32px;"><a href="species/grotle.html"><img class="iconsprite" src="sprites/pokemon/grotle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Grotle"><a href="species/grotle.html">Grotle</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+            <td id="Level">10</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>366</td>
+            <td style="width: 32px;"><a href="species/torterra.html"><img class="iconsprite" src="sprites/pokemon/torterra/icon.png"></a></td>
+            <td id="Name" data-sortkey="Torterra"><a href="species/torterra.html">Torterra</a></td>
+
+            <td id="Type" data-sortkey="GRASSGROUND"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+            <td id="Level">10</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>367</td>
+            <td style="width: 32px;"><a href="species/sizzlipede.html"><img class="iconsprite" src="sprites/pokemon/sizzlipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Sizzlipede"><a href="species/sizzlipede.html">Sizzlipede</a></td>
+
+            <td id="Type" data-sortkey="FIREBUG"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+            <td id="Level">90</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>368</td>
+            <td style="width: 32px;"><a href="species/centiskorch.html"><img class="iconsprite" src="sprites/pokemon/centiskorch/icon.png"></a></td>
+            <td id="Name" data-sortkey="Centiskorch"><a href="species/centiskorch.html">Centiskorch</a></td>
+
+            <td id="Type" data-sortkey="FIREBUG"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+            <td id="Level">90</td>
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="levelup_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/anorith.html"><img class="frontsprite" src="sprites/pokemon/anorith/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/armaldo.html"><img class="frontsprite" src="sprites/pokemon/armaldo/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/helioptile.html"><img class="frontsprite" src="sprites/pokemon/helioptile/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/heliolisk.html"><img class="frontsprite" src="sprites/pokemon/heliolisk/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/treecko.html"><img class="frontsprite" src="sprites/pokemon/treecko/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/grovyle.html"><img class="frontsprite" src="sprites/pokemon/grovyle/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/sceptile.html"><img class="frontsprite" src="sprites/pokemon/sceptile/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/turtwig.html"><img class="frontsprite" src="sprites/pokemon/turtwig/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/grotle.html"><img class="frontsprite" src="sprites/pokemon/grotle/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/torterra.html"><img class="frontsprite" src="sprites/pokemon/torterra/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/sizzlipede.html"><img class="frontsprite" src="sprites/pokemon/sizzlipede/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/centiskorch.html"><img class="frontsprite" src="sprites/pokemon/centiskorch/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_levelup_list').click();
+</script>
+
+
+
+
+<h2>
+Natural Ability
+</h2>
+The following Pokémon can have this ability when you find them in the wild.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_natural_list" content-id="natural_list" class="tablinks" onclick="changetab(event, 'natural_list')">List</button>
+    <button id="tab_natural_grid" content-id="natural_grid" class="tablinks" onclick="changetab(event, 'natural_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="natural_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="natural_grid" class="tabcontent">
+<table>
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_natural_list').click();
+</script>
+
+
+
+
+
+<h2>
+Hidden Ability
+</h2>
+The following Pokémon can have this ability as their hidden ability.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_hidden_list" content-id="hidden_list" class="tablinks" onclick="changetab(event, 'hidden_list')">List</button>
+    <button id="tab_hidden_grid" content-id="hidden_grid" class="tablinks" onclick="changetab(event, 'hidden_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="hidden_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="hidden_grid" class="tabcontent">
+<table>
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_hidden_list').click();
+</script>
+
+
+
+
+
+<h2>
+Tutored Ability
+</h2>
+The following Pokémon can be taught this ability.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_tutor_list" content-id="tutor_list" class="tablinks" onclick="changetab(event, 'tutor_list')">List</button>
+    <button id="tab_tutor_grid" content-id="tutor_grid" class="tablinks" onclick="changetab(event, 'tutor_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="tutor_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>023</td>
+            <td style="width: 32px;"><a href="species/spinarak.html"><img class="iconsprite" src="sprites/pokemon/spinarak/icon.png"></a></td>
+            <td id="Name" data-sortkey="Spinarak"><a href="species/spinarak.html">Spinarak</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>024</td>
+            <td style="width: 32px;"><a href="species/ariados.html"><img class="iconsprite" src="sprites/pokemon/ariados/icon.png"></a></td>
+            <td id="Name" data-sortkey="Ariados"><a href="species/ariados.html">Ariados</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>032</td>
+            <td style="width: 32px;"><a href="species/venipede.html"><img class="iconsprite" src="sprites/pokemon/venipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Venipede"><a href="species/venipede.html">Venipede</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>033</td>
+            <td style="width: 32px;"><a href="species/whirlipede.html"><img class="iconsprite" src="sprites/pokemon/whirlipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Whirlipede"><a href="species/whirlipede.html">Whirlipede</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>034</td>
+            <td style="width: 32px;"><a href="species/scolipede.html"><img class="iconsprite" src="sprites/pokemon/scolipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Scolipede"><a href="species/scolipede.html">Scolipede</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>048</td>
+            <td style="width: 32px;"><a href="species/venonat.html"><img class="iconsprite" src="sprites/pokemon/venonat/icon.png"></a></td>
+            <td id="Name" data-sortkey="Venonat"><a href="species/venonat.html">Venonat</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>049</td>
+            <td style="width: 32px;"><a href="species/venomoth.html"><img class="iconsprite" src="sprites/pokemon/venomoth/icon.png"></a></td>
+            <td id="Name" data-sortkey="Venomoth"><a href="species/venomoth.html">Venomoth</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>088</td>
+            <td style="width: 32px;"><a href="species/arakid.html"><img class="iconsprite" src="sprites/pokemon/arakid/icon.png"></a></td>
+            <td id="Name" data-sortkey="Arakid"><a href="species/arakid.html">Arakid</a></td>
+
+            <td id="Type" data-sortkey="BUGPSYCHIC"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>089</td>
+            <td style="width: 32px;"><a href="species/rakidone.html"><img class="iconsprite" src="sprites/pokemon/rakidone/icon.png"></a></td>
+            <td id="Name" data-sortkey="Rakidone"><a href="species/rakidone.html">Rakidone</a></td>
+
+            <td id="Type" data-sortkey="BUGPSYCHIC"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td style="width: 32px;"><a href="species/anorith.html"><img class="iconsprite" src="sprites/pokemon/anorith/icon.png"></a></td>
+            <td id="Name" data-sortkey="Anorith"><a href="species/anorith.html">Anorith</a></td>
+
+            <td id="Type" data-sortkey="ROCKBUG"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td style="width: 32px;"><a href="species/armaldo.html"><img class="iconsprite" src="sprites/pokemon/armaldo/icon.png"></a></td>
+            <td id="Name" data-sortkey="Armaldo"><a href="species/armaldo.html">Armaldo</a></td>
+
+            <td id="Type" data-sortkey="ROCKBUG"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>140</td>
+            <td style="width: 32px;"><a href="species/totsicle.html"><img class="iconsprite" src="sprites/pokemon/totsicle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Totsicle"><a href="species/totsicle.html">Totsicle</a></td>
+
+            <td id="Type" data-sortkey="ICEDRAGON"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>141</td>
+            <td style="width: 32px;"><a href="species/frostidon.html"><img class="iconsprite" src="sprites/pokemon/frostidon/icon.png"></a></td>
+            <td id="Name" data-sortkey="Frostidon"><a href="species/frostidon.html">Frostidon</a></td>
+
+            <td id="Type" data-sortkey="ICEDRAGON"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>150</td>
+            <td style="width: 32px;"><a href="species/staryu.html"><img class="iconsprite" src="sprites/pokemon/staryu/icon.png"></a></td>
+            <td id="Name" data-sortkey="Staryu"><a href="species/staryu.html">Staryu</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>151</td>
+            <td style="width: 32px;"><a href="species/starmie.html"><img class="iconsprite" src="sprites/pokemon/starmie/icon.png"></a></td>
+            <td id="Name" data-sortkey="Starmie"><a href="species/starmie.html">Starmie</a></td>
+
+            <td id="Type" data-sortkey="WATERPSYCHIC"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>154</td>
+            <td style="width: 32px;"><a href="species/roxxik.html"><img class="iconsprite" src="sprites/pokemon/roxxik/icon.png"></a></td>
+            <td id="Name" data-sortkey="Roxxik"><a href="species/roxxik.html">Roxxik</a></td>
+
+            <td id="Type" data-sortkey="ROCKPOISON"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>155</td>
+            <td style="width: 32px;"><a href="species/gravelisk.html"><img class="iconsprite" src="sprites/pokemon/gravelisk/icon.png"></a></td>
+            <td id="Name" data-sortkey="Gravelisk"><a href="species/gravelisk.html">Gravelisk</a></td>
+
+            <td id="Type" data-sortkey="ROCKPOISON"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>173</td>
+            <td style="width: 32px;"><a href="species/omanyte.html"><img class="iconsprite" src="sprites/pokemon/omanyte/icon.png"></a></td>
+            <td id="Name" data-sortkey="Omanyte"><a href="species/omanyte.html">Omanyte</a></td>
+
+            <td id="Type" data-sortkey="ROCKWATER"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>174</td>
+            <td style="width: 32px;"><a href="species/omastar.html"><img class="iconsprite" src="sprites/pokemon/omastar/icon.png"></a></td>
+            <td id="Name" data-sortkey="Omastar"><a href="species/omastar.html">Omastar</a></td>
+
+            <td id="Type" data-sortkey="ROCKWATER"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>175</td>
+            <td style="width: 32px;"><a href="species/kabuto.html"><img class="iconsprite" src="sprites/pokemon/kabuto/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kabuto"><a href="species/kabuto.html">Kabuto</a></td>
+
+            <td id="Type" data-sortkey="ROCKWATER"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>176</td>
+            <td style="width: 32px;"><a href="species/kabutops.html"><img class="iconsprite" src="sprites/pokemon/kabutops/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kabutops"><a href="species/kabutops.html">Kabutops</a></td>
+
+            <td id="Type" data-sortkey="ROCKWATER"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>182</td>
+            <td style="width: 32px;"><a href="species/torkoal.html"><img class="iconsprite" src="sprites/pokemon/torkoal/icon.png"></a></td>
+            <td id="Name" data-sortkey="Torkoal"><a href="species/torkoal.html">Torkoal</a></td>
+
+            <td id="Type" data-sortkey="FIRE"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>183</td>
+            <td style="width: 32px;"><a href="species/torkyllium.html"><img class="iconsprite" src="sprites/pokemon/torkyllium/icon.png"></a></td>
+            <td id="Name" data-sortkey="Torkyllium"><a href="species/torkyllium.html">Torkyllium</a></td>
+
+            <td id="Type" data-sortkey="FIRESTEEL"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/steel.html"><img src="sprites/icons/steel.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>210</td>
+            <td style="width: 32px;"><a href="species/joltik.html"><img class="iconsprite" src="sprites/pokemon/joltik/icon.png"></a></td>
+            <td id="Name" data-sortkey="Joltik"><a href="species/joltik.html">Joltik</a></td>
+
+            <td id="Type" data-sortkey="BUGELECTRIC"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>211</td>
+            <td style="width: 32px;"><a href="species/galvantula.html"><img class="iconsprite" src="sprites/pokemon/galvantula/icon.png"></a></td>
+            <td id="Name" data-sortkey="Galvantula"><a href="species/galvantula.html">Galvantula</a></td>
+
+            <td id="Type" data-sortkey="BUGELECTRIC"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>214</td>
+            <td style="width: 32px;"><a href="species/remoraid.html"><img class="iconsprite" src="sprites/pokemon/remoraid/icon.png"></a></td>
+            <td id="Name" data-sortkey="Remoraid"><a href="species/remoraid.html">Remoraid</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>215</td>
+            <td style="width: 32px;"><a href="species/octillery.html"><img class="iconsprite" src="sprites/pokemon/octillery/icon.png"></a></td>
+            <td id="Name" data-sortkey="Octillery"><a href="species/octillery.html">Octillery</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>234</td>
+            <td style="width: 32px;"><a href="species/horsea.html"><img class="iconsprite" src="sprites/pokemon/horsea/icon.png"></a></td>
+            <td id="Name" data-sortkey="Horsea"><a href="species/horsea.html">Horsea</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>235</td>
+            <td style="width: 32px;"><a href="species/seadra.html"><img class="iconsprite" src="sprites/pokemon/seadra/icon.png"></a></td>
+            <td id="Name" data-sortkey="Seadra"><a href="species/seadra.html">Seadra</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>236</td>
+            <td style="width: 32px;"><a href="species/kingdra.html"><img class="iconsprite" src="sprites/pokemon/kingdra/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kingdra"><a href="species/kingdra.html">Kingdra</a></td>
+
+            <td id="Type" data-sortkey="WATERDRAGON"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>248</td>
+            <td style="width: 32px;"><a href="species/sandile.html"><img class="iconsprite" src="sprites/pokemon/sandile/icon.png"></a></td>
+            <td id="Name" data-sortkey="Sandile"><a href="species/sandile.html">Sandile</a></td>
+
+            <td id="Type" data-sortkey="GROUNDDARK"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>249</td>
+            <td style="width: 32px;"><a href="species/krokorok.html"><img class="iconsprite" src="sprites/pokemon/krokorok/icon.png"></a></td>
+            <td id="Name" data-sortkey="Krokorok"><a href="species/krokorok.html">Krokorok</a></td>
+
+            <td id="Type" data-sortkey="GROUNDDARK"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>250</td>
+            <td style="width: 32px;"><a href="species/krookodile.html"><img class="iconsprite" src="sprites/pokemon/krookodile/icon.png"></a></td>
+            <td id="Name" data-sortkey="Krookodile"><a href="species/krookodile.html">Krookodile</a></td>
+
+            <td id="Type" data-sortkey="GROUNDDARK"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>266</td>
+            <td style="width: 32px;"><a href="species/scyther.html"><img class="iconsprite" src="sprites/pokemon/scyther/icon.png"></a></td>
+            <td id="Name" data-sortkey="Scyther"><a href="species/scyther.html">Scyther</a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>273</td>
+            <td style="width: 32px;"><a href="species/shellder.html"><img class="iconsprite" src="sprites/pokemon/shellder/icon.png"></a></td>
+            <td id="Name" data-sortkey="Shellder"><a href="species/shellder.html">Shellder</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>274</td>
+            <td style="width: 32px;"><a href="species/cloyster.html"><img class="iconsprite" src="sprites/pokemon/cloyster/icon.png"></a></td>
+            <td id="Name" data-sortkey="Cloyster"><a href="species/cloyster.html">Cloyster</a></td>
+
+            <td id="Type" data-sortkey="WATERICE"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>275</td>
+            <td style="width: 32px;"><a href="species/trapinch.html"><img class="iconsprite" src="sprites/pokemon/trapinch/icon.png"></a></td>
+            <td id="Name" data-sortkey="Trapinch"><a href="species/trapinch.html">Trapinch</a></td>
+
+            <td id="Type" data-sortkey="GROUND"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>277</td>
+            <td style="width: 32px;"><a href="species/flygon.html"><img class="iconsprite" src="sprites/pokemon/flygon/icon.png"></a></td>
+            <td id="Name" data-sortkey="Flygon"><a href="species/flygon.html">Flygon</a></td>
+
+            <td id="Type" data-sortkey="GROUNDDRAGON"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>278</td>
+            <td style="width: 32px;"><a href="species/carvanha.html"><img class="iconsprite" src="sprites/pokemon/carvanha/icon.png"></a></td>
+            <td id="Name" data-sortkey="Carvanha"><a href="species/carvanha.html">Carvanha</a></td>
+
+            <td id="Type" data-sortkey="WATERDARK"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>279</td>
+            <td style="width: 32px;"><a href="species/sharpedo.html"><img class="iconsprite" src="sprites/pokemon/sharpedo/icon.png"></a></td>
+            <td id="Name" data-sortkey="Sharpedo"><a href="species/sharpedo.html">Sharpedo</a></td>
+
+            <td id="Type" data-sortkey="WATERDARK"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>290</td>
+            <td style="width: 32px;"><a href="species/kroa.html"><img class="iconsprite" src="sprites/pokemon/kroa/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kroa"><a href="species/kroa.html">Kroa</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>291</td>
+            <td style="width: 32px;"><a href="species/kroaea.html"><img class="iconsprite" src="sprites/pokemon/kroaea/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kroaea"><a href="species/kroaea.html">Kroaea</a></td>
+
+            <td id="Type" data-sortkey="WATERFIRE"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>292</td>
+            <td style="width: 32px;"><a href="species/kroaeakaoa.html"><img class="iconsprite" src="sprites/pokemon/kroaeakaoa/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kroaeakaoa"><a href="species/kroaeakaoa.html">Kroaeakaoa</a></td>
+
+            <td id="Type" data-sortkey="WATERFIRE"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>302</td>
+            <td style="width: 32px;"><a href="species/skrelp.html"><img class="iconsprite" src="sprites/pokemon/skrelp/icon.png"></a></td>
+            <td id="Name" data-sortkey="Skrelp"><a href="species/skrelp.html">Skrelp</a></td>
+
+            <td id="Type" data-sortkey="POISONWATER"><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>303</td>
+            <td style="width: 32px;"><a href="species/dragalge.html"><img class="iconsprite" src="sprites/pokemon/dragalge/icon.png"></a></td>
+            <td id="Name" data-sortkey="Dragalge"><a href="species/dragalge.html">Dragalge</a></td>
+
+            <td id="Type" data-sortkey="POISONDRAGON"><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>304</td>
+            <td style="width: 32px;"><a href="species/mareanie.html"><img class="iconsprite" src="sprites/pokemon/mareanie/icon.png"></a></td>
+            <td id="Name" data-sortkey="Mareanie"><a href="species/mareanie.html">Mareanie</a></td>
+
+            <td id="Type" data-sortkey="POISONWATER"><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>305</td>
+            <td style="width: 32px;"><a href="species/toxapex.html"><img class="iconsprite" src="sprites/pokemon/toxapex/icon.png"></a></td>
+            <td id="Name" data-sortkey="Toxapex"><a href="species/toxapex.html">Toxapex</a></td>
+
+            <td id="Type" data-sortkey="POISONWATER"><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>316</td>
+            <td style="width: 32px;"><a href="species/heracross.html"><img class="iconsprite" src="sprites/pokemon/heracross/icon.png"></a></td>
+            <td id="Name" data-sortkey="Heracross"><a href="species/heracross.html">Heracross</a></td>
+
+            <td id="Type" data-sortkey="BUGFIGHTING"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>319</td>
+            <td style="width: 32px;"><a href="species/dwebble.html"><img class="iconsprite" src="sprites/pokemon/dwebble/icon.png"></a></td>
+            <td id="Name" data-sortkey="Dwebble"><a href="species/dwebble.html">Dwebble</a></td>
+
+            <td id="Type" data-sortkey="BUGROCK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>320</td>
+            <td style="width: 32px;"><a href="species/crustle.html"><img class="iconsprite" src="sprites/pokemon/crustle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Crustle"><a href="species/crustle.html">Crustle</a></td>
+
+            <td id="Type" data-sortkey="BUGROCK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>324</td>
+            <td style="width: 32px;"><a href="species/shuckle.html"><img class="iconsprite" src="sprites/pokemon/shuckle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Shuckle"><a href="species/shuckle.html">Shuckle</a></td>
+
+            <td id="Type" data-sortkey="BUGROCK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>325</td>
+            <td style="width: 32px;"><a href="species/helioptile.html"><img class="iconsprite" src="sprites/pokemon/helioptile/icon.png"></a></td>
+            <td id="Name" data-sortkey="Helioptile"><a href="species/helioptile.html">Helioptile</a></td>
+
+            <td id="Type" data-sortkey="ELECTRICNORMAL"><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a>
+            <br><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>326</td>
+            <td style="width: 32px;"><a href="species/heliolisk.html"><img class="iconsprite" src="sprites/pokemon/heliolisk/icon.png"></a></td>
+            <td id="Name" data-sortkey="Heliolisk"><a href="species/heliolisk.html">Heliolisk</a></td>
+
+            <td id="Type" data-sortkey="ELECTRICNORMAL"><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a>
+            <br><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>335</td>
+            <td style="width: 32px;"><a href="species/treecko.html"><img class="iconsprite" src="sprites/pokemon/treecko/icon.png"></a></td>
+            <td id="Name" data-sortkey="Treecko"><a href="species/treecko.html">Treecko</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>336</td>
+            <td style="width: 32px;"><a href="species/grovyle.html"><img class="iconsprite" src="sprites/pokemon/grovyle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Grovyle"><a href="species/grovyle.html">Grovyle</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>337</td>
+            <td style="width: 32px;"><a href="species/sceptile.html"><img class="iconsprite" src="sprites/pokemon/sceptile/icon.png"></a></td>
+            <td id="Name" data-sortkey="Sceptile"><a href="species/sceptile.html">Sceptile</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>344</td>
+            <td style="width: 32px;"><a href="species/wimpod.html"><img class="iconsprite" src="sprites/pokemon/wimpod/icon.png"></a></td>
+            <td id="Name" data-sortkey="Wimpod"><a href="species/wimpod.html">Wimpod</a></td>
+
+            <td id="Type" data-sortkey="BUGWATER"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>345</td>
+            <td style="width: 32px;"><a href="species/golisopod.html"><img class="iconsprite" src="sprites/pokemon/golisopod/icon.png"></a></td>
+            <td id="Name" data-sortkey="Golisopod"><a href="species/golisopod.html">Golisopod</a></td>
+
+            <td id="Type" data-sortkey="BUGWATER"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>346</td>
+            <td style="width: 32px;"><a href="species/chikorita.html"><img class="iconsprite" src="sprites/pokemon/chikorita/icon.png"></a></td>
+            <td id="Name" data-sortkey="Chikorita"><a href="species/chikorita.html">Chikorita</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>347</td>
+            <td style="width: 32px;"><a href="species/bayleef.html"><img class="iconsprite" src="sprites/pokemon/bayleef/icon.png"></a></td>
+            <td id="Name" data-sortkey="Bayleef"><a href="species/bayleef.html">Bayleef</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>348</td>
+            <td style="width: 32px;"><a href="species/meganium.html"><img class="iconsprite" src="sprites/pokemon/meganium/icon.png"></a></td>
+            <td id="Name" data-sortkey="Meganium"><a href="species/meganium.html">Meganium</a></td>
+
+            <td id="Type" data-sortkey="GRASSFAIRY"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>351</td>
+            <td style="width: 32px;"><a href="species/krabby.html"><img class="iconsprite" src="sprites/pokemon/krabby/icon.png"></a></td>
+            <td id="Name" data-sortkey="Krabby"><a href="species/krabby.html">Krabby</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>352</td>
+            <td style="width: 32px;"><a href="species/kingler.html"><img class="iconsprite" src="sprites/pokemon/kingler/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kingler"><a href="species/kingler.html">Kingler</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>355</td>
+            <td style="width: 32px;"><a href="species/trilopod.html"><img class="iconsprite" src="sprites/pokemon/trilopod/icon.png"></a></td>
+            <td id="Name" data-sortkey="Trilopod"><a href="species/trilopod.html">Trilopod</a></td>
+
+            <td id="Type" data-sortkey="WATERBUG"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>356</td>
+            <td style="width: 32px;"><a href="species/nautilazer.html"><img class="iconsprite" src="sprites/pokemon/nautilazer/icon.png"></a></td>
+            <td id="Name" data-sortkey="Nautilazer"><a href="species/nautilazer.html">Nautilazer</a></td>
+
+            <td id="Type" data-sortkey="WATERBUG"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>358</td>
+            <td style="width: 32px;"><a href="species/combee.html"><img class="iconsprite" src="sprites/pokemon/combee/icon.png"></a></td>
+            <td id="Name" data-sortkey="Combee"><a href="species/combee.html">Combee</a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>359</td>
+            <td style="width: 32px;"><a href="species/vespiquen.html"><img class="iconsprite" src="sprites/pokemon/vespiquen/icon.png"></a></td>
+            <td id="Name" data-sortkey="Vespiquen"><a href="species/vespiquen.html">Vespiquen</a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>364</td>
+            <td style="width: 32px;"><a href="species/turtwig.html"><img class="iconsprite" src="sprites/pokemon/turtwig/icon.png"></a></td>
+            <td id="Name" data-sortkey="Turtwig"><a href="species/turtwig.html">Turtwig</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>365</td>
+            <td style="width: 32px;"><a href="species/grotle.html"><img class="iconsprite" src="sprites/pokemon/grotle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Grotle"><a href="species/grotle.html">Grotle</a></td>
+
+            <td id="Type" data-sortkey="GRASS"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>366</td>
+            <td style="width: 32px;"><a href="species/torterra.html"><img class="iconsprite" src="sprites/pokemon/torterra/icon.png"></a></td>
+            <td id="Name" data-sortkey="Torterra"><a href="species/torterra.html">Torterra</a></td>
+
+            <td id="Type" data-sortkey="GRASSGROUND"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>367</td>
+            <td style="width: 32px;"><a href="species/sizzlipede.html"><img class="iconsprite" src="sprites/pokemon/sizzlipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Sizzlipede"><a href="species/sizzlipede.html">Sizzlipede</a></td>
+
+            <td id="Type" data-sortkey="FIREBUG"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>368</td>
+            <td style="width: 32px;"><a href="species/centiskorch.html"><img class="iconsprite" src="sprites/pokemon/centiskorch/icon.png"></a></td>
+            <td id="Name" data-sortkey="Centiskorch"><a href="species/centiskorch.html">Centiskorch</a></td>
+
+            <td id="Type" data-sortkey="FIREBUG"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>374</td>
+            <td style="width: 32px;"><a href="species/nemelt.html"><img class="iconsprite" src="sprites/pokemon/nemelt/icon.png"></a></td>
+            <td id="Name" data-sortkey="Nemelt"><a href="species/nemelt.html">Nemelt</a></td>
+
+            <td id="Type" data-sortkey="FIRE"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>375</td>
+            <td style="width: 32px;"><a href="species/varaflare.html"><img class="iconsprite" src="sprites/pokemon/varaflare/icon.png"></a></td>
+            <td id="Name" data-sortkey="Varaflare"><a href="species/varaflare.html">Varaflare</a></td>
+
+            <td id="Type" data-sortkey="FIRE"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>376</td>
+            <td style="width: 32px;"><a href="species/komodor.html"><img class="iconsprite" src="sprites/pokemon/komodor/icon.png"></a></td>
+            <td id="Name" data-sortkey="Komodor"><a href="species/komodor.html">Komodor</a></td>
+
+            <td id="Type" data-sortkey="FIREPOISON"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>377</td>
+            <td style="width: 32px;"><a href="species/silicobra.html"><img class="iconsprite" src="sprites/pokemon/silicobra/icon.png"></a></td>
+            <td id="Name" data-sortkey="Silicobra"><a href="species/silicobra.html">Silicobra</a></td>
+
+            <td id="Type" data-sortkey="GROUND"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>378</td>
+            <td style="width: 32px;"><a href="species/sandaconda.html"><img class="iconsprite" src="sprites/pokemon/sandaconda/icon.png"></a></td>
+            <td id="Name" data-sortkey="Sandaconda"><a href="species/sandaconda.html">Sandaconda</a></td>
+
+            <td id="Type" data-sortkey="GROUND"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>383</td>
+            <td style="width: 32px;"><a href="species/caterpie.html"><img class="iconsprite" src="sprites/pokemon/caterpie/icon.png"></a></td>
+            <td id="Name" data-sortkey="Caterpie"><a href="species/caterpie.html">Caterpie</a></td>
+
+            <td id="Type" data-sortkey="BUG"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>384</td>
+            <td style="width: 32px;"><a href="species/metapod.html"><img class="iconsprite" src="sprites/pokemon/metapod/icon.png"></a></td>
+            <td id="Name" data-sortkey="Metapod"><a href="species/metapod.html">Metapod</a></td>
+
+            <td id="Type" data-sortkey="BUG"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>385</td>
+            <td style="width: 32px;"><a href="species/butterfree.html"><img class="iconsprite" src="sprites/pokemon/butterfree/icon.png"></a></td>
+            <td id="Name" data-sortkey="Butterfree"><a href="species/butterfree.html">Butterfree</a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>386</td>
+            <td style="width: 32px;"><a href="species/weedle.html"><img class="iconsprite" src="sprites/pokemon/weedle/icon.png"></a></td>
+            <td id="Name" data-sortkey="Weedle"><a href="species/weedle.html">Weedle</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>387</td>
+            <td style="width: 32px;"><a href="species/kakuna.html"><img class="iconsprite" src="sprites/pokemon/kakuna/icon.png"></a></td>
+            <td id="Name" data-sortkey="Kakuna"><a href="species/kakuna.html">Kakuna</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>388</td>
+            <td style="width: 32px;"><a href="species/beedrill.html"><img class="iconsprite" src="sprites/pokemon/beedrill/icon.png"></a></td>
+            <td id="Name" data-sortkey="Beedrill"><a href="species/beedrill.html">Beedrill</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>389</td>
+            <td style="width: 32px;"><a href="species/crabrawler.html"><img class="iconsprite" src="sprites/pokemon/crabrawler/icon.png"></a></td>
+            <td id="Name" data-sortkey="Crabrawler"><a href="species/crabrawler.html">Crabrawler</a></td>
+
+            <td id="Type" data-sortkey="FIGHTING"><a href="pokedex/type/fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>390</td>
+            <td style="width: 32px;"><a href="species/crabominable.html"><img class="iconsprite" src="sprites/pokemon/crabominable/icon.png"></a></td>
+            <td id="Name" data-sortkey="Crabominable"><a href="species/crabominable.html">Crabominable</a></td>
+
+            <td id="Type" data-sortkey="FIGHTINGICE"><a href="pokedex/type/fighting.html"><img src="sprites/icons/fighting.png"></a>
+            <br><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>392</td>
+            <td style="width: 32px;"><a href="species/aquana.html"><img class="iconsprite" src="sprites/pokemon/aquana/icon.png"></a></td>
+            <td id="Name" data-sortkey="Aquana"><a href="species/aquana.html">Aquana</a></td>
+
+            <td id="Type" data-sortkey="WATERROCK"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>393</td>
+            <td style="width: 32px;"><a href="species/iguastol.html"><img class="iconsprite" src="sprites/pokemon/iguastol/icon.png"></a></td>
+            <td id="Name" data-sortkey="Iguastol"><a href="species/iguastol.html">Iguastol</a></td>
+
+            <td id="Type" data-sortkey="WATERROCK"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a>
+            <br><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/anphage.html"><img class="iconsprite" src="sprites/pokemon/anphage/icon.png"></a></td>
+            <td id="Name" data-sortkey="Anphage"><a href="species/anphage.html">Anphage</a></td>
+
+            <td id="Type" data-sortkey="DRAGONBUG"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/tusgoyf.html"><img class="iconsprite" src="sprites/pokemon/tusgoyf/icon.png"></a></td>
+            <td id="Name" data-sortkey="Tusgoyf"><a href="species/tusgoyf.html">Tusgoyf</a></td>
+
+            <td id="Type" data-sortkey="DRAGONBUG"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/llurscayf.html"><img class="iconsprite" src="sprites/pokemon/llurscayf/icon.png"></a></td>
+            <td id="Name" data-sortkey="Llurscayf"><a href="species/llurscayf.html">Llurscayf</a></td>
+
+            <td id="Type" data-sortkey="DRAGONBUG"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/cranisect.html"><img class="iconsprite" src="sprites/pokemon/cranisect/icon.png"></a></td>
+            <td id="Name" data-sortkey="Cranisect"><a href="species/cranisect.html">Cranisect</a></td>
+
+            <td id="Type" data-sortkey="GHOSTBUG"><a href="pokedex/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/skultulant.html"><img class="iconsprite" src="sprites/pokemon/skultulant/icon.png"></a></td>
+            <td id="Name" data-sortkey="Skultulant"><a href="species/skultulant.html">Skultulant</a></td>
+
+            <td id="Type" data-sortkey="GHOSTPOISON"><a href="pokedex/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/chrysal.html"><img class="iconsprite" src="sprites/pokemon/chrysal/icon.png"></a></td>
+            <td id="Name" data-sortkey="Chrysal"><a href="species/chrysal.html">Chrysal</a></td>
+
+            <td id="Type" data-sortkey="BUGDARK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/vellavale.html"><img class="iconsprite" src="sprites/pokemon/vellavale/icon.png"></a></td>
+            <td id="Name" data-sortkey="Vellavale"><a href="species/vellavale.html">Vellavale</a></td>
+
+            <td id="Type" data-sortkey="BUGDARK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/vellidaxos.html"><img class="iconsprite" src="sprites/pokemon/vellidaxos/icon.png"></a></td>
+            <td id="Name" data-sortkey="Vellidaxos"><a href="species/vellidaxos.html">Vellidaxos</a></td>
+
+            <td id="Type" data-sortkey="BUGDARK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="tutor_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/spinarak.html"><img class="frontsprite" src="sprites/pokemon/spinarak/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/ariados.html"><img class="frontsprite" src="sprites/pokemon/ariados/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/venipede.html"><img class="frontsprite" src="sprites/pokemon/venipede/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/whirlipede.html"><img class="frontsprite" src="sprites/pokemon/whirlipede/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/scolipede.html"><img class="frontsprite" src="sprites/pokemon/scolipede/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/venonat.html"><img class="frontsprite" src="sprites/pokemon/venonat/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/venomoth.html"><img class="frontsprite" src="sprites/pokemon/venomoth/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/arakid.html"><img class="frontsprite" src="sprites/pokemon/arakid/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/rakidone.html"><img class="frontsprite" src="sprites/pokemon/rakidone/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/anorith.html"><img class="frontsprite" src="sprites/pokemon/anorith/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/armaldo.html"><img class="frontsprite" src="sprites/pokemon/armaldo/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/totsicle.html"><img class="frontsprite" src="sprites/pokemon/totsicle/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/frostidon.html"><img class="frontsprite" src="sprites/pokemon/frostidon/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/staryu.html"><img class="frontsprite" src="sprites/pokemon/staryu/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/starmie.html"><img class="frontsprite" src="sprites/pokemon/starmie/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/roxxik.html"><img class="frontsprite" src="sprites/pokemon/roxxik/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/gravelisk.html"><img class="frontsprite" src="sprites/pokemon/gravelisk/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/omanyte.html"><img class="frontsprite" src="sprites/pokemon/omanyte/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/omastar.html"><img class="frontsprite" src="sprites/pokemon/omastar/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/kabuto.html"><img class="frontsprite" src="sprites/pokemon/kabuto/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/kabutops.html"><img class="frontsprite" src="sprites/pokemon/kabutops/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/torkoal.html"><img class="frontsprite" src="sprites/pokemon/torkoal/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/torkyllium.html"><img class="frontsprite" src="sprites/pokemon/torkyllium/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/joltik.html"><img class="frontsprite" src="sprites/pokemon/joltik/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/galvantula.html"><img class="frontsprite" src="sprites/pokemon/galvantula/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/remoraid.html"><img class="frontsprite" src="sprites/pokemon/remoraid/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/octillery.html"><img class="frontsprite" src="sprites/pokemon/octillery/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/horsea.html"><img class="frontsprite" src="sprites/pokemon/horsea/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/seadra.html"><img class="frontsprite" src="sprites/pokemon/seadra/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/kingdra.html"><img class="frontsprite" src="sprites/pokemon/kingdra/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/sandile.html"><img class="frontsprite" src="sprites/pokemon/sandile/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/krokorok.html"><img class="frontsprite" src="sprites/pokemon/krokorok/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/krookodile.html"><img class="frontsprite" src="sprites/pokemon/krookodile/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/scyther.html"><img class="frontsprite" src="sprites/pokemon/scyther/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/shellder.html"><img class="frontsprite" src="sprites/pokemon/shellder/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/cloyster.html"><img class="frontsprite" src="sprites/pokemon/cloyster/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/trapinch.html"><img class="frontsprite" src="sprites/pokemon/trapinch/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/flygon.html"><img class="frontsprite" src="sprites/pokemon/flygon/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/carvanha.html"><img class="frontsprite" src="sprites/pokemon/carvanha/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/sharpedo.html"><img class="frontsprite" src="sprites/pokemon/sharpedo/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/kroa.html"><img class="frontsprite" src="sprites/pokemon/kroa/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/kroaea.html"><img class="frontsprite" src="sprites/pokemon/kroaea/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/kroaeakaoa.html"><img class="frontsprite" src="sprites/pokemon/kroaeakaoa/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/skrelp.html"><img class="frontsprite" src="sprites/pokemon/skrelp/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/dragalge.html"><img class="frontsprite" src="sprites/pokemon/dragalge/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/mareanie.html"><img class="frontsprite" src="sprites/pokemon/mareanie/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/toxapex.html"><img class="frontsprite" src="sprites/pokemon/toxapex/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/heracross.html"><img class="frontsprite" src="sprites/pokemon/heracross/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/dwebble.html"><img class="frontsprite" src="sprites/pokemon/dwebble/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/crustle.html"><img class="frontsprite" src="sprites/pokemon/crustle/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/shuckle.html"><img class="frontsprite" src="sprites/pokemon/shuckle/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/helioptile.html"><img class="frontsprite" src="sprites/pokemon/helioptile/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/heliolisk.html"><img class="frontsprite" src="sprites/pokemon/heliolisk/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/treecko.html"><img class="frontsprite" src="sprites/pokemon/treecko/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/grovyle.html"><img class="frontsprite" src="sprites/pokemon/grovyle/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/sceptile.html"><img class="frontsprite" src="sprites/pokemon/sceptile/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/wimpod.html"><img class="frontsprite" src="sprites/pokemon/wimpod/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/golisopod.html"><img class="frontsprite" src="sprites/pokemon/golisopod/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/chikorita.html"><img class="frontsprite" src="sprites/pokemon/chikorita/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/bayleef.html"><img class="frontsprite" src="sprites/pokemon/bayleef/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/meganium.html"><img class="frontsprite" src="sprites/pokemon/meganium/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/krabby.html"><img class="frontsprite" src="sprites/pokemon/krabby/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/kingler.html"><img class="frontsprite" src="sprites/pokemon/kingler/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/trilopod.html"><img class="frontsprite" src="sprites/pokemon/trilopod/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/nautilazer.html"><img class="frontsprite" src="sprites/pokemon/nautilazer/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/combee.html"><img class="frontsprite" src="sprites/pokemon/combee/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/vespiquen.html"><img class="frontsprite" src="sprites/pokemon/vespiquen/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/turtwig.html"><img class="frontsprite" src="sprites/pokemon/turtwig/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/grotle.html"><img class="frontsprite" src="sprites/pokemon/grotle/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/torterra.html"><img class="frontsprite" src="sprites/pokemon/torterra/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/sizzlipede.html"><img class="frontsprite" src="sprites/pokemon/sizzlipede/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/centiskorch.html"><img class="frontsprite" src="sprites/pokemon/centiskorch/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/nemelt.html"><img class="frontsprite" src="sprites/pokemon/nemelt/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/varaflare.html"><img class="frontsprite" src="sprites/pokemon/varaflare/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/komodor.html"><img class="frontsprite" src="sprites/pokemon/komodor/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/silicobra.html"><img class="frontsprite" src="sprites/pokemon/silicobra/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/sandaconda.html"><img class="frontsprite" src="sprites/pokemon/sandaconda/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/caterpie.html"><img class="frontsprite" src="sprites/pokemon/caterpie/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/metapod.html"><img class="frontsprite" src="sprites/pokemon/metapod/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/butterfree.html"><img class="frontsprite" src="sprites/pokemon/butterfree/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/weedle.html"><img class="frontsprite" src="sprites/pokemon/weedle/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/kakuna.html"><img class="frontsprite" src="sprites/pokemon/kakuna/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/beedrill.html"><img class="frontsprite" src="sprites/pokemon/beedrill/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/crabrawler.html"><img class="frontsprite" src="sprites/pokemon/crabrawler/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/crabominable.html"><img class="frontsprite" src="sprites/pokemon/crabominable/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/aquana.html"><img class="frontsprite" src="sprites/pokemon/aquana/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/iguastol.html"><img class="frontsprite" src="sprites/pokemon/iguastol/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/anphage.html"><img class="frontsprite" src="sprites/pokemon/anphage/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/tusgoyf.html"><img class="frontsprite" src="sprites/pokemon/tusgoyf/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/llurscayf.html"><img class="frontsprite" src="sprites/pokemon/llurscayf/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/cranisect.html"><img class="frontsprite" src="sprites/pokemon/cranisect/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/skultulant.html"><img class="frontsprite" src="sprites/pokemon/skultulant/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/chrysal.html"><img class="frontsprite" src="sprites/pokemon/chrysal/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/vellavale.html"><img class="frontsprite" src="sprites/pokemon/vellavale/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/vellidaxos.html"><img class="frontsprite" src="sprites/pokemon/vellidaxos/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_tutor_list').click();
+</script>
+
+
+
+
+
+</body>

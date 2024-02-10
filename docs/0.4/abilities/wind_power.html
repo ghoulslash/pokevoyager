@@ -1,0 +1,1219 @@
+<!-- Automatically generated -->
+
+<base href="..">
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+
+<!-- TODO at some point: ability dex heading -->
+
+
+<h1>
+Wind Power
+</h1>
+
+<p>
+When hit by a wind move, the {POKEMON} becomes Charged up.
+</p>
+
+
+
+
+<h2>
+Affected Moves
+</h2>
+<p>
+The following moves are affected by this ability.
+</p>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="aeroblast"><a href="moves/aeroblast.html">Aeroblast</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">95</td>
+            <td>A vortex of air is shot at the target to inflict damage. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="air_cutter"><a href="moves/air_cutter.html">Air Cutter</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">95</td>
+            <td>The user launches razor-like wind to slash opposing Pokémon. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="air_slash"><a href="moves/air_slash.html">Air Slash</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">95</td>
+            <td>The user attacks with a blade of air that slices even the sky. It may make the target flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bleakwind_storm"><a href="moves/bleakwind_storm.html">Bleakwind Storm</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">80</td>
+            <td>The user attacks with savagely cold winds. It may lower Speed.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blizzard"><a href="moves/blizzard.html">Blizzard</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">70</td>
+            <td>A howling blizzard strikes opposing Pokémon. This may also leave them with frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dual_wingbeat"><a href="moves/dual_wingbeat.html">Dual Wingbeat</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">90</td>
+            <td>The user slams the target with its wings. The target is hit twice in a row.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fairy_wind"><a href="moves/fairy_wind.html">Fairy Wind</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user stirs up a fairy wind and strikes the target with it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="glaciate"><a href="moves/glaciate.html">Glaciate</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">95</td>
+            <td>The user blows freezing cold air at opposing Pokémon. This lowers their Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="gust"><a href="moves/gust.html">Gust</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">35</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>A gust of wind is whipped up by wings and launched at the target to inflict damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heat_wave"><a href="moves/heat_wave.html">Heat Wave</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">90</td>
+            <td>The user exhales hot breath on opposing Pokémon. This may also leave them with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hurricane"><a href="moves/hurricane.html">Hurricane</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">70</td>
+            <td>The user attacks by wrapping its opponent in a fierce wind. This may also confuse it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="icy_wind"><a href="moves/icy_wind.html">Icy Wind</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">55</td>
+            <td id="Accuracy">95</td>
+            <td>The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="oblivion_wing"><a href="moves/oblivion_wing.html">Oblivion Wing</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user absorbs its target's HP, restoring its HP by over half of the damage caused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ominous_wind"><a href="moves/ominous_wind.html">Ominous Wind</a></td>
+            <td id="Type" data-sortkey="ghost" align="center"><a href="moves/type_ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The target is blasted with a gust of repulsive wind. It may also raise all the user's stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="petal_blizzard"><a href="moves/petal_blizzard.html">Petal Blizzard</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user stirs up a violent petal blizzard and attacks everything around it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="powder_snow"><a href="moves/powder_snow.html">Powder Snow</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with a chilling gust of powdery snow. This may also frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="razor_wind"><a href="moves/razor_wind.html">Razor Wind</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>Blades of wind hit opposing Pokémon. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sandsear_storm"><a href="moves/sandsear_storm.html">Sandsear Storm</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">80</td>
+            <td>Wraps the foe in searingly hot sand. It may inflict a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sandstorm"><a href="moves/sandstorm.html">Sandstorm</a></td>
+            <td id="Type" data-sortkey="rock" align="center"><a href="moves/type_rock.html"><img src="sprites/icons/rock.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>A five-turn sandstorm is summoned to hurt all except Rock, Ground, and Steel types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="silver_wind"><a href="moves/silver_wind.html">Silver Wind</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>Powdery scales blown by wind attack the target. This may also raise all the user's stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="simoom"><a href="moves/simoom.html">Simoom</a></td>
+            <td id="Type" data-sortkey="rock" align="center"><a href="moves/type_rock.html"><img src="sprites/icons/rock.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>A violent wind that hurls sand and rocks at opposing foes. It may lower their Sp. Def stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="springtide_storm"><a href="moves/springtide_storm.html">Springtide Storm</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">80</td>
+            <td>The user wraps the foe in fierce winds. It may lower the target's Attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="steel_wing"><a href="moves/steel_wing.html">Steel Wing</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">90</td>
+            <td>The target is hit with wings of steel. This may also raise the user's Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="tailwind"><a href="moves/tailwind.html">Tailwind</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user whips up a whirlwind that ups its and its allies' Speed stats for four turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="twister"><a href="moves/twister.html">Twister</a></td>
+            <td id="Type" data-sortkey="dragon" align="center"><a href="moves/type_dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>A vicious twister is whipped up to tear at opposing Pokémon. It may also make them flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wildbolt_storm"><a href="moves/wildbolt_storm.html">Wildbolt Storm</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">80</td>
+            <td>The user attacks with a thunderous tempest. It may paralyze.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wing_attack"><a href="moves/wing_attack.html">Wing Attack</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">35</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The target is struck with large, imposing wings spread wide to inflict damage.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+<h2>
+Level-Up
+</h2>
+The following Pokémon can equip this ability after reaching a certain level.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_levelup_list" content-id="levelup_list" class="tablinks" onclick="changetab(event, 'levelup_list')">List</button>
+    <button id="tab_levelup_grid" content-id="levelup_grid" class="tablinks" onclick="changetab(event, 'levelup_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="levelup_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+            <th scope="col" onclick="sortTable()">Level</th>
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="levelup_grid" class="tabcontent">
+<table>
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_levelup_list').click();
+</script>
+
+
+
+
+<h2>
+Natural Ability
+</h2>
+The following Pokémon can have this ability when you find them in the wild.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_natural_list" content-id="natural_list" class="tablinks" onclick="changetab(event, 'natural_list')">List</button>
+    <button id="tab_natural_grid" content-id="natural_grid" class="tablinks" onclick="changetab(event, 'natural_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="natural_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="natural_grid" class="tabcontent">
+<table>
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_natural_list').click();
+</script>
+
+
+
+
+
+<h2>
+Hidden Ability
+</h2>
+The following Pokémon can have this ability as their hidden ability.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_hidden_list" content-id="hidden_list" class="tablinks" onclick="changetab(event, 'hidden_list')">List</button>
+    <button id="tab_hidden_grid" content-id="hidden_grid" class="tablinks" onclick="changetab(event, 'hidden_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="hidden_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="hidden_grid" class="tabcontent">
+<table>
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_hidden_list').click();
+</script>
+
+
+
+
+
+<h2>
+Tutored Ability
+</h2>
+The following Pokémon can be taught this ability.
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_tutor_list" content-id="tutor_list" class="tablinks" onclick="changetab(event, 'tutor_list')">List</button>
+    <button id="tab_tutor_grid" content-id="tutor_grid" class="tablinks" onclick="changetab(event, 'tutor_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="tutor_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>013</td>
+            <td style="width: 32px;"><a href="species/ogbat.html"><img class="iconsprite" src="sprites/pokemon/ogbat/icon.png"></a></td>
+            <td id="Name" data-sortkey="Ogbat"><a href="species/ogbat.html">Ogbat</a></td>
+
+            <td id="Type" data-sortkey="DARKPOISON"><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>014</td>
+            <td style="width: 32px;"><a href="species/yagabat.html"><img class="iconsprite" src="sprites/pokemon/yagabat/icon.png"></a></td>
+            <td id="Name" data-sortkey="Yagabat"><a href="species/yagabat.html">Yagabat</a></td>
+
+            <td id="Type" data-sortkey="DARKPOISON"><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>039</td>
+            <td style="width: 32px;"><a href="species/eageleag.html"><img class="iconsprite" src="sprites/pokemon/eageleag/icon.png"></a></td>
+            <td id="Name" data-sortkey="Eageleag"><a href="species/eageleag.html">Eageleag</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>040</td>
+            <td style="width: 32px;"><a href="species/griffogrif.html"><img class="iconsprite" src="sprites/pokemon/griffogrif/icon.png"></a></td>
+            <td id="Name" data-sortkey="Griffogrif"><a href="species/griffogrif.html">Griffogrif</a></td>
+
+            <td id="Type" data-sortkey="FIGHTINGFLYING"><a href="pokedex/type/fighting.html"><img src="sprites/icons/fighting.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>080</td>
+            <td style="width: 32px;"><a href="species/decidueye.html"><img class="iconsprite" src="sprites/pokemon/decidueye/icon.png"></a></td>
+            <td id="Name" data-sortkey="Decidueye"><a href="species/decidueye.html">Decidueye</a></td>
+
+            <td id="Type" data-sortkey="GRASSGHOST"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>092</td>
+            <td style="width: 32px;"><a href="species/delibird.html"><img class="iconsprite" src="sprites/pokemon/delibird/icon.png"></a></td>
+            <td id="Name" data-sortkey="Delibird"><a href="species/delibird.html">Delibird</a></td>
+
+            <td id="Type" data-sortkey="ICEFLYING"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>113</td>
+            <td style="width: 32px;"><a href="species/aerodactyl.html"><img class="iconsprite" src="sprites/pokemon/aerodactyl/icon.png"></a></td>
+            <td id="Name" data-sortkey="Aerodactyl"><a href="species/aerodactyl.html">Aerodactyl</a></td>
+
+            <td id="Type" data-sortkey="ROCKFLYING"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>169</td>
+            <td style="width: 32px;"><a href="species/fletchinder.html"><img class="iconsprite" src="sprites/pokemon/fletchinder/icon.png"></a></td>
+            <td id="Name" data-sortkey="FLETCHINDER"><a href="species/fletchinder.html">FLETCHINDER</a></td>
+
+            <td id="Type" data-sortkey="FIREFLYING"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>170</td>
+            <td style="width: 32px;"><a href="species/talonflame.html"><img class="iconsprite" src="sprites/pokemon/talonflame/icon.png"></a></td>
+            <td id="Name" data-sortkey="Talonflame"><a href="species/talonflame.html">Talonflame</a></td>
+
+            <td id="Type" data-sortkey="FIREFLYING"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>171</td>
+            <td style="width: 32px;"><a href="species/skarmory.html"><img class="iconsprite" src="sprites/pokemon/skarmory/icon.png"></a></td>
+            <td id="Name" data-sortkey="Skarmory"><a href="species/skarmory.html">Skarmory</a></td>
+
+            <td id="Type" data-sortkey="STEELFLYING"><a href="pokedex/type/steel.html"><img src="sprites/icons/steel.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>172</td>
+            <td style="width: 32px;"><a href="species/skarmoros.html"><img class="iconsprite" src="sprites/pokemon/skarmoros/icon.png"></a></td>
+            <td id="Name" data-sortkey="Skarmoros"><a href="species/skarmoros.html">Skarmoros</a></td>
+
+            <td id="Type" data-sortkey="STEELDRAGON"><a href="pokedex/type/steel.html"><img src="sprites/icons/steel.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>177</td>
+            <td style="width: 32px;"><a href="species/phenyxy.html"><img class="iconsprite" src="sprites/pokemon/phenyxy/icon.png"></a></td>
+            <td id="Name" data-sortkey="Phenyxy"><a href="species/phenyxy.html">Phenyxy</a></td>
+
+            <td id="Type" data-sortkey="FIREFLYING"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>178</td>
+            <td style="width: 32px;"><a href="species/resurrenix.html"><img class="iconsprite" src="sprites/pokemon/resurrenix/icon.png"></a></td>
+            <td id="Name" data-sortkey="Resurrenix"><a href="species/resurrenix.html">Resurrenix</a></td>
+
+            <td id="Type" data-sortkey="FIREFLYING"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>195</td>
+            <td style="width: 32px;"><a href="species/salamence.html"><img class="iconsprite" src="sprites/pokemon/salamence/icon.png"></a></td>
+            <td id="Name" data-sortkey="Salamence"><a href="species/salamence.html">Salamence</a></td>
+
+            <td id="Type" data-sortkey="DRAGONFLYING"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>196</td>
+            <td style="width: 32px;"><a href="species/swablu.html"><img class="iconsprite" src="sprites/pokemon/swablu/icon.png"></a></td>
+            <td id="Name" data-sortkey="Swablu"><a href="species/swablu.html">Swablu</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>197</td>
+            <td style="width: 32px;"><a href="species/altaria.html"><img class="iconsprite" src="sprites/pokemon/altaria/icon.png"></a></td>
+            <td id="Name" data-sortkey="Altaria"><a href="species/altaria.html">Altaria</a></td>
+
+            <td id="Type" data-sortkey="DRAGONFLYING"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>254</td>
+            <td style="width: 32px;"><a href="species/togetic.html"><img class="iconsprite" src="sprites/pokemon/togetic/icon.png"></a></td>
+            <td id="Name" data-sortkey="Togetic"><a href="species/togetic.html">Togetic</a></td>
+
+            <td id="Type" data-sortkey="FAIRYFLYING"><a href="pokedex/type/fairy.html"><img src="sprites/icons/fairy.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>255</td>
+            <td style="width: 32px;"><a href="species/togekiss.html"><img class="iconsprite" src="sprites/pokemon/togekiss/icon.png"></a></td>
+            <td id="Name" data-sortkey="Togekiss"><a href="species/togekiss.html">Togekiss</a></td>
+
+            <td id="Type" data-sortkey="FAIRYFLYING"><a href="pokedex/type/fairy.html"><img src="sprites/icons/fairy.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>266</td>
+            <td style="width: 32px;"><a href="species/scyther.html"><img class="iconsprite" src="sprites/pokemon/scyther/icon.png"></a></td>
+            <td id="Name" data-sortkey="Scyther"><a href="species/scyther.html">Scyther</a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>277</td>
+            <td style="width: 32px;"><a href="species/flygon.html"><img class="iconsprite" src="sprites/pokemon/flygon/icon.png"></a></td>
+            <td id="Name" data-sortkey="Flygon"><a href="species/flygon.html">Flygon</a></td>
+
+            <td id="Type" data-sortkey="GROUNDDRAGON"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>312</td>
+            <td style="width: 32px;"><a href="species/rufflet.html"><img class="iconsprite" src="sprites/pokemon/rufflet/icon.png"></a></td>
+            <td id="Name" data-sortkey="Rufflet"><a href="species/rufflet.html">Rufflet</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>313</td>
+            <td style="width: 32px;"><a href="species/braviary.html"><img class="iconsprite" src="sprites/pokemon/braviary/icon.png"></a></td>
+            <td id="Name" data-sortkey="Braviary"><a href="species/braviary.html">Braviary</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>322</td>
+            <td style="width: 32px;"><a href="species/corvisquire.html"><img class="iconsprite" src="sprites/pokemon/corvisquire/icon.png"></a></td>
+            <td id="Name" data-sortkey="Corvisquire"><a href="species/corvisquire.html">Corvisquire</a></td>
+
+            <td id="Type" data-sortkey="FLYING"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>323</td>
+            <td style="width: 32px;"><a href="species/corviknight.html"><img class="iconsprite" src="sprites/pokemon/corviknight/icon.png"></a></td>
+            <td id="Name" data-sortkey="Corviknight"><a href="species/corviknight.html">Corviknight</a></td>
+
+            <td id="Type" data-sortkey="FLYINGSTEEL"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <br><a href="pokedex/type/steel.html"><img src="sprites/icons/steel.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>359</td>
+            <td style="width: 32px;"><a href="species/vespiquen.html"><img class="iconsprite" src="sprites/pokemon/vespiquen/icon.png"></a></td>
+            <td id="Name" data-sortkey="Vespiquen"><a href="species/vespiquen.html">Vespiquen</a></td>
+
+            <td id="Type" data-sortkey="BUGFLYING"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>388</td>
+            <td style="width: 32px;"><a href="species/beedrill.html"><img class="iconsprite" src="sprites/pokemon/beedrill/icon.png"></a></td>
+            <td id="Name" data-sortkey="Beedrill"><a href="species/beedrill.html">Beedrill</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>404</td>
+            <td style="width: 32px;"><a href="species/noibat.html"><img class="iconsprite" src="sprites/pokemon/noibat/icon.png"></a></td>
+            <td id="Name" data-sortkey="Noibat"><a href="species/noibat.html">Noibat</a></td>
+
+            <td id="Type" data-sortkey="FLYINGDRAGON"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>405</td>
+            <td style="width: 32px;"><a href="species/noivern.html"><img class="iconsprite" src="sprites/pokemon/noivern/icon.png"></a></td>
+            <td id="Name" data-sortkey="Noivern"><a href="species/noivern.html">Noivern</a></td>
+
+            <td id="Type" data-sortkey="FLYINGDRAGON"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>412</td>
+            <td style="width: 32px;"><a href="species/crainbow.html"><img class="iconsprite" src="sprites/pokemon/crainbow/icon.png"></a></td>
+            <td id="Name" data-sortkey="Crainbow"><a href="species/crainbow.html">Crainbow</a></td>
+
+            <td id="Type" data-sortkey="FLYINGFAIRY"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <br><a href="pokedex/type/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>432</td>
+            <td style="width: 32px;"><a href="species/mouseed.html"><img class="iconsprite" src="sprites/pokemon/mouseed/icon.png"></a></td>
+            <td id="Name" data-sortkey="Mouseed"><a href="species/mouseed.html">Mouseed</a></td>
+
+            <td id="Type" data-sortkey="GRASSNORMAL"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>433</td>
+            <td style="width: 32px;"><a href="species/pawllen.html"><img class="iconsprite" src="sprites/pokemon/pawllen/icon.png"></a></td>
+            <td id="Name" data-sortkey="Pawllen"><a href="species/pawllen.html">Pawllen</a></td>
+
+            <td id="Type" data-sortkey="GRASSNORMAL"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>434</td>
+            <td style="width: 32px;"><a href="species/grandelion.html"><img class="iconsprite" src="sprites/pokemon/grandelion/icon.png"></a></td>
+            <td id="Name" data-sortkey="Grandelion"><a href="species/grandelion.html">Grandelion</a></td>
+
+            <td id="Type" data-sortkey="GRASSNORMAL"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="tutor_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/ogbat.html"><img class="frontsprite" src="sprites/pokemon/ogbat/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/yagabat.html"><img class="frontsprite" src="sprites/pokemon/yagabat/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/eageleag.html"><img class="frontsprite" src="sprites/pokemon/eageleag/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/griffogrif.html"><img class="frontsprite" src="sprites/pokemon/griffogrif/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/decidueye.html"><img class="frontsprite" src="sprites/pokemon/decidueye/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/delibird.html"><img class="frontsprite" src="sprites/pokemon/delibird/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/aerodactyl.html"><img class="frontsprite" src="sprites/pokemon/aerodactyl/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/fletchinder.html"><img class="frontsprite" src="sprites/pokemon/fletchinder/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/talonflame.html"><img class="frontsprite" src="sprites/pokemon/talonflame/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/skarmory.html"><img class="frontsprite" src="sprites/pokemon/skarmory/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/skarmoros.html"><img class="frontsprite" src="sprites/pokemon/skarmoros/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/phenyxy.html"><img class="frontsprite" src="sprites/pokemon/phenyxy/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/resurrenix.html"><img class="frontsprite" src="sprites/pokemon/resurrenix/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/salamence.html"><img class="frontsprite" src="sprites/pokemon/salamence/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/swablu.html"><img class="frontsprite" src="sprites/pokemon/swablu/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/altaria.html"><img class="frontsprite" src="sprites/pokemon/altaria/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/togetic.html"><img class="frontsprite" src="sprites/pokemon/togetic/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/togekiss.html"><img class="frontsprite" src="sprites/pokemon/togekiss/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/scyther.html"><img class="frontsprite" src="sprites/pokemon/scyther/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/flygon.html"><img class="frontsprite" src="sprites/pokemon/flygon/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/rufflet.html"><img class="frontsprite" src="sprites/pokemon/rufflet/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/braviary.html"><img class="frontsprite" src="sprites/pokemon/braviary/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/corvisquire.html"><img class="frontsprite" src="sprites/pokemon/corvisquire/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/corviknight.html"><img class="frontsprite" src="sprites/pokemon/corviknight/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/vespiquen.html"><img class="frontsprite" src="sprites/pokemon/vespiquen/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/beedrill.html"><img class="frontsprite" src="sprites/pokemon/beedrill/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/noibat.html"><img class="frontsprite" src="sprites/pokemon/noibat/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/noivern.html"><img class="frontsprite" src="sprites/pokemon/noivern/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/crainbow.html"><img class="frontsprite" src="sprites/pokemon/crainbow/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/mouseed.html"><img class="frontsprite" src="sprites/pokemon/mouseed/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/pawllen.html"><img class="frontsprite" src="sprites/pokemon/pawllen/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/grandelion.html"><img class="frontsprite" src="sprites/pokemon/grandelion/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_tutor_list').click();
+</script>
+
+
+
+
+
+</body>

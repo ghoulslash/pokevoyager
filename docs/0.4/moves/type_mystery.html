@@ -1,0 +1,123 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="adaptabiliteeth"><a href="moves/adaptabiliteeth.html">Adaptabiliteeth</a></td>
+            <td id="Type" data-sortkey="mystery" align="center"><a href="moves/type_mystery.html"><img src="sprites/icons/mystery.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with its sharp fangs. This move's type matches all of the user's types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="inverse_terrain"><a href="moves/inverse_terrain.html">Inverse Terrain</a></td>
+            <td id="Type" data-sortkey="mystery" align="center"><a href="moves/type_mystery.html"><img src="sprites/icons/mystery.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, type effectiveness is inverted.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>

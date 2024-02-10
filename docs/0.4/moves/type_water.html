@@ -1,0 +1,583 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="aqua_cutter"><a href="moves/aqua_cutter.html">Aqua Cutter</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>Expels pressurized water to cut the foe. It lands critical hits more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aqua_jet"><a href="moves/aqua_jet.html">Aqua Jet</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user lunges at the target at a speed that makes it almost invisible. It always goes first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aqua_ring"><a href="moves/aqua_ring.html">Aqua Ring</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user envelops itself in a veil made of water. It regains some HP every turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aqua_step"><a href="moves/aqua_step.html">Aqua Step</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks the target using fluid dance steps. This also boosts its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aqua_tail"><a href="moves/aqua_tail.html">Aqua Tail</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">90</td>
+            <td>The user attacks by swinging its tail as if it were a vicious wave in a raging storm.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bouncy_bubble"><a href="moves/bouncy_bubble.html">Bouncy Bubble</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>An attack that absorbs half the damage inflicted.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="brine"><a href="moves/brine.html">Brine</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>If the target's HP is half or less, this attack will hit with double the power.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bubble"><a href="moves/bubble.html">Bubble</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>Countless bubbles are jetted at opposing Pokémon. This may also lower their Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bubble_beam"><a href="moves/bubble_beam.html">Bubble Beam</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>A spray of bubbles is ejected at the target. This may also lower its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="chilling_water"><a href="moves/chilling_water.html">Chilling Water</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>The user showers the target with frigid water. This lowers the target's Attack stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="clamp"><a href="moves/clamp.html">Clamp</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">35</td>
+            <td id="Accuracy">85</td>
+            <td>The target is clamped and squeezed by the user's shell for four to five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="crabhammer"><a href="moves/crabhammer.html">Crabhammer</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">90</td>
+            <td>The target is hammered with a large pincer. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dive"><a href="moves/dive.html">Dive</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Diving on the first turn, the user floats up and attacks on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fishious_rend"><a href="moves/fishious_rend.html">Fishious Rend</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">100</td>
+            <td> If the user attacks before the target, the power of the user's hard gills is doubled.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flip_turn"><a href="moves/flip_turn.html">Flip Turn</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>After making its attack, the user rushes back to switch places with a party Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flooded_terrain"><a href="moves/flooded_terrain.html">Flooded Terrain</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, Pokémon incapable of learning Surf are slowed and Water type-moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hydro_cannon"><a href="moves/hydro_cannon.html">Hydro Cannon</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">90</td>
+            <td>The target is hit with a watery blast. The user can't move on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hydro_pump"><a href="moves/hydro_pump.html">Hydro Pump</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">80</td>
+            <td>The target is blasted by a huge volume of water launched under great pressure.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hydro_steam"><a href="moves/hydro_steam.html">Hydro Steam</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Blasts the foe with boiling-hot water. It's power is boosted 50 percent in harsh sunlight.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hydrofoil"><a href="moves/hydrofoil.html">Hydrofoil</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>The user slices with a hydrodynamic edge. This boosts the user's Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="jet_punch"><a href="moves/jet_punch.html">Jet Punch</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user summons a torrent to punch at blinding speed. This move always goes first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="life_dew"><a href="moves/life_dew.html">Life Dew</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user scatters mysterious water around, restoring the HP of itself and its ally Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="liquidation"><a href="moves/liquidation.html">Liquidation</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">100</td>
+            <td>The user slams into the target with a blast of water. This may also lower its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="muddy_water"><a href="moves/muddy_water.html">Muddy Water</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">85</td>
+            <td>The user shoots muddy water at opposing Pokémon. This may also lower their accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="octazooka"><a href="moves/octazooka.html">Octazooka</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
+            <td>The user attacks by spraying ink in the target's face or eyes. It may also lower its accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="origin_pulse"><a href="moves/origin_pulse.html">Origin Pulse</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">85</td>
+            <td>Opposing Pokémon are hit with countless beams of light that glow a deep and brilliant blue.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="polar_plunge"><a href="moves/polar_plunge.html">Polar Plunge</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">95</td>
+            <td>The target is crushed by ice cold water. This may leave it with paralysis.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rain_dance"><a href="moves/rain_dance.html">Rain Dance</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user summons a heavy rain that falls for five turns, powering up Water-type moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="razor_shell"><a href="moves/razor_shell.html">Razor Shell</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">95</td>
+            <td>The user cuts its target with sharp shells. This may also lower its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="scald"><a href="moves/scald.html">Scald</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user shoots boiling hot water at its target. This may also leave it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="snipe_shot"><a href="moves/snipe_shot.html">Snipe Shot</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user ignores moves and Abilities that draw in moves and hits the chosen target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="soak"><a href="moves/soak.html">Soak</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user shoots a torrent of water at the target and changes the target's type to Water.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sparkling_aria"><a href="moves/sparkling_aria.html">Sparkling Aria</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user bursts into song, emitting many bubbles that cure burns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="splishy_splash"><a href="moves/splishy_splash.html">Splishy Splash</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>A huge electrified wave that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="steam_eruption"><a href="moves/steam_eruption.html">Steam Eruption</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">95</td>
+            <td>The user immerses the target in superheated steam. This may also leave it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="surf"><a href="moves/surf.html">Surf</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks everything around it by swamping its surroundings with a giant wave.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="surging_strikes"><a href="moves/surging_strikes.html">Surging Strikes</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">25</td>
+            <td id="Accuracy">100</td>
+            <td>The user strikes thrice with a flowing motion. This alttack always results in a critical hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="triple_dive"><a href="moves/triple_dive.html">Triple Dive</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">30</td>
+            <td id="Accuracy">95</td>
+            <td>A perfectly timed triple dive hits three times in a row.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="water_gun"><a href="moves/water_gun.html">Water Gun</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The target is blasted with a forceful shot of water.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="water_pledge"><a href="moves/water_pledge.html">Water Pledge</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>When used with its fire equivalent, its power increases and a rainbow appears.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="water_pulse"><a href="moves/water_pulse.html">Water Pulse</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks the target with a pulsing blast of water. This may also confuse it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="water_shuriken"><a href="moves/water_shuriken.html">Water Shuriken</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">15</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit with throwing stars two to five times in a row. This move always goes first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="water_sport"><a href="moves/water_sport.html">Water Sport</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user soaks the battlefield with water. This weakens Fire-type moves for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="water_spout"><a href="moves/water_spout.html">Water Spout</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>The user spouts water that scales with the user's HP to attack opposing Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="waterfall"><a href="moves/waterfall.html">Waterfall</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user charges at the target and may make it flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wave_crash"><a href="moves/wave_crash.html">Wave Crash</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user shrouds itself in water and slams the foe. This also damages the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="whirlpool"><a href="moves/whirlpool.html">Whirlpool</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">35</td>
+            <td id="Accuracy">85</td>
+            <td>The user traps the target in a violent swirling whirlpool for four to five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="withdraw"><a href="moves/withdraw.html">Withdraw</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user withdraws its body into its hard shell, raising its Defense and Sp. Def stats.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>

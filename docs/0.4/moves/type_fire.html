@@ -1,0 +1,583 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="armor_cannon"><a href="moves/armor_cannon.html">Armor Cannon</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user shoots out its armor, lowering its Def. and Sp. Def.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bitter_blade"><a href="moves/bitter_blade.html">Bitter Blade</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>A bitter slash that restoree the user's HP by half the damage taken by the target</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blast_burn"><a href="moves/blast_burn.html">Blast Burn</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">90</td>
+            <td>The target is razed by a fiery explosion. The user can't move on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blaze_kick"><a href="moves/blaze_kick.html">Blaze Kick</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">90</td>
+            <td>The user launches a kick that lands a critical hit more easily and may also burn the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blazing_torque"><a href="moves/blazing_torque.html">Blazing Torque</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>A blazing spinning attack that may burn the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blue_flare"><a href="moves/blue_flare.html">Blue Flare</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">130</td>
+            <td id="Accuracy">85</td>
+            <td>The target is engulfed in an intense, yet beautiful, blue flame. This may also burn it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="burn_up"><a href="moves/burn_up.html">Burn Up</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">130</td>
+            <td id="Accuracy">100</td>
+            <td>To inflict massive damage, the user burns itself out, losing its Fire type.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="burning_bulwark"><a href="moves/burning_bulwark.html">Burning Bulwark</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>This move protects the user from attacks and burns any attacker that makes contact.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="burning_jealousy"><a href="moves/burning_jealousy.html">Burning Jealousy</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>All opposing Pokémon that have had their stats boosted during the turn are left with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ember"><a href="moves/ember.html">Ember</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The target is attacked with small flames. This may also leave the target with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="endothermia"><a href="moves/endothermia.html">Endothermia</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">90</td>
+            <td>The user absorbs thermal energy, restoring its HP by half of the damage caused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="eruption"><a href="moves/eruption.html">Eruption</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>Explosive fury that scales with the user's HP attacks opposing Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fiery_dance"><a href="moves/fiery_dance.html">Fiery Dance</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Cloaked in flames, the user dances and flaps its wings. This may also raise its Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fire_blast"><a href="moves/fire_blast.html">Fire Blast</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">110</td>
+            <td id="Accuracy">85</td>
+            <td>The target is hit with a blast of all-consuming fire. This may also leave it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fire_fang"><a href="moves/fire_fang.html">Fire Fang</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">95</td>
+            <td>The user bites with blazing fangs. It may also make the target flinch or burn it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fire_lash"><a href="moves/fire_lash.html">Fire Lash</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user strikes the target with a burning lash. This also lowers the target's Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fire_pledge"><a href="moves/fire_pledge.html">Fire Pledge</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>When used with its grass equivalent, its power increases and a vast sea of fire appears.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fire_punch"><a href="moves/fire_punch.html">Fire Punch</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>The target is punched with a fiery fist. This may also leave the target with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fire_spin"><a href="moves/fire_spin.html">Fire Spin</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">35</td>
+            <td id="Accuracy">85</td>
+            <td>The target becomes trapped within a vortex of fire that rages for four to five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flame_burst"><a href="moves/flame_burst.html">Flame Burst</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks a target with a bursting flame. Pokémon around the target are damaged too.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flame_charge"><a href="moves/flame_charge.html">Flame Charge</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>Cloaking itself in flame, the user attacks the target and raises its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flame_wheel"><a href="moves/flame_wheel.html">Flame Wheel</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user cloaks itself in fire and charges at the target. This may also leave it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flamethrower"><a href="moves/flamethrower.html">Flamethrower</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The target is scorched with an intense blast of fire and may be left with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flare_blitz"><a href="moves/flare_blitz.html">Flare Blitz</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user cloaks itself in fire, then charges, damaging the user. It may burn a target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fusion_flare"><a href="moves/fusion_flare.html">Fusion Flare</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>This move's power is increased when influenced by an enormous lightning bolt.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heat_crash"><a href="moves/heat_crash.html">Heat Crash</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user slams with its enflamed body. The move's power scales with the user's weight.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heat_wave"><a href="moves/heat_wave.html">Heat Wave</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">90</td>
+            <td>The user exhales hot breath on opposing Pokémon. This may also leave them with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="incinerate"><a href="moves/incinerate.html">Incinerate</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>If opposing Pokémon are holding a Berry or Gem, it becomes burned up and unusable.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="inferno"><a href="moves/inferno.html">Inferno</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">50</td>
+            <td>The user attacks by engulfing the target in an intense fire. This leaves it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="jettison"><a href="moves/jettison.html">Jettison</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>After making its attack, the user rushes back to switch places with a party Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lava_plume"><a href="moves/lava_plume.html">Lava Plume</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user torches everything nearby in an inferno of scarlet flames. This may also burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magma_storm"><a href="moves/magma_storm.html">Magma Storm</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">75</td>
+            <td>The target becomes trapped within a maelstrom of fire that rages for four to five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magma_terrain"><a href="moves/magma_terrain.html">Magma Terrain</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, the effects of healing moves are reduced and Fire type-moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mind_blown"><a href="moves/mind_blown.html">Mind Blown</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>The user causes its own head to explode, damaging the user and everything around it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mystical_fire"><a href="moves/mystical_fire.html">Mystical Fire</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit by a breath of special, hot fire. This also lowers its Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="overheat"><a href="moves/overheat.html">Overheat</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">130</td>
+            <td id="Accuracy">90</td>
+            <td>The user attacks the target at full power. The attack's recoil harshly lowers its Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="pyro_ball"><a href="moves/pyro_ball.html">Pyro Ball</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">90</td>
+            <td>The user launches a fiery ball at the target. This may also leave it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="pyroclasm"><a href="moves/pyroclasm.html">Pyroclasm</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user pressurizes the battlefield to summon an arid heat wave.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="raging_fury"><a href="moves/raging_fury.html">Raging Fury</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user rampages by spewing flames for two-three turns before becoming confused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sacred_fire"><a href="moves/sacred_fire.html">Sacred Fire</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">95</td>
+            <td>The target is razed with a mystical fire of great intensity that may also leave a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="searing_shot"><a href="moves/searing_shot.html">Searing Shot</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user torches everything around in an inferno of scarlet flames that may burn those hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shell_trap"><a href="moves/shell_trap.html">Shell Trap</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>The user sets a shell trap. Physical moves blow it up, damaging opposing Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sizzly_slide"><a href="moves/sizzly_slide.html">Sizzly Slide</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>User cloaked in fire charges. Leaves the foe with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sunny_day"><a href="moves/sunny_day.html">Sunny Day</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user intensifies the sun for five turns, powering up Fire-type moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="temper_flame"><a href="moves/temper_flame.html">Temper Flame</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>If the user's previous move failed, its temper doubles the power of this move.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="torch_song"><a href="moves/torch_song.html">Torch Song</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user spews flames as if singing, scorching the target. This boosts its Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="v_create"><a href="moves/v_create.html">V-Create</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">230</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with a fiery forehead but has its defensive and Speed stats lowered.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="will_o_wisp"><a href="moves/will_o_wisp.html">Will-o-Wisp</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">85</td>
+            <td>The user shoots a sinister flame at the target to inflict a burn.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>

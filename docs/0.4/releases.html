@@ -1,0 +1,732 @@
+<!-- Automatically generated -->
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+
+
+
+    <table>
+        <tr align="center">
+            <td>
+                <a href="index.html"><img src="images/pokemon_voyager.png"></a>
+            </td>
+        </tr>
+    </table>
+
+<div class="heading">
+    0.4.0
+</div>
+<b>Story Updates</b>
+<ul>
+</ul>
+<b>New Features</b>
+<ul>
+</ul>
+<b>Gameplay Changes</b>
+<ul>
+	<li>Chain fishing has been revamped! The fishing chain only gets reset if you leave the map, run away from the chaining species, or defeat/catch a species other than the chaining species. This means you can reel in a different species and run away to maintain your streak. A new item, the Repeat Rod, has also been added which increases the likelihood of reeling in the chain fishing species<\li>
+	<li>Money lost during whiting out is computed based on party level and badge count as opposed to always losing half (as per FRLG, DPPt)</li>
+    <li>The field moves <a href="moves/psychic_terrain.html">Psychic Terrain</a> and <a href="moves/odor_sleuth.html">Odor Sleuth</a> have been simplified to drain the user's HP using the poison field effect instead of their previous cost. <a href="moves/psychic_terrain.html">Psychic Terrain</a> displays the user's remaining HP as a fraction in the field move icon.
+    </li>
+</ul>
+<b>Bug Fixes</b>
+<ul>
+</ul>
+
+<div class="heading">
+    0.3.6
+</div>
+<b>New Features</b>
+<ul>
+	<li>Some trainers will react to the Pokémon you send out!</li>
+    <li>Exp. All has a new mode: <i>Bias Active</i>. This mode gives experience to your whole party, favoring your Pokemon who participated in the battle. Details are available in the <a href="features/battle_engine.html#experience">features guide</a>.</li>
+</ul>
+<b>Updates</b>
+<ul>
+	<li>New Ameoberg design! Thanks to Big Snort, Dillsacke, Mia, and Cesare_CBass!</li>
+	<li>Updated Totemna line party icons!</li>
+	<li>Fallsheer has been given a new shiny palette</li>
+	<li>A multi-hit refactor from RHH pokemon-expansion has been implemented along with a fixed parental bond!</li>
+	<li>Some new fakemon party icons have been added thanks to dillsacke!</li>
+	<li>New fakemon cries courtesy of Plus-Sized Scribe</li>
+</ul>
+<b>Bug Fixes</b>
+<ul>
+	<li>Fix SoS battles overwriting player's healthbox with 2nd party Pokemon</li>
+	<li>Fix stat raise message from contact abilities like Stamina</li>
+	<li>Fix odor sleuth hp loss wrapping around.</li>
+	<li>Fix money box sticking around when cancelling on name rater</li>
+	<li>Fix Archigloom shiny palette</li>
+	<li>Fix Silicobra icon palette</li>
+	<li>Fix Sarphon shiny palette</li>
+	<li>Fixed 'engaging' auto encounter wild Pokemon sometimes 'sending out' another Pokemon</li>
+	<li>Fixed double battles hanging when one Pokemon remaining</li>
+</ul>
+
+<div class="heading">
+    0.3.5
+</div>
+<b>New Features</b>
+<ul>
+	<li>A battle info menu has been added to show stat stages, statuses, and more! Access by pressing "Select" in the battle menu</li>
+    <li>During tag battles, you and your partner and each of your opponents can now wield your entire team of six Pokemon!</li>
+</ul>
+<b>Updates</b>
+<ul>
+	<li>Powder snow frostbite chance increased to 25%</li>
+    <li>You must now complete the Proteus Plant quest before entering Phobos Forest.</li>
+	<li>Nova grunts in Sirius Wharf do not move as fast to make sneaking less challenging</li>
+	<li>Braviary and Bisharp now evolve at level 40</li>
+	<li>Some small aesthetic changes have been made to Sol City thanks to Bryce!</li>
+	<li>The Effective Enthusiast has been added, who will show you an in-game type chart (compatible with the type advantage randomizer). After viewing this chart, you will be able to see move effectiveness in battle</li>
+	<li>Added Aerophagus' icon thanks to dillsacke</li>
+	<li>You can no longer research egg group by hatching a given egg</li>
+	<li>SoS ally levels are now +-10% of the original caller's level</li> 
+	<li>Level cap is now increased when smaller party limit is imposed and during Nuzlocke/Name/Type challenge modes.</li>
+</ul>
+<b>Bug Fixes</b>
+<ul>
+	<li>Trace now properly records abilities and researches undiscovered pokemon abilities</li>
+	<li>Berry tree Pokemon won't drop their items until after battle</li>
+	<li>Fix Happiny evolution</li>
+	<li>Fix a couple Pokedex evolution page evolutions</li>
+	<li>Fix Factory Head Noland battle</li>
+	<li>The casino Pokemon window now properly includes non-evolutionary Pokemon</li>
+	<li>Fixed Psychic Terrain Demonstrator glitchy sprite</li>
+	<li>Fixed Psychic Terrain auto-encounters showing non-researched undiscovered species names</li>
+	<li>Fixed egg group not unlocking for pre-evolution species</li>
+	<li>Fixed an extra arrow appearing in the pokedex evolution page for fully researched Pokemon</li>
+	<li>The active research list in your Pokedex won't sometimes be empty</li>
+	<li>Nuzlocke mode fainted Pokemon removal does not occur in the Battle Frontier</li>
+	<li>Can no longer get softlocked in Carina Sandbar by Relic Seeker</li>
+	<li>Fix item drop activating for the player/showing wrong item name</li>
+	<li>Can turn level match off during gameplay</li>
+	<li>Fix game freeze when trying to go on stairs in Point Vega Mansion mid-step</li>
+	<li>AI properly handles intended rotation when considering item use</li>
+    <li>Fishing encounter generation did not match percentages on the wiki. This has been corrected</li>
+    <li>Losing a normal trainer battle would sometimes erroneously return you to the overworld. This has been corrected and now you would white out normally</li>
+    <li>Pokemon that evolve via level up while holding a specific item now correctly evolve after leveling up in an auto encounter</li>
+</ul>
+
+<div class="heading">
+    0.3.4
+</div>
+<b>New Features</b>
+    <li>A new <b>Level Match</b> option has been added to the battle difficulty settings menu! With this option enabled, your Pokemon will automatically gain experience to match their foe's level.</li>
+</b>
+<b>Updates</b>
+<ul>
+    <li>The <b>Casino Pest Control</b> quest can now be played to completion! A guide can be found in the <a href="walkthrough/index.html">walkthrough</a>.</li>
+	<li>Pokemon Stylist can jump IDs by +=10</li>
+	<li>New sprites for Cranisect and Skultulant, thanks to dillsacke and FBI!</li>
+	<li>New party icons, cries for some fakemon!</li>
+	<li>In doubles challenge mode, trainers with only one Pokemon will only be a single battle</li>
+	<li>Updated Titania sprites thanks to Kwenio and EnzoDakai!</li>
+	<li>Better highlight ability to open difficulty sub menus</li>
+</ul>
+<b>Bug Fixes</b>
+<ul>
+	<li>Fix team not being healed after continuing a script after losing a battle</li>
+	<li>Fix pokedex crashing when scrolling info pages after exiting from area screen</li>
+	<li>Fix planting Micle berries</li>
+	<li>Fix throwing a poke ball in wild double battles skipping your turn</li>
+	<li>Fix ability to fast travel to cities you haven't visited after obtaining Fly</li>
+	<li>Fixed 100 Pokemon Capture Achievement Crashing Game</li>
+	<li>Fixed Gym 4 guide missing post-badge dialogue</li>
+	<li>Fix a few achievement descriptions that are too long</li>
+	<li>Fix ability to bypass truck/snorlax on Lynx Road</li>
+	<li>Fix some minor text/collision/pokemon coordinate issues</li>
+</ul>
+
+<div class="heading">
+    0.3.3
+</div>
+<b>Updates</b>
+<ul>
+	<li>Closet door stands out more in Proteus Plant</li>
+	<li>Battle format challenge mode added. Make all battles doubles, or rotation battles!</li>
+	<li>Surf Taxi added to Argadnel Lake afater Sycorax Ruins</li>
+	<li>Surfing, Fishing wild data has been spruced up a bit</li>
+	<li>Pokemon with Poison Heal and Magic Guard will not lose HP from poison in the overworld</li>
+	<li>Added some details/minor purpose to Andromeda Horn. You can use a surf taxi to get there and back, as well as including a fly taxi.</li>
+	<li>You can now perform dexnav searches in darkened areas if flash is active</li>
+	<li>The player's auto run is disabled during dexnav searches</li>
+	<li>The dexnav search has been made easier to use in caves, but the tile will jump around only once on all terrain, even grass. The plan is to give the dexnav an upgrade that will remove the tile jumping.</li>
+	<li>The daycare lady has been moved down 3 tiles so you can see her when entering from Carina Sandbar</li>
+	<li>You cant get two of the same fossil in Sycorax Ruins anymore</li>
+	<li>Wonder Trade final stage BST values have been increased, so you can get more variety earlier on</li>
+	<li>Marill has replaced Azumarill on Kraken Bridge</li>
+	<li>Rare Candies cost 100 coins in the casino now.</li>
+	<li>New Pokemon books on the library third floor!</li>
+	<li>New houndoom sprites thanks to bepis!</li>
+	<li>Fresh new sprites for totemna, pskulpt, and espatch thanks to Big Snort!</li>
+	<li>Berries and Battle Item bag icon swapped</li>
+	<li>Undiscovered species will show up in the Casino Pokemon Prize List when they're fully researched</li>
+	<li>SoS allies are now +-5% of the caller's level instead of 0-10% lower.</li>
+	<li>Calm Mind in the Andromeda Park Library has been replaced with a Genius Feather so you cannot obtain the TM before the TM case. Calm Mind is still available in the Sirius Wharf TM Disc Warehouse</li>
+	<li>Cant decrease party limit during gameplay</li>
+	<li>Speed is last in the summary screen stat order</li>
+	<li>The friendship evaluator gives the exact friendship value</li>
+	<li>Dexnav info box string added to start menu</li>
+	<li>Trilopod line can learn Technician</li>
+	<li>Some cosmetic upgrades to some UIs</li>
+	<li>The rock Pytheas smashes for you in the Ruins is permanently removed</li>
+</ul>
+<b>Bug Fixes</b>
+<ul>
+	<li>Fix stat-based evo methods</li>
+	<li>Fix hidden-trainer reveal animation</li>
+	<li>Fix non-daycare egg Trainer Memo</li>
+	<li>Hide undiscovered species name on level up</li>
+	<li>Fix obedience in battle factory</li>
+	<li>Fix Cubone's evolution triggers</li>
+	<li>Ditto SoS ally does not appear as last transformed species</li>
+	<li>Fix teleporting from stray battle</li>
+	<li>Fix sos call achievements hanging with switch in abilities</li>
+	<li>Fix item randomizer</li>
+	<li>Fix flying types still being immune to ground with inverted effectiveness.</li>
+	<li>Reality stone now cancels out inverse battles.</li>
+	<li>Fix Kitalpha palette in tour intro</li>
+	<li>Fix sweet scent overworld effect</li>
+	<li>Fix achievements sliding in to party menu</li>
+	<li>Fix psychic terrain emoticon dissapearing in guard house</li>
+	<li>Fix bug when using Psykogenic Chill on already frostbitten Pokemon</li>
+	<li>Fix surf taxi removal on teleport use</li>
+	<li>You can now fish Centauri City and Point Vega</li>
+	<li>Fix Quiz Queen name box getting cut off</li>
+	<li>Fix start menu fade graphical oddities in drought, heat wave overworld weather</li>
+	<li>Fixed Pytheas not following the player when running from Sycorax Ruins B2F Fossil Archiglooms</li>
+	<li>Several Pokedex info page fixes</li>
+	<li>Undiscovered species dex order updates when you research evolutions (in addition to reaching evolution conditions)</li>
+	<li>Cant submit a sample to Brynn if its your last alive party mon</li>
+	<li>Fix daycare allowing you to replace your last alive party mon with a new egg.</li>
+	<li>Gallade's evolution has been fixed</li>
+	<li>Fixed reflector helmet description to specify non-contact moves</li>
+	<li>Fix indimidate with ability popups disabled</li>
+	<li>Fix selling items for millions</li>
+	<li>Fixed award descriptions getting cut off in battle occasionally</li>
+	<li>Fixed spheals breaking through daycare pen!</li>
+	<li>Fixed graphical issue when fishing on a surf taxi</li>
+	<li>Fixed a few surf taxi priority issues. Unfortunately, the sprite will still appear in over some tiles, this is purely due to how the game draws tiles on various layers and sorts sprites.</li>
+	<li>Fix Fabled Trick move type</li>
+	<li>Fix munchlax icon palette</li>
+	<li>Fixed hatching eggs not setting dex flags if species already seen</li>
+	<li>Fixed some journal text</li>
+	<li>Fixed several more collision/elevation graphical issues</li>
+	<li>Fixed Newly discovered search order in the Pokedex</li>
+	<li>Fix replacing party mon in auto catch deleting the mon</li>
+	<li>Fix description of selected starter</li>
+	<li>Fix script freeze in Sol City/Point Vega Trainer schools</li>
+	<li>Fix eggs appearing as pokemon in tm/disc case</li>
+	<li>Fix DexNav showing caught ball on initialization.</li>
+</ul>
+
+<div class="heading">
+    0.3.2
+</div>
+<b>Updates</b>
+<ul>
+    <li>Ice Stones, Dawn Stones, Dusk Stones, and Shiny Stones become available at the Evolutionary Stones warehouse in Sirius Wharf after you've obtained your fourth gym badge.</li>
+	<li>You now start with "Awards" in your start menu</li>
+	<li>A repel effectiveness difficulty setting has been added. If you continuing a save file, it will be set to its default value</li>
+	<li>You can always increase or decrease the difficulty setting of wild encounters</li>
+	<li>Removed the rock smash rock in the south exit of Centauri City</li>
+	<li>Can no longer have both a type and name challenge active together</li>
+	<li>Friendship effects moved to the Battle Difficulty settings sub menu. You can now turn off all friendship battle effects</li>
+	<li>New sprites for Totsicle/Frostidon have been included thanks to Big Snort and EnzoDakai!</li>
+</ul>
+<b>Bug Fixes</b>
+<ul>
+	<li>The MyBoy emulator freeze when battling with Triton has been fixed!</li>
+	<li>Fixed undefined behavior with struggle bug that was corrupting party data</li>
+	<li>Fixed script issues in Phobos Forest due to Vaileye attacks</li>
+	<li>New patch will fix fainting sending your Pokemon to the PC if you are not running a nuzlocke mode</li>
+    <li>Fixed Fly usability after Sirius Wharf Team Nova event</li>
+    <li>Fixed the species when attacking a surf taxi pokemon</li>
+    <li>If you over-level enough to defeat Hyperion in the Umbricorp Auditorium, you would eventually get soft-locked in there later. The condition causing the soft-lock is fixed.</li>
+    <li>If playing with "whiteout heals your party" mode, loss in battle now proceeds as though you actually lost (because, of course, you did).</li>
+    <li>It is no longer possible to circumvent battling your rival before Sirius Wharf.</li>
+    <li>You can no longer get soft-locked in Argadnel Lake without Rock Smash</li>
+    <li>Fixed battle X items printing the wrong stat getting raised</li>
+    <li>Fixed incorrect behavior with the Vaileyes and Bloodnauts in Phobos Forest</li>
+    <li>Fixed interactions with the fossils in Sycorax Ruins B2F</li>
+	<li>You can no longer get soft locked in Ascraeus Mons</li>
+	<li>Pokedex flags are no longer reset when submitting a sample to the research lab</li>
+	<li>Several more collision errors have been fixed</li>
+	<li>Several fatal error conditions have been resolved</li>
+	<li>Ability to fly to andromeda horn prematurely should be fixed.</li>
+	<li>Stealth rock type check has been fixed</li>
+	<li>Eggs no longer gain exp from Exp. All</li>
+	<li>Fixed incorrect dexnav search levels</li>
+	<li>Fixed several typos</li>
+	<li>Removed the ledge on Cepheus Pass to prevent getting softlocked before Gym 2</li>
+	<li>Ethers and Elixirs fix the psychic terrain field move PP</li>
+	<li>The AI understands water compaction</li>
+	<li>Fixed dark screen when exiting Pokenav or other menu in certain weathers</li>
+	<li>Fix ability to turn on chaos mode during gameplay</li>
+	<li>Fix auto encounters turning into buggy double battles</li>
+	<li>Fix missing abilities on eeveelutions, weavile</li>
+	<li>Fix archiglooms not moving after engage option</li>
+	<li>Fix abilities triggering from and on fainted pokemon</li>
+	<li>Fix Klemniops NPC</li>
+	<li>Fix internal error picking up sycorax ruins B1F item with pytheas as a follower</li>
+	<li>Can no longer fast travel during Nova Seige event</li>
+	<li>Add dialogue to Carina Labs Rehab NPCs</li>
+	<li>Fix dialogue from research hint NPC</li>
+	<li>Fix hidden power type icon crashing game</li>
+	<li>Fix ligeia village expansion project quest internal error</li>
+	<li>Fix casino 2nd floor slot machine</li>
+	<li>Fix Resolute Ruby palette issues</li>
+	<li>Sarphon/Aerophagus can learn Will O Wisp by TM</li>
+	<li>Fix Sirius Wharf School Question 3 answer</li>
+	<li>Fix Dig/Escape Rope in Tharsis Terra caves</li>
+	<li>Fix item randomizers preventing move relearner from accepting heart scales / moon muffin quest</li>
+	<li>Fix pokedex registration glitchy screen</li>
+	<li>MegaPlex Cafe NPC turns to face you</li>
+	<li>Kraken Bridge Sandaconda now Silicobra</li>
+</ul>
+
+<div class="heading">
+    0.3.1
+</div>
+<b>Bug Fixes</b>
+<ul>
+    <li>Fixed many collision errors and tile graphics problems</li>
+    <li>Fixed Sol City school staircase script hang</li>
+    <li>Removed Flairdries test script</li>
+    <li>Fixed option menu forced option bug.</li>
+    <li>Fixed selecting "Add to party" with 6 pokemon in auto encounters</li>
+    <li>Fixed issue preventing increasing difficulty on new game menu.</li>
+    <li>Fixed Sol City trainer school question 2</li>
+    <li>Fix getting security called on you in andromeda offices</li>
+    <li>Fixed Yawn corrupting party member</li>
+    <li>Fixed premature surf taxi and bad tiles in the southwest bridge in andromeda villa</li>
+    <li>Prevent early access to lynx road via surf taxi</li>
+    <li>Some other minor tweaks</li>
+</ul>
+
+<div class="heading">
+    0.3.0
+</div>
+	<b>Story Updates</b>
+	<ul>
+		<li>The main story has been completed up through Gym 5!</li>
+		<li>The order in which the player receives the Exp. All and Exp Share have been swapped.</li>
+		<li>The Centauri City Team Nova event is slightly tweaked.</li>
+		<li>The Sirius Wharf Team Nova event has been granted a much more interesting finale.</li>
+        <li>"Undiscovered Pokemon" have been weaved into existing story encounters.</li>
+	</ul>
+	
+	<b>Game Updates</b>
+    <ul>
+		<li>EV/IV values in summary screen must be unlocked from the Raising Your Team side quest.</li>
+		<li>New fire starter! Shleepy (credit to Artsy for the concept) has replaced Nemelt. Don't worry though, you can still find Nemelt in Mt. Tvashtar!</li>
+		<li>Several fakemon sprites, including the starters, have been redesigned! Huge thanks to our sprite artists for their work :)</li>
+		<li>This version is sporting a new Pokedex! Several new info screens have been added with more information to be found about each species. The new pages include: info, area, stats, learnsets, ability discs, and evolution info.</li>
+        <li>The way that battle experience is distributed has been changed. You can read about this in the <a href="features/battle_engine.html#experience">features guide</a>. The main story's level curve has been adjusted to account for these changes.</li>
+		<li>A new item description bar has been added!</li>
+		<li>A fresh new overworld tileset has been implemented! Thanks to Jaizu for creating new tiles based on work from TheDeadHeroAlistair, Javs, and Zeo.</li>
+		<li>The Egg Move Tutor's cost is now reduced as a function of number of Gym Badges (credit to Tardysoap for the idea)</li>
+		<li>The daycare is now accessible in Carina Outpost. The daycare mechanics have also been updated thanks to ExpoSpeed.</li>
+		<li>Pokemon Research! In this release you will encounter Pokemon that your Pokedex cannot recognize, and have the option to perform research to learn more about them!</li>
+		<li>Egg hatching speed is increased PER Pokemon in your party that can learn Flame Body, Flash Fire, Magma Armor, Steam Engine, Magma Surge, or Calderize via Ability Discs.</li>
+		<li>Increased Egg shiny rate for each parent with Super Luck</li>
+    </ul>
+	
+    <b>New Features</b>
+    <ul>
+		<li>Ability Tutor Discs! Teach your Pokemon new abilities from these single-use items.</li>
+		<li>
+			Base Stat randomizer. In chaos mode, each stat is individually randomized between 20 and 120,
+			but otherwise the base stat total of your Pokemon will remain roughly the same.
+		</li>
+		<li>Item Randomizer, which will randomize all items except key items, TMs, and Ability Discs</li>
+		<li>A Name challenge mode is implemented where you can only obtain Pokemon whose name starts with a set of letters!</li>
+        <li>
+            The commonly-used <b>species clause</b> Nuzlocke rule has been added!
+            With this clause, repeat encounters with Pokemon from the same evolutionary line
+            do not count for the Nuzlocke challenge, and also may not be caught!
+            This clause is turned <i>on</i> by default in Nuzlocke challenges,
+            but can be turned off from the custom difficulty settings menu
+            before beginning your playthrough.
+        </li>
+		<li>A new Pokedex identification system has been implemented for flavor (and maybe some other reason)!</li>
+        <li>A new way to find hiddem items has been implemented! Use <a href="moves/electric_terrain.html">Electric Terrain</a> on the field to generate a signal to the closest hidden item!</li>
+    </ul>
+	
+	<b>Battle Engine Updates</b>
+	<ul>
+		<li>
+			Faster battles! The intro slide-in speed has been increased (with a configurable option),
+			in addition to effect animations (stat changes, etc) running at the same time as the
+			associated string is printed.
+		</li>
+		<li>
+			SoS Battles have been added! some totem-boosted Pokemon will call allies,
+			and you can use Adrenaline Orbs to encourage wild Pokemon to call for help!
+			SoS Pokemon will have increased chances of hidden abilities, shininess, and
+			a higher number of perfect IVs.
+		</li>
+		<li>Morbid Terrain's effect has been changed to double negative stat changes.</li>
+		<li>More Gen 8 abilities are added such as Mirror Armor, Neutralizing Gas, and more!</li>
+		<li>Some vanilla move effects have been added in such as Sky Drop.</li>
+		<li>Some more custom moves such as Jettison, Drag to the Void, and more have been added</li>
+		<li>Press B on the "What will Pokémon do?" menu during wild battles to move the cursor to run. Credit to Deokishisu.</li>
+		<li>The Frozen status effect has been updated to LOA's Frostbite effect. This is a special-attack analog of Burn. More details on frostbite can be found in the battle engine guide</li>
+	</ul>
+	
+	<b>Quality-of-Life Changes</b>
+	<ul>
+		<li>In the Pokemon customization window at the casino, you can increase EVs by increments of 40 using the L and R buttons</li>
+		<li>Some of the ice puzzles around Enceladus Cavern have been given an "easy puzzle" configuration.</li>
+		<li>Cepheus Pass has been more streamlined to help the player find where to go.</li>
+		<li>Pressing START in the pokenav region map will return the cursor to the player's position</li>
+		<li>Field Moves with an interaction script are removed from the party menu.</li>
+		<li>Under certain challenge mode conditions, unlocked field moves can be used by any party member to prevent soft-locking</li>
+		<li>Newly added bag pocket indicators!</li>
+	</ul>
+	
+	<b>Bug Fixes</b>
+	<ul>
+		<li>Many quality of life and minor bug fixes</li>
+		<li>Menace has been fixed</li>
+		<li>Several text issues have been fixed</li>
+		<li>The species and move randomizers have been fixed</li>
+	</ul>
+
+<div class="heading">
+    0.2.3
+</div>	
+	<b>Game Updates</b>
+	<ul>
+		<li>Can obtain a Sun Stone in Sirius Wharf</li>
+		<li>Auto wild encounters show shiny palettes where applicable!</li>
+	</ul>
+	
+	<b>New Features</b>
+	<ul>
+		<li>Expand Storage Boxes up to 18!</li>
+		<li>TV shows have been added back in!</li>
+		<li>Name Challenge! Limit yourself to catching only Pokémon whose names start with a given set of letters!</li>
+		<li></li>
+	</ul>
+	
+	<b>Feature Updates</b>
+	<ul>
+		<li>Stray Pokemon are gone after defeat</li>
+	</ul>
+	
+	<b>Bug Fixes</b>
+	<ul>
+		<li>Minor text fixes here and there.</li>
+		<li>Fix Gym 3 Collision Tiles</li>
+		<li>Fix some collision tiles in Enceladus Cavern, Sycorax Ruins</li>
+		<li>Achievements show up in the Awards Menu properly</li>
+		<li>Can fly from Ligeia Bridge</li>
+		<li>Fix roulette not working >32767 coins</li>
+		<li>Fix Menace ability softlock</li>
+		<li>Fix Slot Machine 5th digit issue</li>
+		<li>Fix stray pokemon graphics when loading a save file</li>
+		<li></li>
+	</ul>
+
+<div class="heading">
+    0.2.2
+</div>
+	<b>Updates</b>
+	<ul>
+		<li>A proper variable is set after Gym 3 to enable the events in Umbricorp HQ</li>
+		<li>If you have completed Gym 3 already, you can enable the event by speaking to Klemniops in Sirius Wharf's Pokemon Center!</li>
+	</ul>
+
+<div class="heading">
+    0.2.1
+</div>
+	
+	<b>New Features</b>
+	<ul>
+		<li>Filter Quests by Completion, Main Story, and more in the quest menu!</li>
+	</ul>
+	
+	<b>Bug Fixes</b>
+	<ul>
+		<li><b>Fixes a bug with the Sycorax Ruins escape event</b></li>
+		<li>Fixed an impassable tile in Sol City</li>
+		<li>Nuzlocke area limits do not get enforced until the Building Your Team class</li>
+		<li>Fix TM Shop move info getting overwritten when buying a TM.</li>
+		<li>Fix Mantine back sprite Y offset</li>
+		<li>Some minor text/grammar fixes.</li>
+	</ul>
+
+<div class="heading">
+    0.2.0
+</div>
+
+    <p>
+    Pokémon Voyager's second major release does a little bit of everything!
+    </p>
+    <b>New Features</b>
+    <ul>
+		<li>New Title Screen!</li>
+        <li>Skin Tone Customization - You can now customize your avatar's skin tone in addition to their outfit!</li>
+        <li>Fast travel! - Fly or warp to any city landmark using the Pokenav or any city map sign!</li>
+		<li>Last Used Ball - press L in battle to throw the last Poke Ball that you threw!</li>
+		<li>Rotation Battles! Battle with 3 Pokémon on the field at once, rotating between your best options! Available in the Battle Factory!</li>
+		<li>DexNav! - hunt your favorite Pokémon, chain dexnav searches for increased shiny chances, and more!</li>
+		<li>Upgraded PokeDex! - You have the ability to get a single PokeDex upgrade in the DexTech side quest</li>
+		<li>Pokémon Pinball! - Thanks to ShantyTown, you can play pinball games in the <b>Andromeda Arcade</b> in <b>Andromeda Square</b> for Casino Coins!</li>
+		<li>Achievement Menu - this has been redesigned to group achievements by category. More achievements have also been added!</li>
+		<li>Map Discovery! - you can track your Keplara region discovery for the Cartographer side quest!</li>
+    </ul>
+
+    <b>New Content</b>
+    <p>
+    Pokémon Voyager's story is complete through slightly after the third Antares League gym. Additionally, some aspects of the prologue have been streamlined to make it easier to decide where to go.  The first two gyms have also been re-vamped.
+    </p>
+	
+	<b>New Art</b>
+	<ul>
+		<li>New battle backgrounds have been added with images from Dio_FBI and carchagui, and some help from Jaizu!</li>
+		<li>Fakemon redesigns! - Arakid, Rakidone, Scuiret, Pteroret, and Ghoulslash have been fully redesigned thanks to Wednesday and Dio_FBI!</li>
+		<li>New UI colors! The bag, summary screen, trainer card, PokeNav, and DexNav have been given new designs and new colors to match the space theme of Voyager!</li>
+		<li>New trainer sprites! - Thanks to the awesome contributions by Kendy, we have some fancy trainer sprites!
+	</ul>
+
+    <b>Balance Adjustments</b>
+    <ul>
+        <li>
+            The <b>Exp. All</b> gives less experience to your team.
+            <table>
+                <thead>
+                    <th>Difficulty</th><th>Experience Yield</th>
+                </thead>
+                <tbody>
+                    <tr><td>Minimum</td><td>50%</td></tr>
+                    <tr><td>Easy</td><td>35%</td></tr>
+                    <tr><td>Classic</td><td>25%</td></tr>
+                    <tr><td>Hard</td><td>12%</td></tr>
+                    <tr><td>Insane</td><td>10%</td></tr>
+                    <tr><td>Maximum</td><td>0%</td></tr>
+                </tbody>
+            </table>
+            You can customize the amount of experience awarded by Exp. All from the Difficulty Settings menu.
+        </li>
+		<li>
+			Tweaked levels, Pokémon, and movesets of several trainers.
+		</li>
+		<li>
+			Tweaked early learnset moves of several Pokémon to increase viability.
+		</li>
+    </ul>
+    <b>Difficulty Settings</b>
+    <ul>
+        <li>
+            You can choose between easier and harder gym puzzles.
+        </li>
+        <li>
+            Trainer AI can be configured from the Difficulty Settings menu.
+        </li>
+    </ul>
+    <b>Quality-of-Life Improvements</b>
+    <ul>
+        <li>
+            The <b>Pokedex</b> is opened when one of your Pokémon evolves into a new species.
+        </li>
+        <li>
+            The <b>wild encounter menu</b> remembers your most recent selection and sets the cursor to that for your next encounter.
+        </li>
+        <li>
+            The <b>wild encounter menu</b> can be turned off via the Game Settings menu.
+        </li>
+        <li>
+            Signposts are read automatically when you approach them. This can be disabled from the Game Settings menu.
+        </li>
+        <li>
+            You can now disable the start menu information window.
+        </li>
+        <li>
+            You now have the option of replacing a party member with a newly-caught Pokémon instead of it being sent directly to the PC. Hold items of replaced party members will be returned to your bag.
+        </li>
+		<li>
+			You can now amass up to 50000 coins!
+		</li>
+		<li>
+			The Casino Pokémon Prize Menu includes a shiny toggling option for 5000 coins!
+		</li>
+		<li>
+			A TM Case has been added with party icons to show TM compatability!
+		</li>
+		<li>
+			Change your name and gender at the Andromeda Villa City Hall!
+		</li>
+    </ul>
+	<b>Randomizer Updates</b>
+	<ul>
+		<li>
+			Chaos Mode has been added. When enabled, random values are generated on each instance at run-time instead of shuffling values around!
+		</li>
+		<li>
+			The randomizer/challenge options no longer try to force the original starters on the player as often
+		</li>
+	</ul>
+    <b>Bugs fixed</b>
+    <ul>
+        <li>
+            Difficulty data scaling was not applied properly at lower difficulties; now it is.
+        </li>
+        <li>
+            Battle experience should be awarded in a consistent order: Pokémon who participated in the battle, Pokémon holding Exp. Share, and then the rest of your party if Exp. All is on.
+        </li>
+		<li>The type effectiveness randomizer does not cause most moves to be ineffective.</li>
+		<li>The nuzlocke mode + whiteout behavior edge cases have been handled to prevent exploring the game with an empty/dead party</li>
+    </ul>
+
+    <p>
+    Save data from a 0.1 patch is not compatible with 0.2.
+    </p>
+
+<div class="heading">
+    0.1.3
+</div>
+    <b>Known issues</b>
+    <ul>
+        <li>If you have saved your game while Pytheas is following you, talking to him may cause the game to crash.</li>
+    </ul>
+    <b>Bugs fixed</b>
+    <ul>
+        <li>Fixes pressing B on "View Summary" after wonder trade</li>
+        <li>Fixes Wonder Trade money check</li>
+        <li>Fixes Koffing evolution to Filtring</li>
+        <li>Fixes the Tusgoyf and Llurscayf icons</li>
+        <li>Fixes the Prankster ability pop-up</li>
+        <li>Fixes bridge tiles in Centauri Pass</li>
+        <li>Fixes the rival name color in journal pop-ups</li>
+        <li>Fixes Argadnel Lake to Centauri Pass sign</li>
+        <li>Fixes a bug in Simple Beam</li>
+        <li>Fixes the Overdrive move animation</li>
+        <li>Fixes seemingly-random IV changes</li>
+        <li>Fixes Ovarapt's back sprite coordinates</li>
+        <li>Corrects a bad battle UI palette introduced in 0.1.2</li>
+    </ul>
+
+
+<div class="heading">
+    0.1.2
+</div>
+    <b>New Features</b>
+    <ul>
+        <li>Adds "View Summary" option after a Wonder Trade</li>
+    </ul>
+    <b>Adjustments</b>
+    <ul>
+        <li>Corrects the Sol City Gym Twins trainer post-battle text</li>
+        <li>Fixes Slakoth base coin prize</li>
+        <li>Clarifies the coin ATM limit</li>
+    </ul>
+    <b>Bugs fixed</b>
+    <ul>
+        <li>Fixes roulette 4x+ multiplier payout string</li>
+        <li>Fixes some front sprite elevations</li>
+        <li>Fixes coin ATMs breaking on B press</li>
+        <li>Fixes Blackjack betting issue</li>
+        <li>Fixes Nuzlocke reset after Dusknoir battle</li>
+        <li>Fixes whiteout bug when Pytheas is following you</li>
+        <li>Fixes Ligeia Village salesman forcing you to look at his inventory</li>
+        <li>Fixes Flower Shop sign</li>
+        <li>Fixes collisions in Andromeda Park Library</li>
+        <li>Fixes Sol City bush collision</li>
+        <li>Fixes collisions and warps in Andromeda City Hall</li>
+    </ul>
+
+
+<div class="heading">
+    0.1.1
+</div>
+    <b>Bugs fixed</b>
+    <ul>
+        <li>Fixes various collision tiles in PokeMegaPlex 3F</li>
+        <li>Enables disabling a type challenge</li>
+        <li>Fixes an NPC in Andromeda Hotel who crashed the game</li>
+        <li>Corrects the Terrain move timer</li>
+        <li>Fixes a graphical issue with multichoice window and money box open simultaneously</li>
+    </ul>
+
+
+<div class="heading">
+    0.1.0
+</div>
+    The first release. Learn more <a href=https://www.pokecommunity.com/showthread.php?t=446148>here</a>!
+
+
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,933 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="agility"><a href="moves/agility.html">Agility</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ally_switch"><a href="moves/ally_switch.html">Ally Switch</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user teleports using a strange power and switches places with one of its allies.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="amnesia"><a href="moves/amnesia.html">Amnesia</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user temporarily forgets its concerns. This sharply raises its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="barrier"><a href="moves/barrier.html">Barrier</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user throws up a sturdy wall that sharply raises its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="calm_mind"><a href="moves/calm_mind.html">Calm Mind</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user quietly focuses its mind to raise its Sp. Atk and Sp. Def stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="confusion"><a href="moves/confusion.html">Confusion</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit by a weak telekinetic force. This may also confuse the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="continuum_pulse"><a href="moves/continuum_pulse.html">Continuum Pulse</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>The user distorts spacetime. This move always goes first under Gravity.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="cosmic_power"><a href="moves/cosmic_power.html">Cosmic Power</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dream_eater"><a href="moves/dream_eater.html">Dream Eater</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user eats the dreams of a sleeping target, restoring its HP by half the damage caused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="eerie_spell"><a href="moves/eerie_spell.html">Eerie Spell</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user hits with tremendous psychic power and removes 3 PP from the target's last move.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="esper_wing"><a href="moves/esper_wing.html">Esper Wing</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Slashes with aura-enriched wings to boost Speed. It lands critical hits more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="expanding_force"><a href="moves/expanding_force.html">Expanding Force</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>This move's power goes up and damages all opposing Pokémon on Psychic Terrain.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="extrasensory"><a href="moves/extrasensory.html">Extrasensory</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with an odd, unseeable power. This may also make the target flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fabled_trick"><a href="moves/fabled_trick.html">Fabled Trick</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user employs its psychic power to switch its Sp. Atk stat with its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="freezing_glare"><a href="moves/freezing_glare.html">Freezing Glare</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user shoots its psychic power from its eyes. This may also inflict frostbite.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="future_sight"><a href="moves/future_sight.html">Future Sight</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>Two turns after this move is used, a hunk of psychic energy attacks the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="glitzy_glow"><a href="moves/glitzy_glow.html">Glitzy Glow</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Telekinetic force that sets wall, lowering Sp. Atk damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="graviton_wave"><a href="moves/graviton_wave.html">Graviton Wave</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>The user hurls gravitons at the target. This move is stronger under heavy Gravity.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="gravity"><a href="moves/gravity.html">Gravity</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Enables Flying-type and Levitating Pokémon to be hit by Ground-type moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="guard_split"><a href="moves/guard_split.html">Guard Split</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user averages its Defense and Sp. Def stats with those of the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="guard_swap"><a href="moves/guard_swap.html">Guard Swap</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user switches changes to its Defense and Sp. Def stats with the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heal_block"><a href="moves/heal_block.html">Heal Block</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>For five turns, the user prevents the opposing team from recovering HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heal_pulse"><a href="moves/heal_pulse.html">Heal Pulse</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user emits a healing pulse that restores the target's HP by up to half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="healing_wish"><a href="moves/healing_wish.html">Healing Wish</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user faints, but whoever takes its place will have its HP restored and status cured.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heart_stamp"><a href="moves/heart_stamp.html">Heart Stamp</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user hits the target after cutely making it less wary. It may also make it flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heart_swap"><a href="moves/heart_swap.html">Heart Swap</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user employs its psychic power to switch stat changes with the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hyperspace_hole"><a href="moves/hyperspace_hole.html">Hyperspace Hole</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">—</td>
+            <td>Using a hyperspace hole, the user strikes the target, even if it protects itself.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hypnosis"><a href="moves/hypnosis.html">Hypnosis</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">60</td>
+            <td>The user employs hypnotic suggestion to make the target fall into a deep sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hypnotic_dance"><a href="moves/hypnotic_dance.html">Hypnotic Dance</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user performs an ancient dance that puts all Pokémon on the field to sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="imprison"><a href="moves/imprison.html">Imprison</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>If opposing Pokémon know any move also known by the user, they may no longer use it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="instruct"><a href="moves/instruct.html">Instruct</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user instructs the target to use the target's last move again.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="kinesis"><a href="moves/kinesis.html">Kinesis</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">80</td>
+            <td>The user distracts the target by bending a spoon. This lowers the target's accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="light_screen"><a href="moves/light_screen.html">Light Screen</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>A wondrous wall of light is put up to reduce damage from special attacks for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lumina_crash"><a href="moves/lumina_crash.html">Lumina Crash</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Unleashes a peculiar light to harshly lower Sp Defense.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lunar_blessing"><a href="moves/lunar_blessing.html">Lunar Blessing</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>Restores HP and cures status conditions for itself and an ally.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lunar_dance"><a href="moves/lunar_dance.html">Lunar Dance</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user faints, but whoever takes its place will have its HP restored and status cured.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="luster_purge"><a href="moves/luster_purge.html">Luster Purge</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magic_coat"><a href="moves/magic_coat.html">Magic Coat</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>Moves like Leech Seed and moves that inflict status conditions are reflected back.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magic_powder"><a href="moves/magic_powder.html">Magic Powder</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user scatters a cloud of magic powder that changes the target to Psychic type.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magic_room"><a href="moves/magic_room.html">Magic Room</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a bizarre area in which held items lose their effects for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="marvel_room"><a href="moves/marvel_room.html">Marvel Room</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a bizarre area that swaps Attack and Sp. Atk stats for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="meditate"><a href="moves/meditate.html">Meditate</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user meditates to awaken the power deep within its body and raise its Attack stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="miracle_eye"><a href="moves/miracle_eye.html">Miracle Eye</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Negates a Dark-type target's immunities and any target's evasiveness.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mirror_coat"><a href="moves/mirror_coat.html">Mirror Coat</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>A retaliation move that counters any special hit with double the damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mist_ball"><a href="moves/mist_ball.html">Mist Ball</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>A mist-like flurry of down envelops the target. This may also lower its Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mystical_power"><a href="moves/mystical_power.html">Mystical Power</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">90</td>
+            <td>The user emits a mysterious power. It also boosts their Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="photon_geyser"><a href="moves/photon_geyser.html">Photon Geyser</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit with a pillar of light. This move uses the user's highest offensive stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="plasma_bolt"><a href="moves/plasma_bolt.html">Plasma Bolt</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">30</td>
+            <td id="Accuracy">100</td>
+            <td>The user launches an ion-infused bolt. This may leave the target paralyzed.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_split"><a href="moves/power_split.html">Power Split</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user averages its Attack and Sp. Atk stats with those of the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_swap"><a href="moves/power_swap.html">Power Swap</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user switches changes to its Attack and Sp. Atk stats with the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_trick"><a href="moves/power_trick.html">Power Trick</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user employs its psychic power to switch its Attack stat with its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="prismatic_laser"><a href="moves/prismatic_laser.html">Prismatic Laser</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">160</td>
+            <td id="Accuracy">100</td>
+            <td>The user shoots powerful lasers using the power of a prism but can't move on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psybeam"><a href="moves/psybeam.html">Psybeam</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>The target is attacked with a peculiar ray. This may also leave the target confused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psyblade"><a href="moves/psyblade.html">Psyblade</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>Rend the foe with an ethereal blade. It's power is boosted by 50 percent in Electric Terrain.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psychic"><a href="moves/psychic.html">Psychic</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit by a strong telekinetic force. This may also lower its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psychic_fangs"><a href="moves/psychic_fangs.html">Psychic Fangs</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">85</td>
+            <td id="Accuracy">100</td>
+            <td>The user bites with psychic capabilities. It also destroys Light Screen and Reflect.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psychic_noise"><a href="moves/psychic_noise.html">Psychic Noise</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>Unplesant sound waves prevent the target from recovering HP for two turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psychic_terrain"><a href="moves/psychic_terrain.html">Psychic Terrain</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Grounded Pokémon are safe from priority and Psychic-type moves are stronger for 5 turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psycho_boost"><a href="moves/psycho_boost.html">Psycho Boost</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">140</td>
+            <td id="Accuracy">90</td>
+            <td>The user attacks the target at full power. The recoil harshly lowers the user's Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psycho_cut"><a href="moves/psycho_cut.html">Psycho Cut</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>The target is torn at by blades formed by psychic power. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psycho_shift"><a href="moves/psycho_shift.html">Psycho Shift</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>Using its psychic power, the user transfers its status conditions to the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psyshield_bash"><a href="moves/psyshield_bash.html">Psyshield Bash</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">90</td>
+            <td>The user cloaks itself in psychic energy and slams the foe. It boost's the user's Def.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psyshock"><a href="moves/psyshock.html">Psyshock</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user materializes an odd psychic wave that physically damages the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psystrike"><a href="moves/psystrike.html">Psystrike</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user materializes an odd psychic wave to physically attack the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psywave"><a href="moves/psywave.html">Psywave</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The target is attacked with an odd psychic wave. The attack varies in intensity.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="quantum_trap"><a href="moves/quantum_trap.html">Quantum Trap</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user traps the opposing Pokémon in a quantum trap. This steals their effects.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="reflect"><a href="moves/reflect.html">Reflect</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>A wondrous wall of light is put up to reduce damage from physical attacks for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rest"><a href="moves/rest.html">Rest</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user sleeps for two turns, fully restoring its HP and healing any status conditions.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="role_play"><a href="moves/role_play.html">Role Play</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user mimics the target completely, copying the target's abilities.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="siphon_mind"><a href="moves/siphon_mind.html">Siphon Mind</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">90</td>
+            <td>The user siphons the target's mind, raising its special stats while lowering the target's.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="skill_swap"><a href="moves/skill_swap.html">Skill Swap</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user employs its psychic power to exchange Abilities with the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="speed_swap"><a href="moves/speed_swap.html">Speed Swap</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user exchanges Speed stats with the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="stored_power"><a href="moves/stored_power.html">Stored Power</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">20</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks the target with stored power, causing more damage for every stat raise.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="synchronoise"><a href="moves/synchronoise.html">Synchronoise</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user inflicts damage on any Pokémon of the same type in the area around it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="take_heart"><a href="moves/take_heart.html">Take Heart</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user lifts its spirits to cure status conditions and boost Sp. Atk and Sp. Def.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="telekinesis"><a href="moves/telekinesis.html">Telekinesis</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user makes the target float with its psychic power, making it easier to hit for three turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="teleport"><a href="moves/teleport.html">Teleport</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user switches places with a party Pokémon in waiting. Wild Pokémon using this move flee.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="trick"><a href="moves/trick.html">Trick</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user catches the target off guard and swaps its held item with its own.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="trick_room"><a href="moves/trick_room.html">Trick Room</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a bizarre area in which slower Pokémon get to move first for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="twin_beam"><a href="moves/twin_beam.html">Twin Beam</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user shoots mystical beams from its eyes. It hits twice in a row.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wonder_room"><a href="moves/wonder_room.html">Wonder Room</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a bizarre area that swaps Defense and Sp. Def stats for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wormhole"><a href="moves/wormhole.html">Wormhole</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">85</td>
+            <td>The target is trapped in a wormhole for 2 to 5 turns. This move is stronger in Gravity.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="zen_headbutt"><a href="moves/zen_headbutt.html">Zen Headbutt</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">90</td>
+            <td>The user focuses its willpower to its head and attacks. It may also make the target flinch.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+<!-- Automatically generated -->
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+
+<base href="..">
+
+
+<table>
+    <tr align="center">
+        <td>
+            This page covers the challenges included in Pokémon Voyager.
+        </td>
+		<table border=1px>
+			<thead>
+				<tr>
+					<th>Setting</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><b>Type Challenge</b></td>
+					<td>
+						Limit yourself to only catching/obtaining Pokémon of a given type. You will only get a single, random starter of the type-challenge type. This is to prevent the player from disabling the type challenge mid-game and obtaining all three starters
+						<p>
+						Special Cases:
+						<ul>
+							<li>If types are randomized: a random starter will be set to the type-challenge type. you will not obtain the other starters</li>
+							<li>If species are randomized: your starter will be a random species of the challenge type</li>
+							<li>If types + species are randomized: your starter will be a random first-stage species that has the type-challenge type from the type randomizer</li>
+						</ul>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td><b>Name Challenge</b></td>
+					<td>
+						Limit yourself to only catching/obtaining Pokémon whose name starts with a letter from a given range. You will only get a single, random starter of the name-challenge characters. This is to prevent the player from disabling the name challenge mid-game and obtaining all three starters
+					</td>
+				</tr>
+				<tr>
+					<td><b>Nuzlocke</b></td>
+					<td>
+                        This mode offers enforcement of some of the common restrictions of a Nuzlocke challenge. If you're unfamiliar with the concept of a Nuzlocke challenge, there's lots of fun reading and content for you out there!
+                        <br>
+                        Pokémon Voyager offers the following enforcement options:
+                        <p>
+                        <b>Catching restrictions:</b> Restricts the wild Pokémon you are allowed to catch.
+                            <ul>
+                                <li><i>No limits</i>: Any wild Pokémon can be caught (as in a traditional playthrough).</li>
+                                <li><i>First in area</i>: Only the first Pokémon you encounter in an area can be caught, for each encounter type (e.g. grass, water, overworld).</li>
+                                <li><i>First unique in area</i>: As above, but applies the commonly-used "species clause" to encourage building a diverse team.</li>
+                            </ul>
+
+						<p>
+						<b>Whiteout Conditions:</b> Certain storyline battles may override these conditions and continue with a unique event.
+							<ul>
+								<li><i>Heal Party</i>: Heals your party and continues with the game.</li>
+								<li><i>Standard</i>: Sends you to the PC to be healed.</li>
+								<li><i>Soft Reset</i>: Whiting out resets the game, making you lose your progress.</li>
+								<li><i>Delete Save</i>: The most difficult mode. Whiting out deletes your save file, making you start over.</li>
+							</ul>
+						</p>
+						<p>
+						<b>Fainting Behavior:</b>
+							<ul>
+								<li><i>Revive After Battle</i>: After the battle, your Pokémon will be revived to full health.</li>
+								<li><i>Standard</i>: Your Pokémon can be revived during battle and will remain fainted after battle otherwise.</li>
+								<li><i>No Reviving in Battle</i>: You cannot use revives in battle.</li>
+								<li><i>Cannot Revive</i>: Once a Pokémon faints, it can never be revived, not even at a Pokémon Center.</li>
+							</ul>
+						</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+</table>
+
+
+
+            </div>
+        </main>
+    </body>
+</html>

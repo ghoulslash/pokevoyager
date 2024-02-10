@@ -1,0 +1,258 @@
+.frontsprite, .backsprite {
+    width: 64px;
+    height: 64px;
+    object-fit:cover;
+    object-position: 0px 0px;
+}
+
+.frontsprite:hover {
+    object-position: 0px -64px;
+}
+
+@keyframes iconSpriteAnim {
+    0%, 49.99% {
+        object-position: 0px 0px;
+    }
+    50%, 99.99% {
+        object-position: 0px -32px;
+    }
+}
+
+.iconsprite {
+    animation: iconSpriteAnim 0.3s infinite;
+    width: 32px;
+    height: 32px;
+    object-fit:cover;
+}
+
+.conceptart {
+    max-width: 640px;
+    max-height: 640px;
+}
+
+@keyframes owsprite_32x32_down_anim {
+    0%, 24.99% {
+        object-position: 0px 0px
+    }
+    25%, 49.99% {
+        object-position: -96px 0px
+    }
+    50%, 74.99% {
+        object-position: 0px 0px
+    }
+    75%, 99.99% {
+        object-position: -128px 0px
+    }
+}
+
+@keyframes owsprite_32x32_left_anim {
+    0%, 24.99% {
+        object-position: -64px 0px
+    }
+    25%, 49.99% {
+        object-position: -224px 0px
+    }
+    50%, 74.99% {
+        object-position: -64px 0px
+    }
+    75%, 99.99% {
+        object-position: -256px 0px
+    }
+}
+
+@keyframes owsprite_32x32_up_anim {
+    0%, 24.99% {
+        object-position: -32px 0px
+    }
+    25%, 49.99% {
+        object-position: -160px 0px
+    }
+    50%, 74.99% {
+        object-position: -32px 0px
+    }
+    75%, 99.99% {
+        object-position: -192px 0px
+    }
+}
+
+@keyframes owsprite_32x32_right_anim {
+    0%, 24.99% {
+        object-position: -64px 0px;
+        transform: scaleX(-1)
+    }
+    25%, 49.99% {
+        object-position: -224px 0px;
+        transform: scaleX(-1)
+    }
+    50%, 74.99% {
+        object-position: -64px 0px;
+        transform: scaleX(-1)
+    }
+    75%, 99.99% {
+        object-position: -256px 0px;
+        transform: scaleX(-1)
+    }
+}
+
+.owsprite_32x32_down {
+    width:32px;
+    height:32px;
+    object-fit:cover;
+    object-position: 0px 0px;
+    animation: owsprite_32x32_down_anim 1.0s infinite;
+}
+
+.owsprite_32x32_left {
+    width:32px;
+    height:32px;
+    object-fit:cover;
+    object-position: -64px 0px;
+    animation: owsprite_32x32_left_anim 1.0s infinite;
+}
+
+.owsprite_32x32_up {
+    width:32px;
+    height:32px;
+    object-fit:cover;
+    object-position: -32px 0px;
+    animation: owsprite_32x32_up_anim 1.0s infinite;
+}
+
+.owsprite_32x32_right {
+    width:32px;
+    height:32px;
+    object-fit:cover;
+    object-position: -64px 0px;
+    transform: scaleX(-1);
+    animation: owsprite_32x32_right_anim 1.0s infinite;
+}
+
+@keyframes owsprite_16x32_down_anim {
+    0%, 24.99% {
+        object-position: 0px 0px
+    }
+    25%, 49.99% {
+        object-position: -48px 0px
+    }
+    50%, 74.99% {
+        object-position: 0px 0px
+    }
+    75%, 99.99% {
+        object-position: -64px 0px
+    }
+}
+
+@keyframes owsprite_16x32_left_anim {
+    0%, 24.99% {
+        object-position: -32px 0px
+    }
+    25%, 49.99% {
+        object-position: -112px 0px
+    }
+    50%, 74.99% {
+        object-position: -32px 0px
+    }
+    75%, 99.99% {
+        object-position: -128px 0px
+    }
+}
+
+@keyframes owsprite_16x32_up_anim {
+    0%, 24.99% {
+        object-position: -16px 0px
+    }
+    25%, 49.99% {
+        object-position: -80px 0px
+    }
+    50%, 74.99% {
+        object-position: -16px 0px
+    }
+    75%, 99.99% {
+        object-position: -96px 0px
+    }
+}
+
+@keyframes owsprite_16x32_right_anim {
+    0%, 24.99% {
+        object-position: -32px 0px;
+        transform: scaleX(-1)
+    }
+    25%, 49.99% {
+        object-position: -112px 0px;
+        transform: scaleX(-1)
+    }
+    50%, 74.99% {
+        object-position: -32px 0px;
+        transform: scaleX(-1)
+    }
+    75%, 99.99% {
+        object-position: -128px 0px;
+        transform: scaleX(-1)
+    }
+}
+
+.owsprite_16x32_down {
+    width:16px;
+    height:32px;
+    object-fit:cover;
+    object-position: 0px 0px;
+    animation: owsprite_16x32_down_anim 1.0s infinite;
+}
+
+.owsprite_16x32_left {
+    width:16px;
+    height:32px;
+    object-fit:cover;
+    object-position: -32px 0px;
+    animation: owsprite_16x32_left_anim 1.0s infinite;
+}
+
+.owsprite_16x32_up {
+    width:16px;
+    height:32px;
+    object-fit:cover;
+    object-position: -16px 0px;
+    animation: owsprite_16x32_up_anim 1.0s infinite;
+}
+
+.owsprite_16x32_right {
+    width:16px;
+    height:32px;
+    object-fit:cover;
+    object-position: -32px 0px;
+    transform: scaleX(-1);
+    animation: owsprite_16x32_right_anim 1.0s infinite;
+}
+
+.owsprite_16x16_down {
+    width:16px;
+    height:16px;
+    object-fit:cover;
+    object-position: 0px 0px;
+    animation: owsprite_16x32_down_anim 1.0s infinite;
+}
+
+.owsprite_16x16_left {
+    width:16px;
+    height:16px;
+    object-fit:cover;
+    object-position: -32px 0px;
+    animation: owsprite_16x32_left_anim 1.0s infinite;
+}
+
+.owsprite_16x16_up {
+    width:16px;
+    height:16px;
+    object-fit:cover;
+    object-position: -16px 0px;
+    animation: owsprite_16x32_up_anim 1.0s infinite;
+}
+
+.owsprite_16x16_right {
+    width:16px;
+    height:16px;
+    object-fit:cover;
+    object-position: -32px 0px;
+    transform: scaleX(-1);
+    animation: owsprite_16x32_right_anim 1.0s infinite;
+}

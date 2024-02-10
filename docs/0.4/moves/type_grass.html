@@ -1,0 +1,703 @@
+<!-- Automatically generated -->
+<base href="..">
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokémon Voyager</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/pokedex.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/navigation_bar_logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Version 0.4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../0.3/index.html">0.3</a></li>
+                          <li><a class="dropdown-item" href="../0.2/index.html">0.2</a></li>
+                          <li><a class="dropdown-item" href="../0.1/index.html">0.1</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dexes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pokedex/index.html">Pokédex</a></li>
+                          <li><a class="dropdown-item" href="moves/index.html">Attackdex</a></li>
+                          <li><a class="dropdown-item" href="abilities/index.html">Abilitydex</a></li>
+                          <li><a class="dropdown-item" href="items/index.html">Itemdex</a></li>
+                          <li><a class="dropdown-item" href="atlas/index.html">Atlas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="features/index.html">Feature Guide</a></li>
+                          <li><a class="dropdown-item" href="walkthrough/index.html">Walkthrough</a></li>
+                          <li><a class="dropdown-item" href="releases.html">Version History</a></li>
+                          <li><a class="dropdown-item" href="credits.html">Credits</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+
+<div class="col-md-10 mx-auto text-center">
+
+<h1>Attackdex</h1>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="absorb"><a href="moves/absorb.html">Absorb</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">30</td>
+            <td id="Accuracy">100</td>
+            <td>A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="apple_acid"><a href="moves/apple_acid.html">Apple Acid</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit with an acid created from tart apples. This also lowers its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aromatherapy"><a href="moves/aromatherapy.html">Aromatherapy</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user releases a soothing scent that heals all status conditions affecting its party.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bramble_snag"><a href="moves/bramble_snag.html">Bramble Snag</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user shreds the target with sharp brambles. This also lowers its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="branch_poke"><a href="moves/branch_poke.html">Branch Poke</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks the target by poking it with a sharply pointed branch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bullet_seed"><a href="moves/bullet_seed.html">Bullet Seed</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">25</td>
+            <td id="Accuracy">100</td>
+            <td>The user forcefully shoots seeds at the target two to five times in a row.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="burn_powder"><a href="moves/burn_powder.html">Burn Powder</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">80</td>
+            <td>The user covers the target in a flammable powder. This leaves it with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="chloroblast"><a href="moves/chloroblast.html">Chloroblast</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">95</td>
+            <td>The user launches amassed chlorophyll at the foe. This also hurts the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="cotton_guard"><a href="moves/cotton_guard.html">Cotton Guard</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user wraps its body in soft cotton, which drastically raises its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="cotton_spore"><a href="moves/cotton_spore.html">Cotton Spore</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user's cotton-like spores cling to opposing Pokémon, harshly lowering Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="drum_beating"><a href="moves/drum_beating.html">Drum Beating</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user controls its drum's roots to attack the target. This also lowers its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="energy_ball"><a href="moves/energy_ball.html">Energy Ball</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user draws nature's power and fires it at the target. This may also lower its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flower_trick"><a href="moves/flower_trick.html">Flower Trick</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">—</td>
+            <td>The user throws a bouquet that never misses and always lands a critical hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="forests_curse"><a href="moves/forests_curse.html">Forest's Curse</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user puts a forest curse on the target. The target is now Grass type as well.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="frenzy_plant"><a href="moves/frenzy_plant.html">Frenzy Plant</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">90</td>
+            <td>The user slams the target with the roots of an enormous tree but can't move on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="giga_drain"><a href="moves/giga_drain.html">Giga Drain</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grass_knot"><a href="moves/grass_knot.html">Grass Knot</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The target is snared with grass and tripped. The heavier it is, the greater the move's power.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grass_pledge"><a href="moves/grass_pledge.html">Grass Pledge</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>When used with its water equivalent, its power increases and a vast swamp appears.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grass_whistle"><a href="moves/grass_whistle.html">Grass Whistle</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">55</td>
+            <td>The user plays a pleasant melody that lulls the target into a deep sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grassy_glide"><a href="moves/grassy_glide.html">Grassy Glide</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>The user glides on the ground into the target. This always goes first on Grassy Terrain.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grassy_terrain"><a href="moves/grassy_terrain.html">Grassy Terrain</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, the HP of grounded Pokémon is restored and Grass type-moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grav_apple"><a href="moves/grav_apple.html">Grav Apple</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user drops an apple onto the target from above. This also lowers its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="horn_leech"><a href="moves/horn_leech.html">Horn Leech</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">75</td>
+            <td id="Accuracy">100</td>
+            <td>The user's horns drain the target's energy, restoring its HP by half the damage dealt.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ingrain"><a href="moves/ingrain.html">Ingrain</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user lays roots that restore its HP on every turn but can no longer switch out.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ivy_cudgel"><a href="moves/ivy_cudgel.html">Ivy Cudgel</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td></th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="jungle_healing"><a href="moves/jungle_healing.html">Jungle Healing</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores HP and cures any status conditions of itself and its ally Pokémon in battle.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="leaf_blade"><a href="moves/leaf_blade.html">Leaf Blade</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user handles a sharp leaf like a sword to cut its target. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="leaf_storm"><a href="moves/leaf_storm.html">Leaf Storm</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">130</td>
+            <td id="Accuracy">90</td>
+            <td>The user whips up a storm of leaves. The recoil harshly lowers the user's Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="leaf_tornado"><a href="moves/leaf_tornado.html">Leaf Tornado</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">90</td>
+            <td>The user encircles its target in sharp leaves. This attack may also lower its accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="leafage"><a href="moves/leafage.html">Leafage</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">40</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks by pelting the target with leaves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="leech_seed"><a href="moves/leech_seed.html">Leech Seed</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">90</td>
+            <td>A seed is planted on the target. It steals some HP from the target every turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magical_leaf"><a href="moves/magical_leaf.html">Magical Leaf</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">—</td>
+            <td>The user scatters curious leaves that chase the target. This attack never misses.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mana_sap"><a href="moves/mana_sap.html">Mana Sap</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user drains the target's Sp. Atk stat, restoring its HP but having its own Sp. Atk stat fall.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="matcha_gotcha"><a href="moves/matcha_gotcha.html">Matcha Gotcha</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">90</td>
+            <td></th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mega_drain"><a href="moves/mega_drain.html">Mega Drain</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">55</td>
+            <td id="Accuracy">100</td>
+            <td>A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="needle_arm"><a href="moves/needle_arm.html">Needle Arm</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="oxidize"><a href="moves/oxidize.html">Oxidize</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores its own HP. The amount of HP regained varies with the weather.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="petal_blizzard"><a href="moves/petal_blizzard.html">Petal Blizzard</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user stirs up a violent petal blizzard and attacks everything around it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="petal_dance"><a href="moves/petal_dance.html">Petal Dance</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks by scattering petals for two to three turns and then becomes confused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_whip"><a href="moves/power_whip.html">Power Whip</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">85</td>
+            <td>The user violently whirls its vines, tentacles, or the like to harshly lash the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="razor_leaf"><a href="moves/razor_leaf.html">Razor Leaf</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">55</td>
+            <td id="Accuracy">95</td>
+            <td>Sharp-edged leaves are launched at opposing Pokémon. Critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sappy_seed"><a href="moves/sappy_seed.html">Sappy Seed</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user grows a gigantic stalk that scatters Leech Seeds to attack the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="seed_bomb"><a href="moves/seed_bomb.html">Seed Bomb</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user slams a barrage of hard-shelled seeds down on the target from above.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="seed_flare"><a href="moves/seed_flare.html">Seed Flare</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">85</td>
+            <td>The user emits a shock wave. This may also harshly lower the target's Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sleep_powder"><a href="moves/sleep_powder.html">Sleep Powder</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">75</td>
+            <td>The user scatters a big cloud of sleep-inducing dust around the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="snap_trap"><a href="moves/snap_trap.html">Snap Trap</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">35</td>
+            <td id="Accuracy">100</td>
+            <td>The user snares the target in a snap trap for four to five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="solar_beam"><a href="moves/solar_beam.html">Solar Beam</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>A two-turn attack. The user gathers light, then blasts a bundled beam on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="solar_blade"><a href="moves/solar_blade.html">Solar Blade</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">125</td>
+            <td id="Accuracy">100</td>
+            <td>The user fills a blade with the light's energy, attacking the target on the next turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spicy_extract"><a href="moves/spicy_extract.html">Spicy Extract</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>A spicy extract sharply lowers the target's Defense but sharply raise Attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spiky_shield"><a href="moves/spiky_shield.html">Spiky Shield</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>This move protects the user from attacks and damages any attacker that makes contact.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spore"><a href="moves/spore.html">Spore</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user scatters bursts of spores that induce sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="strength_sap"><a href="moves/strength_sap.html">Strength Sap</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user restores its HP by the same amount as the target's Attack stat and lowers it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="stun_spore"><a href="moves/stun_spore.html">Stun Spore</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">75</td>
+            <td>The user scatters a cloud of numbing powder that paralyzes the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="synthesis"><a href="moves/synthesis.html">Synthesis</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores its own HP. The amount of HP regained varies with the weather.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="syrup_bomb"><a href="moves/syrup_bomb.html">Syrup Bomb</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">60</td>
+            <td id="Accuracy">85</td>
+            <td>Coats the target in sticky candy syrup. It's speed drops each turn for three turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="trailblaze"><a href="moves/trailblaze.html">Trailblaze</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>Performs a leaping attack with nimble footwork. This boosts the user's Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="trop_kick"><a href="moves/trop_kick.html">Trop Kick</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit by an intense kick of tropical origins. This also lowers its Attack stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="vine_whip"><a href="moves/vine_whip.html">Vine Whip</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">45</td>
+            <td id="Accuracy">100</td>
+            <td>The target is struck with slender, whiplike vines to inflict damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wood_hammer"><a href="moves/wood_hammer.html">Wood Hammer</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>The user slams its rugged body into the target to attack but is also damaged quite a lot.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="worry_seed"><a href="moves/worry_seed.html">Worry Seed</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>A seed that causes worry is planted on the target, making all target abilities Insomnia.</th>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</div>
+
+            </div>
+        </main>
+    </body>
+</html>
