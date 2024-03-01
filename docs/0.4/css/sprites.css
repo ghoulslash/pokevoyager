@@ -256,3 +256,100 @@
     transform: scaleX(-1);
     animation: owsprite_16x32_right_anim 1.0s infinite;
 }
+
+@keyframes owsprite_64x64_down_anim {
+    0%, 24.99% {
+        object-position: 0px 0px
+    }
+    25%, 49.99% {
+        object-position: -192px 0px
+    }
+    50%, 74.99% {
+        object-position: 0px 0px
+    }
+    75%, 99.99% {
+        object-position: -256px 0px
+    }
+}
+
+@keyframes owsprite_64x64_left_anim {
+    0%, 24.99% {
+        object-position: -128px 0px
+    }
+    25%, 49.99% {
+        object-position: -448px 0px
+    }
+    50%, 74.99% {
+        object-position: -128px 0px
+    }
+    75%, 99.99% {
+        object-position: -512px 0px
+    }
+}
+
+@keyframes owsprite_64x64_up_anim {
+    0%, 24.99% {
+        object-position: -64px 0px
+    }
+    25%, 49.99% {
+        object-position: -320px 0px
+    }
+    50%, 74.99% {
+        object-position: -64px 0px
+    }
+    75%, 99.99% {
+        object-position: -384px 0px
+    }
+}
+
+@keyframes owsprite_64x64_right_anim {
+    0%, 24.99% {
+        object-position: -128px 0px;
+        transform: scaleX(-1)
+    }
+    25%, 49.99% {
+        object-position: -448px 0px;
+        transform: scaleX(-1)
+    }
+    50%, 74.99% {
+        object-position: -128px 0px;
+        transform: scaleX(-1)
+    }
+    75%, 99.99% {
+        object-position: -512px 0px;
+        transform: scaleX(-1)
+    }
+}
+
+.owsprite_64x64_down {
+    width:64px;
+    height:64px;
+    object-fit:cover;
+    object-position: 0px 0px;
+    animation: owsprite_64x64_down_anim 1.0s infinite;
+}
+
+.owsprite_64x64_left {
+    width:64px;
+    height:64px;
+    object-fit:cover;
+    object-position: -64px 0px;
+    animation: owsprite_64x64_left_anim 1.0s infinite;
+}
+
+.owsprite_64x64_up {
+    width:64px;
+    height:64px;
+    object-fit:cover;
+    object-position: -64px 0px;
+    animation: owsprite_64x64_up_anim 1.0s infinite;
+}
+
+.owsprite_64x64_right {
+    width:64px;
+    height:64px;
+    object-fit:cover;
+    object-position: -64px 0px;
+    transform: scaleX(-1);
+    animation: owsprite_64x64_right_anim 1.0s infinite;
+}
