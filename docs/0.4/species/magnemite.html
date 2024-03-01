@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/mineral.html">MINERAL</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/mineral.html">Mineral</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 190
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -240,9 +250,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/magnemite.html">Magnemite<br><img class="frontsprite" src="sprites/pokemon/magnemite/front.png"></a></td><td align="center" rowspan=1>Level 30</td><td align="center" rowspan=1><a href="species/magneton.html">Magneton<br><img class="frontsprite" src="sprites/pokemon/magneton/front.png"></a></td><td align="center" rowspan=1>Use <a href="items/thunder_stone.html">Thunder Stone</a> <a href="items/thunder_stone.html"><img src="sprites/items/thunder_stone.png"></a></td><td align="center" rowspan=1><a href="species/magnezone.html">Magnezone<br><img class="frontsprite" src="sprites/pokemon/magnezone/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1868,27 +1875,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1913,8 +1899,29 @@ Secret Power
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_steel.png"></td>
+            <td><a href="items/tm_085.html">TM 085</a></td>
+            <td id="Move"><a href="moves/gyro_ball.html">
+
+
+<b>Gyro Ball</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="STEEL">
+    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_091.html">TM 091</a></td>
+            <td><a href="items/tm_092.html">TM 092</a></td>
             <td id="Move"><a href="moves/solar_flare.html">
 
 Solar Flare
@@ -1935,7 +1942,7 @@ Solar Flare
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_114.html">TM 114</a></td>
+            <td><a href="items/tm_121.html">TM 121</a></td>
             <td id="Move"><a href="moves/thunder.html">
 
 
@@ -2174,6 +2181,25 @@ Explosion
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/flash.html">
 
 Flash
@@ -2240,25 +2266,6 @@ Gravity
             <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/gyro_ball.html">
-
-
-<b>Gyro Ball</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="STEEL">
-    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
             <td id="PP">5</td>
         </tr>
 
@@ -3025,7 +3032,7 @@ Thunderstorm
 <b>Magnet Pull</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Prevents Steel-type Pokémon from escaping using its magnetic force.</td>
         </tr>
 
@@ -3038,7 +3045,7 @@ Thunderstorm
 <b>Sturdy</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -3051,7 +3058,7 @@ Thunderstorm
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -3064,7 +3071,7 @@ Soundproof
 Quark Drive
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's most proficient stat on Electric Terrain.</td>
         </tr>
 
@@ -3077,7 +3084,7 @@ Quark Drive
 <i>Analytic</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -3090,7 +3097,7 @@ Quark Drive
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -3103,7 +3110,7 @@ Levitate
 Short Circuit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a thunderstorm when it's hit by an attack.</td>
         </tr>
 
@@ -3116,7 +3123,7 @@ Short Circuit
 Hadron Engine
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Generates Electric Terrain when the Pokémon enters. Boosts Sp. Atk stat on Electric Terrain.</td>
         </tr>
 
@@ -3153,7 +3160,7 @@ Hadron Engine
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -3167,7 +3174,7 @@ Battle Armor
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -3181,7 +3188,7 @@ Illuminate
 <b>Sturdy</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -3195,7 +3202,7 @@ Illuminate
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -3209,7 +3216,7 @@ Lightning Rod
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -3223,7 +3230,7 @@ Levitate
 Quark Drive
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's most proficient stat on Electric Terrain.</td>
         </tr>
 
@@ -3260,7 +3267,7 @@ Quark Drive
 <i>Analytic</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -3272,7 +3279,7 @@ Quark Drive
 Battery
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Powers up ally Pokémon's special moves.</td>
         </tr>
 
@@ -3284,7 +3291,7 @@ Battery
 Bulletproof
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -3296,7 +3303,7 @@ Bulletproof
 Carbonize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Steel-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3308,7 +3315,7 @@ Carbonize
 Clear Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -3320,7 +3327,7 @@ Clear Body
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -3332,7 +3339,7 @@ Defeatist
 Download
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Raises the Pokémon's offensive stat an opposing Pokémon is the weakest to.</td>
         </tr>
 
@@ -3344,7 +3351,7 @@ Download
 Electromorphosis
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon becomes Charged up when it takes damage.</td>
         </tr>
 
@@ -3356,7 +3363,7 @@ Electromorphosis
 Full Metal Body
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -3368,7 +3375,7 @@ Full Metal Body
 Galvanize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Electric-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3380,7 +3387,7 @@ Galvanize
 Hadron Engine
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Generates Electric Terrain when the Pokémon enters. Boosts Sp. Atk stat on Electric Terrain.</td>
         </tr>
 
@@ -3392,7 +3399,7 @@ Hadron Engine
 Heavy Metal
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Doubles the Pokémon's weight.</td>
         </tr>
 
@@ -3404,7 +3411,7 @@ Heavy Metal
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -3416,7 +3423,7 @@ Insomnia
 Irradiated
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates a solar wind when it's hit by an attack.</td>
         </tr>
 
@@ -3428,7 +3435,7 @@ Irradiated
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -3440,7 +3447,7 @@ Klutz
 Light Metal
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Halves the Pokémon's weight.</td>
         </tr>
 
@@ -3452,7 +3459,7 @@ Light Metal
 <b>Magnet Pull</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Prevents Steel-type Pokémon from escaping using its magnetic force.</td>
         </tr>
 
@@ -3464,7 +3471,7 @@ Light Metal
 Minus
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Boosts the Sp. Atk stat if an ally with the Plus or Minus Ability is also in battle.</td>
         </tr>
 
@@ -3476,7 +3483,7 @@ Minus
 Mirror Armor
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Bounces back only the stat-lowering effects that the Pokémon receives.</td>
         </tr>
 
@@ -3488,7 +3495,7 @@ Mirror Armor
 Motor Drive
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts its Speed stat if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -3500,7 +3507,7 @@ Motor Drive
 Plus
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Boosts the Sp. Atk stat if an ally with the Plus or Minus Ability is also in battle.</td>
         </tr>
 
@@ -3512,7 +3519,7 @@ Plus
 Prism Armor
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Reduces the power of supereffective attacks taken.</td>
         </tr>
 
@@ -3524,7 +3531,7 @@ Prism Armor
 Protosynthesis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's most proficient stat in harsh sunlight or solar wind.</td>
         </tr>
 
@@ -3536,7 +3543,7 @@ Protosynthesis
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -3548,7 +3555,7 @@ Rock Head
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -3560,7 +3567,7 @@ Run Away
 Short Circuit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a thunderstorm when it's hit by an attack.</td>
         </tr>
 
@@ -3572,7 +3579,7 @@ Short Circuit
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -3584,7 +3591,7 @@ Slow Start
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -3596,7 +3603,7 @@ Soundproof
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -3608,7 +3615,7 @@ Stall
 Static
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is charged with static electricity, so contact with it may cause paralysis.</td>
         </tr>
 
@@ -3620,7 +3627,7 @@ Static
 Steelworker
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up Steel-type moves.</td>
         </tr>
 
@@ -3632,7 +3639,7 @@ Steelworker
 Surge Surfer
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -3644,7 +3651,7 @@ Surge Surfer
 Transistor
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Powers up Electric-type moves.</td>
         </tr>
 
@@ -3656,7 +3663,7 @@ Transistor
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -3668,7 +3675,7 @@ Truant
 Volt Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -3680,7 +3687,7 @@ Volt Absorb
 Volt Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a thunderstorm.</td>
         </tr>
 
@@ -3703,6 +3710,11 @@ Volt Rush
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

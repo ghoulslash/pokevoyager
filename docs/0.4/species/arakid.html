@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -209,9 +216,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/bug.html">BUG</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
 
 
             </td>
@@ -233,6 +242,20 @@
                 255
             </td>
         </tr>
+
+        <tr>
+            <td colspan=9 align="center">
+                <div onclick='playcry()'>
+                Cry by <b>plus_sized_scribe</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+                </svg>
+                </div>
+                <audio id="cry-audio" src="sound/cries/arakid.wav"></audio>
+            </td>
+        </tr>
+
     </tbody>
 </table>
 
@@ -255,14 +278,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/arakid.html">Arakid<br><img class="frontsprite" src="sprites/pokemon/arakid/front.png"></a></td><td align="center" rowspan=1>Level 28</td><td align="center" rowspan=1><a href="species/rakidone.html">Rakidone<br><img class="frontsprite" src="sprites/pokemon/rakidone/front.png"></a></td></tr>
 </table>
-
-
-
-<img class="conceptart" src="images/concepts/pokemon/arakid_rakidone_1_kwenio.png">
-<p>
-Concept art by <b>kwenio</b>
-</p>
-
 
 
 <h2>
@@ -5877,27 +5892,6 @@ Sludge Bomb
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -5977,6 +5971,27 @@ Topsy-Turvy
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
+            <td><a href="items/tm_052.html">TM 052</a></td>
+            <td id="Move"><a href="moves/venoshock.html">
+
+
+Venoshock
+
+
+</a></td>
+            <td id="Type" data-sortkey="POISON">
+    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
             <td><a href="items/tm_057.html">TM 057</a></td>
             <td id="Move"><a href="moves/trick_room.html">
@@ -5991,25 +6006,6 @@ Trick Room
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_058.html">TM 058</a></td>
-            <td id="Move"><a href="moves/wonder_room.html">
-
-Wonder Room
-
-</a></td>
-            <td id="Type" data-sortkey="PSYCHIC">
-    <a href="moves/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">—</td>
-            <td id="PP">10</td>
         </tr>
 
 
@@ -6054,7 +6050,7 @@ Marvel Room
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_064.html">TM 064</a></td>
+            <td><a href="items/tm_065.html">TM 065</a></td>
             <td id="Move"><a href="moves/psychic_terrain.html">
 
 Psychic Terrain
@@ -6073,7 +6069,7 @@ Psychic Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
-            <td><a href="items/tm_069.html">TM 069</a></td>
+            <td><a href="items/tm_070.html">TM 070</a></td>
             <td id="Move"><a href="moves/eerie_terrain.html">
 
 Eerie Terrain
@@ -6091,48 +6087,8 @@ Eerie Terrain
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_078.html">TM 078</a></td>
-            <td id="Move"><a href="moves/nature_power.html">
-
-Nature Power
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
-            <td id="Move"><a href="moves/dark_pulse.html">
-
-
-Dark Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">80</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
-            <td><a href="items/tm_088.html">TM 088</a></td>
+            <td><a href="items/tm_089.html">TM 089</a></td>
             <td id="Move"><a href="moves/acid_rain.html">
 
 Acid Rain
@@ -6151,7 +6107,7 @@ Acid Rain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
-            <td><a href="items/tm_097.html">TM 097</a></td>
+            <td><a href="items/tm_098.html">TM 098</a></td>
             <td id="Move"><a href="moves/bramble_snag.html">
 
 
@@ -6172,7 +6128,7 @@ Bramble Snag
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td><a href="items/tm_103.html">TM 103</a></td>
             <td id="Move"><a href="moves/simoom.html">
 
 
@@ -6193,7 +6149,7 @@ Simoom
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_102.html">TM 102</a></td>
+            <td><a href="items/tm_105.html">TM 105</a></td>
             <td id="Move"><a href="moves/bug_buzz.html">
 
 
@@ -6214,11 +6170,32 @@ Simoom
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td id="Move"><a href="moves/dark_pulse.html">
+
+
+Dark Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td><a href="items/tm_123.html">TM 123</a></td>
             <td id="Move"><a href="moves/expanding_force.html">
 
 
@@ -7839,6 +7816,25 @@ Energy Ball
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/flash.html">
 
 Flash
@@ -8251,6 +8247,23 @@ Natural Gift
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/nature_power.html">
+
+Nature Power
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -9177,19 +9190,17 @@ Venom Drench
 
 
         <tr>
-            <td id="Move"><a href="moves/venoshock.html">
+            <td id="Move"><a href="moves/wonder_room.html">
 
-
-Venoshock
-
+Wonder Room
 
 </a></td>
-            <td id="Type" data-sortkey="POISON">
-    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
+            <td id="Type" data-sortkey="PSYCHIC">
+    <a href="moves/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
             <td id="PP">10</td>
         </tr>
 
@@ -9287,7 +9298,7 @@ Wring Out
 <b>Compound Eyes</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -9300,7 +9311,7 @@ Wring Out
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -9313,7 +9324,7 @@ Levitate
 Magic Guard
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>The Pokémon only takes damage from attacks.</td>
         </tr>
 
@@ -9326,7 +9337,7 @@ Magic Guard
 Telepathy
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Anticipates an ally's attack and dodges it.</td>
         </tr>
 
@@ -9339,7 +9350,7 @@ Telepathy
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -9352,7 +9363,7 @@ Analytic
 Hive Mind
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Bug-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -9365,7 +9376,7 @@ Hive Mind
 Neuroforce
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up moves that are super effective.</td>
         </tr>
 
@@ -9378,7 +9389,7 @@ Neuroforce
 <i>Singularity</i>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>The Pokémon aplifies the Gravitational field when it enters battle.</td>
         </tr>
 
@@ -9415,7 +9426,7 @@ Neuroforce
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -9429,7 +9440,7 @@ Own Tempo
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -9443,7 +9454,7 @@ Insomnia
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -9457,7 +9468,7 @@ Immunity
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -9471,7 +9482,7 @@ Cloud Nine
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -9485,7 +9496,7 @@ Mimicry
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -9499,7 +9510,7 @@ Poison Heal
 Shadow Tag
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -9513,8 +9524,8 @@ Shadow Tag
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -9527,7 +9538,7 @@ Frostproof
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -9541,7 +9552,7 @@ Levitate
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -9555,7 +9566,7 @@ Super Luck
 <b>Compound Eyes</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -9569,7 +9580,7 @@ Super Luck
 Toxic Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up physical attacks when the Pokémon is poisoned.</td>
         </tr>
 
@@ -9604,7 +9615,7 @@ Toxic Boost
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -9616,7 +9627,7 @@ Analytic
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -9628,7 +9639,7 @@ Anticipation
 Cognizate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Psychic-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -9640,7 +9651,7 @@ Cognizate
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -9652,7 +9663,7 @@ Cold-Blooded
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -9664,7 +9675,7 @@ Contrary
 Cursed Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>May disable a move used on the Pokémon.</td>
         </tr>
 
@@ -9676,7 +9687,7 @@ Cursed Body
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -9688,7 +9699,7 @@ Defeatist
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -9700,7 +9711,7 @@ Emergency Exit
 Forewarn
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.</td>
         </tr>
 
@@ -9712,7 +9723,7 @@ Forewarn
 Hive Mind
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Bug-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -9724,7 +9735,7 @@ Hive Mind
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -9736,7 +9747,7 @@ Infiltrator
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -9748,7 +9759,7 @@ Inner Focus
 Keen Eye
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Prevents other Pokémon from lowering this Pokémon's accuracy.</td>
         </tr>
 
@@ -9760,7 +9771,7 @@ Keen Eye
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -9772,7 +9783,7 @@ Klutz
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -9784,7 +9795,7 @@ Lifelink
 Magic Bounce
 
 </a></td>
-            <td>11</td>
+            <td align="center">11</td>
             <td>Reflects status moves instead of getting hit by them.</td>
         </tr>
 
@@ -9796,7 +9807,7 @@ Magic Bounce
 Magic Guard
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>The Pokémon only takes damage from attacks.</td>
         </tr>
 
@@ -9808,7 +9819,7 @@ Magic Guard
 Neuroforce
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up moves that are super effective.</td>
         </tr>
 
@@ -9820,7 +9831,7 @@ Neuroforce
 No Guard
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.</td>
         </tr>
 
@@ -9832,7 +9843,7 @@ No Guard
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -9844,7 +9855,7 @@ Pickup
 Prankster
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -9856,7 +9867,7 @@ Prankster
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -9868,7 +9879,7 @@ Run Away
 Shield Dust
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>This Pokémon's dust blocks the additional effects of attacks taken.</td>
         </tr>
 
@@ -9880,7 +9891,7 @@ Shield Dust
 <i>Singularity</i>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>The Pokémon aplifies the Gravitational field when it enters battle.</td>
         </tr>
 
@@ -9892,7 +9903,7 @@ Shield Dust
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -9904,7 +9915,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -9916,7 +9927,7 @@ Stall
 Sticky Hold
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.</td>
         </tr>
 
@@ -9928,7 +9939,7 @@ Sticky Hold
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -9940,7 +9951,7 @@ Swarm
 Synchronize
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -9952,7 +9963,7 @@ Synchronize
 Telepathy
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Anticipates an ally's attack and dodges it.</td>
         </tr>
 
@@ -9964,7 +9975,7 @@ Telepathy
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -9976,7 +9987,7 @@ Trace
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -10000,6 +10011,16 @@ Truant
     </tbody>
 </table>
 
+
+
+
+
+
+
+<img class="conceptart" src="images/concepts/pokemon/arakid_rakidone_1_kwenio.png">
+<p>
+Concept art by <b>kwenio</b>
+</p>
 
 
 

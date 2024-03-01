@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/amorphous.html">AMORPHOUS</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
+
 
 
             </td>
@@ -217,6 +226,20 @@
                 15
             </td>
         </tr>
+
+        <tr>
+            <td colspan=9 align="center">
+                <div onclick='playcry()'>
+                Cry by <b>plus_sized_scribe</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+                </svg>
+                </div>
+                <audio id="cry-audio" src="sound/cries/carcinodjinn.wav"></audio>
+            </td>
+        </tr>
+
     </tbody>
 </table>
 
@@ -235,14 +258,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/carcinodjinn.html">Carcinodjinn<br><img class="frontsprite" src="sprites/pokemon/carcinodjinn/front.png"></a></td></tr>
 </table>
-
-
-
-<img class="conceptart" src="images/concepts/pokemon/carcinodjinn_artsy.png">
-<p>
-Concept art by <b>artsy</b>
-</p>
-
 
 
 <h2>
@@ -3640,6 +3655,25 @@ Toxic Spikes
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/tm_003.html">TM 003</a></td>
+            <td id="Move"><a href="moves/worry_seed.html">
+
+Worry Seed
+
+</a></td>
+            <td id="Type" data-sortkey="GRASS">
+    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
             <td><a href="items/tm_005.html">TM 005</a></td>
             <td id="Move"><a href="moves/toxic.html">
@@ -3881,27 +3915,6 @@ Shock Wave
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -3942,19 +3955,42 @@ Attract
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_051.html">TM 051</a></td>
-            <td id="Move"><a href="moves/will_o_wisp.html">
+            <td><a href="items/tm_038.html">TM 038</a></td>
+            <td id="Move"><a href="moves/incinerate.html">
 
-Will-o-Wisp
+
+Incinerate
+
 
 </a></td>
             <td id="Type" data-sortkey="FIRE">
     <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
 </td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">85</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
+            <td><a href="items/tm_052.html">TM 052</a></td>
+            <td id="Move"><a href="moves/venoshock.html">
+
+
+<b>Venoshock</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="POISON">
+    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -3979,8 +4015,29 @@ Entrainment
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
+            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+Ancient Power
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_steel.png"></td>
-            <td><a href="items/tm_071.html">TM 071</a></td>
+            <td><a href="items/tm_072.html">TM 072</a></td>
             <td id="Move"><a href="moves/shrapnel_terrain.html">
 
 Shrapnel Terrain
@@ -3999,7 +4056,7 @@ Shrapnel Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_074.html">TM 074</a></td>
+            <td><a href="items/tm_075.html">TM 075</a></td>
             <td id="Move"><a href="moves/morbid_terrain.html">
 
 Morbid Terrain
@@ -4018,7 +4075,7 @@ Morbid Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
-            <td><a href="items/tm_077.html">TM 077</a></td>
+            <td><a href="items/tm_078.html">TM 078</a></td>
             <td id="Move"><a href="moves/noxious_terrain.html">
 
 Noxious Terrain
@@ -4036,48 +4093,8 @@ Noxious Terrain
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_078.html">TM 078</a></td>
-            <td id="Move"><a href="moves/nature_power.html">
-
-Nature Power
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
-            <td id="Move"><a href="moves/dark_pulse.html">
-
-
-Dark Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">80</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
-            <td><a href="items/tm_088.html">TM 088</a></td>
+            <td><a href="items/tm_089.html">TM 089</a></td>
             <td id="Move"><a href="moves/acid_rain.html">
 
 Acid Rain
@@ -4096,7 +4113,7 @@ Acid Rain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_094.html">TM 094</a></td>
+            <td><a href="items/tm_095.html">TM 095</a></td>
             <td id="Move"><a href="moves/endothermia.html">
 
 
@@ -4117,7 +4134,7 @@ Endothermia
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -4138,7 +4155,49 @@ Flamethrower
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td id="Move"><a href="moves/fire_blast.html">
+
+
+Fire Blast
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">110</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td id="Move"><a href="moves/dark_pulse.html">
+
+
+Dark Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_119.html">TM 119</a></td>
             <td id="Move"><a href="moves/jettison.html">
 
 
@@ -4258,25 +4317,6 @@ Acid Armor
             <td id="Power">40</td>
             <td id="Accuracy">100</td>
             <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
-
-
-Ancient Power
-
-
-</a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
         </tr>
 
 
@@ -4680,20 +4720,20 @@ Extrasensory
 
 
         <tr>
-            <td id="Move"><a href="moves/fire_blast.html">
+            <td id="Move"><a href="moves/facade.html">
 
 
-Fire Blast
+Facade
 
 
 </a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">110</td>
-            <td id="Accuracy">85</td>
-            <td id="PP">5</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -4989,25 +5029,6 @@ Hyper Beam
 
 
         <tr>
-            <td id="Move"><a href="moves/incinerate.html">
-
-
-Incinerate
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/infestation.html">
 
 
@@ -5181,6 +5202,23 @@ Natural Gift
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/nature_power.html">
+
+Nature Power
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -5806,37 +5844,18 @@ Tri Attack
 
 
         <tr>
-            <td id="Move"><a href="moves/venoshock.html">
+            <td id="Move"><a href="moves/will_o_wisp.html">
 
-
-<b>Venoshock</b>
-
+Will-o-Wisp
 
 </a></td>
-            <td id="Type" data-sortkey="POISON">
-    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/worry_seed.html">
-
-Worry Seed
-
-</a></td>
-            <td id="Type" data-sortkey="GRASS">
-    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
 </td>
             <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">15</td>
         </tr>
 
 
@@ -5875,7 +5894,7 @@ Worry Seed
 <b>Liquid Ooze</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The oozed liquid has a strong stench, which damages attackers using draining moves.</td>
         </tr>
 
@@ -5888,7 +5907,7 @@ Worry Seed
 <i>Fumigate</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Poison-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5901,7 +5920,7 @@ Worry Seed
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -5914,7 +5933,7 @@ Stench
 Noxious Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Noxious Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5927,7 +5946,7 @@ Noxious Surge
 Merciless
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon's attacks become critical hits if the target is poisoned.</td>
         </tr>
 
@@ -5940,7 +5959,7 @@ Merciless
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5953,7 +5972,7 @@ Lifelink
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -5966,7 +5985,7 @@ Levitate
 Shadow Tag
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -6003,7 +6022,7 @@ Shadow Tag
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -6017,7 +6036,7 @@ Pickup
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -6031,7 +6050,7 @@ Insomnia
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -6045,7 +6064,7 @@ Illuminate
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -6059,7 +6078,7 @@ Ball Fetch
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -6073,7 +6092,7 @@ Mimicry
 Shadow Tag
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -6087,7 +6106,7 @@ Shadow Tag
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -6101,7 +6120,7 @@ Levitate
 <b>Liquid Ooze</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The oozed liquid has a strong stench, which damages attackers using draining moves.</td>
         </tr>
 
@@ -6115,7 +6134,7 @@ Levitate
 Toxic Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up physical attacks when the Pokémon is poisoned.</td>
         </tr>
 
@@ -6129,7 +6148,7 @@ Toxic Boost
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -6164,7 +6183,7 @@ Oblivious
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -6176,7 +6195,7 @@ Adaptability
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -6188,7 +6207,7 @@ Anticipation
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -6200,7 +6219,7 @@ Cloud Nine
 Corrosion
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon can poison the target even if it's a Steel or Poison type.</td>
         </tr>
 
@@ -6212,7 +6231,7 @@ Corrosion
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -6224,7 +6243,7 @@ Defeatist
 Early Bird
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -6236,7 +6255,7 @@ Early Bird
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -6248,7 +6267,7 @@ Emergency Exit
 Forewarn
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.</td>
         </tr>
 
@@ -6260,7 +6279,7 @@ Forewarn
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -6272,7 +6291,7 @@ Frisk
 <i>Fumigate</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Poison-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6284,7 +6303,7 @@ Frisk
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -6296,7 +6315,7 @@ Immunity
 Indigestion
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon summons acid rain when it's hit by an attack.</td>
         </tr>
 
@@ -6308,7 +6327,7 @@ Indigestion
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -6320,7 +6339,7 @@ Inner Focus
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -6332,7 +6351,7 @@ Klutz
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -6344,7 +6363,7 @@ Lifelink
 Lingering Aroma
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Contact with the {POKEMON} changes all attacker's Abilities to Lingering Aroma.</td>
         </tr>
 
@@ -6356,7 +6375,7 @@ Lingering Aroma
 Merciless
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon's attacks become critical hits if the target is poisoned.</td>
         </tr>
 
@@ -6368,7 +6387,7 @@ Merciless
 Neutralizing Gas
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>When in the battle, the effects of all Pokémon's Abilities will be nullified.</td>
         </tr>
 
@@ -6380,7 +6399,7 @@ Neutralizing Gas
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -6392,7 +6411,7 @@ Normalize
 Noxious Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Noxious Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6404,7 +6423,7 @@ Noxious Surge
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -6416,7 +6435,7 @@ Own Tempo
 Phantasmic
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates a bizarre area that swaps Defense stats when it enters battle.</td>
         </tr>
 
@@ -6428,7 +6447,7 @@ Phantasmic
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -6440,7 +6459,7 @@ Poison Heal
 Poison Point
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Contact with the Pokémon may poison the attacker.</td>
         </tr>
 
@@ -6452,7 +6471,7 @@ Poison Point
 Poison Touch
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>May poison a target when the Pokémon makes contact.</td>
         </tr>
 
@@ -6464,7 +6483,7 @@ Poison Touch
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -6476,7 +6495,7 @@ Run Away
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -6488,7 +6507,7 @@ Slow Start
 Sludge Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in acid rain.</td>
         </tr>
 
@@ -6500,7 +6519,7 @@ Sludge Rush
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -6512,7 +6531,7 @@ Stall
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -6524,7 +6543,7 @@ Stench
 Symbiosis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon passes its item to an ally that has used up an item.</td>
         </tr>
 
@@ -6536,7 +6555,7 @@ Symbiosis
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -6548,7 +6567,7 @@ Trace
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6560,7 +6579,7 @@ Truant
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -6572,7 +6591,7 @@ Unaware
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -6584,7 +6603,7 @@ Unburden
 Unearthly
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates a bizarre area that swaps Attack stats when it enters battle.</td>
         </tr>
 
@@ -6596,7 +6615,7 @@ Unearthly
 Vital Spirit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is full of vitality, and that prevents it from falling asleep.</td>
         </tr>
 
@@ -6608,7 +6627,7 @@ Vital Spirit
 Wimp Out
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon cowardly switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -6620,7 +6639,7 @@ Wimp Out
 Wispy Form
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon creates a thick fog when it's hit by an attack.</td>
         </tr>
 
@@ -6636,6 +6655,16 @@ Wispy Form
     </tbody>
 </table>
 
+
+
+
+
+
+
+<img class="conceptart" src="images/concepts/pokemon/carcinodjinn_artsy.png">
+<p>
+Concept art by <b>artsy</b>
+</p>
 
 
 

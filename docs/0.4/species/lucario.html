@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -176,11 +183,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
                 <br>
-                <a href="pokedex/egg_human_like.html">HUMAN-LIKE</a>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/human_like.html">Human-Like</a>
+
 
 
             </td>
@@ -205,6 +217,7 @@
                 45
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -227,9 +240,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/riolu.html">Riolu<br><img class="frontsprite" src="sprites/pokemon/riolu/front.png"></a></td><td align="center" rowspan=1>Level up during the day with high friendship</td><td align="center" rowspan=1><a href="species/lucario.html">Lucario<br><img class="frontsprite" src="sprites/pokemon/lucario/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1925,27 +1935,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2006,29 +1995,8 @@ Attract
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_052.html">TM 052</a></td>
-            <td id="Move"><a href="moves/terrain_pulse.html">
-
-
-Terrain Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">50</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -2049,7 +2017,7 @@ Bulldoze
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_081.html">TM 081</a></td>
+            <td><a href="items/tm_083.html">TM 083</a></td>
             <td id="Move"><a href="moves/strength.html">
 
 
@@ -2069,8 +2037,50 @@ Strength
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
+            <td id="Move"><a href="moves/hyper_beam.html">
+
+
+Hyper Beam
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">150</td>
+            <td id="Accuracy">90</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
+
+
+Water Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
             <td id="Move"><a href="moves/dark_pulse.html">
 
 
@@ -2091,28 +2101,7 @@ Dark Pulse
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
-            <td id="Move"><a href="moves/hyper_beam.html">
-
-
-Hyper Beam
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">150</td>
-            <td id="Accuracy">90</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -2133,7 +2122,7 @@ Giga Impact
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -2154,7 +2143,7 @@ Earthquake
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_117.html">TM 117</a></td>
+            <td><a href="items/tm_124.html">TM 124</a></td>
             <td id="Move"><a href="moves/role_play.html">
 
 Role Play
@@ -3582,11 +3571,6 @@ Follow Me
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -3600,13 +3584,13 @@ Follow Me
 <a href="species/stoutland.html"><img class="iconsprite" src="sprites/pokemon/stoutland/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/yamper.html"><img class="iconsprite" src="sprites/pokemon/yamper/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -4561,6 +4545,25 @@ Endure
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -5954,20 +5957,20 @@ Stone Edge
 
 
         <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
+            <td id="Move"><a href="moves/terrain_pulse.html">
 
 
-Water Pulse
+Terrain Pulse
 
 
 </a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
             <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Power">50</td>
             <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -6006,7 +6009,7 @@ Water Pulse
 <b>Steadfast</b>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's determination boosts the Speed stat each time the Pokémon flinches.</td>
         </tr>
 
@@ -6019,7 +6022,7 @@ Water Pulse
 <b>Inner Focus</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -6032,7 +6035,7 @@ Water Pulse
 <i>Justified</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Being hit by a Dark-type move boosts the Attack stat of the Pokémon, for justice.</td>
         </tr>
 
@@ -6045,7 +6048,7 @@ Water Pulse
 Prankster
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -6058,7 +6061,7 @@ Prankster
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -6071,7 +6074,7 @@ Analytic
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -6084,7 +6087,7 @@ Skill Link
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -6097,7 +6100,7 @@ Technician
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -6134,7 +6137,7 @@ Adaptability
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -6148,7 +6151,7 @@ Ball Fetch
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -6162,7 +6165,7 @@ Lightning Rod
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -6176,7 +6179,7 @@ Super Luck
 Neuroforce
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up moves that are super effective.</td>
         </tr>
 
@@ -6190,7 +6193,7 @@ Neuroforce
 Sand Stream
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>The Pokémon summons a sandstorm when it enters a battle.</td>
         </tr>
 
@@ -6225,7 +6228,7 @@ Sand Stream
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -6237,7 +6240,7 @@ Adaptability
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -6249,7 +6252,7 @@ Analytic
 Bare Hands
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the base power of the Pokémon's attacks if they are not holding an item.</td>
         </tr>
 
@@ -6261,7 +6264,7 @@ Bare Hands
 Combatize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fighting-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6273,7 +6276,7 @@ Combatize
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -6285,7 +6288,7 @@ Defeatist
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -6297,7 +6300,7 @@ Emergency Exit
 Friend Guard
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -6309,7 +6312,7 @@ Friend Guard
 <b>Inner Focus</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -6321,7 +6324,7 @@ Friend Guard
 Iron Fist
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up punching moves.</td>
         </tr>
 
@@ -6333,7 +6336,7 @@ Iron Fist
 <i>Justified</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Being hit by a Dark-type move boosts the Attack stat of the Pokémon, for justice.</td>
         </tr>
 
@@ -6345,7 +6348,7 @@ Iron Fist
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -6357,7 +6360,7 @@ Klutz
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -6369,7 +6372,7 @@ Limber
 Power Spot
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Just being next to the Pokémon powers up moves.</td>
         </tr>
 
@@ -6381,7 +6384,7 @@ Power Spot
 Prankster
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -6393,7 +6396,7 @@ Prankster
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -6405,7 +6408,7 @@ Skill Link
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -6417,7 +6420,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -6429,7 +6432,7 @@ Stall
 <b>Steadfast</b>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's determination boosts the Speed stat each time the Pokémon flinches.</td>
         </tr>
 
@@ -6441,7 +6444,7 @@ Stall
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -6453,7 +6456,7 @@ Technician
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6465,7 +6468,7 @@ Truant
 Carbonize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Steel-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6477,7 +6480,7 @@ Carbonize
 Combat Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Combat Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6489,7 +6492,7 @@ Combat Surge
 Mega Launcher
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up aura and pulse moves.</td>
         </tr>
 
@@ -6501,7 +6504,7 @@ Mega Launcher
 Shrapnel Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Shrapnel Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6513,7 +6516,7 @@ Shrapnel Surge
 Stalwart
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves.</td>
         </tr>
 
@@ -6525,7 +6528,7 @@ Stalwart
 Steelworker
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up Steel-type moves.</td>
         </tr>
 
@@ -6537,7 +6540,7 @@ Steelworker
 Steely Spirit
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Powers up ally Pokémon's Steel-type moves.</td>
         </tr>
 
@@ -6549,7 +6552,7 @@ Steely Spirit
 Unseen Fist
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Moves that make direct contact can attack the target even if the target protects itself.</td>
         </tr>
 
@@ -6564,6 +6567,11 @@ Unseen Fist
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

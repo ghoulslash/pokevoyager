@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -187,9 +194,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/mineral.html">MINERAL</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/mineral.html">Mineral</a>
+
 
 
             </td>
@@ -211,6 +220,7 @@
                 45
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -237,9 +247,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/porygon.html">Porygon<br><img class="frontsprite" src="sprites/pokemon/porygon/front.png"></a></td><td align="center" rowspan=1>Use <a href="items/up_grade.html">Up-Grade</a> <a href="items/up_grade.html"><img src="sprites/items/up_grade.png"></a></td><td align="center" rowspan=1><a href="species/porygon2.html">Porygon2<br><img class="frontsprite" src="sprites/pokemon/porygon2/front.png"></a></td><td align="center" rowspan=1>Use <a href="items/dubious_disc.html">Dubious Disc</a> <a href="items/dubious_disc.html"><img src="sprites/items/dubious_disc.png"></a></td><td align="center" rowspan=1><a href="species/porygon_z.html">PORYGON_Z<br><img class="frontsprite" src="sprites/pokemon/porygon_z/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2212,27 +2219,6 @@ Shock Wave
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-<b>Facade</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2351,7 +2337,7 @@ Trick Room
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_062.html">TM 062</a></td>
+            <td><a href="items/tm_063.html">TM 063</a></td>
             <td id="Move"><a href="moves/electric_terrain.html">
 
 Electric Terrain
@@ -2368,11 +2354,49 @@ Electric Terrain
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_mystery.png"></td>
+            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td id="Move"><a href="moves/inverse_terrain.html">
+
+Inverse Terrain
+
+</a></td>
+            <td id="Type" data-sortkey="MYSTERY">
+    <a href="moves/type/mystery.html"><img src="sprites/icons/mystery.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
+            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td id="Move"><a href="moves/psybeam.html">
+
+
+Psybeam
+
+
+</a></td>
+            <td id="Type" data-sortkey="PSYCHIC">
+    <a href="moves/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ice.png"></td>
-            <td><a href="items/tm_103.html">TM 103</a></td>
+            <td><a href="items/tm_107.html">TM 107</a></td>
             <td id="Move"><a href="moves/ice_beam.html">
 
 
@@ -2391,9 +2415,11 @@ Ice Beam
 
 
 
+
+
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -2751,6 +2777,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+<b>Facade</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/flash.html">
 
 Flash
@@ -2875,23 +2920,6 @@ Icy Wind
             <td id="Power">55</td>
             <td id="Accuracy">95</td>
             <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/inverse_terrain.html">
-
-Inverse Terrain
-
-</a></td>
-            <td id="Type" data-sortkey="MYSTERY">
-    <a href="moves/type/mystery.html"><img src="sprites/icons/mystery.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">—</td>
-            <td id="PP">10</td>
         </tr>
 
 
@@ -3068,25 +3096,6 @@ Protect
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/psybeam.html">
-
-
-Psybeam
-
-
-</a></td>
-            <td id="Type" data-sortkey="PSYCHIC">
-    <a href="moves/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -3753,7 +3762,7 @@ Zen Headbutt
 <b>Trace</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -3766,7 +3775,7 @@ Zen Headbutt
 <b>Download</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Raises the Pokémon's offensive stat an opposing Pokémon is the weakest to.</td>
         </tr>
 
@@ -3779,7 +3788,7 @@ Zen Headbutt
 Volt Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -3792,7 +3801,7 @@ Volt Absorb
 <i>Analytic</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -3805,7 +3814,7 @@ Volt Absorb
 Short Circuit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a thunderstorm when it's hit by an attack.</td>
         </tr>
 
@@ -3818,7 +3827,7 @@ Short Circuit
 Protean
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Changes the Pokémon's type to the type of the move it's about to use.</td>
         </tr>
 
@@ -3831,7 +3840,7 @@ Protean
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -3844,7 +3853,7 @@ Levitate
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -3881,7 +3890,7 @@ Soundproof
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -3895,7 +3904,7 @@ Ball Fetch
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -3909,7 +3918,7 @@ Cloud Nine
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -3923,7 +3932,7 @@ Mimicry
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -3937,8 +3946,8 @@ Rock Head
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -3951,7 +3960,7 @@ Frostproof
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -3965,7 +3974,7 @@ Levitate
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -3979,7 +3988,7 @@ Super Luck
 Compound Eyes
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -3993,7 +4002,7 @@ Compound Eyes
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -4028,7 +4037,7 @@ Oblivious
 <i>Analytic</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -4040,7 +4049,7 @@ Oblivious
 Battery
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Powers up ally Pokémon's special moves.</td>
         </tr>
 
@@ -4052,7 +4061,7 @@ Battery
 Clear Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -4064,7 +4073,7 @@ Clear Body
 Color Change
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's type becomes the type of the move used on it.</td>
         </tr>
 
@@ -4076,7 +4085,7 @@ Color Change
 Combatize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fighting-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4088,7 +4097,7 @@ Combatize
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4100,7 +4109,7 @@ Defeatist
 <b>Download</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Raises the Pokémon's offensive stat an opposing Pokémon is the weakest to.</td>
         </tr>
 
@@ -4112,7 +4121,7 @@ Defeatist
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -4124,7 +4133,7 @@ Emergency Exit
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -4136,7 +4145,7 @@ Insomnia
 Irradiated
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates a solar wind when it's hit by an attack.</td>
         </tr>
 
@@ -4148,7 +4157,7 @@ Irradiated
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -4160,7 +4169,7 @@ Klutz
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -4172,7 +4181,7 @@ Lightning Rod
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -4184,7 +4193,7 @@ Normalize
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4196,7 +4205,7 @@ Own Tempo
 Protean
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Changes the Pokémon's type to the type of the move it's about to use.</td>
         </tr>
 
@@ -4208,7 +4217,7 @@ Protean
 Short Circuit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a thunderstorm when it's hit by an attack.</td>
         </tr>
 
@@ -4220,7 +4229,7 @@ Short Circuit
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -4232,7 +4241,7 @@ Slow Start
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -4244,7 +4253,7 @@ Soundproof
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -4256,7 +4265,7 @@ Stall
 <b>Trace</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -4268,7 +4277,7 @@ Stall
 Transistor
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Powers up Electric-type moves.</td>
         </tr>
 
@@ -4280,7 +4289,7 @@ Transistor
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -4292,7 +4301,7 @@ Truant
 Volt Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -4311,6 +4320,11 @@ Volt Absorb
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

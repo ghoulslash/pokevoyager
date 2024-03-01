@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -167,7 +174,7 @@
                 Witch Pokémon
             </td>
             <td colspan=5>
-                TODO
+                A more intelligent form, Ogbat has learned to harness the magic from which it was created. It often practices this sorcery on weaker {POKEMON}.
             </td>
         </tr>
         <tr>
@@ -206,9 +213,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/flying.html">FLYING</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
 
 
             </td>
@@ -230,6 +239,7 @@
                 90
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -256,14 +266,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/brubat.html">Brubat<br><img class="frontsprite" src="sprites/pokemon/brubat/front.png"></a></td><td align="center" rowspan=1>Level 21</td><td align="center" rowspan=1><a href="species/ogbat.html">Ogbat<br><img class="frontsprite" src="sprites/pokemon/ogbat/front.png"></a></td><td align="center" rowspan=1>Level 34</td><td align="center" rowspan=1><a href="species/yagabat.html">Yagabat<br><img class="frontsprite" src="sprites/pokemon/yagabat/front.png"></a></td></tr>
 </table>
-
-
-
-<img class="conceptart" src="images/concepts/pokemon/brubat_ogbat_yagabat_ogwon.png">
-<p>
-Concept art by <b>ogwon</b>
-</p>
-
 
 
 <h2>
@@ -2374,27 +2376,6 @@ Torment
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2476,8 +2457,29 @@ Acrobatics
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
+            <td><a href="items/tm_052.html">TM 052</a></td>
+            <td id="Move"><a href="moves/venoshock.html">
+
+
+<b>Venoshock</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="POISON">
+    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
-            <td><a href="items/tm_076.html">TM 076</a></td>
+            <td><a href="items/tm_077.html">TM 077</a></td>
             <td id="Move"><a href="moves/blustery_terrain.html">
 
 Blustery Terrain
@@ -2498,7 +2500,7 @@ Blustery Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
-            <td><a href="items/tm_080.html">TM 080</a></td>
+            <td><a href="items/tm_082.html">TM 082</a></td>
             <td id="Move"><a href="moves/fly.html">
 
 
@@ -2517,9 +2519,11 @@ Fly
 
 
 
+
+
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
             <td id="Move"><a href="moves/dark_pulse.html">
 
 
@@ -2540,7 +2544,7 @@ Fly
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -4489,6 +4493,25 @@ Extrasensory
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/feint_attack.html">
 
 
@@ -5213,25 +5236,6 @@ Venom Drench
 
 
         <tr>
-            <td id="Move"><a href="moves/venoshock.html">
-
-
-<b>Venoshock</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="POISON">
-    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/whirlwind.html">
 
 Whirlwind
@@ -5388,8 +5392,6 @@ Stalagbite
 
 
 
-
-
         <tr>
             <td colspan="6">
                 <ul>
@@ -5425,7 +5427,7 @@ Stalagbite
 <b>Levitate</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -5438,7 +5440,7 @@ Stalagbite
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -5451,7 +5453,7 @@ Anticipation
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -5464,7 +5466,7 @@ Screen Cleaner
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5477,7 +5479,7 @@ Lifelink
 Poison Touch
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>May poison a target when the Pokémon makes contact.</td>
         </tr>
 
@@ -5490,7 +5492,7 @@ Poison Touch
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -5503,7 +5505,7 @@ Contrary
 <i>Pixilate</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fairy-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5540,7 +5542,7 @@ Contrary
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -5554,7 +5556,7 @@ Own Tempo
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -5568,7 +5570,7 @@ Insomnia
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -5582,7 +5584,7 @@ Immunity
 <b>Levitate</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -5596,7 +5598,7 @@ Immunity
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -5610,7 +5612,7 @@ Super Luck
 Strong Jaw
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon's strong jaw boosts the power of its biting moves.</td>
         </tr>
 
@@ -5624,7 +5626,7 @@ Strong Jaw
 Neuroforce
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up moves that are super effective.</td>
         </tr>
 
@@ -5638,7 +5640,7 @@ Neuroforce
 Fog Veil
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's evasiveness in thick fog.</td>
         </tr>
 
@@ -5673,7 +5675,7 @@ Fog Veil
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -5685,7 +5687,7 @@ Adaptability
 Aerilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Flying-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5697,7 +5699,7 @@ Aerilate
 Air Lock
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -5709,7 +5711,7 @@ Air Lock
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -5721,7 +5723,7 @@ Anticipation
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -5733,7 +5735,7 @@ Contrary
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5745,7 +5747,7 @@ Defeatist
 Early Bird
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -5757,7 +5759,7 @@ Early Bird
 Forewarn
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.</td>
         </tr>
 
@@ -5769,7 +5771,7 @@ Forewarn
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -5781,7 +5783,7 @@ Frisk
 Fumigate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Poison-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5793,7 +5795,7 @@ Fumigate
 Hyper Cutter
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's pride of its pincers prevents other Pokémon from lowering its Attack stat.</td>
         </tr>
 
@@ -5805,7 +5807,7 @@ Hyper Cutter
 Indigestion
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon summons acid rain when it's hit by an attack.</td>
         </tr>
 
@@ -5817,7 +5819,7 @@ Indigestion
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -5829,7 +5831,7 @@ Infiltrator
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -5841,7 +5843,7 @@ Inner Focus
 Keen Eye
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Prevents other Pokémon from lowering this Pokémon's accuracy.</td>
         </tr>
 
@@ -5853,7 +5855,7 @@ Keen Eye
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -5865,7 +5867,7 @@ Klutz
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5877,7 +5879,7 @@ Lifelink
 Noxious Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Noxious Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5889,7 +5891,7 @@ Noxious Surge
 Phantasmic
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates a bizarre area that swaps Defense stats when it enters battle.</td>
         </tr>
 
@@ -5901,7 +5903,7 @@ Phantasmic
 <i>Pixilate</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fairy-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5913,7 +5915,7 @@ Phantasmic
 Poison Touch
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>May poison a target when the Pokémon makes contact.</td>
         </tr>
 
@@ -5925,7 +5927,7 @@ Poison Touch
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -5937,7 +5939,7 @@ Rattled
 Resonance
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Boosts the damage given and received from sound-based moves.</td>
         </tr>
 
@@ -5949,7 +5951,7 @@ Resonance
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -5961,7 +5963,7 @@ Run Away
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -5973,7 +5975,7 @@ Screen Cleaner
 Serene Grace
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Boosts the likelihood of additional effects occurring when attacking.</td>
         </tr>
 
@@ -5985,7 +5987,7 @@ Serene Grace
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -5997,7 +5999,7 @@ Simple
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -6009,7 +6011,7 @@ Slow Start
 Sludge Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in acid rain.</td>
         </tr>
 
@@ -6021,7 +6023,7 @@ Sludge Rush
 Sniper
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Powers up moves if they become critical hits when attacking.</td>
         </tr>
 
@@ -6033,7 +6035,7 @@ Sniper
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -6045,7 +6047,7 @@ Soundproof
 Speed Boost
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Its Speed stat is boosted every turn.</td>
         </tr>
 
@@ -6057,7 +6059,7 @@ Speed Boost
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -6069,7 +6071,7 @@ Stall
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -6081,7 +6083,7 @@ Stamina
 Terrorize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ghost-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6093,7 +6095,7 @@ Terrorize
 Tinted Lens
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon can use “not very effective” moves to deal regular damage.</td>
         </tr>
 
@@ -6105,7 +6107,7 @@ Tinted Lens
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6117,7 +6119,7 @@ Truant
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -6129,7 +6131,7 @@ Unaware
 Unnerve
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Unnerves opposing Pokémon and makes them unable to eat Berries.</td>
         </tr>
 
@@ -6141,7 +6143,7 @@ Unnerve
 Eerie Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Eerie Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6153,7 +6155,7 @@ Eerie Surge
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -6165,7 +6167,7 @@ Emergency Exit
 Morbid Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Morbid Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6177,7 +6179,7 @@ Morbid Surge
 Wind Power
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>When hit by a wind move, the {POKEMON} becomes Charged up.</td>
         </tr>
 
@@ -6189,7 +6191,7 @@ Wind Power
 Wind Rider
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks wind moves. Attack is boosted from Tailwind or when hit by a wind move.</td>
         </tr>
 
@@ -6209,6 +6211,16 @@ Wind Rider
     </tbody>
 </table>
 
+
+
+
+
+
+
+<img class="conceptart" src="images/concepts/pokemon/brubat_ogbat_yagabat_ogwon.png">
+<p>
+Concept art by <b>ogwon</b>
+</p>
 
 
 

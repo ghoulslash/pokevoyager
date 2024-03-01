@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -171,9 +178,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/monster.html">MONSTER</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/monster.html">Monster</a>
+
 
 
             </td>
@@ -195,6 +204,7 @@
                 190
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -230,9 +240,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=2><a href="species/cubone.html">Cubone<br><img class="frontsprite" src="sprites/pokemon/cubone/front.png"></a></td><td align="center" rowspan=1>Level 28 during the day</td><td align="center" rowspan=1><a href="species/marowak.html">Marowak<br><img class="frontsprite" src="sprites/pokemon/marowak/front.png"></a></td></tr><tr><td align="center" rowspan=1>Level 28 during the night</td><td align="center" rowspan=1><a href="species/marowail.html">Marowail<br><img class="frontsprite" src="sprites/pokemon/marowail/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2198,27 +2205,6 @@ Brick Break
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2297,6 +2283,25 @@ Thief
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_038.html">TM 038</a></td>
+            <td id="Move"><a href="moves/incinerate.html">
+
+
+<i>Incinerate</i>
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
 
 
 
@@ -2305,7 +2310,7 @@ Thief
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -2325,8 +2330,29 @@ Thief
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
+            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+Ancient Power
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
-            <td><a href="items/tm_069.html">TM 069</a></td>
+            <td><a href="items/tm_070.html">TM 070</a></td>
             <td id="Move"><a href="moves/eerie_terrain.html">
 
 Eerie Terrain
@@ -2345,11 +2371,9 @@ Eerie Terrain
 
 
 
-
-
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_101.html">TM 101</a></td>
+            <td><a href="items/tm_104.html">TM 104</a></td>
             <td id="Move"><a href="moves/stomping_tantrum.html">
 
 
@@ -2368,11 +2392,32 @@ Eerie Terrain
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+Knock Off
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -2393,7 +2438,7 @@ Eerie Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
             <td id="Move"><a href="moves/fire_blast.html">
 
 
@@ -2416,9 +2461,11 @@ Eerie Terrain
 
 
 
+
+
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -4690,25 +4737,6 @@ Aerial Ace
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
-
-
-Ancient Power
-
-
-</a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/assurance.html">
 
 
@@ -5134,6 +5162,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/false_swipe.html">
 
 
@@ -5358,25 +5405,6 @@ Icy Wind
 
 
         <tr>
-            <td id="Move"><a href="moves/incinerate.html">
-
-
-<i>Incinerate</i>
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/iron_defense.html">
 
 Iron Defense
@@ -5427,25 +5455,6 @@ Iron Tail
             <td id="Power">100</td>
             <td id="Accuracy">75</td>
             <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-Knock Off
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -6174,6 +6183,8 @@ Water Gun
 
 
 
+
+
         <tr>
             <td colspan="6">
                 <ul>
@@ -6209,7 +6220,7 @@ Water Gun
 <b>Rock Head</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -6222,7 +6233,7 @@ Water Gun
 <b>Lightning Rod</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -6235,7 +6246,7 @@ Water Gun
 Cursed Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>May disable a move used on the Pokémon.</td>
         </tr>
 
@@ -6248,7 +6259,7 @@ Cursed Body
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -6261,7 +6272,7 @@ Technician
 <i>Battle Armor</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -6274,7 +6285,7 @@ Technician
 Anger Shell
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When HP drops to half or less, defenses are lowered but attack and Speed are raised.</td>
         </tr>
 
@@ -6287,7 +6298,7 @@ Anger Shell
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -6300,7 +6311,7 @@ Stamina
 Intrepid Sword
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Attack stat when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6337,7 +6348,7 @@ Intrepid Sword
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -6351,7 +6362,7 @@ Own Tempo
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -6365,7 +6376,7 @@ Immunity
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -6379,7 +6390,7 @@ Ball Fetch
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -6395,7 +6406,7 @@ Sturdy
 <b>Lightning Rod</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -6409,7 +6420,7 @@ Sturdy
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -6423,7 +6434,7 @@ Sand Force
 <b>Rock Head</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -6441,7 +6452,7 @@ Sand Force
 Sand Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a sandstorm when it's hit by an attack.</td>
         </tr>
 
@@ -6476,7 +6487,7 @@ Sand Spit
 Anger Point
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.</td>
         </tr>
 
@@ -6488,7 +6499,7 @@ Anger Point
 Anger Shell
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When HP drops to half or less, defenses are lowered but attack and Speed are raised.</td>
         </tr>
 
@@ -6500,7 +6511,7 @@ Anger Shell
 <i>Battle Armor</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -6512,7 +6523,7 @@ Anger Shell
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -6524,7 +6535,7 @@ Berserk
 Cursed Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>May disable a move used on the Pokémon.</td>
         </tr>
 
@@ -6536,7 +6547,7 @@ Cursed Body
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -6548,7 +6559,7 @@ Defeatist
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -6560,7 +6571,7 @@ Insomnia
 Intrepid Sword
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Attack stat when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6572,7 +6583,7 @@ Intrepid Sword
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -6584,7 +6595,7 @@ Klutz
 Mold Breaker
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Moves can be used on the target regardless of its Abilities.</td>
         </tr>
 
@@ -6596,7 +6607,7 @@ Mold Breaker
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -6608,7 +6619,7 @@ Moody
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -6620,7 +6631,7 @@ Pickup
 Quick Draw
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Enables the Pokémon to move first occasionally.</td>
         </tr>
 
@@ -6632,7 +6643,7 @@ Quick Draw
 Reckless
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up moves that have recoil damage.</td>
         </tr>
 
@@ -6644,7 +6655,7 @@ Reckless
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -6656,7 +6667,7 @@ Run Away
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -6668,7 +6679,7 @@ Sand Rush
 Sand Veil
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -6680,7 +6691,7 @@ Sand Veil
 Scrappy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves.</td>
         </tr>
 
@@ -6692,7 +6703,7 @@ Scrappy
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -6704,7 +6715,7 @@ Skill Link
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -6716,7 +6727,7 @@ Slow Start
 Stalwart
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves.</td>
         </tr>
 
@@ -6728,7 +6739,7 @@ Stalwart
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -6740,7 +6751,7 @@ Stamina
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -6752,7 +6763,7 @@ Technician
 Terralate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ground-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6764,7 +6775,7 @@ Terralate
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6791,6 +6802,11 @@ Truant
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

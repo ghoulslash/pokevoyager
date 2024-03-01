@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,11 +197,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/monster.html">MONSTER</a>
                 <br>
-                <a href="pokedex/egg_dragon.html">DRAGON</a>
+                
+    <a href="pokedex/egg_groups/monster.html">Monster</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/dragon.html">Dragon</a>
+
 
 
             </td>
@@ -219,6 +231,7 @@
                 75
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -241,9 +254,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/helioptile.html">Helioptile<br><img class="frontsprite" src="sprites/pokemon/helioptile/front.png"></a></td><td align="center" rowspan=1>Use <a href="items/sun_stone.html">Sun Stone</a> <a href="items/sun_stone.html"><img src="sprites/items/sun_stone.png"></a></td><td align="center" rowspan=1><a href="species/heliolisk.html">Heliolisk<br><img class="frontsprite" src="sprites/pokemon/heliolisk/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1778,27 +1788,6 @@ Sandstorm
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-<b>Facade</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1879,7 +1868,7 @@ Focus Blast
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_062.html">TM 062</a></td>
+            <td><a href="items/tm_063.html">TM 063</a></td>
             <td id="Move"><a href="moves/electric_terrain.html">
 
 Electric Terrain
@@ -1898,7 +1887,7 @@ Electric Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td><a href="items/tm_081.html">TM 081</a></td>
             <td id="Move"><a href="moves/surf.html">
 
 
@@ -1918,29 +1907,8 @@ Surf
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
-            <td id="Move"><a href="moves/dark_pulse.html">
-
-
-Dark Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">80</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_096.html">TM 096</a></td>
+            <td><a href="items/tm_097.html">TM 097</a></td>
             <td id="Move"><a href="moves/volt_overload.html">
 
 
@@ -1961,7 +1929,7 @@ Dark Pulse
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td><a href="items/tm_103.html">TM 103</a></td>
             <td id="Move"><a href="moves/simoom.html">
 
 
@@ -1982,7 +1950,7 @@ Simoom
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
             <td id="Move"><a href="moves/hyper_beam.html">
 
 
@@ -2002,8 +1970,29 @@ Simoom
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td id="Move"><a href="moves/dark_pulse.html">
+
+
+Dark Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
             <td id="Move"><a href="moves/wild_charge.html">
 
 
@@ -2024,7 +2013,7 @@ Simoom
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_114.html">TM 114</a></td>
+            <td><a href="items/tm_121.html">TM 121</a></td>
             <td id="Move"><a href="moves/thunder.html">
 
 
@@ -3287,6 +3276,25 @@ Enthrall
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+<b>Facade</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/flash.html">
 
 Flash
@@ -4227,7 +4235,7 @@ Solar Beam
 <b>Dry Skin</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Rain and Water-type moves restore HP. Sunlight and Fire-type damage hurt more.</td>
         </tr>
 
@@ -4240,7 +4248,7 @@ Solar Beam
 <b>Sand Veil</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -4253,7 +4261,7 @@ Solar Beam
 <i>Solar Power</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Boosts the Sp. Atk stat in harsh sunlight or Solar Wind, but HP decreases every turn.</td>
         </tr>
 
@@ -4266,7 +4274,7 @@ Solar Beam
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -4279,7 +4287,7 @@ Cold-Blooded
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -4292,7 +4300,7 @@ Rough Skin
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -4305,7 +4313,7 @@ Adaptability
 Protean
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Changes the Pokémon's type to the type of the move it's about to use.</td>
         </tr>
 
@@ -4318,7 +4326,7 @@ Protean
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -4355,7 +4363,7 @@ Poison Heal
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -4369,7 +4377,7 @@ Insomnia
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -4383,7 +4391,7 @@ Illuminate
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -4397,7 +4405,7 @@ Ball Fetch
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -4411,7 +4419,7 @@ Cloud Nine
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -4425,7 +4433,7 @@ Lightning Rod
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -4439,7 +4447,7 @@ Sand Force
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -4453,8 +4461,8 @@ Poison Heal
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -4467,7 +4475,7 @@ Frostproof
 <b>Sand Veil</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -4502,7 +4510,7 @@ Frostproof
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -4514,7 +4522,7 @@ Adaptability
 Battery
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Powers up ally Pokémon's special moves.</td>
         </tr>
 
@@ -4526,7 +4534,7 @@ Battery
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -4538,7 +4546,7 @@ Cold-Blooded
 Color Change
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's type becomes the type of the move used on it.</td>
         </tr>
 
@@ -4550,7 +4558,7 @@ Color Change
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4562,7 +4570,7 @@ Defeatist
 <b>Dry Skin</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Rain and Water-type moves restore HP. Sunlight and Fire-type damage hurt more.</td>
         </tr>
 
@@ -4574,7 +4582,7 @@ Defeatist
 Galvanize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Electric-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4586,7 +4594,7 @@ Galvanize
 Humidity Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a heat wave.</td>
         </tr>
 
@@ -4598,7 +4606,7 @@ Humidity Rush
 Hydration
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -4610,7 +4618,7 @@ Hydration
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -4622,7 +4630,7 @@ Immunity
 Irradiated
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates a solar wind when it's hit by an attack.</td>
         </tr>
 
@@ -4634,7 +4642,7 @@ Irradiated
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -4646,7 +4654,7 @@ Klutz
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4658,7 +4666,7 @@ Limber
 Motor Drive
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts its Speed stat if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -4670,7 +4678,7 @@ Motor Drive
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -4682,7 +4690,7 @@ Normalize
 Protean
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Changes the Pokémon's type to the type of the move it's about to use.</td>
         </tr>
 
@@ -4694,7 +4702,7 @@ Protean
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -4706,7 +4714,7 @@ Rough Skin
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -4718,7 +4726,7 @@ Run Away
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -4730,7 +4738,7 @@ Sand Rush
 Short Circuit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a thunderstorm when it's hit by an attack.</td>
         </tr>
 
@@ -4742,7 +4750,7 @@ Short Circuit
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -4754,7 +4762,7 @@ Slow Start
 <i>Solar Power</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Boosts the Sp. Atk stat in harsh sunlight or Solar Wind, but HP decreases every turn.</td>
         </tr>
 
@@ -4766,7 +4774,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -4778,7 +4786,7 @@ Stall
 Static
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is charged with static electricity, so contact with it may cause paralysis.</td>
         </tr>
 
@@ -4790,7 +4798,7 @@ Static
 Transistor
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Powers up Electric-type moves.</td>
         </tr>
 
@@ -4802,7 +4810,7 @@ Transistor
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -4814,7 +4822,7 @@ Truant
 Volt Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -4826,7 +4834,7 @@ Volt Absorb
 Volt Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a thunderstorm.</td>
         </tr>
 
@@ -4838,7 +4846,7 @@ Volt Rush
 Electric Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Electric Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -4850,7 +4858,7 @@ Electric Surge
 Hadron Engine
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Generates Electric Terrain when the Pokémon enters. Boosts Sp. Atk stat on Electric Terrain.</td>
         </tr>
 
@@ -4865,6 +4873,11 @@ Hadron Engine
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

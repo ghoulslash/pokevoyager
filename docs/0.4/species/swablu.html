@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,11 +197,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/flying.html">FLYING</a>
                 <br>
-                <a href="pokedex/egg_dragon.html">DRAGON</a>
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/dragon.html">Dragon</a>
+
 
 
             </td>
@@ -216,6 +228,7 @@
                 255
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -238,9 +251,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/swablu.html">Swablu<br><img class="frontsprite" src="sprites/pokemon/swablu/front.png"></a></td><td align="center" rowspan=1>Level 35</td><td align="center" rowspan=1><a href="species/altaria.html">Altaria<br><img class="frontsprite" src="sprites/pokemon/altaria/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1876,27 +1886,6 @@ Double Team
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-<b>Facade</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
             <td><a href="items/tm_035.html">TM 035</a></td>
             <td id="Move"><a href="moves/rest.html">
@@ -1959,7 +1948,7 @@ Power Swap
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_063.html">TM 063</a></td>
+            <td><a href="items/tm_064.html">TM 064</a></td>
             <td id="Move"><a href="moves/misty_terrain.html">
 
 Misty Terrain
@@ -1980,7 +1969,7 @@ Misty Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
-            <td><a href="items/tm_080.html">TM 080</a></td>
+            <td><a href="items/tm_082.html">TM 082</a></td>
             <td id="Move"><a href="moves/fly.html">
 
 
@@ -2000,8 +1989,29 @@ Misty Terrain
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
+            <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
             <td><a href="items/tm_084.html">TM 084</a></td>
+            <td id="Move"><a href="moves/ominous_wind.html">
+
+
+Ominous Wind
+
+
+</a></td>
+            <td id="Type" data-sortkey="GHOST">
+    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
+            <td><a href="items/tm_086.html">TM 086</a></td>
             <td id="Move"><a href="moves/dazzling_gleam.html">
 
 
@@ -2022,7 +2032,7 @@ Dazzling Gleam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_090.html">TM 090</a></td>
+            <td><a href="items/tm_091.html">TM 091</a></td>
             <td id="Move"><a href="moves/thick_fog.html">
 
 Thick Fog
@@ -2041,7 +2051,7 @@ Thick Fog
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td><a href="items/tm_103.html">TM 103</a></td>
             <td id="Move"><a href="moves/simoom.html">
 
 
@@ -2062,7 +2072,7 @@ Simoom
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ice.png"></td>
-            <td><a href="items/tm_103.html">TM 103</a></td>
+            <td><a href="items/tm_107.html">TM 107</a></td>
             <td id="Move"><a href="moves/ice_beam.html">
 
 
@@ -2087,7 +2097,7 @@ Ice Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td><a href="items/tm_120.html">TM 120</a></td>
             <td id="Move"><a href="moves/play_rough.html">
 
 
@@ -4698,6 +4708,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+<b>Facade</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/false_swipe.html">
 
 
@@ -4964,25 +4993,6 @@ Mud-Slap
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/ominous_wind.html">
-
-
-Ominous Wind
-
-
-</a></td>
-            <td id="Type" data-sortkey="GHOST">
-    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
         </tr>
 
 
@@ -5544,7 +5554,7 @@ Trailblaze
 <b>Natural Cure</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>All status conditions heal when the Pokémon switches out.</td>
         </tr>
 
@@ -5557,7 +5567,7 @@ Trailblaze
 Wind Rider
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks wind moves. Attack is boosted from Tailwind or when hit by a wind move.</td>
         </tr>
 
@@ -5570,7 +5580,7 @@ Wind Rider
 <i>Cloud Nine</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -5583,7 +5593,7 @@ Wind Rider
 Serene Grace
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Boosts the likelihood of additional effects occurring when attacking.</td>
         </tr>
 
@@ -5596,7 +5606,7 @@ Serene Grace
 Fluffy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Halves the damage taken from contact moves, but doubles that of Fire-type moves.</td>
         </tr>
 
@@ -5609,7 +5619,7 @@ Fluffy
 Cotton Down
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When hit by an attack, cotton fluff lowers the Speed stat of all Pokémon except itself.</td>
         </tr>
 
@@ -5622,7 +5632,7 @@ Cotton Down
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -5635,7 +5645,7 @@ Screen Cleaner
 Pixilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fairy-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5672,7 +5682,7 @@ Pixilate
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -5686,7 +5696,7 @@ Own Tempo
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -5700,7 +5710,7 @@ Immunity
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -5714,7 +5724,7 @@ Ball Fetch
 <i>Cloud Nine</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -5728,7 +5738,7 @@ Ball Fetch
 Liquid Voice
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>All sound-based moves become Water-type moves.</td>
         </tr>
 
@@ -5742,7 +5752,7 @@ Liquid Voice
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -5756,7 +5766,7 @@ Poison Heal
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -5770,7 +5780,7 @@ Levitate
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -5784,7 +5794,7 @@ Super Luck
 Fog Veil
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's evasiveness in thick fog.</td>
         </tr>
 
@@ -5823,7 +5833,7 @@ Fog Veil
 Aerilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Flying-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5835,7 +5845,7 @@ Aerilate
 Big Pecks
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Protects the Pokémon from Defense-lowering effects.</td>
         </tr>
 
@@ -5847,7 +5857,7 @@ Big Pecks
 Cotton Down
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When hit by an attack, cotton fluff lowers the Speed stat of all Pokémon except itself.</td>
         </tr>
 
@@ -5859,7 +5869,7 @@ Cotton Down
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -5871,7 +5881,7 @@ Cute Charm
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5883,7 +5893,7 @@ Defeatist
 Early Bird
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -5895,7 +5905,7 @@ Early Bird
 Fluffy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Halves the damage taken from contact moves, but doubles that of Fire-type moves.</td>
         </tr>
 
@@ -5907,7 +5917,7 @@ Fluffy
 Friend Guard
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -5919,7 +5929,7 @@ Friend Guard
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -5931,7 +5941,7 @@ Insomnia
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -5943,7 +5953,7 @@ Klutz
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -5955,7 +5965,7 @@ Limber
 Magic Bounce
 
 </a></td>
-            <td>11</td>
+            <td align="center">11</td>
             <td>Reflects status moves instead of getting hit by them.</td>
         </tr>
 
@@ -5967,7 +5977,7 @@ Magic Bounce
 Magic Guard
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>The Pokémon only takes damage from attacks.</td>
         </tr>
 
@@ -5979,7 +5989,7 @@ Magic Guard
 <b>Natural Cure</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>All status conditions heal when the Pokémon switches out.</td>
         </tr>
 
@@ -5991,7 +6001,7 @@ Magic Guard
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -6003,7 +6013,7 @@ Pickup
 Pixilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fairy-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6015,7 +6025,7 @@ Pixilate
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -6027,7 +6037,7 @@ Regenerator
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -6039,7 +6049,7 @@ Run Away
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -6051,7 +6061,7 @@ Screen Cleaner
 Serene Grace
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Boosts the likelihood of additional effects occurring when attacking.</td>
         </tr>
 
@@ -6063,7 +6073,7 @@ Serene Grace
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -6075,7 +6085,7 @@ Slow Start
 Speed Boost
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Its Speed stat is boosted every turn.</td>
         </tr>
 
@@ -6087,7 +6097,7 @@ Speed Boost
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -6099,7 +6109,7 @@ Stall
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6111,7 +6121,7 @@ Truant
 Wind Power
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>When hit by a wind move, the {POKEMON} becomes Charged up.</td>
         </tr>
 
@@ -6123,7 +6133,7 @@ Wind Power
 Wind Rider
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks wind moves. Attack is boosted from Tailwind or when hit by a wind move.</td>
         </tr>
 
@@ -6152,6 +6162,11 @@ Wind Rider
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

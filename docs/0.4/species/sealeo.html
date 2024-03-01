@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,11 +197,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/water_1.html">WATER 1</a>
                 <br>
-                <a href="pokedex/egg_field.html">FIELD</a>
+                
+    <a href="pokedex/egg_groups/water_1.html">Water 1</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
 
 
             </td>
@@ -216,6 +228,7 @@
                 120
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -242,9 +255,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/spheal.html">Spheal<br><img class="frontsprite" src="sprites/pokemon/spheal/front.png"></a></td><td align="center" rowspan=1>Level 32</td><td align="center" rowspan=1><a href="species/sealeo.html">Sealeo<br><img class="frontsprite" src="sprites/pokemon/sealeo/front.png"></a></td><td align="center" rowspan=1>Level 44</td><td align="center" rowspan=1><a href="species/walrein.html">Walrein<br><img class="frontsprite" src="sprites/pokemon/walrein/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1404,27 +1414,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1467,7 +1456,7 @@ Rest
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -1488,7 +1477,7 @@ Bulldoze
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_070.html">TM 070</a></td>
+            <td><a href="items/tm_071.html">TM 071</a></td>
             <td id="Move"><a href="moves/flooded_terrain.html">
 
 Flooded Terrain
@@ -1507,7 +1496,7 @@ Flooded Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ice.png"></td>
-            <td><a href="items/tm_073.html">TM 073</a></td>
+            <td><a href="items/tm_074.html">TM 074</a></td>
             <td id="Move"><a href="moves/arctic_terrain.html">
 
 Arctic Terrain
@@ -1524,9 +1513,11 @@ Arctic Terrain
 
 
 
+
+
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td><a href="items/tm_081.html">TM 081</a></td>
             <td id="Move"><a href="moves/surf.html">
 
 
@@ -1547,7 +1538,7 @@ Arctic Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_081.html">TM 081</a></td>
+            <td><a href="items/tm_083.html">TM 083</a></td>
             <td id="Move"><a href="moves/strength.html">
 
 
@@ -1568,7 +1559,7 @@ Strength
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_094.html">TM 094</a></td>
+            <td><a href="items/tm_095.html">TM 095</a></td>
             <td id="Move"><a href="moves/endothermia.html">
 
 
@@ -1589,7 +1580,7 @@ Endothermia
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_095.html">TM 095</a></td>
+            <td><a href="items/tm_096.html">TM 096</a></td>
             <td id="Move"><a href="moves/polar_plunge.html">
 
 
@@ -1612,7 +1603,7 @@ Endothermia
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ice.png"></td>
-            <td><a href="items/tm_103.html">TM 103</a></td>
+            <td><a href="items/tm_107.html">TM 107</a></td>
             <td id="Move"><a href="moves/ice_beam.html">
 
 
@@ -1627,6 +1618,27 @@ Endothermia
             <td id="Power">90</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
+
+
+<b>Water Pulse</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -2494,11 +2506,6 @@ Belly Drum
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/slakoth.html"><img class="iconsprite" src="sprites/pokemon/slakoth/icon.png"></a>
 </td>
 
@@ -2552,13 +2559,13 @@ Belly Drum
 <a href="species/absol.html"><img class="iconsprite" src="sprites/pokemon/absol/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/omnibyte.html"><img class="iconsprite" src="sprites/pokemon/omnibyte/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3227,11 +3234,6 @@ Fissure
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/slakoth.html"><img class="iconsprite" src="sprites/pokemon/slakoth/icon.png"></a>
 </td>
 
@@ -3290,13 +3292,13 @@ Fissure
 <a href="species/sandaconda.html"><img class="iconsprite" src="sprites/pokemon/sandaconda/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/absol.html"><img class="iconsprite" src="sprites/pokemon/absol/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3539,11 +3541,6 @@ Rock Slide
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/mudkip.html"><img class="iconsprite" src="sprites/pokemon/mudkip/icon.png"></a>
 </td>
 
@@ -3577,13 +3574,13 @@ Rock Slide
 <a href="species/ellipseal.html"><img class="iconsprite" src="sprites/pokemon/ellipseal/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/selatinous.html"><img class="iconsprite" src="sprites/pokemon/selatinous/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -4430,11 +4427,6 @@ Signal Beam
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -4443,13 +4435,13 @@ Signal Beam
 <a href="species/herdier.html"><img class="iconsprite" src="sprites/pokemon/herdier/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/stoutland.html"><img class="iconsprite" src="sprites/pokemon/stoutland/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -4521,13 +4513,13 @@ Signal Beam
 <a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/combusken.html"><img class="iconsprite" src="sprites/pokemon/combusken/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -4599,13 +4591,13 @@ Signal Beam
 <a href="species/spudnik.html"><img class="iconsprite" src="sprites/pokemon/spudnik/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/jerusaleye.html"><img class="iconsprite" src="sprites/pokemon/jerusaleye/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -4686,11 +4678,6 @@ Sleep Talk
 
 <td>
 <a href="species/camerupt.html"><img class="iconsprite" src="sprites/pokemon/camerupt/icon.png"></a>
-</td>
-
-
-<td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
 </td>
 
 
@@ -4788,11 +4775,6 @@ Spit Up
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/mareanie.html"><img class="iconsprite" src="sprites/pokemon/mareanie/icon.png"></a>
 </td>
 
@@ -4880,11 +4862,6 @@ Stockpile
 
 <td>
 <a href="species/camerupt.html"><img class="iconsprite" src="sprites/pokemon/camerupt/icon.png"></a>
-</td>
-
-
-<td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
 </td>
 
 
@@ -5607,11 +5584,6 @@ Water Sport
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -6044,6 +6016,25 @@ Endure
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -6715,25 +6706,6 @@ Swallow
 
 
         <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
-
-
-<b>Water Pulse</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/water_sport.html">
 
 Water Sport
@@ -6900,8 +6872,6 @@ Roar
 
 
 
-
-
         <tr>
             <td colspan="6">
                 <ul>
@@ -6937,7 +6907,7 @@ Roar
 <b>Thick Fat</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>A layer of thick fat halves the damage the Pokémon takes from Fire- and Ice-type moves.</td>
         </tr>
 
@@ -6950,7 +6920,7 @@ Roar
 <b>Ice Body</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon gradually regains HP in a hailstorm.</td>
         </tr>
 
@@ -6963,7 +6933,7 @@ Roar
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -6976,7 +6946,7 @@ Ball Fetch
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -6989,7 +6959,7 @@ Cute Charm
 Fur Coat
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Halves the damage from physical moves.</td>
         </tr>
 
@@ -7002,7 +6972,7 @@ Fur Coat
 Thermal Exchange
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Attack stat when hit by a Fire-type move. The Pokémon also cannot be burned.</td>
         </tr>
 
@@ -7015,7 +6985,7 @@ Thermal Exchange
 <i>Oblivious</i>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -7028,7 +6998,7 @@ Thermal Exchange
 Gluttony
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -7065,7 +7035,7 @@ Gluttony
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -7079,7 +7049,7 @@ Own Tempo
 Water Veil
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon is covered with a water veil, which prevents the Pokémon from getting a burn.</td>
         </tr>
 
@@ -7093,7 +7063,7 @@ Water Veil
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -7107,7 +7077,7 @@ Ball Fetch
 Liquid Voice
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>All sound-based moves become Water-type moves.</td>
         </tr>
 
@@ -7121,7 +7091,7 @@ Liquid Voice
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -7137,7 +7107,7 @@ Super Luck
 Damp
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Prevents the use of explosive moves, such as Self-Destruct, by dampening its surroundings.</td>
         </tr>
 
@@ -7172,7 +7142,7 @@ Damp
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -7184,7 +7154,7 @@ Cloud Nine
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -7196,7 +7166,7 @@ Cute Charm
 Distillize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Water-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -7208,7 +7178,7 @@ Distillize
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -7220,7 +7190,7 @@ Frisk
 Fur Coat
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Halves the damage from physical moves.</td>
         </tr>
 
@@ -7232,7 +7202,7 @@ Fur Coat
 Gluttony
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -7244,7 +7214,7 @@ Gluttony
 Hustle
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -7256,7 +7226,7 @@ Hustle
 Hydration
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -7268,7 +7238,7 @@ Hydration
 <b>Ice Body</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon gradually regains HP in a hailstorm.</td>
         </tr>
 
@@ -7280,7 +7250,7 @@ Hydration
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -7292,7 +7262,7 @@ Klutz
 <i>Oblivious</i>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -7304,7 +7274,7 @@ Klutz
 Overcoat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Protects the Pokémon from things like sand, hail, and powder.</td>
         </tr>
 
@@ -7316,7 +7286,7 @@ Overcoat
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -7328,7 +7298,7 @@ Pickup
 Prankster
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -7340,7 +7310,7 @@ Prankster
 Refrigerate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ice-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -7352,7 +7322,7 @@ Refrigerate
 Sleet Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates a hailstorm when it's hit by an attack.</td>
         </tr>
 
@@ -7364,7 +7334,7 @@ Sleet Spit
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -7376,7 +7346,7 @@ Slow Start
 Slush Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a hailstorm.</td>
         </tr>
 
@@ -7388,7 +7358,7 @@ Slush Rush
 Snow Cloak
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts evasiveness in a hailstorm.</td>
         </tr>
 
@@ -7400,7 +7370,7 @@ Snow Cloak
 Sprinkle Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon makes it rain when it's hit by an attack.</td>
         </tr>
 
@@ -7412,7 +7382,7 @@ Sprinkle Spit
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -7424,7 +7394,7 @@ Stall
 Swift Swim
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in rain.</td>
         </tr>
 
@@ -7436,7 +7406,7 @@ Swift Swim
 Thermal Exchange
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Attack stat when hit by a Fire-type move. The Pokémon also cannot be burned.</td>
         </tr>
 
@@ -7448,7 +7418,7 @@ Thermal Exchange
 <b>Thick Fat</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>A layer of thick fat halves the damage the Pokémon takes from Fire- and Ice-type moves.</td>
         </tr>
 
@@ -7460,7 +7430,7 @@ Thermal Exchange
 Torrent
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Water-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -7472,7 +7442,7 @@ Torrent
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -7484,7 +7454,7 @@ Truant
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -7503,6 +7473,11 @@ Sturdy
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

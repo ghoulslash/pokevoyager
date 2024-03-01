@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -174,9 +181,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
 
 
             </td>
@@ -198,6 +207,7 @@
                 150
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -220,9 +230,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/minitaur.html">Minitaur<br><img class="frontsprite" src="sprites/pokemon/minitaur/front.png"></a></td><td align="center" rowspan=1>Level 43</td><td align="center" rowspan=1><a href="species/maxhitaur.html">Maxhitaur<br><img class="frontsprite" src="sprites/pokemon/maxhitaur/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2043,27 +2050,6 @@ Sandstorm
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_036.html">TM 036</a></td>
             <td id="Move"><a href="moves/attract.html">
 
@@ -2084,52 +2070,31 @@ Attract
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
             <td><a href="items/tm_038.html">TM 038</a></td>
-            <td id="Move"><a href="moves/flame_charge.html">
+            <td id="Move"><a href="moves/incinerate.html">
 
 
-Flame Charge
+Incinerate
 
 
 </a></td>
             <td id="Type" data-sortkey="FIRE">
     <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">50</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
             <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="PP">15</td>
         </tr>
 
 
 
 
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_steel.png"></td>
-            <td><a href="items/tm_055.html">TM 055</a></td>
-            <td id="Move"><a href="moves/smart_strike.html">
-
-
-Smart Strike
-
-
-</a></td>
-            <td id="Type" data-sortkey="STEEL">
-    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">—</td>
-            <td id="PP">10</td>
-        </tr>
 
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -2148,11 +2113,30 @@ Bulldoze
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
+            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td id="Move"><a href="moves/mud_bomb.html">
+
+
+Mud Bomb
+
+
+</a></td>
+            <td id="Type" data-sortkey="GROUND">
+    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">10</td>
+        </tr>
+
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_099.html">TM 099</a></td>
+            <td><a href="items/tm_102.html">TM 102</a></td>
             <td id="Move"><a href="moves/sprite_smash.html">
 
 
@@ -2173,7 +2157,7 @@ Bulldoze
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_101.html">TM 101</a></td>
+            <td><a href="items/tm_104.html">TM 104</a></td>
             <td id="Move"><a href="moves/stomping_tantrum.html">
 
 
@@ -2196,7 +2180,7 @@ Stomping Tantrum
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -2217,7 +2201,7 @@ Flamethrower
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
             <td id="Move"><a href="moves/fire_blast.html">
 
 
@@ -2236,11 +2220,32 @@ Fire Blast
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
+            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td id="Move"><a href="moves/dizzy_punch.html">
+
+
+<b>Dizzy Punch</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="FAIRY">
+    <a href="moves/type/fairy.html"><img src="sprites/icons/fairy.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
             <td id="Move"><a href="moves/wild_charge.html">
 
 
@@ -2261,7 +2266,7 @@ Wild Charge
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td><a href="items/tm_120.html">TM 120</a></td>
             <td id="Move"><a href="moves/play_rough.html">
 
 
@@ -3085,11 +3090,6 @@ Flail
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a>
 </td>
 
@@ -3578,11 +3578,6 @@ Flame Charge
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/slakoth.html"><img class="iconsprite" src="sprites/pokemon/slakoth/icon.png"></a>
 </td>
 
@@ -3606,13 +3601,13 @@ Flame Charge
 <a href="species/dubwool.html"><img class="iconsprite" src="sprites/pokemon/dubwool/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/lucario.html"><img class="iconsprite" src="sprites/pokemon/lucario/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3684,13 +3679,13 @@ Flame Charge
 <a href="species/mastadrone.html"><img class="iconsprite" src="sprites/pokemon/mastadrone/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/spudnik.html"><img class="iconsprite" src="sprites/pokemon/spudnik/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3908,11 +3903,6 @@ Horn Leech
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/stoutland.html"><img class="iconsprite" src="sprites/pokemon/stoutland/icon.png"></a>
 </td>
 
@@ -3940,9 +3930,6 @@ Horn Leech
 <td>
 <a href="species/ezmergent.html"><img class="iconsprite" src="sprites/pokemon/ezmergent/icon.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 </tr>
@@ -5081,11 +5068,6 @@ Stomping Tantrum
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -5134,13 +5116,13 @@ Stomping Tantrum
 <a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/combusken.html"><img class="iconsprite" src="sprites/pokemon/combusken/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -5455,25 +5437,6 @@ Detect
 
 
         <tr>
-            <td id="Move"><a href="moves/dizzy_punch.html">
-
-
-<b>Dizzy Punch</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="FAIRY">
-    <a href="moves/type/fairy.html"><img src="sprites/icons/fairy.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/double_edge.html">
 
 
@@ -5603,6 +5566,25 @@ Enthrall
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/false_surrender.html">
 
 
@@ -5655,6 +5637,25 @@ Flame Burst
             <td id="Power">70</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/flame_charge.html">
+
+
+Flame Charge
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -5903,25 +5904,6 @@ Horn Leech
 
 
         <tr>
-            <td id="Move"><a href="moves/incinerate.html">
-
-
-Incinerate
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/iron_head.html">
 
 
@@ -6119,25 +6101,6 @@ Mimic
             <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/mud_bomb.html">
-
-
-Mud Bomb
-
-
-</a></td>
-            <td id="Type" data-sortkey="GROUND">
-    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">85</td>
             <td id="PP">10</td>
         </tr>
 
@@ -6702,6 +6665,25 @@ Smack Down
 
 
         <tr>
+            <td id="Move"><a href="moves/smart_strike.html">
+
+
+Smart Strike
+
+
+</a></td>
+            <td id="Type" data-sortkey="STEEL">
+    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">—</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/smelling_salts.html">
 
 
@@ -7064,6 +7046,8 @@ Zen Headbutt
 
 
 
+
+
         <tr>
             <td colspan="6">
                 <ul>
@@ -7099,7 +7083,7 @@ Zen Headbutt
 <b>Intimidate</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -7112,7 +7096,7 @@ Zen Headbutt
 <b>Anger Point</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.</td>
         </tr>
 
@@ -7125,7 +7109,7 @@ Zen Headbutt
 <b>Intimidate</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -7138,7 +7122,7 @@ Zen Headbutt
 <b>Intimidate</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -7151,7 +7135,7 @@ Zen Headbutt
 <b>Intimidate</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -7164,7 +7148,7 @@ Zen Headbutt
 <b>Intimidate</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -7177,7 +7161,7 @@ Zen Headbutt
 <b>Intimidate</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -7190,7 +7174,7 @@ Zen Headbutt
 <i>Sheer Force</i>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -7229,7 +7213,7 @@ Zen Headbutt
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -7243,7 +7227,7 @@ Own Tempo
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -7257,7 +7241,7 @@ Insomnia
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -7273,7 +7257,7 @@ Sturdy
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -7308,7 +7292,7 @@ Limber
 <b>Anger Point</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.</td>
         </tr>
 
@@ -7320,7 +7304,7 @@ Limber
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -7332,7 +7316,7 @@ Anticipation
 Bare Hands
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the base power of the Pokémon's attacks if they are not holding an item.</td>
         </tr>
 
@@ -7344,7 +7328,7 @@ Bare Hands
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -7356,7 +7340,7 @@ Berserk
 Combatize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fighting-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -7368,7 +7352,7 @@ Combatize
 Competitive
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Sp. Atk stat sharply when a stat is lowered.</td>
         </tr>
 
@@ -7380,7 +7364,7 @@ Competitive
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -7392,7 +7376,7 @@ Defeatist
 Defiant
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Pokémon's Attack stat sharply when its stats are lowered.</td>
         </tr>
 
@@ -7404,7 +7388,7 @@ Defiant
 Hustle
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -7416,7 +7400,7 @@ Hustle
 <b>Intimidate</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -7428,7 +7412,7 @@ Hustle
 Iron Fist
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up punching moves.</td>
         </tr>
 
@@ -7440,7 +7424,7 @@ Iron Fist
 Justified
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Being hit by a Dark-type move boosts the Attack stat of the Pokémon, for justice.</td>
         </tr>
 
@@ -7452,7 +7436,7 @@ Justified
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -7464,7 +7448,7 @@ Klutz
 Lingering Aroma
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Contact with the {POKEMON} changes all attacker's Abilities to Lingering Aroma.</td>
         </tr>
 
@@ -7476,7 +7460,7 @@ Lingering Aroma
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -7488,7 +7472,7 @@ Moody
 Moxie
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon shows moxie, and that boosts the Attack stat after knocking out any Pokémon.</td>
         </tr>
 
@@ -7500,7 +7484,7 @@ Moxie
 Quick Feet
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Speed stat if the Pokémon has a status condition.</td>
         </tr>
 
@@ -7512,7 +7496,7 @@ Quick Feet
 Reckless
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up moves that have recoil damage.</td>
         </tr>
 
@@ -7524,7 +7508,7 @@ Reckless
 Rivalry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Deals more damage to Pokémon of the same gender, but less to those of the opposite gender.</td>
         </tr>
 
@@ -7536,7 +7520,7 @@ Rivalry
 Scrappy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves.</td>
         </tr>
 
@@ -7548,7 +7532,7 @@ Scrappy
 <i>Sheer Force</i>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -7560,7 +7544,7 @@ Scrappy
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -7572,7 +7556,7 @@ Skill Link
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -7584,7 +7568,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -7596,7 +7580,7 @@ Stall
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -7608,7 +7592,7 @@ Stamina
 Steadfast
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's determination boosts the Speed stat each time the Pokémon flinches.</td>
         </tr>
 
@@ -7620,7 +7604,7 @@ Steadfast
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -7632,7 +7616,7 @@ Super Luck
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -7644,7 +7628,7 @@ Truant
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -7656,7 +7640,7 @@ Unburden
 Unseen Fist
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Moves that make direct contact can attack the target even if the target protects itself.</td>
         </tr>
 
@@ -7668,7 +7652,7 @@ Unseen Fist
 Vital Spirit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is full of vitality, and that prevents it from falling asleep.</td>
         </tr>
 
@@ -7691,6 +7675,11 @@ Vital Spirit
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

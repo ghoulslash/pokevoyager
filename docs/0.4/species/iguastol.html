@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -209,9 +216,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/water_3.html">WATER 3</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/water_3.html">Water 3</a>
+
 
 
             </td>
@@ -233,6 +242,20 @@
                 70
             </td>
         </tr>
+
+        <tr>
+            <td colspan=9 align="center">
+                <div onclick='playcry()'>
+                Cry by <b>plus_sized_scribe</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+                </svg>
+                </div>
+                <audio id="cry-audio" src="sound/cries/iguastol.wav"></audio>
+            </td>
+        </tr>
+
     </tbody>
 </table>
 
@@ -255,9 +278,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/aquana.html">Aquana<br><img class="frontsprite" src="sprites/pokemon/aquana/front.png"></a></td><td align="center" rowspan=1>Level 35 during a sandstorm</td><td align="center" rowspan=1><a href="species/iguastol.html">Iguastol<br><img class="frontsprite" src="sprites/pokemon/iguastol/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2602,27 +2622,6 @@ Magic Coat
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_002.html">TM 002</a></td>
-            <td id="Move"><a href="moves/aqua_jet.html">
-
-
-<b>Aqua Jet</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">40</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
             <td><a href="items/tm_004.html">TM 004</a></td>
             <td id="Move"><a href="moves/calm_mind.html">
@@ -2701,6 +2700,27 @@ Focus Blast
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
+            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td id="Move"><a href="moves/mud_bomb.html">
+
+
+Mud Bomb
+
+
+</a></td>
+            <td id="Type" data-sortkey="GROUND">
+    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
             <td><a href="items/tm_059.html">TM 059</a></td>
             <td id="Move"><a href="moves/magic_room.html">
@@ -2721,7 +2741,28 @@ Magic Room
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_066.html">TM 066</a></td>
+            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+<b>Ancient Power</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
+            <td><a href="items/tm_067.html">TM 067</a></td>
             <td id="Move"><a href="moves/arid_terrain.html">
 
 Arid Terrain
@@ -2740,7 +2781,7 @@ Arid Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_067.html">TM 067</a></td>
+            <td><a href="items/tm_068.html">TM 068</a></td>
             <td id="Move"><a href="moves/muddy_terrain.html">
 
 Muddy Terrain
@@ -2759,7 +2800,7 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td><a href="items/tm_081.html">TM 081</a></td>
             <td id="Move"><a href="moves/surf.html">
 
 
@@ -2780,7 +2821,7 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_095.html">TM 095</a></td>
+            <td><a href="items/tm_096.html">TM 096</a></td>
             <td id="Move"><a href="moves/polar_plunge.html">
 
 
@@ -2801,7 +2842,7 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td><a href="items/tm_103.html">TM 103</a></td>
             <td id="Move"><a href="moves/simoom.html">
 
 
@@ -2822,7 +2863,28 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_108.html">TM 108</a></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
+
+
+<b>Water Pulse</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_114.html">TM 114</a></td>
             <td id="Move"><a href="moves/hydro_pump.html">
 
 
@@ -2843,7 +2905,7 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -2864,7 +2926,7 @@ Earthquake
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_119.html">TM 119</a></td>
+            <td><a href="items/tm_126.html">TM 126</a></td>
             <td id="Move"><a href="moves/flip_turn.html">
 
 
@@ -3410,20 +3472,20 @@ Tail Slap
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
+            <td id="Move"><a href="moves/aqua_jet.html">
 
 
-<b>Ancient Power</b>
+<b>Aqua Jet</b>
 
 
 </a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">40</td>
             <td id="Accuracy">100</td>
-            <td id="PP">5</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3825,25 +3887,6 @@ Mirror Shot
 
 
         <tr>
-            <td id="Move"><a href="moves/mud_bomb.html">
-
-
-Mud Bomb
-
-
-</a></td>
-            <td id="Type" data-sortkey="GROUND">
-    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">85</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/mud_shot.html">
 
 
@@ -4149,25 +4192,6 @@ Trailblaze
 
 
         <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
-
-
-<b>Water Pulse</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/water_sport.html">
 
 Water Sport
@@ -4347,7 +4371,7 @@ Ceaseless Edge
 <b>Hydration</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -4360,7 +4384,7 @@ Ceaseless Edge
 <b>Mirror Armor</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Bounces back only the stat-lowering effects that the Pokémon receives.</td>
         </tr>
 
@@ -4373,7 +4397,7 @@ Ceaseless Edge
 <i>Color Change</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's type becomes the type of the move used on it.</td>
         </tr>
 
@@ -4386,7 +4410,7 @@ Ceaseless Edge
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4399,7 +4423,7 @@ Mimicry
 Protean
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Changes the Pokémon's type to the type of the move it's about to use.</td>
         </tr>
 
@@ -4412,7 +4436,7 @@ Protean
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -4425,7 +4449,7 @@ Lightning Rod
 Sharpness
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Boosts the power of slicing moves.</td>
         </tr>
 
@@ -4438,7 +4462,7 @@ Sharpness
 Multiscale
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Reduces the amount of damage the Pokémon takes while its HP is full.</td>
         </tr>
 
@@ -4475,7 +4499,7 @@ Multiscale
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4489,7 +4513,7 @@ Own Tempo
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -4503,7 +4527,7 @@ Immunity
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -4517,7 +4541,7 @@ Trace
 Water Veil
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon is covered with a water veil, which prevents the Pokémon from getting a burn.</td>
         </tr>
 
@@ -4531,7 +4555,7 @@ Water Veil
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -4545,7 +4569,7 @@ Ball Fetch
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -4559,7 +4583,7 @@ Cloud Nine
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4573,7 +4597,7 @@ Mimicry
 Liquid Voice
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>All sound-based moves become Water-type moves.</td>
         </tr>
 
@@ -4587,7 +4611,7 @@ Liquid Voice
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -4622,7 +4646,7 @@ Sand Force
 Beast Boost
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.</td>
         </tr>
 
@@ -4634,7 +4658,7 @@ Beast Boost
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -4646,7 +4670,7 @@ Cold-Blooded
 <i>Color Change</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's type becomes the type of the move used on it.</td>
         </tr>
 
@@ -4658,7 +4682,7 @@ Cold-Blooded
 <b>Hydration</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -4670,7 +4694,7 @@ Cold-Blooded
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -4682,7 +4706,7 @@ Lightning Rod
 Marvel Scale
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon's marvelous scales boost the Defense stat if it has a status condition.</td>
         </tr>
 
@@ -4694,7 +4718,7 @@ Marvel Scale
 <b>Mirror Armor</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Bounces back only the stat-lowering effects that the Pokémon receives.</td>
         </tr>
 
@@ -4706,7 +4730,7 @@ Marvel Scale
 Multiscale
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Reduces the amount of damage the Pokémon takes while its HP is full.</td>
         </tr>
 
@@ -4718,7 +4742,7 @@ Multiscale
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -4730,7 +4754,7 @@ Poison Heal
 Protean
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Changes the Pokémon's type to the type of the move it's about to use.</td>
         </tr>
 
@@ -4742,7 +4766,7 @@ Protean
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -4754,7 +4778,7 @@ Rattled
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -4766,7 +4790,7 @@ Rough Skin
 Scrappy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves.</td>
         </tr>
 
@@ -4778,7 +4802,7 @@ Scrappy
 Shed Skin
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -4790,7 +4814,7 @@ Shed Skin
 Sprinkle Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon makes it rain when it's hit by an attack.</td>
         </tr>
 
@@ -4802,7 +4826,7 @@ Sprinkle Spit
 Thermal Exchange
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Attack stat when hit by a Fire-type move. The Pokémon also cannot be burned.</td>
         </tr>
 
@@ -4814,7 +4838,7 @@ Thermal Exchange
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -4826,7 +4850,7 @@ Unaware
 Wonder Skin
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Makes status moves more likely to miss.</td>
         </tr>
 
@@ -4838,7 +4862,7 @@ Wonder Skin
 Armor Tail
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>It makes opponents unable to use priority moves against the Pokémon or its allies.</td>
         </tr>
 
@@ -4850,7 +4874,7 @@ Armor Tail
 Purifying Salt
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon's salt protects it from statuses and halves damage from Ghost-type moves.</td>
         </tr>
 
@@ -4862,7 +4886,7 @@ Purifying Salt
 Sharpness
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Boosts the power of slicing moves.</td>
         </tr>
 
@@ -4877,6 +4901,11 @@ Sharpness
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

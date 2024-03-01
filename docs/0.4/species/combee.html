@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/bug.html">BUG</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 120
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -236,9 +246,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/combee.html">Combee<br><img class="frontsprite" src="sprites/pokemon/combee/front.png"></a></td><td align="center" rowspan=1>Level 21 if female</td><td align="center" rowspan=1><a href="species/vespiquen.html">Vespiquen<br><img class="frontsprite" src="sprites/pokemon/vespiquen/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -604,22 +611,45 @@ Sweet Scent
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_102.html">TM 102</a></td>
-            <td id="Move"><a href="moves/bug_buzz.html">
+            <td><a href="items/tm_080.html">TM 080</a></td>
+            <td id="Move"><a href="moves/bug_bite.html">
 
 
-<b>Bug Buzz</b>
+<b>Bug Bite</b>
 
 
 </a></td>
             <td id="Type" data-sortkey="BUG">
     <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">90</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
             <td id="Accuracy">100</td>
-            <td id="PP">10</td>
+            <td id="PP">20</td>
         </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
+            <td><a href="items/tm_084.html">TM 084</a></td>
+            <td id="Move"><a href="moves/ominous_wind.html">
+
+
+Ominous Wind
+
+
+</a></td>
+            <td id="Type" data-sortkey="GHOST">
+    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
 
 
 
@@ -770,20 +800,20 @@ Victory Dance
 
 
         <tr>
-            <td id="Move"><a href="moves/bug_bite.html">
+            <td id="Move"><a href="moves/bug_buzz.html">
 
 
-<b>Bug Bite</b>
+<b>Bug Buzz</b>
 
 
 </a></td>
             <td id="Type" data-sortkey="BUG">
     <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">90</td>
             <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -860,25 +890,6 @@ Mud-Slap
             <td id="Power">20</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/ominous_wind.html">
-
-
-Ominous Wind
-
-
-</a></td>
-            <td id="Type" data-sortkey="GHOST">
-    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
         </tr>
 
 
@@ -1121,8 +1132,6 @@ Victory Dance
 
 
 
-
-
         <tr>
             <td colspan="6">
                 <ul>
@@ -1158,7 +1167,7 @@ Victory Dance
 <b>Honey Gather</b>
 
 </a></td>
-            <td>0</td>
+            <td align="center">0</td>
             <td>The Pokémon may gather Honey after a battle.</td>
         </tr>
 
@@ -1171,7 +1180,7 @@ Victory Dance
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -1184,7 +1193,7 @@ Ball Fetch
 Shield Dust
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>This Pokémon's dust blocks the additional effects of attacks taken.</td>
         </tr>
 
@@ -1197,7 +1206,7 @@ Shield Dust
 Sweet Veil
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Prevents itself and ally Pokémon from falling asleep.</td>
         </tr>
 
@@ -1210,7 +1219,7 @@ Sweet Veil
 <i>Hustle</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -1223,7 +1232,7 @@ Sweet Veil
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -1236,7 +1245,7 @@ Unburden
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -1249,7 +1258,7 @@ Infiltrator
 Harvest
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -1286,7 +1295,7 @@ Harvest
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -1300,7 +1309,7 @@ Pickup
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -1314,7 +1323,7 @@ Insomnia
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -1328,7 +1337,7 @@ Immunity
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -1342,7 +1351,7 @@ Swarm
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -1356,8 +1365,8 @@ Ball Fetch
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -1370,7 +1379,7 @@ Frostproof
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -1384,7 +1393,7 @@ Levitate
 Compound Eyes
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -1419,7 +1428,7 @@ Compound Eyes
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -1431,7 +1440,7 @@ Cold-Blooded
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -1443,7 +1452,7 @@ Cute Charm
 Effect Spore
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.</td>
         </tr>
 
@@ -1455,7 +1464,7 @@ Effect Spore
 Friend Guard
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -1467,7 +1476,7 @@ Friend Guard
 Gooey
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon lowers the attacker's Speed stat.</td>
         </tr>
 
@@ -1479,7 +1488,7 @@ Gooey
 Harvest
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -1491,7 +1500,7 @@ Harvest
 Healer
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Sometimes heals an ally's status condition.</td>
         </tr>
 
@@ -1503,7 +1512,7 @@ Healer
 Hive Mind
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Bug-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -1515,7 +1524,7 @@ Hive Mind
 <b>Honey Gather</b>
 
 </a></td>
-            <td>0</td>
+            <td align="center">0</td>
             <td>The Pokémon may gather Honey after a battle.</td>
         </tr>
 
@@ -1527,7 +1536,7 @@ Hive Mind
 <i>Hustle</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -1539,7 +1548,7 @@ Hive Mind
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -1551,7 +1560,7 @@ Infiltrator
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -1563,7 +1572,7 @@ Inner Focus
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -1575,7 +1584,7 @@ Klutz
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -1587,7 +1596,7 @@ Lifelink
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -1599,7 +1608,7 @@ Poison Heal
 Ripen
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Ripens Berries and doubles their effect.</td>
         </tr>
 
@@ -1611,7 +1620,7 @@ Ripen
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -1623,7 +1632,7 @@ Run Away
 Sap Sipper
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat if hit by a Grass-type move instead of taking damage.</td>
         </tr>
 
@@ -1635,7 +1644,7 @@ Sap Sipper
 Seed Sower
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.</td>
         </tr>
 
@@ -1647,7 +1656,7 @@ Seed Sower
 Shield Dust
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>This Pokémon's dust blocks the additional effects of attacks taken.</td>
         </tr>
 
@@ -1659,7 +1668,7 @@ Shield Dust
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -1671,7 +1680,7 @@ Slow Start
 Sniper
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Powers up moves if they become critical hits when attacking.</td>
         </tr>
 
@@ -1683,7 +1692,7 @@ Sniper
 Sweet Veil
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Prevents itself and ally Pokémon from falling asleep.</td>
         </tr>
 
@@ -1695,7 +1704,7 @@ Sweet Veil
 Symbiosis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon passes its item to an ally that has used up an item.</td>
         </tr>
 
@@ -1707,7 +1716,7 @@ Symbiosis
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -1719,7 +1728,7 @@ Unburden
 Vital Spirit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is full of vitality, and that prevents it from falling asleep.</td>
         </tr>
 
@@ -1762,6 +1771,11 @@ Vital Spirit
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

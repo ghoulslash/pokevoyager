@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -209,9 +216,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/bug.html">BUG</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
 
 
             </td>
@@ -236,6 +245,20 @@
                 24
             </td>
         </tr>
+
+        <tr>
+            <td colspan=9 align="center">
+                <div onclick='playcry()'>
+                Cry by <b>plus_sized_scribe</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+                </svg>
+                </div>
+                <audio id="cry-audio" src="sound/cries/xenofuge.wav"></audio>
+            </td>
+        </tr>
+
     </tbody>
 </table>
 
@@ -258,36 +281,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/solarvae.html">Solarvae<br><img class="frontsprite" src="sprites/pokemon/solarvae/front.png"></a></td><td align="center" rowspan=1>Level 35</td><td align="center" rowspan=1><a href="species/xenofuge.html">Xenofuge<br><img class="frontsprite" src="sprites/pokemon/xenofuge/front.png"></a></td></tr>
 </table>
-
-
-
-<table>
-    <tbody>
-    <tr>
-        <td align="center">
-            <img class="conceptart" src="images/concepts/pokemon/solarvae_1_dillsacke.png">
-        </td>
-        <td align="center">
-            <img class="conceptart" src="images/concepts/pokemon/xenofuge_2_dillsacke.png">
-        </td>
-        <td align="center">
-            <img class="conceptart" src="images/concepts/pokemon/xenofuge_1_kwenio.png">
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            Concept art by <b>dillsacke</b>
-        </td>
-        <td align="center">
-            Concept art by <b>dillsacke</b>
-        </td>
-        <td align="center">
-            Concept art by <b>kwenio</b>
-        </td>
-    </tr>
-    </tbody>
-</table>
-
 
 
 <h2>
@@ -2126,46 +2119,6 @@ Shock Wave
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_036.html">TM 036</a></td>
-            <td id="Move"><a href="moves/attract.html">
-
-Attract
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
             <td><a href="items/tm_051.html">TM 051</a></td>
             <td id="Move"><a href="moves/will_o_wisp.html">
@@ -2185,8 +2138,29 @@ Will-o-Wisp
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
+            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+Ancient Power
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_065.html">TM 065</a></td>
+            <td><a href="items/tm_066.html">TM 066</a></td>
             <td id="Move"><a href="moves/floral_terrain.html">
 
 Floral Terrain
@@ -2204,29 +2178,29 @@ Floral Terrain
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
-            <td id="Move"><a href="moves/dark_pulse.html">
+            <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
+            <td><a href="items/tm_084.html">TM 084</a></td>
+            <td id="Move"><a href="moves/ominous_wind.html">
 
 
-Dark Pulse
+<b>Ominous Wind</b>
 
 
 </a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+            <td id="Type" data-sortkey="GHOST">
+    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
 </td>
             <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">80</td>
+            <td id="Power">60</td>
             <td id="Accuracy">100</td>
-            <td id="PP">15</td>
+            <td id="PP">5</td>
         </tr>
 
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_084.html">TM 084</a></td>
+            <td><a href="items/tm_086.html">TM 086</a></td>
             <td id="Move"><a href="moves/dazzling_gleam.html">
 
 
@@ -2246,8 +2220,27 @@ Dazzling Gleam
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_093.html">TM 093</a></td>
+            <td id="Move"><a href="moves/pyroclasm.html">
+
+Pyroclasm
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dragon.png"></td>
-            <td><a href="items/tm_085.html">TM 085</a></td>
+            <td><a href="items/tm_094.html">TM 094</a></td>
             <td id="Move"><a href="moves/breaking_swipe.html">
 
 
@@ -2268,26 +2261,7 @@ Breaking Swipe
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_092.html">TM 092</a></td>
-            <td id="Move"><a href="moves/pyroclasm.html">
-
-Pyroclasm
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">—</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_094.html">TM 094</a></td>
+            <td><a href="items/tm_095.html">TM 095</a></td>
             <td id="Move"><a href="moves/endothermia.html">
 
 
@@ -2308,7 +2282,7 @@ Endothermia
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_102.html">TM 102</a></td>
+            <td><a href="items/tm_105.html">TM 105</a></td>
             <td id="Move"><a href="moves/bug_buzz.html">
 
 
@@ -2329,7 +2303,7 @@ Endothermia
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -2350,7 +2324,7 @@ Flamethrower
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
             <td id="Move"><a href="moves/fire_blast.html">
 
 
@@ -2370,8 +2344,29 @@ Fire Blast
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td id="Move"><a href="moves/dark_pulse.html">
+
+
+Dark Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td><a href="items/tm_119.html">TM 119</a></td>
             <td id="Move"><a href="moves/jettison.html">
 
 
@@ -2392,7 +2387,7 @@ Jettison
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_114.html">TM 114</a></td>
+            <td><a href="items/tm_121.html">TM 121</a></td>
             <td id="Move"><a href="moves/thunder.html">
 
 
@@ -3139,20 +3134,18 @@ Psywave
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
+            <td id="Move"><a href="moves/attract.html">
 
-
-Ancient Power
-
+Attract
 
 </a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
             <td id="Accuracy">100</td>
-            <td id="PP">5</td>
+            <td id="PP">15</td>
         </tr>
 
 
@@ -3554,6 +3547,25 @@ Extrasensory
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/fiery_dance.html">
 
 
@@ -3913,25 +3925,6 @@ Odor Sleuth
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">40</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/ominous_wind.html">
-
-
-<b>Ominous Wind</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="GHOST">
-    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
         </tr>
 
 
@@ -5207,7 +5200,7 @@ Zap Cannon
 <b>Solar Being</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>The Pokémon gains Fire-type and summons harsh sunlight when it enters battle.</td>
         </tr>
 
@@ -5220,7 +5213,7 @@ Zap Cannon
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5233,7 +5226,7 @@ Swarm
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -5246,7 +5239,7 @@ Illuminate
 Irradiated
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates a solar wind when it's hit by an attack.</td>
         </tr>
 
@@ -5259,7 +5252,7 @@ Irradiated
 Tinted Lens
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon can use “not very effective” moves to deal regular damage.</td>
         </tr>
 
@@ -5272,7 +5265,7 @@ Tinted Lens
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -5285,7 +5278,7 @@ Adaptability
 Shield Dust
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>This Pokémon's dust blocks the additional effects of attacks taken.</td>
         </tr>
 
@@ -5298,7 +5291,7 @@ Shield Dust
 Innards Out
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Damages the attacker landing the finishing hit by the amount equal to its last HP.</td>
         </tr>
 
@@ -5335,7 +5328,7 @@ Innards Out
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -5349,7 +5342,7 @@ Battle Armor
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -5363,7 +5356,7 @@ Own Tempo
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -5377,7 +5370,7 @@ Illuminate
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5391,7 +5384,7 @@ Swarm
 Flash Fire
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up the Pokémon's Fire-type moves if it's hit by one.</td>
         </tr>
 
@@ -5405,7 +5398,7 @@ Flash Fire
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -5419,7 +5412,7 @@ Lightning Rod
 Shadow Tag
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -5433,7 +5426,7 @@ Shadow Tag
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -5447,7 +5440,7 @@ Levitate
 Compound Eyes
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -5482,7 +5475,7 @@ Compound Eyes
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -5494,7 +5487,7 @@ Adaptability
 Battery
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Powers up ally Pokémon's special moves.</td>
         </tr>
 
@@ -5506,7 +5499,7 @@ Battery
 Blaze
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Fire-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5518,7 +5511,7 @@ Blaze
 Calderize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fire-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5530,7 +5523,7 @@ Calderize
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5542,7 +5535,7 @@ Defeatist
 Drought
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the sunlight harsh when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5554,7 +5547,7 @@ Drought
 Flame Body
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may burn the attacker.</td>
         </tr>
 
@@ -5566,7 +5559,7 @@ Flame Body
 Greenhouse
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates strong sunlight when it's hit by an attack.</td>
         </tr>
 
@@ -5578,7 +5571,7 @@ Greenhouse
 Heatproof
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The heatproof body of the Pokémon halves the damage from Fire-type moves that hit it.</td>
         </tr>
 
@@ -5590,7 +5583,7 @@ Heatproof
 Hive Mind
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Bug-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5602,7 +5595,7 @@ Hive Mind
 Innards Out
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Damages the attacker landing the finishing hit by the amount equal to its last HP.</td>
         </tr>
 
@@ -5614,7 +5607,7 @@ Innards Out
 Irradiated
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates a solar wind when it's hit by an attack.</td>
         </tr>
 
@@ -5626,7 +5619,7 @@ Irradiated
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -5638,7 +5631,7 @@ Klutz
 <i>Lifelink</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5650,7 +5643,7 @@ Klutz
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -5662,7 +5655,7 @@ Limber
 Motor Drive
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts its Speed stat if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -5674,7 +5667,7 @@ Motor Drive
 Photon Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in solar wind.</td>
         </tr>
 
@@ -5686,7 +5679,7 @@ Photon Rush
 Shed Skin
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -5698,7 +5691,7 @@ Shed Skin
 Shield Dust
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>This Pokémon's dust blocks the additional effects of attacks taken.</td>
         </tr>
 
@@ -5710,7 +5703,7 @@ Shield Dust
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -5722,7 +5715,7 @@ Skill Link
 Tinted Lens
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon can use “not very effective” moves to deal regular damage.</td>
         </tr>
 
@@ -5734,7 +5727,7 @@ Tinted Lens
 Unnerve
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Unnerves opposing Pokémon and makes them unable to eat Berries.</td>
         </tr>
 
@@ -5746,7 +5739,7 @@ Unnerve
 Victory Star
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the accuracy of its allies and itself.</td>
         </tr>
 
@@ -5758,7 +5751,7 @@ Victory Star
 Volt Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -5770,7 +5763,7 @@ Volt Absorb
 Wimp Out
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon cowardly switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -5782,7 +5775,7 @@ Wimp Out
 Wonder Skin
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Makes status moves more likely to miss.</td>
         </tr>
 
@@ -5794,7 +5787,7 @@ Wonder Skin
 Intimidate
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -5806,7 +5799,7 @@ Intimidate
 Menace
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Sp. Atk stat.</td>
         </tr>
 
@@ -5818,7 +5811,7 @@ Menace
 <b>Solar Being</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>The Pokémon gains Fire-type and summons harsh sunlight when it enters battle.</td>
         </tr>
 
@@ -5830,7 +5823,7 @@ Menace
 Solar Burst
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates solar wind upon entering battle.</td>
         </tr>
 
@@ -5842,7 +5835,7 @@ Solar Burst
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -5858,6 +5851,38 @@ Stench
     </tbody>
 </table>
 
+
+
+
+
+
+
+<table>
+    <tbody>
+    <tr>
+        <td align="center">
+            <img class="conceptart" src="images/concepts/pokemon/solarvae_1_dillsacke.png">
+        </td>
+        <td align="center">
+            <img class="conceptart" src="images/concepts/pokemon/xenofuge_2_dillsacke.png">
+        </td>
+        <td align="center">
+            <img class="conceptart" src="images/concepts/pokemon/xenofuge_1_kwenio.png">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            Concept art by <b>dillsacke</b>
+        </td>
+        <td align="center">
+            Concept art by <b>dillsacke</b>
+        </td>
+        <td align="center">
+            Concept art by <b>kwenio</b>
+        </td>
+    </tr>
+    </tbody>
+</table>
 
 
 

@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -209,9 +216,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/amorphous.html">AMORPHOUS</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
+
 
 
             </td>
@@ -236,6 +245,20 @@
                 35
             </td>
         </tr>
+
+        <tr>
+            <td colspan=9 align="center">
+                <div onclick='playcry()'>
+                Cry by <b>plus_sized_scribe</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+                </svg>
+                </div>
+                <audio id="cry-audio" src="sound/cries/silgaunt.wav"></audio>
+            </td>
+        </tr>
+
     </tbody>
 </table>
 
@@ -258,9 +281,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=2><a href="species/silhou.html">Silhou<br><img class="frontsprite" src="sprites/pokemon/silhou/front.png"></a></td><td align="center" rowspan=1>Level 30 while holding <a href="items/brass_knuckles.html">Brass Knuckles</a> <a href="items/brass_knuckles.html"><img src="sprites/items/brass_knuckles.png"></a></td><td align="center" rowspan=1><a href="species/silgaunt.html">Silgaunt<br><img class="frontsprite" src="sprites/pokemon/silgaunt/front.png"></a></td></tr><tr><td align="center" rowspan=1>Level 30 while holding <a href="items/metal_coat.html">Metal Coat</a> <a href="items/metal_coat.html"><img src="sprites/items/metal_coat.png"></a></td><td align="center" rowspan=1><a href="species/silgaunt.html">Silgaunt<br><img class="frontsprite" src="sprites/pokemon/silgaunt/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2371,27 +2391,6 @@ Torment
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2588,7 +2587,7 @@ Magic Room
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
-            <td><a href="items/tm_069.html">TM 069</a></td>
+            <td><a href="items/tm_070.html">TM 070</a></td>
             <td id="Move"><a href="moves/eerie_terrain.html">
 
 Eerie Terrain
@@ -2607,7 +2606,7 @@ Eerie Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_074.html">TM 074</a></td>
+            <td><a href="items/tm_075.html">TM 075</a></td>
             <td id="Move"><a href="moves/morbid_terrain.html">
 
 Morbid Terrain
@@ -2626,7 +2625,7 @@ Morbid Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fighting.png"></td>
-            <td><a href="items/tm_075.html">TM 075</a></td>
+            <td><a href="items/tm_076.html">TM 076</a></td>
             <td id="Move"><a href="moves/combat_terrain.html">
 
 Combat Terrain
@@ -2645,7 +2644,7 @@ Combat Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_081.html">TM 081</a></td>
+            <td><a href="items/tm_083.html">TM 083</a></td>
             <td id="Move"><a href="moves/strength.html">
 
 
@@ -2665,8 +2664,29 @@ Strength
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+Knock Off
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
             <td id="Move"><a href="moves/hyper_beam.html">
 
 
@@ -2687,7 +2707,7 @@ Hyper Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_107.html">TM 107</a></td>
+            <td><a href="items/tm_111.html">TM 111</a></td>
             <td id="Move"><a href="moves/skill_swap.html">
 
 Skill Swap
@@ -2699,6 +2719,27 @@ Skill Swap
             <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
+            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td id="Move"><a href="moves/dizzy_punch.html">
+
+
+Dizzy Punch
+
+
+</a></td>
+            <td id="Type" data-sortkey="FAIRY">
+    <a href="moves/type/fairy.html"><img src="sprites/icons/fairy.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
             <td id="PP">10</td>
         </tr>
 
@@ -3077,25 +3118,6 @@ Disable
 
 
         <tr>
-            <td id="Move"><a href="moves/dizzy_punch.html">
-
-
-Dizzy Punch
-
-
-</a></td>
-            <td id="Type" data-sortkey="FAIRY">
-    <a href="moves/type/fairy.html"><img src="sprites/icons/fairy.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/double_slap.html">
 
 
@@ -3218,6 +3240,25 @@ Extrasensory
 </td>
             <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
             <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
             <td id="Accuracy">100</td>
             <td id="PP">20</td>
         </tr>
@@ -3584,25 +3625,6 @@ Imprison
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-Knock Off
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -5183,7 +5205,7 @@ Meteor Mash
 <b>Infiltrator</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -5196,7 +5218,7 @@ Meteor Mash
 <b>Iron Fist</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up punching moves.</td>
         </tr>
 
@@ -5209,7 +5231,7 @@ Meteor Mash
 Bare Hands
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the base power of the Pokémon's attacks if they are not holding an item.</td>
         </tr>
 
@@ -5222,7 +5244,7 @@ Bare Hands
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -5235,7 +5257,7 @@ Soundproof
 <i>Shadow Tag</i>
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -5248,7 +5270,7 @@ Soundproof
 Eerie Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Eerie Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5261,7 +5283,7 @@ Eerie Surge
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -5274,7 +5296,7 @@ Rough Skin
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -5311,7 +5333,7 @@ Unburden
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -5325,7 +5347,7 @@ Battle Armor
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -5339,7 +5361,7 @@ Pickup
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -5353,7 +5375,7 @@ Own Tempo
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -5367,7 +5389,7 @@ Insomnia
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -5381,7 +5403,7 @@ Immunity
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -5395,7 +5417,7 @@ Trace
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -5409,7 +5431,7 @@ Ball Fetch
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -5423,7 +5445,7 @@ Mimicry
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -5437,7 +5459,7 @@ Rock Head
 <i>Shadow Tag</i>
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -5451,7 +5473,7 @@ Rock Head
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -5486,7 +5508,7 @@ Technician
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -5498,7 +5520,7 @@ Adaptability
 Aftermath
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Damages the attacker if it contacts the Pokémon with a finishing hit.</td>
         </tr>
 
@@ -5510,7 +5532,7 @@ Aftermath
 Bare Hands
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the base power of the Pokémon's attacks if they are not holding an item.</td>
         </tr>
 
@@ -5522,7 +5544,7 @@ Bare Hands
 Cursed Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>May disable a move used on the Pokémon.</td>
         </tr>
 
@@ -5534,7 +5556,7 @@ Cursed Body
 Eerie Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Eerie Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5546,7 +5568,7 @@ Eerie Surge
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -5558,7 +5580,7 @@ Emergency Exit
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -5570,7 +5592,7 @@ Frisk
 <b>Infiltrator</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -5582,7 +5604,7 @@ Frisk
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -5594,7 +5616,7 @@ Limber
 No Guard
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.</td>
         </tr>
 
@@ -5606,7 +5628,7 @@ No Guard
 Perish Body
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When hit by a contact move, the Pokémon and the attacker will faint after three turns.</td>
         </tr>
 
@@ -5618,7 +5640,7 @@ Perish Body
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -5630,7 +5652,7 @@ Poison Heal
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -5642,7 +5664,7 @@ Run Away
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -5654,7 +5676,7 @@ Screen Cleaner
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -5666,7 +5688,7 @@ Skill Link
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -5678,7 +5700,7 @@ Soundproof
 Symbiosis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon passes its item to an ally that has used up an item.</td>
         </tr>
 
@@ -5690,7 +5712,7 @@ Symbiosis
 Terrorize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ghost-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5702,7 +5724,7 @@ Terrorize
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -5714,7 +5736,7 @@ Truant
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -5726,7 +5748,7 @@ Unburden
 Unnerve
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Unnerves opposing Pokémon and makes them unable to eat Berries.</td>
         </tr>
 
@@ -5738,7 +5760,7 @@ Unnerve
 Full Metal Body
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -5750,7 +5772,7 @@ Full Metal Body
 Heavy Metal
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Doubles the Pokémon's weight.</td>
         </tr>
 
@@ -5762,7 +5784,7 @@ Heavy Metal
 Iron Barbs
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Inflicts damage on the attacker upon contact with iron barbs.</td>
         </tr>
 
@@ -5774,7 +5796,7 @@ Iron Barbs
 <b>Iron Fist</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up punching moves.</td>
         </tr>
 
@@ -5786,7 +5808,7 @@ Iron Barbs
 Light Metal
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Halves the Pokémon's weight.</td>
         </tr>
 
@@ -5798,7 +5820,7 @@ Light Metal
 Moxie
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon shows moxie, and that boosts the Attack stat after knocking out any Pokémon.</td>
         </tr>
 
@@ -5810,7 +5832,7 @@ Moxie
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -5822,7 +5844,7 @@ Rough Skin
 Sheer Force
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -5834,7 +5856,7 @@ Sheer Force
 Stalwart
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves.</td>
         </tr>
 
@@ -5846,7 +5868,7 @@ Stalwart
 Steelworker
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up Steel-type moves.</td>
         </tr>
 
@@ -5858,7 +5880,7 @@ Steelworker
 Unseen Fist
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Moves that make direct contact can attack the target even if the target protects itself.</td>
         </tr>
 
@@ -5873,6 +5895,11 @@ Unseen Fist
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

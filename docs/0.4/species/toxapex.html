@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/water_1.html">WATER 1</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/water_1.html">Water 1</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 75
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -236,9 +246,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/mareanie.html">Mareanie<br><img class="frontsprite" src="sprites/pokemon/mareanie/front.png"></a></td><td align="center" rowspan=1>Level 38</td><td align="center" rowspan=1><a href="species/toxapex.html">Toxapex<br><img class="frontsprite" src="sprites/pokemon/toxapex/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2513,27 +2520,6 @@ Double Team
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
             <td><a href="items/tm_035.html">TM 035</a></td>
             <td id="Move"><a href="moves/rest.html">
@@ -2553,8 +2539,48 @@ Rest
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
+            <td><a href="items/tm_052.html">TM 052</a></td>
+            <td id="Move"><a href="moves/venoshock.html">
+
+
+<b>Venoshock</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="POISON">
+    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td><a href="items/tm_071.html">TM 071</a></td>
+            <td id="Move"><a href="moves/flooded_terrain.html">
+
+Flooded Terrain
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_081.html">TM 081</a></td>
             <td id="Move"><a href="moves/surf.html">
 
 
@@ -2575,7 +2601,7 @@ Rest
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
-            <td><a href="items/tm_088.html">TM 088</a></td>
+            <td><a href="items/tm_089.html">TM 089</a></td>
             <td id="Move"><a href="moves/acid_rain.html">
 
 Acid Rain
@@ -2594,7 +2620,7 @@ Acid Rain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_095.html">TM 095</a></td>
+            <td><a href="items/tm_096.html">TM 096</a></td>
             <td id="Move"><a href="moves/polar_plunge.html">
 
 
@@ -2614,8 +2640,29 @@ Acid Rain
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+Knock Off
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ice.png"></td>
-            <td><a href="items/tm_103.html">TM 103</a></td>
+            <td><a href="items/tm_107.html">TM 107</a></td>
             <td id="Move"><a href="moves/ice_beam.html">
 
 
@@ -2636,7 +2683,7 @@ Ice Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_118.html">TM 118</a></td>
+            <td><a href="items/tm_125.html">TM 125</a></td>
             <td id="Move"><a href="moves/muddy_water.html">
 
 
@@ -3212,18 +3259,20 @@ Endure
 
 
         <tr>
-            <td id="Move"><a href="moves/flooded_terrain.html">
+            <td id="Move"><a href="moves/facade.html">
 
-Flooded Terrain
+
+Facade
+
 
 </a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">—</td>
-            <td id="PP">10</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3408,25 +3457,6 @@ Iron Defense
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-Knock Off
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -3976,25 +4006,6 @@ Venom Drench
 
 
         <tr>
-            <td id="Move"><a href="moves/venoshock.html">
-
-
-<b>Venoshock</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="POISON">
-    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/water_pulse.html">
 
 
@@ -4210,7 +4221,7 @@ Smack Down
 <b>Merciless</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon's attacks become critical hits if the target is poisoned.</td>
         </tr>
 
@@ -4223,7 +4234,7 @@ Smack Down
 <b>Limber</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4236,7 +4247,7 @@ Smack Down
 Rain Dish
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon gradually regains HP in rain.</td>
         </tr>
 
@@ -4249,7 +4260,7 @@ Rain Dish
 Suction Cups
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>This Pokémon uses suction cups to negate all moves and items that force switching out.</td>
         </tr>
 
@@ -4262,7 +4273,7 @@ Suction Cups
 Poison Point
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Contact with the Pokémon may poison the attacker.</td>
         </tr>
 
@@ -4275,7 +4286,7 @@ Poison Point
 <i>Regenerator</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -4288,7 +4299,7 @@ Poison Point
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -4301,7 +4312,7 @@ Soundproof
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -4338,7 +4349,7 @@ Rough Skin
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -4352,7 +4363,7 @@ Battle Armor
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -4366,7 +4377,7 @@ Insomnia
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -4380,7 +4391,7 @@ Trace
 Water Veil
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon is covered with a water veil, which prevents the Pokémon from getting a burn.</td>
         </tr>
 
@@ -4394,7 +4405,7 @@ Water Veil
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -4408,7 +4419,7 @@ Lifelink
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4422,8 +4433,8 @@ Mimicry
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -4436,7 +4447,7 @@ Frostproof
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -4450,7 +4461,7 @@ Super Luck
 Sand Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a sandstorm when it's hit by an attack.</td>
         </tr>
 
@@ -4464,7 +4475,7 @@ Sand Spit
 Damp
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Prevents the use of explosive moves, such as Self-Destruct, by dampening its surroundings.</td>
         </tr>
 
@@ -4499,7 +4510,7 @@ Damp
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -4511,7 +4522,7 @@ Cold-Blooded
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -4523,7 +4534,7 @@ Contrary
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4535,7 +4546,7 @@ Defeatist
 Distillize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Water-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4547,7 +4558,7 @@ Distillize
 Fumigate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Poison-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4559,7 +4570,7 @@ Fumigate
 Hydration
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -4571,7 +4582,7 @@ Hydration
 Innards Out
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Damages the attacker landing the finishing hit by the amount equal to its last HP.</td>
         </tr>
 
@@ -4583,7 +4594,7 @@ Innards Out
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -4595,7 +4606,7 @@ Inner Focus
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -4607,7 +4618,7 @@ Klutz
 <b>Limber</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4619,7 +4630,7 @@ Klutz
 <b>Merciless</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon's attacks become critical hits if the target is poisoned.</td>
         </tr>
 
@@ -4631,7 +4642,7 @@ Klutz
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -4643,7 +4654,7 @@ Oblivious
 Overcoat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Protects the Pokémon from things like sand, hail, and powder.</td>
         </tr>
 
@@ -4655,7 +4666,7 @@ Overcoat
 Poison Point
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Contact with the Pokémon may poison the attacker.</td>
         </tr>
 
@@ -4667,7 +4678,7 @@ Poison Point
 Poison Touch
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>May poison a target when the Pokémon makes contact.</td>
         </tr>
 
@@ -4679,7 +4690,7 @@ Poison Touch
 Rain Dish
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon gradually regains HP in rain.</td>
         </tr>
 
@@ -4691,7 +4702,7 @@ Rain Dish
 <i>Regenerator</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -4703,7 +4714,7 @@ Rain Dish
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -4715,7 +4726,7 @@ Rough Skin
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -4727,7 +4738,7 @@ Run Away
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -4739,7 +4750,7 @@ Slow Start
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -4751,7 +4762,7 @@ Soundproof
 Sprinkle Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon makes it rain when it's hit by an attack.</td>
         </tr>
 
@@ -4763,7 +4774,7 @@ Sprinkle Spit
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -4775,7 +4786,7 @@ Stall
 Suction Cups
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>This Pokémon uses suction cups to negate all moves and items that force switching out.</td>
         </tr>
 
@@ -4787,7 +4798,7 @@ Suction Cups
 Symbiosis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon passes its item to an ally that has used up an item.</td>
         </tr>
 
@@ -4799,7 +4810,7 @@ Symbiosis
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -4811,7 +4822,7 @@ Truant
 Water Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by a Water-type move instead of taking damage.</td>
         </tr>
 
@@ -4823,7 +4834,7 @@ Water Absorb
 Anger Shell
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When HP drops to half or less, defenses are lowered but attack and Speed are raised.</td>
         </tr>
 
@@ -4835,7 +4846,7 @@ Anger Shell
 Bulletproof
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -4850,6 +4861,11 @@ Bulletproof
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

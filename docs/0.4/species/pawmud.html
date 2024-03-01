@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -147,7 +154,7 @@
 
                     <tr>
                         <td colspan=2 align="center">
-                            Sprite by <b></b>
+                            Sprite by <b>livra</b>
                         </td>
                     </tr>
 
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 225
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -236,14 +246,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/pawmud.html">Pawmud<br><img class="frontsprite" src="sprites/pokemon/pawmud/front.png"></a></td><td align="center" rowspan=1>Level 30</td><td align="center" rowspan=1><a href="species/sloof.html">Sloof<br><img class="frontsprite" src="sprites/pokemon/sloof/front.png"></a></td></tr>
 </table>
-
-
-
-<img class="conceptart" src="images/concepts/pokemon/pawmud_sloof_1_livra.png">
-<p>
-Concept art by <b>livra</b>
-</p>
-
 
 
 <h2>
@@ -1385,11 +1387,30 @@ Protect
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
+            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td id="Move"><a href="moves/mud_bomb.html">
+
+
+<b>Mud Bomb</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="GROUND">
+    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">10</td>
+        </tr>
+
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_067.html">TM 067</a></td>
+            <td><a href="items/tm_068.html">TM 068</a></td>
             <td id="Move"><a href="moves/muddy_terrain.html">
 
 Muddy Terrain
@@ -1406,9 +1427,11 @@ Muddy Terrain
 
 
 
+
+
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -1638,11 +1661,6 @@ Rock Wrecker
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/stoutland.html"><img class="iconsprite" src="sprites/pokemon/stoutland/icon.png"></a>
 </td>
 
@@ -1661,13 +1679,13 @@ Rock Wrecker
 <a href="species/ellipseal.html"><img class="iconsprite" src="sprites/pokemon/ellipseal/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/selatinous.html"><img class="iconsprite" src="sprites/pokemon/selatinous/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -2422,25 +2440,6 @@ Minimize
 
 
         <tr>
-            <td id="Move"><a href="moves/mud_bomb.html">
-
-
-<b>Mud Bomb</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="GROUND">
-    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">85</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/mud_shot.html">
 
 
@@ -2789,7 +2788,7 @@ Trailblaze
 <b>Ball Fetch</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -2802,7 +2801,7 @@ Trailblaze
 <b>Run Away</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -2815,7 +2814,7 @@ Trailblaze
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -2828,7 +2827,7 @@ Rattled
 Damp
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Prevents the use of explosive moves, such as Self-Destruct, by dampening its surroundings.</td>
         </tr>
 
@@ -2841,7 +2840,7 @@ Damp
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -2854,7 +2853,7 @@ Unaware
 Muddy Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Muddy Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -2867,7 +2866,7 @@ Muddy Surge
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -2880,7 +2879,7 @@ Sand Rush
 <i>Tangling Hair</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon lowers the attacker's Speed stat.</td>
         </tr>
 
@@ -2917,7 +2916,7 @@ Sand Rush
 <b>Ball Fetch</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -2931,7 +2930,7 @@ Sand Rush
 Damp
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Prevents the use of explosive moves, such as Self-Destruct, by dampening its surroundings.</td>
         </tr>
 
@@ -2966,7 +2965,7 @@ Damp
 Arena Lock
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Negates statuses that affect the whole field.</td>
         </tr>
 
@@ -2978,7 +2977,7 @@ Arena Lock
 Arena Trap
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Prevents opposing Pokémon from fleeing.</td>
         </tr>
 
@@ -2990,7 +2989,7 @@ Arena Trap
 Cecity
 
 </a></td>
-            <td>-3</td>
+            <td align="center">-3</td>
             <td>This Pokémon's poor eyesight makes its moves more likely to miss.</td>
         </tr>
 
@@ -3002,7 +3001,7 @@ Cecity
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -3014,7 +3013,7 @@ Emergency Exit
 Fur Coat
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Halves the damage from physical moves.</td>
         </tr>
 
@@ -3026,7 +3025,7 @@ Fur Coat
 Guard Dog
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts Attack if intimidated. Effects that force switching out also fail to work against it.</td>
         </tr>
 
@@ -3038,7 +3037,7 @@ Guard Dog
 Mold Breaker
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Moves can be used on the target regardless of its Abilities.</td>
         </tr>
 
@@ -3050,7 +3049,7 @@ Mold Breaker
 Muddy Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Muddy Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -3062,7 +3061,7 @@ Muddy Surge
 Overcoat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Protects the Pokémon from things like sand, hail, and powder.</td>
         </tr>
 
@@ -3074,7 +3073,7 @@ Overcoat
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -3086,7 +3085,7 @@ Rattled
 <b>Run Away</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -3098,7 +3097,7 @@ Rattled
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -3110,7 +3109,7 @@ Sand Rush
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -3122,7 +3121,7 @@ Slow Start
 Tangled Feet
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Raises evasiveness if the Pokémon is confused.</td>
         </tr>
 
@@ -3134,7 +3133,7 @@ Tangled Feet
 <i>Tangling Hair</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon lowers the attacker's Speed stat.</td>
         </tr>
 
@@ -3146,7 +3145,7 @@ Tangled Feet
 Terralate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ground-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3158,7 +3157,7 @@ Terralate
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -3170,7 +3169,7 @@ Truant
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -3182,7 +3181,7 @@ Unaware
 Wimp Out
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon cowardly switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -3202,6 +3201,16 @@ Wimp Out
     </tbody>
 </table>
 
+
+
+
+
+
+
+<img class="conceptart" src="images/concepts/pokemon/pawmud_sloof_1_livra.png">
+<p>
+Concept art by <b>livra</b>
+</p>
 
 
 

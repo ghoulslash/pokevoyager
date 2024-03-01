@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -174,9 +181,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/mineral.html">MINERAL</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/mineral.html">Mineral</a>
+
 
 
             </td>
@@ -198,6 +207,7 @@
                 190
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -220,9 +230,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/golett.html">Golett<br><img class="frontsprite" src="sprites/pokemon/golett/front.png"></a></td><td align="center" rowspan=1>Level 43</td><td align="center" rowspan=1><a href="species/golurk.html">Golurk<br><img class="frontsprite" src="sprites/pokemon/golurk/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1900,27 +1907,6 @@ Brick Break
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1985,8 +1971,29 @@ Focus Blast
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_steel.png"></td>
+            <td><a href="items/tm_085.html">TM 085</a></td>
+            <td id="Move"><a href="moves/gyro_ball.html">
+
+
+Gyro Ball
+
+
+</a></td>
+            <td id="Type" data-sortkey="STEEL">
+    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_101.html">TM 101</a></td>
+            <td><a href="items/tm_104.html">TM 104</a></td>
             <td id="Move"><a href="moves/stomping_tantrum.html">
 
 
@@ -2009,7 +2016,7 @@ Focus Blast
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -2278,6 +2285,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/fire_punch.html">
 
 
@@ -2401,25 +2427,6 @@ Gravity
             <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/gyro_ball.html">
-
-
-Gyro Ball
-
-
-</a></td>
-            <td id="Type" data-sortkey="STEEL">
-    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
             <td id="PP">5</td>
         </tr>
 
@@ -3278,7 +3285,7 @@ Thunder Punch
 <b>Iron Fist</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up punching moves.</td>
         </tr>
 
@@ -3291,7 +3298,7 @@ Thunder Punch
 <b>Klutz</b>
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -3304,7 +3311,7 @@ Thunder Punch
 <i>No Guard</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.</td>
         </tr>
 
@@ -3317,7 +3324,7 @@ Thunder Punch
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -3330,7 +3337,7 @@ Sturdy
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -3343,7 +3350,7 @@ Own Tempo
 Unseen Fist
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Moves that make direct contact can attack the target even if the target protects itself.</td>
         </tr>
 
@@ -3356,7 +3363,7 @@ Unseen Fist
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -3369,7 +3376,7 @@ Rock Head
 Clear Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -3406,7 +3413,7 @@ Clear Body
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -3420,7 +3427,7 @@ Battle Armor
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -3434,7 +3441,7 @@ Own Tempo
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -3448,7 +3455,7 @@ Immunity
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -3462,7 +3469,7 @@ Sturdy
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -3476,7 +3483,7 @@ Lightning Rod
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -3492,7 +3499,7 @@ Sand Force
 Sand Stream
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>The Pokémon summons a sandstorm when it enters a battle.</td>
         </tr>
 
@@ -3527,7 +3534,7 @@ Sand Stream
 Bulletproof
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -3539,7 +3546,7 @@ Bulletproof
 Clear Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -3551,7 +3558,7 @@ Clear Body
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -3563,7 +3570,7 @@ Contrary
 Filter
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Reduces the power of supereffective attacks taken.</td>
         </tr>
 
@@ -3575,7 +3582,7 @@ Filter
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -3587,7 +3594,7 @@ Insomnia
 <b>Iron Fist</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up punching moves.</td>
         </tr>
 
@@ -3599,7 +3606,7 @@ Insomnia
 <b>Klutz</b>
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -3611,7 +3618,7 @@ Insomnia
 Mummy
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Contact with the Pokémon changes all attacker's Abilities to Mummy.</td>
         </tr>
 
@@ -3623,7 +3630,7 @@ Mummy
 <i>No Guard</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.</td>
         </tr>
 
@@ -3635,7 +3642,7 @@ Mummy
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -3647,7 +3654,7 @@ Rock Head
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -3659,7 +3666,7 @@ Sand Rush
 Shadow Shield
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Reduces the amount of damage the Pokémon takes while its HP is full.</td>
         </tr>
 
@@ -3671,7 +3678,7 @@ Shadow Shield
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -3683,7 +3690,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -3695,7 +3702,7 @@ Stall
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -3707,7 +3714,7 @@ Stamina
 Terralate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ground-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3719,7 +3726,7 @@ Terralate
 Terrorize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ghost-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3731,7 +3738,7 @@ Terrorize
 Tinted Lens
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon can use “not very effective” moves to deal regular damage.</td>
         </tr>
 
@@ -3743,7 +3750,7 @@ Tinted Lens
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -3755,7 +3762,7 @@ Truant
 Unseen Fist
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Moves that make direct contact can attack the target even if the target protects itself.</td>
         </tr>
 
@@ -3772,6 +3779,11 @@ Unseen Fist
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

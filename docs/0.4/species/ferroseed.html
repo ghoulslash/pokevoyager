@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -174,11 +181,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/grass.html">GRASS</a>
                 <br>
-                <a href="pokedex/egg_mineral.html">MINERAL</a>
+                
+    <a href="pokedex/egg_groups/grass.html">Grass</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/mineral.html">Mineral</a>
+
 
 
             </td>
@@ -200,6 +212,7 @@
                 255
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -222,9 +235,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/ferroseed.html">Ferroseed<br><img class="frontsprite" src="sprites/pokemon/ferroseed/front.png"></a></td><td align="center" rowspan=1>Level 40</td><td align="center" rowspan=1><a href="species/ferrothorn.html">Ferrothorn<br><img class="frontsprite" src="sprites/pokemon/ferrothorn/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2267,6 +2277,25 @@ Explosion
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/tm_003.html">TM 003</a></td>
+            <td id="Move"><a href="moves/worry_seed.html">
+
+Worry Seed
+
+</a></td>
+            <td id="Type" data-sortkey="GRASS">
+    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_010.html">TM 010</a></td>
             <td id="Move"><a href="moves/hidden_power.html">
@@ -2432,27 +2461,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2497,7 +2505,7 @@ Attract
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_steel.png"></td>
-            <td><a href="items/tm_071.html">TM 071</a></td>
+            <td><a href="items/tm_072.html">TM 072</a></td>
             <td id="Move"><a href="moves/shrapnel_terrain.html">
 
 Shrapnel Terrain
@@ -2514,24 +2522,47 @@ Shrapnel Terrain
 
 
 
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_078.html">TM 078</a></td>
-            <td id="Move"><a href="moves/nature_power.html">
 
-Nature Power
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_steel.png"></td>
+            <td><a href="items/tm_085.html">TM 085</a></td>
+            <td id="Move"><a href="moves/gyro_ball.html">
+
+
+<b>Gyro Ball</b>
+
 
 </a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <td id="Type" data-sortkey="STEEL">
+    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
 </td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">20</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
         </tr>
 
 
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+Knock Off
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
 
 
 
@@ -4839,6 +4870,25 @@ Explosion
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/flash.html">
 
 Flash
@@ -4922,25 +4972,6 @@ Gravity
             <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/gyro_ball.html">
-
-
-<b>Gyro Ball</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="STEEL">
-    <a href="moves/type/steel.html"><img src="sprites/icons/steel.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
             <td id="PP">5</td>
         </tr>
 
@@ -5034,25 +5065,6 @@ Iron Defense
 
 
         <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-Knock Off
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/leech_seed.html">
 
 Leech Seed
@@ -5139,6 +5151,23 @@ Natural Gift
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/nature_power.html">
+
+Nature Power
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -5600,23 +5629,6 @@ Toxic
 
 
 
-        <tr>
-            <td id="Move"><a href="moves/worry_seed.html">
-
-Worry Seed
-
-</a></td>
-            <td id="Type" data-sortkey="GRASS">
-    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
 
 
 
@@ -5669,7 +5681,7 @@ Worry Seed
 <b>Iron Barbs</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Inflicts damage on the attacker upon contact with iron barbs.</td>
         </tr>
 
@@ -5682,7 +5694,7 @@ Worry Seed
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -5695,7 +5707,7 @@ Rock Head
 Bulletproof
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -5708,7 +5720,7 @@ Bulletproof
 Seed Sower
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.</td>
         </tr>
 
@@ -5721,7 +5733,7 @@ Seed Sower
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -5734,7 +5746,7 @@ Lightning Rod
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -5747,7 +5759,7 @@ Screen Cleaner
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -5760,7 +5772,7 @@ Anticipation
 Full Metal Body
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -5797,7 +5809,7 @@ Full Metal Body
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -5811,7 +5823,7 @@ Battle Armor
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -5825,7 +5837,7 @@ Sturdy
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -5839,7 +5851,7 @@ Lightning Rod
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5853,7 +5865,7 @@ Lifelink
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -5890,7 +5902,7 @@ Rock Head
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -5902,7 +5914,7 @@ Adaptability
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -5914,7 +5926,7 @@ Analytic
 Anger Shell
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When HP drops to half or less, defenses are lowered but attack and Speed are raised.</td>
         </tr>
 
@@ -5926,7 +5938,7 @@ Anger Shell
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -5938,7 +5950,7 @@ Anticipation
 Bulletproof
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -5950,7 +5962,7 @@ Bulletproof
 Carbonize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Steel-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5962,7 +5974,7 @@ Carbonize
 Chlorolize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Grass-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5974,7 +5986,7 @@ Chlorolize
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -5986,7 +5998,7 @@ Contrary
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5998,7 +6010,7 @@ Defeatist
 Full Metal Body
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.</td>
         </tr>
 
@@ -6010,7 +6022,7 @@ Full Metal Body
 Heavy Metal
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Doubles the Pokémon's weight.</td>
         </tr>
 
@@ -6022,7 +6034,7 @@ Heavy Metal
 <b>Iron Barbs</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Inflicts damage on the attacker upon contact with iron barbs.</td>
         </tr>
 
@@ -6034,7 +6046,7 @@ Heavy Metal
 Light Metal
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Halves the Pokémon's weight.</td>
         </tr>
 
@@ -6046,7 +6058,7 @@ Light Metal
 Mirror Armor
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Bounces back only the stat-lowering effects that the Pokémon receives.</td>
         </tr>
 
@@ -6058,7 +6070,7 @@ Mirror Armor
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -6070,7 +6082,7 @@ Sand Force
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -6082,7 +6094,7 @@ Screen Cleaner
 Seed Sower
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.</td>
         </tr>
 
@@ -6094,7 +6106,7 @@ Seed Sower
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -6106,7 +6118,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -6118,7 +6130,7 @@ Stall
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -6130,7 +6142,7 @@ Stamina
 Toxic Debris
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Scatters Toxic Spikes on the opposing side when it takes damage from physical moves.</td>
         </tr>
 
@@ -6142,7 +6154,7 @@ Toxic Debris
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6163,6 +6175,11 @@ Truant
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

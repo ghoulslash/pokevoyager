@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -171,11 +178,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/water_1.html">WATER 1</a>
                 <br>
-                <a href="pokedex/egg_water_2.html">WATER 2</a>
+                
+    <a href="pokedex/egg_groups/water_1.html">Water 1</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/water_2.html">Water 2</a>
+
 
 
             </td>
@@ -197,6 +209,7 @@
                 190
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -219,9 +232,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/remoraid.html">Remoraid<br><img class="frontsprite" src="sprites/pokemon/remoraid/front.png"></a></td><td align="center" rowspan=1>Level 25</td><td align="center" rowspan=1><a href="species/octillery.html">Octillery<br><img class="frontsprite" src="sprites/pokemon/octillery/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1236,22 +1246,43 @@ Attract
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_052.html">TM 052</a></td>
-            <td id="Move"><a href="moves/terrain_pulse.html">
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_037.html">TM 037</a></td>
+            <td id="Move"><a href="moves/thief.html">
 
 
-Terrain Pulse
+Thief
 
 
 </a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">25</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_038.html">TM 038</a></td>
+            <td id="Move"><a href="moves/incinerate.html">
+
+
+Incinerate
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
 </td>
             <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">50</td>
+            <td id="Power">60</td>
             <td id="Accuracy">100</td>
-            <td id="PP">10</td>
+            <td id="PP">15</td>
         </tr>
 
 
@@ -1279,7 +1310,7 @@ Entrainment
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td><a href="items/tm_081.html">TM 081</a></td>
             <td id="Move"><a href="moves/surf.html">
 
 
@@ -1300,7 +1331,7 @@ Entrainment
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_095.html">TM 095</a></td>
+            <td><a href="items/tm_096.html">TM 096</a></td>
             <td id="Move"><a href="moves/polar_plunge.html">
 
 
@@ -1320,8 +1351,29 @@ Entrainment
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
+            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td id="Move"><a href="moves/psybeam.html">
+
+
+Psybeam
+
+
+</a></td>
+            <td id="Type" data-sortkey="PSYCHIC">
+    <a href="moves/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
             <td id="Move"><a href="moves/hyper_beam.html">
 
 
@@ -1342,7 +1394,7 @@ Hyper Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -1363,7 +1415,7 @@ Flamethrower
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
             <td id="Move"><a href="moves/fire_blast.html">
 
 
@@ -1378,6 +1430,27 @@ Fire Blast
             <td id="Power">110</td>
             <td id="Accuracy">85</td>
             <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
+
+
+<b>Water Pulse</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3860,25 +3933,6 @@ Icy Wind
 
 
         <tr>
-            <td id="Move"><a href="moves/incinerate.html">
-
-
-Incinerate
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/lock_on.html">
 
 Lock-On
@@ -4020,25 +4074,6 @@ Protect
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/psybeam.html">
-
-
-Psybeam
-
-
-</a></td>
-            <td id="Type" data-sortkey="PSYCHIC">
-    <a href="moves/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -4351,20 +4386,20 @@ Swift
 
 
         <tr>
-            <td id="Move"><a href="moves/thief.html">
+            <td id="Move"><a href="moves/terrain_pulse.html">
 
 
-Thief
+Terrain Pulse
 
 
 </a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">50</td>
             <td id="Accuracy">100</td>
-            <td id="PP">25</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -4401,25 +4436,6 @@ Thunder Wave
             <td id="Power">40</td>
             <td id="Accuracy">100</td>
             <td id="PP">25</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
-
-
-<b>Water Pulse</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -4560,7 +4576,7 @@ Thunder Wave
 <b>Hustle</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -4573,7 +4589,7 @@ Thunder Wave
 <b>Sniper</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Powers up moves if they become critical hits when attacking.</td>
         </tr>
 
@@ -4586,7 +4602,7 @@ Thunder Wave
 Color Change
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's type becomes the type of the move used on it.</td>
         </tr>
 
@@ -4599,7 +4615,7 @@ Color Change
 Sprinkle Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon makes it rain when it's hit by an attack.</td>
         </tr>
 
@@ -4612,7 +4628,7 @@ Sprinkle Spit
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -4625,7 +4641,7 @@ Skill Link
 Refraction
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Beam-type moves.</td>
         </tr>
 
@@ -4638,7 +4654,7 @@ Refraction
 Sheer Force
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -4651,7 +4667,7 @@ Sheer Force
 <i>Moody</i>
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -4688,7 +4704,7 @@ Sheer Force
 Water Veil
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon is covered with a water veil, which prevents the Pokémon from getting a burn.</td>
         </tr>
 
@@ -4702,7 +4718,7 @@ Water Veil
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -4716,7 +4732,7 @@ Cloud Nine
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4730,8 +4746,8 @@ Mimicry
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -4744,7 +4760,7 @@ Frostproof
 Storm Drain
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Water-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -4758,7 +4774,7 @@ Storm Drain
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4774,7 +4790,7 @@ Limber
 Damp
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Prevents the use of explosive moves, such as Self-Destruct, by dampening its surroundings.</td>
         </tr>
 
@@ -4809,7 +4825,7 @@ Damp
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -4821,7 +4837,7 @@ Berserk
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -4833,7 +4849,7 @@ Cold-Blooded
 Color Change
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's type becomes the type of the move used on it.</td>
         </tr>
 
@@ -4845,7 +4861,7 @@ Color Change
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4857,7 +4873,7 @@ Defeatist
 Distillize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Water-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4869,7 +4885,7 @@ Distillize
 <b>Hustle</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -4881,7 +4897,7 @@ Distillize
 Hydration
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -4893,7 +4909,7 @@ Hydration
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -4905,7 +4921,7 @@ Klutz
 Mega Launcher
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up aura and pulse moves.</td>
         </tr>
 
@@ -4917,7 +4933,7 @@ Mega Launcher
 <i>Moody</i>
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -4929,7 +4945,7 @@ Mega Launcher
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -4941,7 +4957,7 @@ Rattled
 Refraction
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Beam-type moves.</td>
         </tr>
 
@@ -4953,7 +4969,7 @@ Refraction
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -4965,7 +4981,7 @@ Run Away
 Sheer Force
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -4977,7 +4993,7 @@ Sheer Force
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -4989,7 +5005,7 @@ Skill Link
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -5001,7 +5017,7 @@ Slow Start
 <b>Sniper</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Powers up moves if they become critical hits when attacking.</td>
         </tr>
 
@@ -5013,7 +5029,7 @@ Slow Start
 Sprinkle Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon makes it rain when it's hit by an attack.</td>
         </tr>
 
@@ -5025,7 +5041,7 @@ Sprinkle Spit
 Swift Swim
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in rain.</td>
         </tr>
 
@@ -5037,7 +5053,7 @@ Swift Swim
 Torrent
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Water-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5049,7 +5065,7 @@ Torrent
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -5076,6 +5092,11 @@ Truant
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

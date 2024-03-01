@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -176,11 +183,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
                 <br>
-                <a href="pokedex/egg_fairy.html">FAIRY</a>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/fairy.html">Fairy</a>
+
 
 
             </td>
@@ -202,6 +214,7 @@
                 75
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -240,9 +253,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=4><a href="species/pichu.html">Pichu<br><img class="frontsprite" src="sprites/pokemon/pichu/front.png"></a></td><td align="center" rowspan=4>Level up with high friendship</td><td align="center" rowspan=4><a href="species/pikachu.html">Pikachu<br><img class="frontsprite" src="sprites/pokemon/pikachu/front.png"></a></td><td align="center" rowspan=1>Use <a href="items/thunder_stone.html">Thunder Stone</a> <a href="items/thunder_stone.html"><img src="sprites/items/thunder_stone.png"></a></td><td align="center" rowspan=1><a href="species/raichu.html">Raichu<br><img class="frontsprite" src="sprites/pokemon/raichu/front.png"></a></td></tr><tr><td align="center" rowspan=1>Use <a href="items/dawn_stone.html">Dawn Stone</a> <a href="items/dawn_stone.html"><img src="sprites/items/dawn_stone.png"></a></td><td align="center" rowspan=1><a href="species/kinetichu.html">Kinetichu<br><img class="frontsprite" src="sprites/pokemon/kinetichu/front.png"></a></td></tr><tr><td align="center" rowspan=1>Use <a href="items/dusk_stone.html">Dusk Stone</a> <a href="items/dusk_stone.html"><img src="sprites/items/dusk_stone.png"></a></td><td align="center" rowspan=1><a href="species/mafichu.html">Mafichu<br><img class="frontsprite" src="sprites/pokemon/mafichu/front.png"></a></td></tr><tr><td align="center" rowspan=1>Use <a href="items/shiny_stone.html">Shiny Stone</a> <a href="items/shiny_stone.html"><img src="sprites/items/shiny_stone.png"></a></td><td align="center" rowspan=1><a href="species/demichu.html">Demichu<br><img class="frontsprite" src="sprites/pokemon/demichu/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1589,27 +1599,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1749,7 +1738,7 @@ Magic Room
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_062.html">TM 062</a></td>
+            <td><a href="items/tm_063.html">TM 063</a></td>
             <td id="Move"><a href="moves/electric_terrain.html">
 
 Electric Terrain
@@ -1768,7 +1757,7 @@ Electric Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_064.html">TM 064</a></td>
+            <td><a href="items/tm_065.html">TM 065</a></td>
             <td id="Move"><a href="moves/psychic_terrain.html">
 
 Psychic Terrain
@@ -1789,7 +1778,7 @@ Psychic Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td><a href="items/tm_081.html">TM 081</a></td>
             <td id="Move"><a href="moves/surf.html">
 
 
@@ -1810,7 +1799,7 @@ Surf
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_081.html">TM 081</a></td>
+            <td><a href="items/tm_083.html">TM 083</a></td>
             <td id="Move"><a href="moves/strength.html">
 
 
@@ -1831,7 +1820,7 @@ Strength
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_096.html">TM 096</a></td>
+            <td><a href="items/tm_097.html">TM 097</a></td>
             <td id="Move"><a href="moves/volt_overload.html">
 
 
@@ -1851,8 +1840,29 @@ Strength
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+<i>Knock Off</i>
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
             <td id="Move"><a href="moves/hyper_beam.html">
 
 
@@ -1873,7 +1883,7 @@ Hyper Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
             <td id="Move"><a href="moves/wild_charge.html">
 
 
@@ -1894,7 +1904,7 @@ Hyper Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td><a href="items/tm_120.html">TM 120</a></td>
             <td id="Move"><a href="moves/play_rough.html">
 
 
@@ -1915,7 +1925,7 @@ Play Rough
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_114.html">TM 114</a></td>
+            <td><a href="items/tm_121.html">TM 121</a></td>
             <td id="Move"><a href="moves/thunder.html">
 
 
@@ -1936,7 +1946,7 @@ Play Rough
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td><a href="items/tm_123.html">TM 123</a></td>
             <td id="Move"><a href="moves/expanding_force.html">
 
 
@@ -3721,11 +3731,6 @@ Encore
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -3784,13 +3789,13 @@ Encore
 <a href="species/blaziken.html"><img class="iconsprite" src="sprites/pokemon/blaziken/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/miltank.html"><img class="iconsprite" src="sprites/pokemon/miltank/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3862,13 +3867,13 @@ Encore
 <a href="species/ellipseal.html"><img class="iconsprite" src="sprites/pokemon/ellipseal/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/selatinous.html"><img class="iconsprite" src="sprites/pokemon/selatinous/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -5886,6 +5891,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/fake_out.html">
 
 
@@ -7020,25 +7044,6 @@ Growl
 
 
         <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-<i>Knock Off</i>
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/laser_focus.html">
 
 Laser Focus
@@ -7630,7 +7635,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7643,7 +7648,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7656,7 +7661,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7669,7 +7674,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7682,7 +7687,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7695,7 +7700,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7708,7 +7713,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7721,7 +7726,7 @@ Eerie Impulse
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -7760,7 +7765,7 @@ Eerie Impulse
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -7774,7 +7779,7 @@ Pickup
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -7788,7 +7793,7 @@ Immunity
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -7802,7 +7807,7 @@ Illuminate
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -7816,7 +7821,7 @@ Trace
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -7832,7 +7837,7 @@ Ball Fetch
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -7850,7 +7855,7 @@ Lightning Rod
 Quark Drive
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's most proficient stat on Electric Terrain.</td>
         </tr>
 
@@ -7864,7 +7869,7 @@ Quark Drive
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -7899,7 +7904,7 @@ Limber
 Battery
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Powers up ally Pokémon's special moves.</td>
         </tr>
 
@@ -7911,7 +7916,7 @@ Battery
 Cheek Pouch
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Restores HP as well when the Pokémon eats a Berry.</td>
         </tr>
 
@@ -7923,7 +7928,7 @@ Cheek Pouch
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -7935,7 +7940,7 @@ Cute Charm
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -7947,7 +7952,7 @@ Defeatist
 Galvanize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Electric-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -7959,7 +7964,7 @@ Galvanize
 Gluttony
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -7971,7 +7976,7 @@ Gluttony
 Irradiated
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates a solar wind when it's hit by an attack.</td>
         </tr>
 
@@ -7983,7 +7988,7 @@ Irradiated
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -7995,7 +8000,7 @@ Klutz
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -8007,7 +8012,7 @@ Mimicry
 Minus
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Boosts the Sp. Atk stat if an ally with the Plus or Minus Ability is also in battle.</td>
         </tr>
 
@@ -8019,7 +8024,7 @@ Minus
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -8031,7 +8036,7 @@ Moody
 Motor Drive
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts its Speed stat if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -8043,7 +8048,7 @@ Motor Drive
 Pixilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fairy-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -8055,7 +8060,7 @@ Pixilate
 Plus
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Boosts the Sp. Atk stat if an ally with the Plus or Minus Ability is also in battle.</td>
         </tr>
 
@@ -8067,7 +8072,7 @@ Plus
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -8079,7 +8084,7 @@ Rattled
 Rivalry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Deals more damage to Pokémon of the same gender, but less to those of the opposite gender.</td>
         </tr>
 
@@ -8091,7 +8096,7 @@ Rivalry
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -8103,7 +8108,7 @@ Run Away
 Short Circuit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a thunderstorm when it's hit by an attack.</td>
         </tr>
 
@@ -8115,7 +8120,7 @@ Short Circuit
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -8127,7 +8132,7 @@ Simple
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -8139,7 +8144,7 @@ Slow Start
 Speed Boost
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Its Speed stat is boosted every turn.</td>
         </tr>
 
@@ -8151,7 +8156,7 @@ Speed Boost
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -8163,7 +8168,7 @@ Stall
 Static
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is charged with static electricity, so contact with it may cause paralysis.</td>
         </tr>
 
@@ -8175,7 +8180,7 @@ Static
 Tangled Feet
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Raises evasiveness if the Pokémon is confused.</td>
         </tr>
 
@@ -8187,7 +8192,7 @@ Tangled Feet
 Transistor
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Powers up Electric-type moves.</td>
         </tr>
 
@@ -8199,7 +8204,7 @@ Transistor
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -8211,7 +8216,7 @@ Truant
 Vital Spirit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is full of vitality, and that prevents it from falling asleep.</td>
         </tr>
 
@@ -8223,7 +8228,7 @@ Vital Spirit
 Volt Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -8235,7 +8240,7 @@ Volt Absorb
 Volt Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a thunderstorm.</td>
         </tr>
 
@@ -8247,7 +8252,7 @@ Volt Rush
 Wimp Out
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon cowardly switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -8259,7 +8264,7 @@ Wimp Out
 Armor Tail
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>It makes opponents unable to use priority moves against the Pokémon or its allies.</td>
         </tr>
 
@@ -8271,7 +8276,7 @@ Armor Tail
 Scrappy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves.</td>
         </tr>
 
@@ -8287,7 +8292,7 @@ Scrappy
 Cognizate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Psychic-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -8299,7 +8304,7 @@ Cognizate
 Hadron Engine
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Generates Electric Terrain when the Pokémon enters. Boosts Sp. Atk stat on Electric Terrain.</td>
         </tr>
 
@@ -8311,7 +8316,7 @@ Hadron Engine
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -8323,7 +8328,7 @@ Levitate
 Neuroforce
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up moves that are super effective.</td>
         </tr>
 
@@ -8335,7 +8340,7 @@ Neuroforce
 Psychic Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Psychic Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -8347,7 +8352,7 @@ Psychic Surge
 Singularity
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>The Pokémon aplifies the Gravitational field when it enters battle.</td>
         </tr>
 
@@ -8359,7 +8364,7 @@ Singularity
 <b>Surge Surfer</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -8371,7 +8376,7 @@ Singularity
 Synchronize
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -8383,7 +8388,7 @@ Synchronize
 Telepathy
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Anticipates an ally's attack and dodges it.</td>
         </tr>
 
@@ -8498,6 +8503,11 @@ Electric Surge
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

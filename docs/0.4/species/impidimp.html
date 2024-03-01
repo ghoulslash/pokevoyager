@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -174,11 +181,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/fairy.html">FAIRY</a>
                 <br>
-                <a href="pokedex/egg_human_like.html">HUMAN-LIKE</a>
+                
+    <a href="pokedex/egg_groups/fairy.html">Fairy</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/human_like.html">Human-Like</a>
+
 
 
             </td>
@@ -200,6 +212,7 @@
                 255
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -226,9 +239,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/impidimp.html">Impidimp<br><img class="frontsprite" src="sprites/pokemon/impidimp/front.png"></a></td><td align="center" rowspan=1>Level 32</td><td align="center" rowspan=1><a href="species/morgrem.html">Morgrem<br><img class="frontsprite" src="sprites/pokemon/morgrem/front.png"></a></td><td align="center" rowspan=1>Level 42</td><td align="center" rowspan=1><a href="species/grimmsnarl.html">Grimmsnarl<br><img class="frontsprite" src="sprites/pokemon/grimmsnarl/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1419,22 +1429,22 @@ Torment
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
+            <td style="width: 24px;"><img src="sprites/items/tm_fighting.png"></td>
             <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
+            <td id="Move"><a href="moves/revenge.html">
 
 
-Facade
+Revenge
 
 
 </a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <td id="Type" data-sortkey="FIGHTING">
+    <a href="moves/type/fighting.html"><img src="sprites/icons/fighting.png"></a>
 </td>
             <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
+            <td id="Power">60</td>
             <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -1487,7 +1497,7 @@ Attract
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_074.html">TM 074</a></td>
+            <td><a href="items/tm_075.html">TM 075</a></td>
             <td id="Move"><a href="moves/morbid_terrain.html">
 
 Morbid Terrain
@@ -1506,32 +1516,11 @@ Morbid Terrain
 
 
 
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
-            <td id="Move"><a href="moves/dark_pulse.html">
-
-
-<b>Dark Pulse</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">80</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_099.html">TM 099</a></td>
+            <td><a href="items/tm_102.html">TM 102</a></td>
             <td id="Move"><a href="moves/sprite_smash.html">
 
 
@@ -1555,8 +1544,31 @@ Morbid Terrain
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td id="Move"><a href="moves/dark_pulse.html">
+
+
+<b>Dark Pulse</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td><a href="items/tm_120.html">TM 120</a></td>
             <td id="Move"><a href="moves/play_rough.html">
 
 
@@ -1773,6 +1785,25 @@ Endure
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -2044,25 +2075,6 @@ Retaliate
             <td id="Power">70</td>
             <td id="Accuracy">100</td>
             <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/revenge.html">
-
-
-Revenge
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIGHTING">
-    <a href="moves/type/fighting.html"><img src="sprites/icons/fighting.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
         </tr>
 
 
@@ -2341,8 +2353,6 @@ Uproar
 
 
 
-
-
         <tr>
             <td colspan="6">
                 <ul>
@@ -2378,7 +2388,7 @@ Uproar
 <b>Prankster</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -2391,7 +2401,7 @@ Uproar
 <b>Frisk</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -2404,7 +2414,7 @@ Uproar
 <i>Pickpocket</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Steals an item from an attacker that made direct contact.</td>
         </tr>
 
@@ -2417,7 +2427,7 @@ Uproar
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -2430,7 +2440,7 @@ Pickup
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -2443,7 +2453,7 @@ Moody
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -2456,7 +2466,7 @@ Contrary
 Magician
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon steals the held item of a Pokémon it hits with a move.</td>
         </tr>
 
@@ -2469,7 +2479,7 @@ Magician
 Unearthly
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates a bizarre area that swaps Attack stats when it enters battle.</td>
         </tr>
 
@@ -2506,7 +2516,7 @@ Unearthly
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -2520,7 +2530,7 @@ Pickup
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -2534,7 +2544,7 @@ Own Tempo
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -2548,7 +2558,7 @@ Insomnia
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -2562,7 +2572,7 @@ Immunity
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -2576,7 +2586,7 @@ Trace
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -2590,7 +2600,7 @@ Ball Fetch
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -2604,7 +2614,7 @@ Cloud Nine
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -2618,7 +2628,7 @@ Lifelink
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -2632,7 +2642,7 @@ Mimicry
 Shadow Tag
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -2667,7 +2677,7 @@ Shadow Tag
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -2679,7 +2689,7 @@ Berserk
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -2691,7 +2701,7 @@ Contrary
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -2703,7 +2713,7 @@ Defeatist
 Defiant
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Pokémon's Attack stat sharply when its stats are lowered.</td>
         </tr>
 
@@ -2715,7 +2725,7 @@ Defiant
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -2727,7 +2737,7 @@ Emergency Exit
 <b>Frisk</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -2739,7 +2749,7 @@ Emergency Exit
 Immoralize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Dark-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -2751,7 +2761,7 @@ Immoralize
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -2763,7 +2773,7 @@ Infiltrator
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -2775,7 +2785,7 @@ Klutz
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -2787,7 +2797,7 @@ Limber
 Magician
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon steals the held item of a Pokémon it hits with a move.</td>
         </tr>
 
@@ -2799,7 +2809,7 @@ Magician
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -2811,7 +2821,7 @@ Moody
 <i>Pickpocket</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Steals an item from an attacker that made direct contact.</td>
         </tr>
 
@@ -2823,7 +2833,7 @@ Moody
 Pixilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fairy-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -2835,7 +2845,7 @@ Pixilate
 <b>Prankster</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -2847,7 +2857,7 @@ Pixilate
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -2859,7 +2869,7 @@ Run Away
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -2871,7 +2881,7 @@ Slow Start
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -2883,7 +2893,7 @@ Soundproof
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -2895,7 +2905,7 @@ Stall
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -2907,7 +2917,7 @@ Truant
 Unearthly
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates a bizarre area that swaps Attack stats when it enters battle.</td>
         </tr>
 
@@ -2919,7 +2929,7 @@ Unearthly
 Unnerve
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Unnerves opposing Pokémon and makes them unable to eat Berries.</td>
         </tr>
 
@@ -2954,6 +2964,11 @@ Unnerve
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

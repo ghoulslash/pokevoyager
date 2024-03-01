@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -174,9 +181,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/bug.html">BUG</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
 
 
             </td>
@@ -198,6 +207,7 @@
                 75
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -220,9 +230,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/joltik.html">Joltik<br><img class="frontsprite" src="sprites/pokemon/joltik/front.png"></a></td><td align="center" rowspan=1>Level 36</td><td align="center" rowspan=1><a href="species/galvantula.html">Galvantula<br><img class="frontsprite" src="sprites/pokemon/galvantula/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -3276,27 +3283,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -3377,7 +3363,7 @@ Speed Swap
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_065.html">TM 065</a></td>
+            <td><a href="items/tm_066.html">TM 066</a></td>
             <td id="Move"><a href="moves/floral_terrain.html">
 
 Floral Terrain
@@ -3395,8 +3381,29 @@ Floral Terrain
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
+            <td><a href="items/tm_080.html">TM 080</a></td>
+            <td id="Move"><a href="moves/bug_bite.html">
+
+
+<b>Bug Bite</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="BUG">
+    <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_096.html">TM 096</a></td>
+            <td><a href="items/tm_097.html">TM 097</a></td>
             <td id="Move"><a href="moves/volt_overload.html">
 
 
@@ -3416,29 +3423,8 @@ Floral Terrain
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_102.html">TM 102</a></td>
-            <td id="Move"><a href="moves/bug_buzz.html">
-
-
-<b>Bug Buzz</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="BUG">
-    <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">90</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -3459,7 +3445,7 @@ Giga Impact
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
             <td id="Move"><a href="moves/wild_charge.html">
 
 
@@ -3480,7 +3466,7 @@ Giga Impact
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_114.html">TM 114</a></td>
+            <td><a href="items/tm_121.html">TM 121</a></td>
             <td id="Move"><a href="moves/thunder.html">
 
 
@@ -4934,20 +4920,20 @@ Bounce
 
 
         <tr>
-            <td id="Move"><a href="moves/bug_bite.html">
+            <td id="Move"><a href="moves/bug_buzz.html">
 
 
-<b>Bug Bite</b>
+<b>Bug Buzz</b>
 
 
 </a></td>
             <td id="Type" data-sortkey="BUG">
     <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">90</td>
             <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -5166,6 +5152,25 @@ Energy Ball
             <td id="Power">90</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -5991,7 +5996,7 @@ Thunderstorm
 <b>Compound Eyes</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -6004,7 +6009,7 @@ Thunderstorm
 <b>Unnerve</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Unnerves opposing Pokémon and makes them unable to eat Berries.</td>
         </tr>
 
@@ -6017,7 +6022,7 @@ Thunderstorm
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -6030,7 +6035,7 @@ Illuminate
 <i>Swarm</i>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -6043,7 +6048,7 @@ Illuminate
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -6056,8 +6061,8 @@ Lifelink
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
         <tr>
@@ -6069,7 +6074,7 @@ Frostproof
 Tinted Lens
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon can use “not very effective” moves to deal regular damage.</td>
         </tr>
 
@@ -6082,7 +6087,7 @@ Tinted Lens
 Galvanize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Electric-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6119,7 +6124,7 @@ Galvanize
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -6133,7 +6138,7 @@ Insomnia
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -6147,7 +6152,7 @@ Illuminate
 <i>Swarm</i>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -6161,7 +6166,7 @@ Illuminate
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -6175,7 +6180,7 @@ Cloud Nine
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -6189,8 +6194,8 @@ Lifelink
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -6203,7 +6208,7 @@ Frostproof
 <b>Compound Eyes</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -6217,7 +6222,7 @@ Frostproof
 Toxic Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up physical attacks when the Pokémon is poisoned.</td>
         </tr>
 
@@ -6231,7 +6236,7 @@ Toxic Boost
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -6266,7 +6271,7 @@ Oblivious
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -6278,7 +6283,7 @@ Adaptability
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -6290,7 +6295,7 @@ Berserk
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -6302,7 +6307,7 @@ Cold-Blooded
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -6314,7 +6319,7 @@ Defeatist
 Electric Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Electric Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6326,7 +6331,7 @@ Electric Surge
 Electromorphosis
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon becomes Charged up when it takes damage.</td>
         </tr>
 
@@ -6338,7 +6343,7 @@ Electromorphosis
 Galvanize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Electric-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6350,7 +6355,7 @@ Galvanize
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -6362,7 +6367,7 @@ Immunity
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -6374,7 +6379,7 @@ Klutz
 Lightning Rod
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Electric-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -6386,7 +6391,7 @@ Lightning Rod
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -6398,7 +6403,7 @@ Poison Heal
 Shield Dust
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>This Pokémon's dust blocks the additional effects of attacks taken.</td>
         </tr>
 
@@ -6410,7 +6415,7 @@ Shield Dust
 Short Circuit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a thunderstorm when it's hit by an attack.</td>
         </tr>
 
@@ -6422,7 +6427,7 @@ Short Circuit
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -6434,7 +6439,7 @@ Slow Start
 Sludge Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in acid rain.</td>
         </tr>
 
@@ -6446,7 +6451,7 @@ Sludge Rush
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -6458,7 +6463,7 @@ Stall
 Static
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is charged with static electricity, so contact with it may cause paralysis.</td>
         </tr>
 
@@ -6470,7 +6475,7 @@ Static
 Tinted Lens
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon can use “not very effective” moves to deal regular damage.</td>
         </tr>
 
@@ -6482,7 +6487,7 @@ Tinted Lens
 Transistor
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Powers up Electric-type moves.</td>
         </tr>
 
@@ -6494,7 +6499,7 @@ Transistor
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6506,7 +6511,7 @@ Truant
 <b>Unnerve</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Unnerves opposing Pokémon and makes them unable to eat Berries.</td>
         </tr>
 
@@ -6518,7 +6523,7 @@ Truant
 Volt Absorb
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if hit by an Electric-type move instead of taking damage.</td>
         </tr>
 
@@ -6530,7 +6535,7 @@ Volt Absorb
 Volt Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a thunderstorm.</td>
         </tr>
 
@@ -6542,7 +6547,7 @@ Volt Rush
 Battery
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Powers up ally Pokémon's special moves.</td>
         </tr>
 
@@ -6554,7 +6559,7 @@ Battery
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -6566,7 +6571,7 @@ Emergency Exit
 Intimidate
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Attack stat.</td>
         </tr>
 
@@ -6578,7 +6583,7 @@ Intimidate
 Menace
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon intimidates opposing Pokémon upon entry, lowering their Sp. Atk stat.</td>
         </tr>
 
@@ -6590,7 +6595,7 @@ Menace
 Surge Surfer
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Doubles the Pokémon's Speed stat on Electric Terrain.</td>
         </tr>
 
@@ -6605,6 +6610,11 @@ Surge Surfer
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

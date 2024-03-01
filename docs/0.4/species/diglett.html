@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -187,9 +194,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
 
 
             </td>
@@ -211,6 +220,7 @@
                 255
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -233,9 +243,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/diglett.html">Diglett<br><img class="frontsprite" src="sprites/pokemon/diglett/front.png"></a></td><td align="center" rowspan=1>Level 26</td><td align="center" rowspan=1><a href="species/dugtrio.html">Dugtrio<br><img class="frontsprite" src="sprites/pokemon/dugtrio/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1257,27 +1264,6 @@ Sandstorm
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1358,7 +1344,7 @@ Thief
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -1378,27 +1364,50 @@ Thief
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_066.html">TM 066</a></td>
-            <td id="Move"><a href="moves/arid_terrain.html">
+            <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
+            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td id="Move"><a href="moves/mud_bomb.html">
 
-Arid Terrain
+
+<b>Mud Bomb</b>
+
 
 </a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <td id="Type" data-sortkey="GROUND">
+    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
 </td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">—</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
             <td id="PP">10</td>
         </tr>
 
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
+            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+Ancient Power
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_067.html">TM 067</a></td>
+            <td><a href="items/tm_068.html">TM 068</a></td>
             <td id="Move"><a href="moves/muddy_terrain.html">
 
 Muddy Terrain
@@ -1417,7 +1426,7 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_101.html">TM 101</a></td>
+            <td><a href="items/tm_104.html">TM 104</a></td>
             <td id="Move"><a href="moves/stomping_tantrum.html">
 
 
@@ -1442,7 +1451,7 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -1576,16 +1585,11 @@ Muddy Terrain
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
+<a href="species/omnibyte.html"><img class="iconsprite" src="sprites/pokemon/omnibyte/icon.png"></a>
 </td>
 
 </tr>
 <tr>
-
-
-<td>
-<a href="species/omnibyte.html"><img class="iconsprite" src="sprites/pokemon/omnibyte/icon.png"></a>
-</td>
 
 
 <td>
@@ -2334,11 +2338,6 @@ Beat Up
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -2387,13 +2386,13 @@ Beat Up
 <a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/combusken.html"><img class="iconsprite" src="sprites/pokemon/combusken/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -2465,13 +2464,13 @@ Beat Up
 <a href="species/ezmergent.html"><img class="iconsprite" src="sprites/pokemon/ezmergent/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/elephloat.html"><img class="iconsprite" src="sprites/pokemon/elephloat/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3223,11 +3222,6 @@ Final Gambit
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/slakoth.html"><img class="iconsprite" src="sprites/pokemon/slakoth/icon.png"></a>
 </td>
 
@@ -3251,13 +3245,13 @@ Final Gambit
 <a href="species/dubwool.html"><img class="iconsprite" src="sprites/pokemon/dubwool/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/lucario.html"><img class="iconsprite" src="sprites/pokemon/lucario/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3329,13 +3323,13 @@ Final Gambit
 <a href="species/mastadrone.html"><img class="iconsprite" src="sprites/pokemon/mastadrone/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/spudnik.html"><img class="iconsprite" src="sprites/pokemon/spudnik/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3789,11 +3783,6 @@ Memento
 
 <td>
 <a href="species/camerupt.html"><img class="iconsprite" src="sprites/pokemon/camerupt/icon.png"></a>
-</td>
-
-
-<td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
 </td>
 
 
@@ -4495,11 +4484,6 @@ Reversal
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/slakoth.html"><img class="iconsprite" src="sprites/pokemon/slakoth/icon.png"></a>
 </td>
 
@@ -4508,13 +4492,13 @@ Reversal
 <a href="species/vigoroth.html"><img class="iconsprite" src="sprites/pokemon/vigoroth/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/slaking.html"><img class="iconsprite" src="sprites/pokemon/slaking/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -4990,20 +4974,18 @@ Ally Switch
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
+            <td id="Move"><a href="moves/arid_terrain.html">
 
-
-Ancient Power
-
+Arid Terrain
 
 </a></td>
             <td id="Type" data-sortkey="ROCK">
     <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -5284,6 +5266,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/feint.html">
 
 
@@ -5517,25 +5518,6 @@ Mimic
             <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/mud_bomb.html">
-
-
-<b>Mud Bomb</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="GROUND">
-    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">85</td>
             <td id="PP">10</td>
         </tr>
 
@@ -6217,7 +6199,7 @@ Work Up
 <b>Sand Veil</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -6230,7 +6212,7 @@ Work Up
 <b>Arena Trap</b>
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Prevents opposing Pokémon from fleeing.</td>
         </tr>
 
@@ -6243,7 +6225,7 @@ Work Up
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -6256,7 +6238,7 @@ Emergency Exit
 Earth Eater
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.</td>
         </tr>
 
@@ -6269,7 +6251,7 @@ Earth Eater
 <i>Sand Force</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -6282,7 +6264,7 @@ Earth Eater
 Hustle
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -6295,7 +6277,7 @@ Hustle
 Arena Lock
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Negates statuses that affect the whole field.</td>
         </tr>
 
@@ -6308,7 +6290,7 @@ Arena Lock
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -6345,7 +6327,7 @@ Infiltrator
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -6359,7 +6341,7 @@ Pickup
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -6373,7 +6355,7 @@ Own Tempo
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -6387,7 +6369,7 @@ Ball Fetch
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -6401,7 +6383,7 @@ Mimicry
 <i>Sand Force</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -6415,7 +6397,7 @@ Mimicry
 Sand Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a sandstorm when it's hit by an attack.</td>
         </tr>
 
@@ -6431,7 +6413,7 @@ Sand Spit
 Toxic Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up physical attacks when the Pokémon is poisoned.</td>
         </tr>
 
@@ -6466,7 +6448,7 @@ Toxic Boost
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -6478,7 +6460,7 @@ Analytic
 Arena Lock
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Negates statuses that affect the whole field.</td>
         </tr>
 
@@ -6490,7 +6472,7 @@ Arena Lock
 <b>Arena Trap</b>
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Prevents opposing Pokémon from fleeing.</td>
         </tr>
 
@@ -6502,7 +6484,7 @@ Arena Lock
 Arid Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Arid Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6514,7 +6496,7 @@ Arid Surge
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -6526,7 +6508,7 @@ Defeatist
 Earth Eater
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.</td>
         </tr>
 
@@ -6538,7 +6520,7 @@ Earth Eater
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -6550,7 +6532,7 @@ Emergency Exit
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -6562,7 +6544,7 @@ Frisk
 Guts
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>It's so gutsy that having a status condition boosts the Pokémon's Attack stat.</td>
         </tr>
 
@@ -6574,7 +6556,7 @@ Guts
 Hustle
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -6586,7 +6568,7 @@ Hustle
 Hyper Cutter
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's pride of its pincers prevents other Pokémon from lowering its Attack stat.</td>
         </tr>
 
@@ -6598,7 +6580,7 @@ Hyper Cutter
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -6610,7 +6592,7 @@ Infiltrator
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -6622,7 +6604,7 @@ Inner Focus
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -6634,7 +6616,7 @@ Klutz
 Mold Breaker
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Moves can be used on the target regardless of its Abilities.</td>
         </tr>
 
@@ -6646,7 +6628,7 @@ Mold Breaker
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -6658,7 +6640,7 @@ Moody
 Pickpocket
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Steals an item from an attacker that made direct contact.</td>
         </tr>
 
@@ -6670,7 +6652,7 @@ Pickpocket
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -6682,7 +6664,7 @@ Rattled
 Reckless
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up moves that have recoil damage.</td>
         </tr>
 
@@ -6694,7 +6676,7 @@ Reckless
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -6706,7 +6688,7 @@ Regenerator
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -6718,7 +6700,7 @@ Run Away
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -6730,7 +6712,7 @@ Sand Rush
 <b>Sand Veil</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -6742,7 +6724,7 @@ Sand Rush
 Scrappy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves.</td>
         </tr>
 
@@ -6754,7 +6736,7 @@ Scrappy
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -6766,7 +6748,7 @@ Simple
 Steadfast
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's determination boosts the Speed stat each time the Pokémon flinches.</td>
         </tr>
 
@@ -6778,7 +6760,7 @@ Steadfast
 Terralate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ground-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6790,7 +6772,7 @@ Terralate
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -6813,6 +6795,11 @@ Unburden
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/flying.html">FLYING</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 60
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -236,9 +246,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/rufflet.html">Rufflet<br><img class="frontsprite" src="sprites/pokemon/rufflet/front.png"></a></td><td align="center" rowspan=1>Level 40</td><td align="center" rowspan=1><a href="species/braviary.html">Braviary<br><img class="frontsprite" src="sprites/pokemon/braviary/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2708,27 +2715,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-<b>Facade</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2789,8 +2775,50 @@ U-turn
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
+            <td><a href="items/tm_082.html">TM 082</a></td>
+            <td id="Move"><a href="moves/fly.html">
+
+
+<b>Fly</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="FLYING">
+    <a href="moves/type/flying.html"><img src="sprites/icons/flying.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">90</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
+            <td><a href="items/tm_084.html">TM 084</a></td>
+            <td id="Move"><a href="moves/ominous_wind.html">
+
+
+Ominous Wind
+
+
+</a></td>
+            <td id="Type" data-sortkey="GHOST">
+    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td><a href="items/tm_103.html">TM 103</a></td>
             <td id="Move"><a href="moves/simoom.html">
 
 
@@ -2811,7 +2839,7 @@ Simoom
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -3137,20 +3165,20 @@ Endure
 
 
         <tr>
-            <td id="Move"><a href="moves/fly.html">
+            <td id="Move"><a href="moves/facade.html">
 
 
-<b>Fly</b>
+<b>Facade</b>
 
 
 </a></td>
-            <td id="Type" data-sortkey="FLYING">
-    <a href="moves/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
             <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">90</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">15</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3280,25 +3308,6 @@ Leer
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/ominous_wind.html">
-
-
-Ominous Wind
-
-
-</a></td>
-            <td id="Type" data-sortkey="GHOST">
-    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
         </tr>
 
 
@@ -3961,7 +3970,7 @@ Laser Focus
 <b>Keen Eye</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Prevents other Pokémon from lowering this Pokémon's accuracy.</td>
         </tr>
 
@@ -3974,7 +3983,7 @@ Laser Focus
 <b>Sheer Force</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -3987,7 +3996,7 @@ Laser Focus
 Pressure
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>By putting pressure on the opposing Pokémon, it raises their PP usage.</td>
         </tr>
 
@@ -4000,7 +4009,7 @@ Pressure
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -4013,7 +4022,7 @@ Inner Focus
 Air Lock
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -4026,7 +4035,7 @@ Air Lock
 <i>Defiant</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Pokémon's Attack stat sharply when its stats are lowered.</td>
         </tr>
 
@@ -4039,7 +4048,7 @@ Air Lock
 Guts
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>It's so gutsy that having a status condition boosts the Pokémon's Attack stat.</td>
         </tr>
 
@@ -4052,7 +4061,7 @@ Guts
 Hustle
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -4089,7 +4098,7 @@ Hustle
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -4103,7 +4112,7 @@ Pickup
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -4117,7 +4126,7 @@ Insomnia
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -4131,7 +4140,7 @@ Ball Fetch
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4145,7 +4154,7 @@ Mimicry
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -4159,7 +4168,7 @@ Levitate
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -4173,7 +4182,7 @@ Super Luck
 Fog Veil
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's evasiveness in thick fog.</td>
         </tr>
 
@@ -4208,7 +4217,7 @@ Fog Veil
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -4220,7 +4229,7 @@ Adaptability
 Aerilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Flying-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4232,7 +4241,7 @@ Aerilate
 Air Lock
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -4244,7 +4253,7 @@ Air Lock
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -4256,7 +4265,7 @@ Anticipation
 Big Pecks
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Protects the Pokémon from Defense-lowering effects.</td>
         </tr>
 
@@ -4268,7 +4277,7 @@ Big Pecks
 Competitive
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Sp. Atk stat sharply when a stat is lowered.</td>
         </tr>
 
@@ -4280,7 +4289,7 @@ Competitive
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4292,7 +4301,7 @@ Defeatist
 <i>Defiant</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Pokémon's Attack stat sharply when its stats are lowered.</td>
         </tr>
 
@@ -4304,7 +4313,7 @@ Defeatist
 Early Bird
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -4316,7 +4325,7 @@ Early Bird
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -4328,7 +4337,7 @@ Emergency Exit
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -4340,7 +4349,7 @@ Frisk
 Gale Wings
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Gives priority to Flying-type moves when the Pokémon's HP is full.</td>
         </tr>
 
@@ -4352,7 +4361,7 @@ Gale Wings
 Guts
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>It's so gutsy that having a status condition boosts the Pokémon's Attack stat.</td>
         </tr>
 
@@ -4364,7 +4373,7 @@ Guts
 Hustle
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat, but lowers accuracy.</td>
         </tr>
 
@@ -4376,7 +4385,7 @@ Hustle
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -4388,7 +4397,7 @@ Inner Focus
 <b>Keen Eye</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Prevents other Pokémon from lowering this Pokémon's accuracy.</td>
         </tr>
 
@@ -4400,7 +4409,7 @@ Inner Focus
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -4412,7 +4421,7 @@ Klutz
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4424,7 +4433,7 @@ Limber
 Mold Breaker
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Moves can be used on the target regardless of its Abilities.</td>
         </tr>
 
@@ -4436,7 +4445,7 @@ Mold Breaker
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -4448,7 +4457,7 @@ Normalize
 Pressure
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>By putting pressure on the opposing Pokémon, it raises their PP usage.</td>
         </tr>
 
@@ -4460,7 +4469,7 @@ Pressure
 Quick Draw
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Enables the Pokémon to move first occasionally.</td>
         </tr>
 
@@ -4472,7 +4481,7 @@ Quick Draw
 Reckless
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up moves that have recoil damage.</td>
         </tr>
 
@@ -4484,7 +4493,7 @@ Reckless
 Rivalry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Deals more damage to Pokémon of the same gender, but less to those of the opposite gender.</td>
         </tr>
 
@@ -4496,7 +4505,7 @@ Rivalry
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -4508,7 +4517,7 @@ Run Away
 <b>Sheer Force</b>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -4520,7 +4529,7 @@ Run Away
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -4532,7 +4541,7 @@ Skill Link
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -4544,7 +4553,7 @@ Slow Start
 Speed Boost
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Its Speed stat is boosted every turn.</td>
         </tr>
 
@@ -4556,7 +4565,7 @@ Speed Boost
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -4568,7 +4577,7 @@ Stall
 Steadfast
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's determination boosts the Speed stat each time the Pokémon flinches.</td>
         </tr>
 
@@ -4580,7 +4589,7 @@ Steadfast
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -4592,7 +4601,7 @@ Technician
 Tough Claws
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up moves that make direct contact.</td>
         </tr>
 
@@ -4604,7 +4613,7 @@ Tough Claws
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -4616,7 +4625,7 @@ Truant
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -4628,7 +4637,7 @@ Unburden
 Vital Spirit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is full of vitality, and that prevents it from falling asleep.</td>
         </tr>
 
@@ -4640,7 +4649,7 @@ Vital Spirit
 Wind Power
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>When hit by a wind move, the {POKEMON} becomes Charged up.</td>
         </tr>
 
@@ -4652,7 +4661,7 @@ Wind Power
 Wind Rider
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks wind moves. Attack is boosted from Tailwind or when hit by a wind move.</td>
         </tr>
 
@@ -4664,7 +4673,7 @@ Wind Rider
 Blustery Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Blustery Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -4676,7 +4685,7 @@ Blustery Surge
 Hyper Cutter
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's pride of its pincers prevents other Pokémon from lowering its Attack stat.</td>
         </tr>
 
@@ -4688,7 +4697,7 @@ Hyper Cutter
 Justified
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Being hit by a Dark-type move boosts the Attack stat of the Pokémon, for justice.</td>
         </tr>
 
@@ -4700,7 +4709,7 @@ Justified
 Serene Grace
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Boosts the likelihood of additional effects occurring when attacking.</td>
         </tr>
 
@@ -4712,7 +4721,7 @@ Serene Grace
 Unnerve
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Unnerves opposing Pokémon and makes them unable to eat Berries.</td>
         </tr>
 
@@ -4727,6 +4736,11 @@ Unnerve
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

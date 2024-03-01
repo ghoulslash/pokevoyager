@@ -20,6 +20,7 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
     </head>
     <body>
         
@@ -97,6 +98,115 @@ Berserk Gene
 <p>
 Confuses the holder to sharply raise Atk upon switch-in.
 </p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="wild_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/anphage.html"><img class="iconsprite" src="sprites/pokemon/anphage/icon.png"></a></td>
+            <td id="Name" data-sortkey="Anphage"><a href="species/anphage.html">Anphage</a></td>
+
+            <td id="Type" data-sortkey="DRAGONBUG"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/tusgoyf.html"><img class="iconsprite" src="sprites/pokemon/tusgoyf/icon.png"></a></td>
+            <td id="Name" data-sortkey="Tusgoyf"><a href="species/tusgoyf.html">Tusgoyf</a></td>
+
+            <td id="Type" data-sortkey="DRAGONBUG"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/llurscayf.html"><img class="iconsprite" src="sprites/pokemon/llurscayf/icon.png"></a></td>
+            <td id="Name" data-sortkey="Llurscayf"><a href="species/llurscayf.html">Llurscayf</a></td>
+
+            <td id="Type" data-sortkey="DRAGONBUG"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/anphage.html"><img class="frontsprite" src="sprites/pokemon/anphage/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/tusgoyf.html"><img class="frontsprite" src="sprites/pokemon/tusgoyf/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/llurscayf.html"><img class="frontsprite" src="sprites/pokemon/llurscayf/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
 
 
 

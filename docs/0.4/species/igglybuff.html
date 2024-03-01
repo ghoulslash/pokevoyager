@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -192,9 +199,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/fairy.html">FAIRY</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/fairy.html">Fairy</a>
+
 
 
             </td>
@@ -216,6 +225,7 @@
                 170
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -240,11 +250,8 @@ Evolution
 </h2>
 
 <table class="table table-striped table-hover align-middle">
-<tr><td align="center" rowspan=2><a href="species/igglybuff.html">Igglybuff<br><img class="frontsprite" src="sprites/pokemon/igglybuff/front.png"></a></td><td align="center" rowspan=2>Level up with high friendship</td><td align="center" rowspan=2><a href="species/jigglyruff.html">Jigglyruff<br><img class="frontsprite" src="sprites/pokemon/jigglyruff/front.png"></a></td><td align="center" rowspan=1>Level 30 while holding <a href="items/punching_glove.html">Punching Glove</a> <a href="items/punching_glove.html"><img src="sprites/items/punching_glove.png"></a></td><td align="center" rowspan=1><a href="species/zigglygruf.html">Zigglygruf<br><img class="frontsprite" src="sprites/pokemon/zigglygruf/front.png"></a></td></tr><tr><td align="center" rowspan=1>Level 30 while holding <a href="items/lucky_punch.html">Lucky Punch</a> <a href="items/lucky_punch.html"><img src="sprites/items/lucky_punch.png"></a></td><td align="center" rowspan=1><a href="species/zigglygruf.html">Zigglygruf<br><img class="frontsprite" src="sprites/pokemon/zigglygruf/front.png"></a></td></tr>
+<tr><td align="center" rowspan=1><a href="species/igglybuff.html">Igglybuff<br><img class="frontsprite" src="sprites/pokemon/igglybuff/front.png"></a></td><td align="center" rowspan=1>Level up with high friendship</td><td align="center" rowspan=1><a href="species/jigglyruff.html">Jigglyruff<br><img class="frontsprite" src="sprites/pokemon/jigglyruff/front.png"></a></td><td align="center" rowspan=1>Level 30 while holding <a href="items/lucky_punch.html">Lucky Punch</a> <a href="items/lucky_punch.html"><img src="sprites/items/lucky_punch.png"></a></td><td align="center" rowspan=1><a href="species/zigglygruf.html">Zigglygruf<br><img class="frontsprite" src="sprites/pokemon/zigglygruf/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -814,25 +821,6 @@ Double Team
 
 
 
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-<b>Facade</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
 
 
         <tr>
@@ -856,13 +844,34 @@ Double Team
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_038.html">TM 038</a></td>
+            <td id="Move"><a href="moves/incinerate.html">
+
+
+Incinerate
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
 
 
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_063.html">TM 063</a></td>
+            <td><a href="items/tm_064.html">TM 064</a></td>
             <td id="Move"><a href="moves/misty_terrain.html">
 
 Misty Terrain
@@ -897,7 +906,7 @@ Misty Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
             <td id="Move"><a href="moves/fire_blast.html">
 
 
@@ -917,29 +926,29 @@ Fire Blast
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
-            <td id="Move"><a href="moves/wild_charge.html">
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
 
 
-Wild Charge
+Water Pulse
 
 
 </a></td>
-            <td id="Type" data-sortkey="ELECTRIC">
-    <a href="moves/type/electric.html"><img src="sprites/icons/electric.png"></a>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">90</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
             <td id="Accuracy">100</td>
-            <td id="PP">15</td>
+            <td id="PP">20</td>
         </tr>
 
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td><a href="items/tm_120.html">TM 120</a></td>
             <td id="Move"><a href="moves/play_rough.html">
 
 
@@ -2726,6 +2735,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+<b>Facade</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/fake_tears.html">
 
 Fake Tears
@@ -2974,25 +3002,6 @@ Icy Wind
             <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
             <td id="Power">55</td>
             <td id="Accuracy">95</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/incinerate.html">
-
-
-Incinerate
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
             <td id="PP">15</td>
         </tr>
 
@@ -3613,20 +3622,20 @@ Water Gun
 
 
         <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
+            <td id="Move"><a href="moves/wild_charge.html">
 
 
-Water Pulse
+Wild Charge
 
 
 </a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+            <td id="Type" data-sortkey="ELECTRIC">
+    <a href="moves/type/electric.html"><img src="sprites/icons/electric.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">90</td>
             <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="PP">15</td>
         </tr>
 
 
@@ -3801,8 +3810,6 @@ Zap Cannon
 
 
 
-
-
         <tr>
             <td colspan="6">
                 <ul>
@@ -3838,7 +3845,7 @@ Zap Cannon
 <b>Cute Charm</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -3851,7 +3858,7 @@ Zap Cannon
 <b>Competitive</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Sp. Atk stat sharply when a stat is lowered.</td>
         </tr>
 
@@ -3864,7 +3871,7 @@ Zap Cannon
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -3877,7 +3884,7 @@ Soundproof
 Thick Fat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>A layer of thick fat halves the damage the Pokémon takes from Fire- and Ice-type moves.</td>
         </tr>
 
@@ -3890,7 +3897,7 @@ Thick Fat
 <i>Friend Guard</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -3903,7 +3910,7 @@ Thick Fat
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -3916,7 +3923,7 @@ Frisk
 Costar
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>When the Pokémon enters a battle, it copies an ally's stat changes.</td>
         </tr>
 
@@ -3929,7 +3936,7 @@ Costar
 Magic Bounce
 
 </a></td>
-            <td>11</td>
+            <td align="center">11</td>
             <td>Reflects status moves instead of getting hit by them.</td>
         </tr>
 
@@ -3966,7 +3973,7 @@ Magic Bounce
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -3982,7 +3989,7 @@ Pickup
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -3996,7 +4003,7 @@ Poison Heal
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -4010,7 +4017,7 @@ Levitate
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -4047,7 +4054,7 @@ Super Luck
 <b>Competitive</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Sp. Atk stat sharply when a stat is lowered.</td>
         </tr>
 
@@ -4059,7 +4066,7 @@ Super Luck
 Costar
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>When the Pokémon enters a battle, it copies an ally's stat changes.</td>
         </tr>
 
@@ -4071,7 +4078,7 @@ Costar
 <b>Cute Charm</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -4083,7 +4090,7 @@ Costar
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4095,7 +4102,7 @@ Defeatist
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -4107,7 +4114,7 @@ Drowsy Aura
 <i>Friend Guard</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -4119,7 +4126,7 @@ Drowsy Aura
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -4131,7 +4138,7 @@ Frisk
 Fur Coat
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Halves the damage from physical moves.</td>
         </tr>
 
@@ -4143,7 +4150,7 @@ Fur Coat
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -4155,7 +4162,7 @@ Klutz
 Liquid Voice
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>All sound-based moves become Water-type moves.</td>
         </tr>
 
@@ -4167,7 +4174,7 @@ Liquid Voice
 Magic Bounce
 
 </a></td>
-            <td>11</td>
+            <td align="center">11</td>
             <td>Reflects status moves instead of getting hit by them.</td>
         </tr>
 
@@ -4179,7 +4186,7 @@ Magic Bounce
 Pixilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fairy-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4191,7 +4198,7 @@ Pixilate
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -4203,7 +4210,7 @@ Slow Start
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -4215,7 +4222,7 @@ Soundproof
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -4227,7 +4234,7 @@ Stall
 Thick Fat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>A layer of thick fat halves the damage the Pokémon takes from Fire- and Ice-type moves.</td>
         </tr>
 
@@ -4239,7 +4246,7 @@ Thick Fat
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -4251,7 +4258,7 @@ Truant
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -4263,7 +4270,7 @@ Unburden
 Well-Baked Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks Fire-type moves to sharply boost the Pokémon's Defense.</td>
         </tr>
 
@@ -4310,6 +4317,11 @@ Well-Baked Body
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

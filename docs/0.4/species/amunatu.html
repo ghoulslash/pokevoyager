@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -174,9 +181,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/flying.html">FLYING</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
 
 
             </td>
@@ -201,6 +210,7 @@
                 75
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -227,9 +237,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/natu.html">Natu<br><img class="frontsprite" src="sprites/pokemon/natu/front.png"></a></td><td align="center" rowspan=1>Level 25</td><td align="center" rowspan=1><a href="species/xatu.html">Xatu<br><img class="frontsprite" src="sprites/pokemon/xatu/front.png"></a></td><td align="center" rowspan=1>Level 40 while holding <a href="items/dragon_scale.html">Dragon Scale</a> <a href="items/dragon_scale.html"><img src="sprites/items/dragon_scale.png"></a></td><td align="center" rowspan=1><a href="species/amunatu.html">Amunatu<br><img class="frontsprite" src="sprites/pokemon/amunatu/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1717,7 +1724,7 @@ Magic Room
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_064.html">TM 064</a></td>
+            <td><a href="items/tm_065.html">TM 065</a></td>
             <td id="Move"><a href="moves/psychic_terrain.html">
 
 Psychic Terrain
@@ -1736,7 +1743,7 @@ Psychic Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
-            <td><a href="items/tm_076.html">TM 076</a></td>
+            <td><a href="items/tm_077.html">TM 077</a></td>
             <td id="Move"><a href="moves/blustery_terrain.html">
 
 Blustery Terrain
@@ -1754,8 +1761,29 @@ Blustery Terrain
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
+            <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
             <td><a href="items/tm_084.html">TM 084</a></td>
+            <td id="Move"><a href="moves/ominous_wind.html">
+
+
+Ominous Wind
+
+
+</a></td>
+            <td id="Type" data-sortkey="GHOST">
+    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
+            <td><a href="items/tm_086.html">TM 086</a></td>
             <td id="Move"><a href="moves/dazzling_gleam.html">
 
 
@@ -1776,7 +1804,7 @@ Dazzling Gleam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_094.html">TM 094</a></td>
+            <td><a href="items/tm_095.html">TM 095</a></td>
             <td id="Move"><a href="moves/endothermia.html">
 
 
@@ -1797,7 +1825,7 @@ Endothermia
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/tm_100.html">TM 100</a></td>
+            <td><a href="items/tm_103.html">TM 103</a></td>
             <td id="Move"><a href="moves/simoom.html">
 
 
@@ -1818,7 +1846,7 @@ Simoom
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_107.html">TM 107</a></td>
+            <td><a href="items/tm_111.html">TM 111</a></td>
             <td id="Move"><a href="moves/skill_swap.html">
 
 Skill Swap
@@ -1837,7 +1865,7 @@ Skill Swap
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -1858,7 +1886,7 @@ Giga Impact
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td><a href="items/tm_123.html">TM 123</a></td>
             <td id="Move"><a href="moves/expanding_force.html">
 
 
@@ -4000,25 +4028,6 @@ Nightmare
 
 
         <tr>
-            <td id="Move"><a href="moves/ominous_wind.html">
-
-
-Ominous Wind
-
-
-</a></td>
-            <td id="Type" data-sortkey="GHOST">
-    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/pain_split.html">
 
 Pain Split
@@ -4922,7 +4931,7 @@ Primal Terrain
 <b>Synchronize</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -4935,7 +4944,7 @@ Primal Terrain
 <b>Early Bird</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -4948,7 +4957,7 @@ Primal Terrain
 <b>Synchronize</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -4961,7 +4970,7 @@ Primal Terrain
 <b>Synchronize</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -4974,7 +4983,7 @@ Primal Terrain
 <b>Synchronize</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -4987,7 +4996,7 @@ Primal Terrain
 <b>Synchronize</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -5000,7 +5009,7 @@ Primal Terrain
 <b>Synchronize</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -5013,7 +5022,7 @@ Primal Terrain
 <i>Magic Bounce</i>
 
 </a></td>
-            <td>11</td>
+            <td align="center">11</td>
             <td>Reflects status moves instead of getting hit by them.</td>
         </tr>
 
@@ -5050,7 +5059,7 @@ Primal Terrain
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -5064,7 +5073,7 @@ Battle Armor
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -5078,7 +5087,7 @@ Insomnia
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -5092,7 +5101,7 @@ Illuminate
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -5106,7 +5115,7 @@ Trace
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -5120,7 +5129,7 @@ Ball Fetch
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -5134,7 +5143,7 @@ Sturdy
 Cloud Nine
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -5148,7 +5157,7 @@ Cloud Nine
 Flash Fire
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up the Pokémon's Fire-type moves if it's hit by one.</td>
         </tr>
 
@@ -5162,7 +5171,7 @@ Flash Fire
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -5176,7 +5185,7 @@ Mimicry
 Shadow Tag
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -5190,7 +5199,7 @@ Shadow Tag
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -5204,7 +5213,7 @@ Levitate
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -5218,7 +5227,7 @@ Super Luck
 Fog Veil
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's evasiveness in thick fog.</td>
         </tr>
 
@@ -5253,7 +5262,7 @@ Fog Veil
 Aerilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Flying-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5265,7 +5274,7 @@ Aerilate
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -5277,7 +5286,7 @@ Analytic
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -5289,7 +5298,7 @@ Anticipation
 Arena Lock
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Negates statuses that affect the whole field.</td>
         </tr>
 
@@ -5301,7 +5310,7 @@ Arena Lock
 Big Pecks
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Protects the Pokémon from Defense-lowering effects.</td>
         </tr>
 
@@ -5313,7 +5322,7 @@ Big Pecks
 Cognizate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Psychic-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5325,7 +5334,7 @@ Cognizate
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -5337,7 +5346,7 @@ Contrary
 Costar
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>When the Pokémon enters a battle, it copies an ally's stat changes.</td>
         </tr>
 
@@ -5349,7 +5358,7 @@ Costar
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5361,7 +5370,7 @@ Defeatist
 <b>Early Bird</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -5373,7 +5382,7 @@ Defeatist
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -5385,7 +5394,7 @@ Emergency Exit
 Enchantress
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon creates a bizarre area that negates hold items when it enters battle.</td>
         </tr>
 
@@ -5397,7 +5406,7 @@ Enchantress
 Forewarn
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.</td>
         </tr>
 
@@ -5409,7 +5418,7 @@ Forewarn
 Friend Guard
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -5421,7 +5430,7 @@ Friend Guard
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -5433,7 +5442,7 @@ Immunity
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -5445,7 +5454,7 @@ Inner Focus
 Keen Eye
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Prevents other Pokémon from lowering this Pokémon's accuracy.</td>
         </tr>
 
@@ -5457,7 +5466,7 @@ Keen Eye
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -5469,7 +5478,7 @@ Klutz
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5481,7 +5490,7 @@ Lifelink
 <i>Magic Bounce</i>
 
 </a></td>
-            <td>11</td>
+            <td align="center">11</td>
             <td>Reflects status moves instead of getting hit by them.</td>
         </tr>
 
@@ -5493,7 +5502,7 @@ Lifelink
 Magic Guard
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>The Pokémon only takes damage from attacks.</td>
         </tr>
 
@@ -5505,7 +5514,7 @@ Magic Guard
 Magician
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon steals the held item of a Pokémon it hits with a move.</td>
         </tr>
 
@@ -5517,7 +5526,7 @@ Magician
 Neuroforce
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up moves that are super effective.</td>
         </tr>
 
@@ -5529,7 +5538,7 @@ Neuroforce
 Power Spot
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Just being next to the Pokémon powers up moves.</td>
         </tr>
 
@@ -5541,7 +5550,7 @@ Power Spot
 Pressure
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>By putting pressure on the opposing Pokémon, it raises their PP usage.</td>
         </tr>
 
@@ -5553,7 +5562,7 @@ Pressure
 Psychic Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Psychic Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5565,7 +5574,7 @@ Psychic Surge
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -5577,7 +5586,7 @@ Regenerator
 Relativist
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon creates a bizarre area that inverts Speed when it enters battle.</td>
         </tr>
 
@@ -5589,7 +5598,7 @@ Relativist
 Serene Grace
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Boosts the likelihood of additional effects occurring when attacking.</td>
         </tr>
 
@@ -5601,7 +5610,7 @@ Serene Grace
 Shadow Shield
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Reduces the amount of damage the Pokémon takes while its HP is full.</td>
         </tr>
 
@@ -5613,7 +5622,7 @@ Shadow Shield
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -5625,7 +5634,7 @@ Slow Start
 <b>Synchronize</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The attacker will receive the same status condition if it inflicts one to the Pokémon.</td>
         </tr>
 
@@ -5637,7 +5646,7 @@ Slow Start
 Telepathy
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Anticipates an ally's attack and dodges it.</td>
         </tr>
 
@@ -5649,7 +5658,7 @@ Telepathy
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -5661,7 +5670,7 @@ Truant
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -5673,7 +5682,7 @@ Unaware
 Unearthly
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates a bizarre area that swaps Attack stats when it enters battle.</td>
         </tr>
 
@@ -5685,7 +5694,7 @@ Unearthly
 Air Lock
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -5697,7 +5706,7 @@ Air Lock
 Blustery Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Blustery Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5709,7 +5718,7 @@ Blustery Surge
 Eerie Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Eerie Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5721,7 +5730,7 @@ Eerie Surge
 Gale Wings
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Gives priority to Flying-type moves when the Pokémon's HP is full.</td>
         </tr>
 
@@ -5733,7 +5742,7 @@ Gale Wings
 Soul-Heart
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts its Sp. Atk stat every time a Pokémon faints.</td>
         </tr>
 
@@ -5745,7 +5754,7 @@ Soul-Heart
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -5757,7 +5766,7 @@ Berserk
 Dragon's Maw
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Powers up Dragon-type moves.</td>
         </tr>
 
@@ -5769,7 +5778,7 @@ Dragon's Maw
 Gluttony
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -5781,7 +5790,7 @@ Gluttony
 Marvel Scale
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon's marvelous scales boost the Defense stat if it has a status condition.</td>
         </tr>
 
@@ -5793,7 +5802,7 @@ Marvel Scale
 Multiscale
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Reduces the amount of damage the Pokémon takes while its HP is full.</td>
         </tr>
 
@@ -5805,7 +5814,7 @@ Multiscale
 Primal Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Primal Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5817,7 +5826,7 @@ Primal Surge
 Rough Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>This Pokémon inflicts damage with its rough skin to the attacker on contact.</td>
         </tr>
 
@@ -5832,6 +5841,11 @@ Rough Skin
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

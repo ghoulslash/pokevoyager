@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -171,9 +178,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
 
 
             </td>
@@ -195,6 +204,7 @@
                 255
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -217,9 +227,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/wooloo.html">Wooloo<br><img class="frontsprite" src="sprites/pokemon/wooloo/front.png"></a></td><td align="center" rowspan=1>Level 24</td><td align="center" rowspan=1><a href="species/dubwool.html">Dubwool<br><img class="frontsprite" src="sprites/pokemon/dubwool/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -884,27 +891,6 @@ Protect
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-<b>Facade</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_036.html">TM 036</a></td>
             <td id="Move"><a href="moves/attract.html">
 
@@ -945,7 +931,7 @@ Guard Swap
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
-            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td><a href="items/tm_062.html">TM 062</a></td>
             <td id="Move"><a href="moves/grassy_terrain.html">
 
 Grassy Terrain
@@ -966,7 +952,7 @@ Grassy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
             <td id="Move"><a href="moves/wild_charge.html">
 
 
@@ -1368,11 +1354,6 @@ Counter
 
 <td>
 <a href="species/camerupt.html"><img class="iconsprite" src="sprites/pokemon/camerupt/icon.png"></a>
-</td>
-
-
-<td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
 </td>
 
 
@@ -1913,11 +1894,6 @@ Counter
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -1956,13 +1932,13 @@ Counter
 <a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/combusken.html"><img class="iconsprite" src="sprites/pokemon/combusken/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -2249,6 +2225,25 @@ Endure
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+<b>Facade</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -2650,7 +2645,7 @@ Trailblaze
 <b>Fluffy</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Halves the damage taken from contact moves, but doubles that of Fire-type moves.</td>
         </tr>
 
@@ -2663,7 +2658,7 @@ Trailblaze
 <b>Run Away</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -2676,7 +2671,7 @@ Trailblaze
 Overcoat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Protects the Pokémon from things like sand, hail, and powder.</td>
         </tr>
 
@@ -2689,7 +2684,7 @@ Overcoat
 Cotton Down
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When hit by an attack, cotton fluff lowers the Speed stat of all Pokémon except itself.</td>
         </tr>
 
@@ -2702,7 +2697,7 @@ Cotton Down
 Static
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is charged with static electricity, so contact with it may cause paralysis.</td>
         </tr>
 
@@ -2715,7 +2710,7 @@ Static
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -2728,7 +2723,7 @@ Own Tempo
 <i>Bulletproof</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -2741,7 +2736,7 @@ Own Tempo
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -2778,7 +2773,7 @@ Simple
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -2792,7 +2787,7 @@ Own Tempo
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -2806,7 +2801,7 @@ Ball Fetch
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -2820,7 +2815,7 @@ Mimicry
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -2834,7 +2829,7 @@ Poison Heal
 Fog Veil
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's evasiveness in thick fog.</td>
         </tr>
 
@@ -2869,7 +2864,7 @@ Fog Veil
 <i>Bulletproof</i>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -2881,7 +2876,7 @@ Fog Veil
 Cotton Down
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When hit by an attack, cotton fluff lowers the Speed stat of all Pokémon except itself.</td>
         </tr>
 
@@ -2893,7 +2888,7 @@ Cotton Down
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -2905,7 +2900,7 @@ Cute Charm
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -2917,7 +2912,7 @@ Defeatist
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -2929,7 +2924,7 @@ Drowsy Aura
 <b>Fluffy</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Halves the damage taken from contact moves, but doubles that of Fire-type moves.</td>
         </tr>
 
@@ -2941,7 +2936,7 @@ Drowsy Aura
 Friend Guard
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -2953,7 +2948,7 @@ Friend Guard
 Fur Coat
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Halves the damage from physical moves.</td>
         </tr>
 
@@ -2965,7 +2960,7 @@ Fur Coat
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -2977,7 +2972,7 @@ Klutz
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -2989,7 +2984,7 @@ Normalize
 Overcoat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Protects the Pokémon from things like sand, hail, and powder.</td>
         </tr>
 
@@ -3001,7 +2996,7 @@ Overcoat
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -3013,7 +3008,7 @@ Pickup
 Rattled
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.</td>
         </tr>
 
@@ -3025,7 +3020,7 @@ Rattled
 <b>Run Away</b>
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -3037,7 +3032,7 @@ Rattled
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -3049,7 +3044,7 @@ Simple
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -3061,7 +3056,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -3073,7 +3068,7 @@ Stall
 Static
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is charged with static electricity, so contact with it may cause paralysis.</td>
         </tr>
 
@@ -3085,7 +3080,7 @@ Static
 Tangling Hair
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon lowers the attacker's Speed stat.</td>
         </tr>
 
@@ -3097,7 +3092,7 @@ Tangling Hair
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -3118,6 +3113,11 @@ Truant
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

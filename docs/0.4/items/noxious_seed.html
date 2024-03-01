@@ -20,6 +20,7 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
     </head>
     <body>
         
@@ -97,6 +98,154 @@ Noxious Seed
 <p>
 Consume and sharply boost Attack in Noxious Terrain.
 </p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="wild_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>032</td>
+            <td style="width: 32px;"><a href="species/venipede.html"><img class="iconsprite" src="sprites/pokemon/venipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Venipede"><a href="species/venipede.html">Venipede</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>033</td>
+            <td style="width: 32px;"><a href="species/whirlipede.html"><img class="iconsprite" src="sprites/pokemon/whirlipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Whirlipede"><a href="species/whirlipede.html">Whirlipede</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>034</td>
+            <td style="width: 32px;"><a href="species/scolipede.html"><img class="iconsprite" src="sprites/pokemon/scolipede/icon.png"></a></td>
+            <td id="Name" data-sortkey="Scolipede"><a href="species/scolipede.html">Scolipede</a></td>
+
+            <td id="Type" data-sortkey="BUGPOISON"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>380</td>
+            <td style="width: 32px;"><a href="species/trubbish.html"><img class="iconsprite" src="sprites/pokemon/trubbish/icon.png"></a></td>
+            <td id="Name" data-sortkey="Trubbish"><a href="species/trubbish.html">Trubbish</a></td>
+
+            <td id="Type" data-sortkey="POISON"><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>381</td>
+            <td style="width: 32px;"><a href="species/garbodor.html"><img class="iconsprite" src="sprites/pokemon/garbodor/icon.png"></a></td>
+            <td id="Name" data-sortkey="Garbodor"><a href="species/garbodor.html">Garbodor</a></td>
+
+            <td id="Type" data-sortkey="POISON"><a href="pokedex/type/poison.html"><img src="sprites/icons/poison.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/venipede.html"><img class="frontsprite" src="sprites/pokemon/venipede/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/whirlipede.html"><img class="frontsprite" src="sprites/pokemon/whirlipede/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/scolipede.html"><img class="frontsprite" src="sprites/pokemon/scolipede/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/trubbish.html"><img class="frontsprite" src="sprites/pokemon/trubbish/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/garbodor.html"><img class="frontsprite" src="sprites/pokemon/garbodor/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
 
 
 

@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -206,9 +213,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
 
 
             </td>
@@ -230,6 +239,7 @@
                 75
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -256,14 +266,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/shleepy.html">Shleepy<br><img class="frontsprite" src="sprites/pokemon/shleepy/front.png"></a></td><td align="center" rowspan=1>Level 17</td><td align="center" rowspan=1><a href="species/privinee.html">Privinee<br><img class="frontsprite" src="sprites/pokemon/privinee/front.png"></a></td><td align="center" rowspan=1>Level 37</td><td align="center" rowspan=1><a href="species/flairdries.html">Flairdries<br><img class="frontsprite" src="sprites/pokemon/flairdries/front.png"></a></td></tr>
 </table>
-
-
-
-<img class="conceptart" src="images/concepts/pokemon/shleepy_privinee_flairdries_1_artsy.png">
-<p>
-Concept art by <b>artsy</b>
-</p>
-
 
 
 <h2>
@@ -972,6 +974,8 @@ Safeguard
 
 
 
+
+
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
             <td><a href="items/tm_022.html">TM 022</a></td>
@@ -1008,27 +1012,6 @@ Double Team
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -1095,23 +1078,21 @@ Attract
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
             <td><a href="items/tm_038.html">TM 038</a></td>
-            <td id="Move"><a href="moves/flame_charge.html">
+            <td id="Move"><a href="moves/incinerate.html">
 
 
-<b>Flame Charge</b>
+<b>Incinerate</b>
 
 
 </a></td>
             <td id="Type" data-sortkey="FIRE">
     <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">50</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
             <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="PP">15</td>
         </tr>
-
-
 
 
 
@@ -1127,7 +1108,7 @@ Attract
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ice.png"></td>
-            <td><a href="items/tm_087.html">TM 087</a></td>
+            <td><a href="items/tm_088.html">TM 088</a></td>
             <td id="Move"><a href="moves/blubber_bump.html">
 
 
@@ -1150,11 +1131,9 @@ Blubber Bump
 
 
 
-
-
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -1174,8 +1153,29 @@ Blubber Bump
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td id="Move"><a href="moves/fire_blast.html">
+
+
+<b>Fire Blast</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">110</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_107.html">TM 107</a></td>
+            <td><a href="items/tm_111.html">TM 111</a></td>
             <td id="Move"><a href="moves/skill_swap.html">
 
 Skill Swap
@@ -1196,7 +1196,7 @@ Skill Swap
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
             <td id="Move"><a href="moves/wild_charge.html">
 
 
@@ -1217,7 +1217,7 @@ Wild Charge
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td><a href="items/tm_120.html">TM 120</a></td>
             <td id="Move"><a href="moves/play_rough.html">
 
 
@@ -1233,6 +1233,8 @@ Wild Charge
             <td id="Accuracy">90</td>
             <td id="PP">10</td>
         </tr>
+
+
 
 
 
@@ -2946,11 +2948,6 @@ Spark
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/wooloo.html"><img class="iconsprite" src="sprites/pokemon/wooloo/icon.png"></a>
 </td>
 
@@ -3456,20 +3453,20 @@ Enthrall
 
 
         <tr>
-            <td id="Move"><a href="moves/fire_blast.html">
+            <td id="Move"><a href="moves/facade.html">
 
 
-<b>Fire Blast</b>
+Facade
 
 
 </a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">110</td>
-            <td id="Accuracy">85</td>
-            <td id="PP">5</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3546,6 +3543,25 @@ Flail
             <td id="Power">70</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/flame_charge.html">
+
+
+<b>Flame Charge</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3726,25 +3742,6 @@ High Horsepower
             <td id="Power">95</td>
             <td id="Accuracy">95</td>
             <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/incinerate.html">
-
-
-<b>Incinerate</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
         </tr>
 
 
@@ -4683,7 +4680,7 @@ Zen Headbutt
 <b>Blaze</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Fire-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -4696,7 +4693,7 @@ Zen Headbutt
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -4709,7 +4706,7 @@ Anticipation
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4722,7 +4719,7 @@ Own Tempo
 Flame Body
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may burn the attacker.</td>
         </tr>
 
@@ -4735,7 +4732,7 @@ Flame Body
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -4748,7 +4745,7 @@ Regenerator
 Cotton Down
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When hit by an attack, cotton fluff lowers the Speed stat of all Pokémon except itself.</td>
         </tr>
 
@@ -4761,7 +4758,7 @@ Cotton Down
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -4774,7 +4771,7 @@ Drowsy Aura
 <i>Comatose</i>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>It's always drowsing and will never wake up. It can attack without waking up.</td>
         </tr>
 
@@ -4811,7 +4808,7 @@ Drowsy Aura
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4825,7 +4822,7 @@ Own Tempo
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -4839,7 +4836,7 @@ Sturdy
 Flare Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up special attacks when the Pokémon is burned.</td>
         </tr>
 
@@ -4853,7 +4850,7 @@ Flare Boost
 Frost Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up special attacks when the Pokémon is frostbitten.</td>
         </tr>
 
@@ -4867,7 +4864,7 @@ Frost Boost
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -4902,7 +4899,7 @@ Oblivious
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -4914,7 +4911,7 @@ Adaptability
 Air Lock
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -4926,7 +4923,7 @@ Air Lock
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -4938,7 +4935,7 @@ Anticipation
 Arena Lock
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Negates statuses that affect the whole field.</td>
         </tr>
 
@@ -4950,7 +4947,7 @@ Arena Lock
 Bad Dreams
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Reduces the HP of sleeping opposing Pokémon.</td>
         </tr>
 
@@ -4962,7 +4959,7 @@ Bad Dreams
 <b>Blaze</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Fire-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -4974,7 +4971,7 @@ Bad Dreams
 Bulletproof
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Protects the Pokémon from some ball and bomb moves.</td>
         </tr>
 
@@ -4986,7 +4983,7 @@ Bulletproof
 Calderize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fire-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4998,7 +4995,7 @@ Calderize
 <i>Comatose</i>
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>It's always drowsing and will never wake up. It can attack without waking up.</td>
         </tr>
 
@@ -5010,7 +5007,7 @@ Calderize
 Costar
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>When the Pokémon enters a battle, it copies an ally's stat changes.</td>
         </tr>
 
@@ -5022,7 +5019,7 @@ Costar
 Cotton Down
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When hit by an attack, cotton fluff lowers the Speed stat of all Pokémon except itself.</td>
         </tr>
 
@@ -5034,7 +5031,7 @@ Cotton Down
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -5046,7 +5043,7 @@ Cute Charm
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -5058,7 +5055,7 @@ Drowsy Aura
 Effect Spore
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.</td>
         </tr>
 
@@ -5070,7 +5067,7 @@ Effect Spore
 Filter
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Reduces the power of supereffective attacks taken.</td>
         </tr>
 
@@ -5082,7 +5079,7 @@ Filter
 Flame Body
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may burn the attacker.</td>
         </tr>
 
@@ -5094,7 +5091,7 @@ Flame Body
 Fluffy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Halves the damage taken from contact moves, but doubles that of Fire-type moves.</td>
         </tr>
 
@@ -5106,7 +5103,7 @@ Fluffy
 Fur Coat
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Halves the damage from physical moves.</td>
         </tr>
 
@@ -5118,7 +5115,7 @@ Fur Coat
 Humidity Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a heat wave.</td>
         </tr>
 
@@ -5130,7 +5127,7 @@ Humidity Rush
 Hyper Cutter
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's pride of its pincers prevents other Pokémon from lowering its Attack stat.</td>
         </tr>
 
@@ -5142,7 +5139,7 @@ Hyper Cutter
 Magma Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Magma Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5154,7 +5151,7 @@ Magma Surge
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -5166,7 +5163,7 @@ Moody
 Overcoat
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Protects the Pokémon from things like sand, hail, and powder.</td>
         </tr>
 
@@ -5178,7 +5175,7 @@ Overcoat
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -5190,7 +5187,7 @@ Pickup
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -5202,7 +5199,7 @@ Regenerator
 Rivalry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Deals more damage to Pokémon of the same gender, but less to those of the opposite gender.</td>
         </tr>
 
@@ -5214,7 +5211,7 @@ Rivalry
 Scrappy
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves.</td>
         </tr>
 
@@ -5226,7 +5223,7 @@ Scrappy
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -5238,7 +5235,7 @@ Soundproof
 Steadfast
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's determination boosts the Speed stat each time the Pokémon flinches.</td>
         </tr>
 
@@ -5250,7 +5247,7 @@ Steadfast
 Tangled Feet
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Raises evasiveness if the Pokémon is confused.</td>
         </tr>
 
@@ -5262,7 +5259,7 @@ Tangled Feet
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -5274,7 +5271,7 @@ Unaware
 Wimp Out
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon cowardly switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -5324,6 +5321,16 @@ Wimp Out
     </tbody>
 </table>
 
+
+
+
+
+
+
+<img class="conceptart" src="images/concepts/pokemon/shleepy_privinee_flairdries_1_artsy.png">
+<p>
+Concept art by <b>artsy</b>
+</p>
 
 
 

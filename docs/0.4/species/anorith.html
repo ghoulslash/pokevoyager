@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/water_3.html">WATER 3</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/water_3.html">Water 3</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 45
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -236,9 +246,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/anorith.html">Anorith<br><img class="frontsprite" src="sprites/pokemon/anorith/front.png"></a></td><td align="center" rowspan=1>Level 40</td><td align="center" rowspan=1><a href="species/armaldo.html">Armaldo<br><img class="frontsprite" src="sprites/pokemon/armaldo/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2637,27 +2644,6 @@ Silly Slash
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_002.html">TM 002</a></td>
-            <td id="Move"><a href="moves/aqua_jet.html">
-
-
-Aqua Jet
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">40</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
             <td><a href="items/tm_005.html">TM 005</a></td>
             <td id="Move"><a href="moves/toxic.html">
@@ -2796,27 +2782,6 @@ Brick Break
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2855,6 +2820,67 @@ Rest
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
+            <td><a href="items/tm_036.html">TM 036</a></td>
+            <td id="Move"><a href="moves/attract.html">
+
+Attract
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
+            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+<b>Ancient Power</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
+            <td><a href="items/tm_080.html">TM 080</a></td>
+            <td id="Move"><a href="moves/bug_bite.html">
+
+
+<b>Bug Bite</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="BUG">
+    <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
 
 
 
@@ -2863,7 +2889,7 @@ Rest
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_099.html">TM 099</a></td>
+            <td><a href="items/tm_102.html">TM 102</a></td>
             <td id="Move"><a href="moves/sprite_smash.html">
 
 
@@ -2881,6 +2907,48 @@ Sprite Smash
         </tr>
 
 
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+Knock Off
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
+
+
+Water Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
 
 
 
@@ -3929,37 +3997,20 @@ Aerial Ace
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
+            <td id="Move"><a href="moves/aqua_jet.html">
 
 
-<b>Ancient Power</b>
+Aqua Jet
 
 
 </a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">40</td>
             <td id="Accuracy">100</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/attract.html">
-
-Attract
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">15</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3998,25 +4049,6 @@ Brine
             <td id="Power">65</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/bug_bite.html">
-
-
-<b>Bug Bite</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="BUG">
-    <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -4204,6 +4236,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/false_swipe.html">
 
 
@@ -4326,25 +4377,6 @@ Iron Defense
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-Knock Off
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
         </tr>
 
 
@@ -4915,25 +4947,6 @@ Water Gun
 
 
         <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
-
-
-Water Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/x_scissor.html">
 
 
@@ -5014,7 +5027,7 @@ Water Pulse
 <b>Battle Armor</b>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -5027,7 +5040,7 @@ Water Pulse
 <i>Swift Swim</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in rain.</td>
         </tr>
 
@@ -5040,7 +5053,7 @@ Water Pulse
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -5053,7 +5066,7 @@ Cold-Blooded
 Hyper Cutter
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's pride of its pincers prevents other Pokémon from lowering its Attack stat.</td>
         </tr>
 
@@ -5066,7 +5079,7 @@ Hyper Cutter
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -5079,7 +5092,7 @@ Frisk
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -5092,7 +5105,7 @@ Adaptability
 Intrepid Sword
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Attack stat when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5105,7 +5118,7 @@ Intrepid Sword
 Tough Claws
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up moves that make direct contact.</td>
         </tr>
 
@@ -5142,7 +5155,7 @@ Tough Claws
 <b>Battle Armor</b>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -5156,7 +5169,7 @@ Tough Claws
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -5170,7 +5183,7 @@ Pickup
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -5184,7 +5197,7 @@ Immunity
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -5198,7 +5211,7 @@ Sturdy
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5212,7 +5225,7 @@ Lifelink
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -5226,7 +5239,7 @@ Sand Force
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -5240,8 +5253,8 @@ Rock Head
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -5256,7 +5269,7 @@ Frostproof
 <i>Swift Swim</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in rain.</td>
         </tr>
 
@@ -5272,7 +5285,7 @@ Frostproof
 Sand Veil
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -5286,7 +5299,7 @@ Sand Veil
 Damp
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Prevents the use of explosive moves, such as Self-Destruct, by dampening its surroundings.</td>
         </tr>
 
@@ -5321,7 +5334,7 @@ Damp
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -5333,7 +5346,7 @@ Adaptability
 Calcifate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Rock-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5345,7 +5358,7 @@ Calcifate
 Carbonize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Steel-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5357,7 +5370,7 @@ Carbonize
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -5369,7 +5382,7 @@ Cold-Blooded
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5381,7 +5394,7 @@ Defeatist
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -5393,7 +5406,7 @@ Frisk
 Hive Mind
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Bug-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5405,7 +5418,7 @@ Hive Mind
 Hydration
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -5417,7 +5430,7 @@ Hydration
 Hyper Cutter
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's pride of its pincers prevents other Pokémon from lowering its Attack stat.</td>
         </tr>
 
@@ -5429,7 +5442,7 @@ Hyper Cutter
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -5441,7 +5454,7 @@ Insomnia
 Intrepid Sword
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Attack stat when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5453,7 +5466,7 @@ Intrepid Sword
 Marvel Scale
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon's marvelous scales boost the Defense stat if it has a status condition.</td>
         </tr>
 
@@ -5465,7 +5478,7 @@ Marvel Scale
 Multiscale
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Reduces the amount of damage the Pokémon takes while its HP is full.</td>
         </tr>
 
@@ -5477,7 +5490,7 @@ Multiscale
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -5489,7 +5502,7 @@ Regenerator
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -5501,7 +5514,7 @@ Run Away
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -5513,7 +5526,7 @@ Sand Rush
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -5525,7 +5538,7 @@ Slow Start
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5537,7 +5550,7 @@ Swarm
 Tough Claws
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Powers up moves that make direct contact.</td>
         </tr>
 
@@ -5549,7 +5562,7 @@ Tough Claws
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -5572,6 +5585,11 @@ Truant
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

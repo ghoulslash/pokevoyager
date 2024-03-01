@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -174,9 +181,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/water_3.html">WATER 3</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/water_3.html">Water 3</a>
+
 
 
             </td>
@@ -198,6 +207,7 @@
                 45
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -220,9 +230,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/lileep.html">Lileep<br><img class="frontsprite" src="sprites/pokemon/lileep/front.png"></a></td><td align="center" rowspan=1>Level 40</td><td align="center" rowspan=1><a href="species/cradily.html">Cradily<br><img class="frontsprite" src="sprites/pokemon/cradily/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -956,27 +963,6 @@ Sandstorm
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
             <td><a href="items/tm_035.html">TM 035</a></td>
             <td id="Move"><a href="moves/rest.html">
@@ -1016,7 +1002,7 @@ Attract
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -1036,8 +1022,29 @@ Bulldoze
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
             <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+<b>Ancient Power</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/tm_062.html">TM 062</a></td>
             <td id="Move"><a href="moves/grassy_terrain.html">
 
 Grassy Terrain
@@ -1056,7 +1063,7 @@ Grassy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_081.html">TM 081</a></td>
+            <td><a href="items/tm_083.html">TM 083</a></td>
             <td id="Move"><a href="moves/strength.html">
 
 
@@ -1077,7 +1084,7 @@ Strength
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
             <td id="Move"><a href="moves/hyper_beam.html">
 
 
@@ -1098,7 +1105,7 @@ Hyper Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -1968,25 +1975,6 @@ Amnesia
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
-
-
-<b>Ancient Power</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/astonish.html">
 
 
@@ -2255,6 +2243,25 @@ Endure
             <td id="Power">90</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3218,7 +3225,7 @@ Sludge Wave
 <b>Suction Cups</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>This Pokémon uses suction cups to negate all moves and items that force switching out.</td>
         </tr>
 
@@ -3231,7 +3238,7 @@ Sludge Wave
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -3244,7 +3251,7 @@ Pickup
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -3257,7 +3264,7 @@ Sturdy
 Tangling Hair
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon lowers the attacker's Speed stat.</td>
         </tr>
 
@@ -3270,7 +3277,7 @@ Tangling Hair
 Sticky Hold
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.</td>
         </tr>
 
@@ -3283,7 +3290,7 @@ Sticky Hold
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -3296,7 +3303,7 @@ Adaptability
 Dauntless Shield
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's Defense stat when the Pokémon enters a battle.</td>
         </tr>
 
@@ -3309,7 +3316,7 @@ Dauntless Shield
 <i>Storm Drain</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Water-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -3346,7 +3353,7 @@ Dauntless Shield
 Battle Armor
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Hard armor protects the Pokémon from critical hits.</td>
         </tr>
 
@@ -3360,7 +3367,7 @@ Battle Armor
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -3374,7 +3381,7 @@ Pickup
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -3388,7 +3395,7 @@ Insomnia
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -3402,7 +3409,7 @@ Illuminate
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -3416,7 +3423,7 @@ Swarm
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -3430,7 +3437,7 @@ Sand Force
 Rock Head
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Protects the Pokémon from recoil damage.</td>
         </tr>
 
@@ -3444,7 +3451,7 @@ Rock Head
 Sand Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a sandstorm when it's hit by an attack.</td>
         </tr>
 
@@ -3458,7 +3465,7 @@ Sand Spit
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -3472,7 +3479,7 @@ Technician
 <i>Storm Drain</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon draws in and neutralises Water-type moves, boosting its Sp. Atk.</td>
         </tr>
 
@@ -3486,7 +3493,7 @@ Technician
 Liquid Ooze
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The oozed liquid has a strong stench, which damages attackers using draining moves.</td>
         </tr>
 
@@ -3521,7 +3528,7 @@ Liquid Ooze
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -3533,7 +3540,7 @@ Adaptability
 Calcifate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Rock-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3545,7 +3552,7 @@ Calcifate
 Carbonize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Steel-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3557,7 +3564,7 @@ Carbonize
 Chlorophyll
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -3569,7 +3576,7 @@ Chlorophyll
 Dauntless Shield
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's Defense stat when the Pokémon enters a battle.</td>
         </tr>
 
@@ -3581,7 +3588,7 @@ Dauntless Shield
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -3593,7 +3600,7 @@ Defeatist
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -3605,7 +3612,7 @@ Drowsy Aura
 Dry Skin
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Rain and Water-type moves restore HP. Sunlight and Fire-type damage hurt more.</td>
         </tr>
 
@@ -3617,7 +3624,7 @@ Dry Skin
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -3629,7 +3636,7 @@ Emergency Exit
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -3641,7 +3648,7 @@ Frisk
 Grassy Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -3653,7 +3660,7 @@ Grassy Surge
 Hydration
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -3665,7 +3672,7 @@ Hydration
 Hyper Cutter
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's pride of its pincers prevents other Pokémon from lowering its Attack stat.</td>
         </tr>
 
@@ -3677,7 +3684,7 @@ Hyper Cutter
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -3689,7 +3696,7 @@ Immunity
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -3701,7 +3708,7 @@ Lifelink
 Overgrow
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Grass-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -3713,7 +3720,7 @@ Overgrow
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -3725,7 +3732,7 @@ Poison Heal
 Poison Touch
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>May poison a target when the Pokémon makes contact.</td>
         </tr>
 
@@ -3737,7 +3744,7 @@ Poison Touch
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -3749,7 +3756,7 @@ Regenerator
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -3761,7 +3768,7 @@ Run Away
 Sand Rush
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a sandstorm.</td>
         </tr>
 
@@ -3773,7 +3780,7 @@ Sand Rush
 Sand Veil
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -3785,7 +3792,7 @@ Sand Veil
 Sap Sipper
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat if hit by a Grass-type move instead of taking damage.</td>
         </tr>
 
@@ -3797,7 +3804,7 @@ Sap Sipper
 Seed Sower
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.</td>
         </tr>
 
@@ -3809,7 +3816,7 @@ Seed Sower
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -3821,7 +3828,7 @@ Slow Start
 Solar Power
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Boosts the Sp. Atk stat in harsh sunlight or Solar Wind, but HP decreases every turn.</td>
         </tr>
 
@@ -3833,7 +3840,7 @@ Solar Power
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -3845,7 +3852,7 @@ Stall
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -3857,7 +3864,7 @@ Stench
 Sticky Hold
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.</td>
         </tr>
 
@@ -3869,7 +3876,7 @@ Sticky Hold
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -3881,7 +3888,7 @@ Sturdy
 <b>Suction Cups</b>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>This Pokémon uses suction cups to negate all moves and items that force switching out.</td>
         </tr>
 
@@ -3893,7 +3900,7 @@ Sturdy
 Tangling Hair
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon lowers the attacker's Speed stat.</td>
         </tr>
 
@@ -3905,7 +3912,7 @@ Tangling Hair
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -3917,7 +3924,7 @@ Truant
 Wimp Out
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon cowardly switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -3929,7 +3936,7 @@ Wimp Out
 Pickpocket
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Steals an item from an attacker that made direct contact.</td>
         </tr>
 
@@ -3941,7 +3948,7 @@ Pickpocket
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -3956,6 +3963,11 @@ Stamina
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

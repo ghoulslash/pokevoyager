@@ -20,6 +20,7 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
     </head>
     <body>
         
@@ -97,6 +98,156 @@ Airfoil
 <p>
 Raises Speed if its holder is hit by a Flying-type move.
 </p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="wild_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>038</td>
+            <td style="width: 32px;"><a href="species/birrobird.html"><img class="iconsprite" src="sprites/pokemon/birrobird/icon.png"></a></td>
+            <td id="Name" data-sortkey="Birrobird"><a href="species/birrobird.html">Birrobird</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>039</td>
+            <td style="width: 32px;"><a href="species/eageleag.html"><img class="iconsprite" src="sprites/pokemon/eageleag/icon.png"></a></td>
+            <td id="Name" data-sortkey="Eageleag"><a href="species/eageleag.html">Eageleag</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>040</td>
+            <td style="width: 32px;"><a href="species/griffogrif.html"><img class="iconsprite" src="sprites/pokemon/griffogrif/icon.png"></a></td>
+            <td id="Name" data-sortkey="Griffogrif"><a href="species/griffogrif.html">Griffogrif</a></td>
+
+            <td id="Type" data-sortkey="FIGHTINGFLYING"><a href="pokedex/type/fighting.html"><img src="sprites/icons/fighting.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>313</td>
+            <td style="width: 32px;"><a href="species/rufflet.html"><img class="iconsprite" src="sprites/pokemon/rufflet/icon.png"></a></td>
+            <td id="Name" data-sortkey="Rufflet"><a href="species/rufflet.html">Rufflet</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>314</td>
+            <td style="width: 32px;"><a href="species/braviary.html"><img class="iconsprite" src="sprites/pokemon/braviary/icon.png"></a></td>
+            <td id="Name" data-sortkey="Braviary"><a href="species/braviary.html">Braviary</a></td>
+
+            <td id="Type" data-sortkey="NORMALFLYING"><a href="pokedex/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/birrobird.html"><img class="frontsprite" src="sprites/pokemon/birrobird/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/eageleag.html"><img class="frontsprite" src="sprites/pokemon/eageleag/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/griffogrif.html"><img class="frontsprite" src="sprites/pokemon/griffogrif/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/rufflet.html"><img class="frontsprite" src="sprites/pokemon/rufflet/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/braviary.html"><img class="frontsprite" src="sprites/pokemon/braviary/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
 
 
 

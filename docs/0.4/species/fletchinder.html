@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/flying.html">FLYING</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 120
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -240,9 +250,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/fletchling.html">Fletchling<br><img class="frontsprite" src="sprites/pokemon/fletchling/front.png"></a></td><td align="center" rowspan=1>Level 17</td><td align="center" rowspan=1><a href="species/fletchinder.html">FLETCHINDER<br><img class="frontsprite" src="sprites/pokemon/fletchinder/front.png"></a></td><td align="center" rowspan=1>Level 35</td><td align="center" rowspan=1><a href="species/talonflame.html">Talonflame<br><img class="frontsprite" src="sprites/pokemon/talonflame/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1587,27 +1594,6 @@ Double Team
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1666,27 +1652,6 @@ Attract
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_038.html">TM 038</a></td>
-            <td id="Move"><a href="moves/flame_charge.html">
-
-
-<b>Flame Charge</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">50</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
             <td><a href="items/tm_050.html">TM 050</a></td>
             <td id="Move"><a href="moves/acrobatics.html">
@@ -1730,11 +1695,32 @@ Will-o-Wisp
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
+            <td><a href="items/tm_082.html">TM 082</a></td>
+            <td id="Move"><a href="moves/fly.html">
+
+
+<b>Fly</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="FLYING">
+    <a href="moves/type/flying.html"><img src="sprites/icons/flying.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">90</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -1755,7 +1741,7 @@ Will-o-Wisp
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
             <td id="Move"><a href="moves/fire_blast.html">
 
 
@@ -2512,6 +2498,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/flail.html">
 
 
@@ -2531,20 +2536,20 @@ Flail
 
 
         <tr>
-            <td id="Move"><a href="moves/fly.html">
+            <td id="Move"><a href="moves/flame_charge.html">
 
 
-<b>Fly</b>
+<b>Flame Charge</b>
 
 
 </a></td>
-            <td id="Type" data-sortkey="FLYING">
-    <a href="moves/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
 </td>
             <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">90</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">15</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3124,7 +3129,7 @@ Feint
 <b>Flame Body</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may burn the attacker.</td>
         </tr>
 
@@ -3137,7 +3142,7 @@ Feint
 Heatproof
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The heatproof body of the Pokémon halves the damage from Fire-type moves that hit it.</td>
         </tr>
 
@@ -3150,7 +3155,7 @@ Heatproof
 Early Bird
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -3163,7 +3168,7 @@ Early Bird
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -3176,7 +3181,7 @@ Unburden
 <i>Gale Wings</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Gives priority to Flying-type moves when the Pokémon's HP is full.</td>
         </tr>
 
@@ -3189,7 +3194,7 @@ Unburden
 Wind Rider
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks wind moves. Attack is boosted from Tailwind or when hit by a wind move.</td>
         </tr>
 
@@ -3202,7 +3207,7 @@ Wind Rider
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -3215,7 +3220,7 @@ Screen Cleaner
 Aerilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Flying-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3252,7 +3257,7 @@ Aerilate
 Keen Eye
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Prevents other Pokémon from lowering this Pokémon's accuracy.</td>
         </tr>
 
@@ -3266,7 +3271,7 @@ Keen Eye
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -3280,7 +3285,7 @@ Illuminate
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -3294,7 +3299,7 @@ Ball Fetch
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -3310,7 +3315,7 @@ Levitate
 Flare Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up special attacks when the Pokémon is burned.</td>
         </tr>
 
@@ -3324,7 +3329,7 @@ Flare Boost
 Frost Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up special attacks when the Pokémon is frostbitten.</td>
         </tr>
 
@@ -3359,7 +3364,7 @@ Frost Boost
 Aerilate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Flying-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3371,7 +3376,7 @@ Aerilate
 Big Pecks
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Protects the Pokémon from Defense-lowering effects.</td>
         </tr>
 
@@ -3383,7 +3388,7 @@ Big Pecks
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -3395,7 +3400,7 @@ Defeatist
 Early Bird
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -3407,7 +3412,7 @@ Early Bird
 Flash Fire
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up the Pokémon's Fire-type moves if it's hit by one.</td>
         </tr>
 
@@ -3419,7 +3424,7 @@ Flash Fire
 <i>Gale Wings</i>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Gives priority to Flying-type moves when the Pokémon's HP is full.</td>
         </tr>
 
@@ -3431,7 +3436,7 @@ Flash Fire
 Heatproof
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The heatproof body of the Pokémon halves the damage from Fire-type moves that hit it.</td>
         </tr>
 
@@ -3443,7 +3448,7 @@ Heatproof
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -3455,7 +3460,7 @@ Klutz
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -3467,7 +3472,7 @@ Pickup
 Quick Feet
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Speed stat if the Pokémon has a status condition.</td>
         </tr>
 
@@ -3479,7 +3484,7 @@ Quick Feet
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -3491,7 +3496,7 @@ Screen Cleaner
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -3503,7 +3508,7 @@ Slow Start
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -3515,7 +3520,7 @@ Truant
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -3527,7 +3532,7 @@ Unburden
 Wind Rider
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks wind moves. Attack is boosted from Tailwind or when hit by a wind move.</td>
         </tr>
 
@@ -3539,7 +3544,7 @@ Wind Rider
 Calderize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Fire-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -3551,7 +3556,7 @@ Calderize
 <b>Flame Body</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may burn the attacker.</td>
         </tr>
 
@@ -3563,7 +3568,7 @@ Calderize
 Magma Armor
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is covered with hot magma, which prevents it from becoming frostbitten.</td>
         </tr>
 
@@ -3575,7 +3580,7 @@ Magma Armor
 Wind Power
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>When hit by a wind move, the {POKEMON} becomes Charged up.</td>
         </tr>
 
@@ -3598,6 +3603,11 @@ Wind Power
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

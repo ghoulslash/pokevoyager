@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -171,9 +178,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/bug.html">BUG</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
 
 
             </td>
@@ -195,6 +204,7 @@
                 120
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -221,9 +231,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/caterpie.html">Caterpie<br><img class="frontsprite" src="sprites/pokemon/caterpie/front.png"></a></td><td align="center" rowspan=1>Level 7</td><td align="center" rowspan=1><a href="species/metapod.html">Metapod<br><img class="frontsprite" src="sprites/pokemon/metapod/front.png"></a></td><td align="center" rowspan=1>Level 10</td><td align="center" rowspan=1><a href="species/butterfree.html">Butterfree<br><img class="frontsprite" src="sprites/pokemon/butterfree/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -468,6 +475,27 @@ Harden
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
+            <td><a href="items/tm_080.html">TM 080</a></td>
+            <td id="Move"><a href="moves/bug_bite.html">
+
+
+<b>Bug Bite</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="BUG">
+    <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
 
 
 
@@ -684,25 +712,6 @@ Silk Trap
         </tr>
     </thead>
     <tbody class="table-group-divider">
-
-
-        <tr>
-            <td id="Move"><a href="moves/bug_bite.html">
-
-
-<b>Bug Bite</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="BUG">
-    <a href="moves/type/bug.html"><img src="sprites/icons/bug.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
 
 
         <tr>
@@ -1021,7 +1030,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1034,7 +1043,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1047,7 +1056,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1060,7 +1069,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1073,7 +1082,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1086,7 +1095,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1099,7 +1108,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1112,7 +1121,7 @@ Iron Defense
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1149,7 +1158,7 @@ Iron Defense
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -1163,7 +1172,7 @@ Swarm
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -1177,7 +1186,7 @@ Ball Fetch
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -1191,8 +1200,8 @@ Lifelink
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -1207,7 +1216,7 @@ Frostproof
 Compound Eyes
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon's compound eyes boost its accuracy.</td>
         </tr>
 
@@ -1244,7 +1253,7 @@ Compound Eyes
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -1256,7 +1265,7 @@ Anticipation
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -1268,7 +1277,7 @@ Cold-Blooded
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -1280,7 +1289,7 @@ Defeatist
 Effect Spore
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.</td>
         </tr>
 
@@ -1292,7 +1301,7 @@ Effect Spore
 Gluttony
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -1304,7 +1313,7 @@ Gluttony
 Harvest
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -1316,7 +1325,7 @@ Harvest
 Hive Mind
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Bug-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -1328,7 +1337,7 @@ Hive Mind
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -1340,7 +1349,7 @@ Infiltrator
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -1352,7 +1361,7 @@ Klutz
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -1364,7 +1373,7 @@ Poison Heal
 Prankster
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -1376,7 +1385,7 @@ Prankster
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -1388,7 +1397,7 @@ Run Away
 Shield Dust
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>This Pokémon's dust blocks the additional effects of attacks taken.</td>
         </tr>
 
@@ -1400,7 +1409,7 @@ Shield Dust
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -1412,7 +1421,7 @@ Simple
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -1424,7 +1433,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -1436,7 +1445,7 @@ Stall
 Symbiosis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon passes its item to an ally that has used up an item.</td>
         </tr>
 
@@ -1448,7 +1457,7 @@ Symbiosis
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -1460,7 +1469,7 @@ Truant
 <b>Shed Skin</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon may heal its own status conditions by shedding its skin.</td>
         </tr>
 
@@ -1472,7 +1481,7 @@ Truant
 Weak Armor
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Physical attacks to the Pokémon lower its Defense stat but sharply raise its Speed stat.</td>
         </tr>
 
@@ -1507,6 +1516,11 @@ Weak Armor
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

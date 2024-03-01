@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -171,11 +178,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/mineral.html">MINERAL</a>
                 <br>
-                <a href="pokedex/egg_amorphous.html">AMORPHOUS</a>
+                
+    <a href="pokedex/egg_groups/mineral.html">Mineral</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
+
 
 
             </td>
@@ -197,6 +209,7 @@
                 190
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -219,9 +232,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/yamask.html">Yamask<br><img class="frontsprite" src="sprites/pokemon/yamask/front.png"></a></td><td align="center" rowspan=1>Level 34</td><td align="center" rowspan=1><a href="species/cofagrigus.html">Cofagrigus<br><img class="frontsprite" src="sprites/pokemon/cofagrigus/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2725,27 +2735,6 @@ Shock Wave
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2888,8 +2877,50 @@ Wonder Room
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_ghost.png"></td>
+            <td><a href="items/tm_084.html">TM 084</a></td>
+            <td id="Move"><a href="moves/ominous_wind.html">
+
+
+<b>Ominous Wind</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="GHOST">
+    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/tm_082.html">TM 082</a></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+Knock Off
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
             <td id="Move"><a href="moves/dark_pulse.html">
 
 
@@ -2910,7 +2941,7 @@ Dark Pulse
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -2931,7 +2962,7 @@ Earthquake
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
-            <td><a href="items/tm_117.html">TM 117</a></td>
+            <td><a href="items/tm_124.html">TM 124</a></td>
             <td id="Move"><a href="moves/role_play.html">
 
 Role Play
@@ -5184,6 +5215,25 @@ Energy Ball
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/fake_tears.html">
 
 Fake Tears
@@ -5377,25 +5427,6 @@ Iron Defense
 
 
         <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-Knock Off
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/magic_coat.html">
 
 Magic Coat
@@ -5531,25 +5562,6 @@ Odor Sleuth
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">40</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/ominous_wind.html">
-
-
-<b>Ominous Wind</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="GHOST">
-    <a href="moves/type/ghost.html"><img src="sprites/icons/ghost.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
         </tr>
 
 
@@ -6102,7 +6114,7 @@ Zen Headbutt
 <b>Mummy</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Contact with the Pokémon changes all attacker's Abilities to Mummy.</td>
         </tr>
 
@@ -6115,7 +6127,7 @@ Zen Headbutt
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -6128,7 +6140,7 @@ Stench
 Cursed Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>May disable a move used on the Pokémon.</td>
         </tr>
 
@@ -6141,7 +6153,7 @@ Cursed Body
 Wandering Spirit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon exchanges Abilities with a Pokémon that hits it with a contact move.</td>
         </tr>
 
@@ -6154,7 +6166,7 @@ Wandering Spirit
 Aftermath
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Damages the attacker if it contacts the Pokémon with a finishing hit.</td>
         </tr>
 
@@ -6167,7 +6179,7 @@ Aftermath
 Perish Body
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When hit by a contact move, the Pokémon and the attacker will faint after three turns.</td>
         </tr>
 
@@ -6180,7 +6192,7 @@ Perish Body
 Eerie Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Eerie Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6193,7 +6205,7 @@ Eerie Surge
 Natural Cure
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>All status conditions heal when the Pokémon switches out.</td>
         </tr>
 
@@ -6230,7 +6242,7 @@ Natural Cure
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -6244,7 +6256,7 @@ Insomnia
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -6258,7 +6270,7 @@ Immunity
 Trace
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.</td>
         </tr>
 
@@ -6272,7 +6284,7 @@ Trace
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -6288,7 +6300,7 @@ Mimicry
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -6302,7 +6314,7 @@ Poison Heal
 Shadow Tag
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.</td>
         </tr>
 
@@ -6316,7 +6328,7 @@ Shadow Tag
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -6330,7 +6342,7 @@ Levitate
 Liquid Ooze
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The oozed liquid has a strong stench, which damages attackers using draining moves.</td>
         </tr>
 
@@ -6344,7 +6356,7 @@ Liquid Ooze
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -6379,7 +6391,7 @@ Oblivious
 Aftermath
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Damages the attacker if it contacts the Pokémon with a finishing hit.</td>
         </tr>
 
@@ -6391,7 +6403,7 @@ Aftermath
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -6403,7 +6415,7 @@ Contrary
 Cursed Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>May disable a move used on the Pokémon.</td>
         </tr>
 
@@ -6415,7 +6427,7 @@ Cursed Body
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -6427,7 +6439,7 @@ Defeatist
 Eerie Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Eerie Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -6439,7 +6451,7 @@ Eerie Surge
 Forewarn
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.</td>
         </tr>
 
@@ -6451,7 +6463,7 @@ Forewarn
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -6463,7 +6475,7 @@ Frisk
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -6475,7 +6487,7 @@ Infiltrator
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -6487,7 +6499,7 @@ Inner Focus
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -6499,7 +6511,7 @@ Klutz
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -6511,7 +6523,7 @@ Lifelink
 Magic Guard
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>The Pokémon only takes damage from attacks.</td>
         </tr>
 
@@ -6523,7 +6535,7 @@ Magic Guard
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -6535,7 +6547,7 @@ Moody
 <b>Mummy</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Contact with the Pokémon changes all attacker's Abilities to Mummy.</td>
         </tr>
 
@@ -6547,7 +6559,7 @@ Moody
 Natural Cure
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>All status conditions heal when the Pokémon switches out.</td>
         </tr>
 
@@ -6559,7 +6571,7 @@ Natural Cure
 Perish Body
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When hit by a contact move, the Pokémon and the attacker will faint after three turns.</td>
         </tr>
 
@@ -6571,7 +6583,7 @@ Perish Body
 Pressure
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>By putting pressure on the opposing Pokémon, it raises their PP usage.</td>
         </tr>
 
@@ -6583,7 +6595,7 @@ Pressure
 Shadow Shield
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Reduces the amount of damage the Pokémon takes while its HP is full.</td>
         </tr>
 
@@ -6595,7 +6607,7 @@ Shadow Shield
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -6607,7 +6619,7 @@ Soundproof
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -6619,7 +6631,7 @@ Stall
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -6631,7 +6643,7 @@ Stench
 Terrorize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ghost-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -6643,7 +6655,7 @@ Terrorize
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -6655,7 +6667,7 @@ Truant
 Unearthly
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon generates a bizarre area that swaps Attack stats when it enters battle.</td>
         </tr>
 
@@ -6667,7 +6679,7 @@ Unearthly
 Wandering Spirit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon exchanges Abilities with a Pokémon that hits it with a contact move.</td>
         </tr>
 
@@ -6679,7 +6691,7 @@ Wandering Spirit
 Wispy Form
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon creates a thick fog when it's hit by an attack.</td>
         </tr>
 
@@ -6702,6 +6714,11 @@ Wispy Form
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

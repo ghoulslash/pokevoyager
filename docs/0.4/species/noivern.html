@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,11 +197,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/flying.html">FLYING</a>
                 <br>
-                <a href="pokedex/egg_dragon.html">DRAGON</a>
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/dragon.html">Dragon</a>
+
 
 
             </td>
@@ -216,6 +228,7 @@
                 45
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -238,9 +251,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/noibat.html">Noibat<br><img class="frontsprite" src="sprites/pokemon/noibat/front.png"></a></td><td align="center" rowspan=1>Level 48</td><td align="center" rowspan=1><a href="species/noivern.html">Noivern<br><img class="frontsprite" src="sprites/pokemon/noivern/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2118,27 +2128,6 @@ Torment
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2239,21 +2228,21 @@ U-turn
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td style="width: 24px;"><img src="sprites/items/tm_flying.png"></td>
             <td><a href="items/tm_082.html">TM 082</a></td>
-            <td id="Move"><a href="moves/dark_pulse.html">
+            <td id="Move"><a href="moves/fly.html">
 
 
-Dark Pulse
+<b>Fly</b>
 
 
 </a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+            <td id="Type" data-sortkey="FLYING">
+    <a href="moves/type/flying.html"><img src="sprites/icons/flying.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">80</td>
-            <td id="Accuracy">100</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">90</td>
+            <td id="Accuracy">95</td>
             <td id="PP">15</td>
         </tr>
 
@@ -2261,7 +2250,7 @@ Dark Pulse
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
             <td id="Move"><a href="moves/hyper_beam.html">
 
 
@@ -2282,7 +2271,7 @@ Hyper Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -2302,8 +2291,50 @@ Flamethrower
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
+
+
+Water Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_116.html">TM 116</a></td>
+            <td id="Move"><a href="moves/dark_pulse.html">
+
+
+Dark Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -2324,7 +2355,7 @@ Giga Impact
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_111.html">TM 111</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
             <td id="Move"><a href="moves/wild_charge.html">
 
 
@@ -3701,20 +3732,20 @@ Endure
 
 
         <tr>
-            <td id="Move"><a href="moves/fly.html">
+            <td id="Move"><a href="moves/facade.html">
 
 
-<b>Fly</b>
+Facade
 
 
 </a></td>
-            <td id="Type" data-sortkey="FLYING">
-    <a href="moves/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
             <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">90</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">15</td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -4308,25 +4339,6 @@ Uproar
 
 
         <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
-
-
-Water Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/whirlwind.html">
 
 Whirlwind
@@ -4540,7 +4552,7 @@ Moonlight
 <b>Frisk</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -4553,7 +4565,7 @@ Moonlight
 <b>Infiltrator</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -4566,7 +4578,7 @@ Moonlight
 <i>Telepathy</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Anticipates an ally's attack and dodges it.</td>
         </tr>
 
@@ -4579,7 +4591,7 @@ Moonlight
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -4592,7 +4604,7 @@ Lifelink
 Resonance
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Boosts the damage given and received from sound-based moves.</td>
         </tr>
 
@@ -4605,7 +4617,7 @@ Resonance
 Jump Scare
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon moves first on the first turn of battle.</td>
         </tr>
 
@@ -4618,7 +4630,7 @@ Jump Scare
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4631,7 +4643,7 @@ Limber
 Fog Veil
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's evasiveness in thick fog.</td>
         </tr>
 
@@ -4668,7 +4680,7 @@ Fog Veil
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -4682,7 +4694,7 @@ Pickup
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4696,7 +4708,7 @@ Own Tempo
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -4710,7 +4722,7 @@ Insomnia
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -4724,7 +4736,7 @@ Immunity
 Levitate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>By floating in the air, the Pokémon receives full immunity to all Ground-type moves.</td>
         </tr>
 
@@ -4738,7 +4750,7 @@ Levitate
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4752,7 +4764,7 @@ Limber
 Fog Veil
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's evasiveness in thick fog.</td>
         </tr>
 
@@ -4787,7 +4799,7 @@ Fog Veil
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -4799,7 +4811,7 @@ Anticipation
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -4811,7 +4823,7 @@ Berserk
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4823,7 +4835,7 @@ Defeatist
 Emergency Exit
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon, sensing danger, switches out when its HP becomes half or less.</td>
         </tr>
 
@@ -4835,7 +4847,7 @@ Emergency Exit
 <b>Frisk</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -4847,7 +4859,7 @@ Emergency Exit
 <b>Infiltrator</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -4859,7 +4871,7 @@ Emergency Exit
 Jump Scare
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The Pokémon moves first on the first turn of battle.</td>
         </tr>
 
@@ -4871,7 +4883,7 @@ Jump Scare
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -4883,7 +4895,7 @@ Klutz
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -4895,7 +4907,7 @@ Lifelink
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4907,7 +4919,7 @@ Mimicry
 Pickpocket
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Steals an item from an attacker that made direct contact.</td>
         </tr>
 
@@ -4919,7 +4931,7 @@ Pickpocket
 Resonance
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Boosts the damage given and received from sound-based moves.</td>
         </tr>
 
@@ -4931,7 +4943,7 @@ Resonance
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -4943,7 +4955,7 @@ Slow Start
 Speed Boost
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Its Speed stat is boosted every turn.</td>
         </tr>
 
@@ -4955,7 +4967,7 @@ Speed Boost
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -4967,7 +4979,7 @@ Stall
 <i>Telepathy</i>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Anticipates an ally's attack and dodges it.</td>
         </tr>
 
@@ -4979,7 +4991,7 @@ Stall
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -4991,7 +5003,7 @@ Truant
 Wind Power
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>When hit by a wind move, the {POKEMON} becomes Charged up.</td>
         </tr>
 
@@ -5003,7 +5015,7 @@ Wind Power
 Wind Rider
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Blocks wind moves. Attack is boosted from Tailwind or when hit by a wind move.</td>
         </tr>
 
@@ -5015,7 +5027,7 @@ Wind Rider
 Air Lock
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Eliminates the effects of weather.</td>
         </tr>
 
@@ -5027,7 +5039,7 @@ Air Lock
 Blustery Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Blustery Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5039,7 +5051,7 @@ Blustery Surge
 Gale Wings
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Gives priority to Flying-type moves when the Pokémon's HP is full.</td>
         </tr>
 
@@ -5051,7 +5063,7 @@ Gale Wings
 Primal Surge
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Turns the ground into Primal Terrain when the Pokémon enters a battle.</td>
         </tr>
 
@@ -5063,7 +5075,7 @@ Primal Surge
 Primalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Dragon-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5075,7 +5087,7 @@ Primalize
 Screen Cleaner
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Entering a battle nullifies the effects of Light Screen, Reflect, and Aurora Veil.</td>
         </tr>
 
@@ -5090,6 +5102,11 @@ Screen Cleaner
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

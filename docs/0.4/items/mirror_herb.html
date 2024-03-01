@@ -20,6 +20,7 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
     </head>
     <body>
         
@@ -99,23 +100,114 @@ A single-use hold item that copies a foe's stat boost.
 </p>
 
 
-
-
-
 <h2>
-Locations
+Wild Pokémon
 </h2>
-<ul>
 
-    <li>
-    <a href="atlas/map_fornax_village_burned.html">Fornax Village</a>
- (1)</li>
 
-    <li>
-    <a href="atlas/map_fornax_village.html">Fornax Village</a>
- (1)</li>
 
-</ul>
+
+<!-- 
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="wild_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>322</td>
+            <td style="width: 32px;"><a href="species/rookidee.html"><img class="iconsprite" src="sprites/pokemon/rookidee/icon.png"></a></td>
+            <td id="Name" data-sortkey="Rookidee"><a href="species/rookidee.html">Rookidee</a></td>
+
+            <td id="Type" data-sortkey="FLYING"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>323</td>
+            <td style="width: 32px;"><a href="species/corvisquire.html"><img class="iconsprite" src="sprites/pokemon/corvisquire/icon.png"></a></td>
+            <td id="Name" data-sortkey="Corvisquire"><a href="species/corvisquire.html">Corvisquire</a></td>
+
+            <td id="Type" data-sortkey="FLYING"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>324</td>
+            <td style="width: 32px;"><a href="species/corviknight.html"><img class="iconsprite" src="sprites/pokemon/corviknight/icon.png"></a></td>
+            <td id="Name" data-sortkey="Corviknight"><a href="species/corviknight.html">Corviknight</a></td>
+
+            <td id="Type" data-sortkey="FLYINGSTEEL"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <br><a href="pokedex/type/steel.html"><img src="sprites/icons/steel.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/rookidee.html"><img class="frontsprite" src="sprites/pokemon/rookidee/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/corvisquire.html"><img class="frontsprite" src="sprites/pokemon/corvisquire/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/corviknight.html"><img class="frontsprite" src="sprites/pokemon/corviknight/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
+
+
+
 
 
 

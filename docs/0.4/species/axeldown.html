@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -190,9 +197,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/flying.html">FLYING</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
 
 
             </td>
@@ -214,6 +223,7 @@
                 25
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -232,14 +242,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/axeldown.html">Axeldown<br><img class="frontsprite" src="sprites/pokemon/axeldown/front.png"></a></td></tr>
 </table>
-
-
-
-<img class="conceptart" src="images/concepts/pokemon/axeldown_dillsacke.png">
-<p>
-Concept art by <b>dillsacke</b>
-</p>
-
 
 
 <h2>
@@ -369,6 +371,38 @@ Supersonic
 
 
 
+
+
+<h3>By breeding</h3>
+
+<table class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th align="center">Parents</th>
+            <th align="center" onclick="sortTable()">Move</th>
+            <th align="center" onclick="sortTable()">Type</th>
+            <th align="center" onclick="sortTable()">Cat.</th>
+            <th align="center" onclick="sortTable()">Pwr.</th>
+            <th align="center" onclick="sortTable()">Acc.</th>
+            <th align="center" onclick="sortTable()">PP</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+
+
+        <tr>
+            <td colspan="7">
+                <ul>
+                    <li><b>Bold</b> indicates a move that gets STAB when used by Axeldown</li>
+                    <li><i>Italic</i> indicates a move that gets STAB only when used by an evolution of Axeldown</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 <h3>By tutoring</h3>
 <table class="table table-striped table-hover align-middle">
     <thead>
@@ -418,7 +452,7 @@ Supersonic
 <b>Slush Rush</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a hailstorm.</td>
         </tr>
 
@@ -476,7 +510,7 @@ Supersonic
 <b>Slush Rush</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in a hailstorm.</td>
         </tr>
 
@@ -492,6 +526,16 @@ Supersonic
     </tbody>
 </table>
 
+
+
+
+
+
+
+<img class="conceptart" src="images/concepts/pokemon/axeldown_dillsacke.png">
+<p>
+Concept art by <b>dillsacke</b>
+</p>
 
 
 

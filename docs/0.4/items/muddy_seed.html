@@ -20,6 +20,7 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
     </head>
     <body>
         
@@ -97,6 +98,97 @@ Muddy Seed
 <p>
 Consume and sharply boost Speed in Muddy Terrain.
 </p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="wild_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>237</td>
+            <td style="width: 32px;"><a href="species/mudbray.html"><img class="iconsprite" src="sprites/pokemon/mudbray/icon.png"></a></td>
+            <td id="Name" data-sortkey="Mudbray"><a href="species/mudbray.html">Mudbray</a></td>
+
+            <td id="Type" data-sortkey="GROUND"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>238</td>
+            <td style="width: 32px;"><a href="species/mudsdale.html"><img class="iconsprite" src="sprites/pokemon/mudsdale/icon.png"></a></td>
+            <td id="Name" data-sortkey="Mudsdale"><a href="species/mudsdale.html">Mudsdale</a></td>
+
+            <td id="Type" data-sortkey="GROUND"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/mudbray.html"><img class="frontsprite" src="sprites/pokemon/mudbray/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/mudsdale.html"><img class="frontsprite" src="sprites/pokemon/mudsdale/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
 
 
 

@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -187,9 +194,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
 
 
             </td>
@@ -211,6 +220,20 @@
                 255
             </td>
         </tr>
+
+        <tr>
+            <td colspan=9 align="center">
+                <div onclick='playcry()'>
+                Cry by <b>plus_sized_scribe</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+                </svg>
+                </div>
+                <audio id="cry-audio" src="sound/cries/scuiret.wav"></audio>
+            </td>
+        </tr>
+
     </tbody>
 </table>
 
@@ -233,9 +256,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/scuiret.html">Scuiret<br><img class="frontsprite" src="sprites/pokemon/scuiret/front.png"></a></td><td align="center" rowspan=1>Level 18</td><td align="center" rowspan=1><a href="species/pteroret.html">Pteroret<br><img class="frontsprite" src="sprites/pokemon/pteroret/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1797,44 +1817,21 @@ Entrainment
 
 
 
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_078.html">TM 078</a></td>
-            <td id="Move"><a href="moves/nature_power.html">
-
-Nature Power
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
-            <td><a href="items/tm_093.html">TM 093</a></td>
-            <td id="Move"><a href="moves/grassy_glide.html">
+            <td><a href="items/tm_062.html">TM 062</a></td>
+            <td id="Move"><a href="moves/grassy_terrain.html">
 
-
-Grassy Glide
-
+Grassy Terrain
 
 </a></td>
             <td id="Type" data-sortkey="GRASS">
     <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -1845,7 +1842,7 @@ Grassy Glide
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fairy.png"></td>
-            <td><a href="items/tm_113.html">TM 113</a></td>
+            <td><a href="items/tm_120.html">TM 120</a></td>
             <td id="Move"><a href="moves/play_rough.html">
 
 
@@ -2495,11 +2492,6 @@ Belch
 
 
 <td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
-</td>
-
-
-<td>
 <a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a>
 </td>
 
@@ -2548,13 +2540,13 @@ Belch
 <a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/combusken.html"><img class="iconsprite" src="sprites/pokemon/combusken/icon.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -3385,18 +3377,20 @@ Grass Knot
 
 
         <tr>
-            <td id="Move"><a href="moves/grassy_terrain.html">
+            <td id="Move"><a href="moves/grassy_glide.html">
 
-Grassy Terrain
+
+Grassy Glide
+
 
 </a></td>
             <td id="Type" data-sortkey="GRASS">
     <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
 </td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">—</td>
-            <td id="PP">10</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -3592,6 +3586,23 @@ Nasty Plot
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/nature_power.html">
+
+Nature Power
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -4337,6 +4348,8 @@ Zen Headbutt
 
 
 
+
+
         <tr>
             <td colspan="6">
                 <ul>
@@ -4372,7 +4385,7 @@ Zen Headbutt
 <b>Pickup</b>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -4385,7 +4398,7 @@ Zen Headbutt
 <i>Cheek Pouch</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Restores HP as well when the Pokémon eats a Berry.</td>
         </tr>
 
@@ -4398,7 +4411,7 @@ Zen Headbutt
 <b>Harvest</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -4411,7 +4424,7 @@ Zen Headbutt
 Quick Feet
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Speed stat if the Pokémon has a status condition.</td>
         </tr>
 
@@ -4424,7 +4437,7 @@ Quick Feet
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -4437,7 +4450,7 @@ Frisk
 Prankster
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -4450,7 +4463,7 @@ Prankster
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -4463,7 +4476,7 @@ Skill Link
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -4502,7 +4515,7 @@ Normalize
 <b>Pickup</b>
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -4516,7 +4529,7 @@ Normalize
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -4534,7 +4547,7 @@ Ball Fetch
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -4548,7 +4561,7 @@ Super Luck
 Technician
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up the Pokémon's weaker moves.</td>
         </tr>
 
@@ -4562,7 +4575,7 @@ Technician
 Limber
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Its limber body protects the Pokémon from paralysis.</td>
         </tr>
 
@@ -4576,7 +4589,7 @@ Limber
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -4611,7 +4624,7 @@ Oblivious
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -4623,7 +4636,7 @@ Adaptability
 Analytic
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts move power when the Pokémon moves last.</td>
         </tr>
 
@@ -4635,7 +4648,7 @@ Analytic
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -4647,7 +4660,7 @@ Anticipation
 <i>Cheek Pouch</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Restores HP as well when the Pokémon eats a Berry.</td>
         </tr>
 
@@ -4659,7 +4672,7 @@ Anticipation
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -4671,7 +4684,7 @@ Cute Charm
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4683,7 +4696,7 @@ Defeatist
 Early Bird
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon awakens from sleep twice as fast as other Pokémon.</td>
         </tr>
 
@@ -4695,7 +4708,7 @@ Early Bird
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -4707,7 +4720,7 @@ Frisk
 Fur Coat
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Halves the damage from physical moves.</td>
         </tr>
 
@@ -4719,7 +4732,7 @@ Fur Coat
 Gluttony
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -4731,7 +4744,7 @@ Gluttony
 <b>Harvest</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -4743,7 +4756,7 @@ Gluttony
 Infiltrator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.</td>
         </tr>
 
@@ -4755,7 +4768,7 @@ Infiltrator
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4767,7 +4780,7 @@ Mimicry
 Moody
 
 </a></td>
-            <td>10</td>
+            <td align="center">10</td>
             <td>Raises one stat sharply and lowers another every turn.</td>
         </tr>
 
@@ -4779,7 +4792,7 @@ Moody
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -4791,7 +4804,7 @@ Normalize
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4803,7 +4816,7 @@ Own Tempo
 Prankster
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Gives priority to the Pokémon's status moves.</td>
         </tr>
 
@@ -4815,7 +4828,7 @@ Prankster
 Quick Feet
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Speed stat if the Pokémon has a status condition.</td>
         </tr>
 
@@ -4827,7 +4840,7 @@ Quick Feet
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -4839,7 +4852,7 @@ Run Away
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -4851,7 +4864,7 @@ Simple
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -4863,7 +4876,7 @@ Skill Link
 Steadfast
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon's determination boosts the Speed stat each time the Pokémon flinches.</td>
         </tr>
 
@@ -4875,7 +4888,7 @@ Steadfast
 Tangled Feet
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Raises evasiveness if the Pokémon is confused.</td>
         </tr>
 
@@ -4887,7 +4900,7 @@ Tangled Feet
 Unaware
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>When attacking, the Pokémon ignores the target Pokémon's stat changes.</td>
         </tr>
 
@@ -4899,7 +4912,7 @@ Unaware
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -4937,6 +4950,16 @@ Unburden
     </tbody>
 </table>
 
+
+
+
+
+
+
+<img class="conceptart" src="images/concepts/pokemon/scuiret_pteroret_kwenio.png">
+<p>
+Concept art by <b>kwenio</b>
+</p>
 
 
 

@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -171,11 +178,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/monster.html">MONSTER</a>
                 <br>
-                <a href="pokedex/egg_grass.html">GRASS</a>
+                
+    <a href="pokedex/egg_groups/monster.html">Monster</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/grass.html">Grass</a>
+
 
 
             </td>
@@ -197,6 +209,7 @@
                 45
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -232,9 +245,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/chikorita.html">Chikorita<br><img class="frontsprite" src="sprites/pokemon/chikorita/front.png"></a></td><td align="center" rowspan=1>Level 16</td><td align="center" rowspan=1><a href="species/bayleef.html">Bayleef<br><img class="frontsprite" src="sprites/pokemon/bayleef/front.png"></a></td><td align="center" rowspan=1>Level 32</td><td align="center" rowspan=1><a href="species/meganium.html">Meganium<br><img class="frontsprite" src="sprites/pokemon/meganium/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -890,20 +900,18 @@ Aromatherapy
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
             <td><a href="items/tm_003.html">TM 003</a></td>
-            <td id="Move"><a href="moves/magical_leaf.html">
+            <td id="Move"><a href="moves/worry_seed.html">
 
-
-<b>Magical Leaf</b>
-
+Worry Seed
 
 </a></td>
             <td id="Type" data-sortkey="GRASS">
     <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">—</td>
-            <td id="PP">20</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -1105,27 +1113,6 @@ Double Team
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
             <td><a href="items/tm_035.html">TM 035</a></td>
             <td id="Move"><a href="moves/rest.html">
@@ -1164,8 +1151,29 @@ Attract
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
             <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+Ancient Power
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/tm_062.html">TM 062</a></td>
             <td id="Move"><a href="moves/grassy_terrain.html">
 
 Grassy Terrain
@@ -1182,26 +1190,30 @@ Grassy Terrain
 
 
 
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_078.html">TM 078</a></td>
-            <td id="Move"><a href="moves/nature_power.html">
 
-Nature Power
+
+
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/tm_099.html">TM 099</a></td>
+            <td id="Move"><a href="moves/magical_leaf.html">
+
+
+<b>Magical Leaf</b>
+
 
 </a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <td id="Type" data-sortkey="GRASS">
+    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
 </td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">95</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">—</td>
             <td id="PP">20</td>
         </tr>
-
-
-
-
 
 
 
@@ -3914,25 +3926,6 @@ Wring Out
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
-
-
-Ancient Power
-
-
-</a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/aromatherapy.html">
 
 Aromatherapy
@@ -4163,6 +4156,25 @@ Endure
             <td id="Power">90</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -4513,6 +4525,23 @@ Natural Gift
 
 
         <tr>
+            <td id="Move"><a href="moves/nature_power.html">
+
+Nature Power
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/poison_powder.html">
 
 Poison Powder
@@ -4856,23 +4885,6 @@ Work Up
 
 
         <tr>
-            <td id="Move"><a href="moves/worry_seed.html">
-
-Worry Seed
-
-</a></td>
-            <td id="Type" data-sortkey="GRASS">
-    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/wring_out.html">
 
 
@@ -4888,8 +4900,6 @@ Wring Out
             <td id="Accuracy">100</td>
             <td id="PP">5</td>
         </tr>
-
-
 
 
 
@@ -4951,7 +4961,7 @@ Wring Out
 <b>Overgrow</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Grass-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -4964,7 +4974,7 @@ Wring Out
 Honey Gather
 
 </a></td>
-            <td>0</td>
+            <td align="center">0</td>
             <td>The Pokémon may gather Honey after a battle.</td>
         </tr>
 
@@ -4977,7 +4987,7 @@ Honey Gather
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -4990,7 +5000,7 @@ Cute Charm
 Greenhouse
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates strong sunlight when it's hit by an attack.</td>
         </tr>
 
@@ -5003,7 +5013,7 @@ Greenhouse
 <i>Leaf Guard</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Prevents status conditions in harsh sunlight.</td>
         </tr>
 
@@ -5016,7 +5026,7 @@ Greenhouse
 Triage
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Gives priority to a healing move.</td>
         </tr>
 
@@ -5029,7 +5039,7 @@ Triage
 Serene Grace
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Boosts the likelihood of additional effects occurring when attacking.</td>
         </tr>
 
@@ -5042,7 +5052,7 @@ Serene Grace
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -5079,7 +5089,7 @@ Simple
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -5093,7 +5103,7 @@ Own Tempo
 Ball Fetch
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>If the Pokémon is not holding an item, it will fetch the first failed thrown Poké Ball.</td>
         </tr>
 
@@ -5107,7 +5117,7 @@ Ball Fetch
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -5121,7 +5131,7 @@ Lifelink
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -5135,7 +5145,7 @@ Mimicry
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -5149,8 +5159,8 @@ Poison Heal
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -5163,7 +5173,7 @@ Frostproof
 Quark Drive
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's most proficient stat on Electric Terrain.</td>
         </tr>
 
@@ -5198,7 +5208,7 @@ Quark Drive
 Chlorolize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Grass-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5210,7 +5220,7 @@ Chlorolize
 Chlorophyll
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -5222,7 +5232,7 @@ Chlorophyll
 Cold-Blooded
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -5234,7 +5244,7 @@ Cold-Blooded
 Curious Medicine
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, it scatters medicine that removes all stat changes from allies.</td>
         </tr>
 
@@ -5246,7 +5256,7 @@ Curious Medicine
 Cute Charm
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Contact with the Pokémon may cause infatuation.</td>
         </tr>
 
@@ -5258,7 +5268,7 @@ Cute Charm
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5270,7 +5280,7 @@ Defeatist
 Effect Spore
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.</td>
         </tr>
 
@@ -5282,7 +5292,7 @@ Effect Spore
 Friend Guard
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Reduces damage done to allies.</td>
         </tr>
 
@@ -5294,7 +5304,7 @@ Friend Guard
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -5306,7 +5316,7 @@ Frisk
 Greenhouse
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates strong sunlight when it's hit by an attack.</td>
         </tr>
 
@@ -5318,7 +5328,7 @@ Greenhouse
 Harvest
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -5330,7 +5340,7 @@ Harvest
 Healer
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>Sometimes heals an ally's status condition.</td>
         </tr>
 
@@ -5342,7 +5352,7 @@ Healer
 Honey Gather
 
 </a></td>
-            <td>0</td>
+            <td align="center">0</td>
             <td>The Pokémon may gather Honey after a battle.</td>
         </tr>
 
@@ -5354,7 +5364,7 @@ Honey Gather
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -5366,7 +5376,7 @@ Klutz
 <i>Leaf Guard</i>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Prevents status conditions in harsh sunlight.</td>
         </tr>
 
@@ -5378,7 +5388,7 @@ Klutz
 Magic Bounce
 
 </a></td>
-            <td>11</td>
+            <td align="center">11</td>
             <td>Reflects status moves instead of getting hit by them.</td>
         </tr>
 
@@ -5390,7 +5400,7 @@ Magic Bounce
 Magic Guard
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>The Pokémon only takes damage from attacks.</td>
         </tr>
 
@@ -5402,7 +5412,7 @@ Magic Guard
 Natural Cure
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>All status conditions heal when the Pokémon switches out.</td>
         </tr>
 
@@ -5414,7 +5424,7 @@ Natural Cure
 <b>Overgrow</b>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Grass-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5426,7 +5436,7 @@ Natural Cure
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -5438,7 +5448,7 @@ Pickup
 Power Spore
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Amplifies the effects of all primary statuses on the field.</td>
         </tr>
 
@@ -5450,7 +5460,7 @@ Power Spore
 Protosynthesis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's most proficient stat in harsh sunlight or solar wind.</td>
         </tr>
 
@@ -5462,7 +5472,7 @@ Protosynthesis
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -5474,7 +5484,7 @@ Regenerator
 Run Away
 
 </a></td>
-            <td>1</td>
+            <td align="center">1</td>
             <td>Enables a sure getaway from wild Pokémon.</td>
         </tr>
 
@@ -5486,7 +5496,7 @@ Run Away
 Sap Sipper
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat if hit by a Grass-type move instead of taking damage.</td>
         </tr>
 
@@ -5498,7 +5508,7 @@ Sap Sipper
 Seed Sower
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.</td>
         </tr>
 
@@ -5510,7 +5520,7 @@ Seed Sower
 Serene Grace
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Boosts the likelihood of additional effects occurring when attacking.</td>
         </tr>
 
@@ -5522,7 +5532,7 @@ Serene Grace
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -5534,7 +5544,7 @@ Simple
 Skill Link
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Maximizes the number of times multistrike moves hit.</td>
         </tr>
 
@@ -5546,7 +5556,7 @@ Skill Link
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -5558,7 +5568,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -5570,7 +5580,7 @@ Stall
 Sweet Veil
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Prevents itself and ally Pokémon from falling asleep.</td>
         </tr>
 
@@ -5582,7 +5592,7 @@ Sweet Veil
 Triage
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Gives priority to a healing move.</td>
         </tr>
 
@@ -5594,7 +5604,7 @@ Triage
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -5627,6 +5637,11 @@ Truant
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

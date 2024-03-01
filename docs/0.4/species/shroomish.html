@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -171,11 +178,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/fairy.html">FAIRY</a>
                 <br>
-                <a href="pokedex/egg_grass.html">GRASS</a>
+                
+    <a href="pokedex/egg_groups/fairy.html">Fairy</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/grass.html">Grass</a>
+
 
 
             </td>
@@ -197,6 +209,7 @@
                 255
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -219,9 +232,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/shroomish.html">Shroomish<br><img class="frontsprite" src="sprites/pokemon/shroomish/front.png"></a></td><td align="center" rowspan=1>Level 23</td><td align="center" rowspan=1><a href="species/breloom.html">Breloom<br><img class="frontsprite" src="sprites/pokemon/breloom/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1145,6 +1155,25 @@ Spore
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/tm_003.html">TM 003</a></td>
+            <td id="Move"><a href="moves/worry_seed.html">
+
+Worry Seed
+
+</a></td>
+            <td id="Type" data-sortkey="GRASS">
+    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
             <td><a href="items/tm_005.html">TM 005</a></td>
             <td id="Move"><a href="moves/toxic.html">
@@ -1348,27 +1377,6 @@ Sludge Bomb
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_036.html">TM 036</a></td>
             <td id="Move"><a href="moves/attract.html">
 
@@ -1389,8 +1397,29 @@ Attract
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
+            <td><a href="items/tm_052.html">TM 052</a></td>
+            <td id="Move"><a href="moves/venoshock.html">
+
+
+Venoshock
+
+
+</a></td>
+            <td id="Type" data-sortkey="POISON">
+    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
-            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td><a href="items/tm_062.html">TM 062</a></td>
             <td id="Move"><a href="moves/grassy_terrain.html">
 
 Grassy Terrain
@@ -1409,7 +1438,7 @@ Grassy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_065.html">TM 065</a></td>
+            <td><a href="items/tm_066.html">TM 066</a></td>
             <td id="Move"><a href="moves/floral_terrain.html">
 
 Floral Terrain
@@ -4057,6 +4086,25 @@ Endure
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/fake_tears.html">
 
 Fake Tears
@@ -4629,25 +4677,6 @@ Tackle
 
 
         <tr>
-            <td id="Move"><a href="moves/venoshock.html">
-
-
-Venoshock
-
-
-</a></td>
-            <td id="Type" data-sortkey="POISON">
-    <a href="moves/type/poison.html"><img src="sprites/icons/poison.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/wake_up_slap.html">
 
 
@@ -4660,23 +4689,6 @@ Venoshock
 </td>
             <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
             <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/worry_seed.html">
-
-Worry Seed
-
-</a></td>
-            <td id="Type" data-sortkey="GRASS">
-    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">10</td>
         </tr>
@@ -4785,7 +4797,7 @@ Worry Seed
 <b>Effect Spore</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.</td>
         </tr>
 
@@ -4798,7 +4810,7 @@ Worry Seed
 <b>Poison Heal</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -4811,7 +4823,7 @@ Worry Seed
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -4824,7 +4836,7 @@ Stench
 Sap Sipper
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat if hit by a Grass-type move instead of taking damage.</td>
         </tr>
 
@@ -4837,7 +4849,7 @@ Sap Sipper
 <i>Quick Feet</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Speed stat if the Pokémon has a status condition.</td>
         </tr>
 
@@ -4850,7 +4862,7 @@ Sap Sipper
 Toxic Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up physical attacks when the Pokémon is poisoned.</td>
         </tr>
 
@@ -4863,7 +4875,7 @@ Toxic Boost
 Power Spore
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Amplifies the effects of all primary statuses on the field.</td>
         </tr>
 
@@ -4876,7 +4888,7 @@ Power Spore
 Ripen
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Ripens Berries and doubles their effect.</td>
         </tr>
 
@@ -4913,7 +4925,7 @@ Ripen
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4927,7 +4939,7 @@ Own Tempo
 Illuminate
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Raises the Pokémon's evasiveness.</td>
         </tr>
 
@@ -4941,7 +4953,7 @@ Illuminate
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -4955,7 +4967,7 @@ Lifelink
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -4973,7 +4985,7 @@ Super Luck
 Toxic Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up physical attacks when the Pokémon is poisoned.</td>
         </tr>
 
@@ -5008,7 +5020,7 @@ Toxic Boost
 Chlorolize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Grass-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5020,7 +5032,7 @@ Chlorolize
 Chlorophyll
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Pokémon's Speed stat in harsh sunlight.</td>
         </tr>
 
@@ -5032,7 +5044,7 @@ Chlorophyll
 Curious Medicine
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, it scatters medicine that removes all stat changes from allies.</td>
         </tr>
 
@@ -5044,7 +5056,7 @@ Curious Medicine
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -5056,7 +5068,7 @@ Defeatist
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -5068,7 +5080,7 @@ Drowsy Aura
 <b>Effect Spore</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.</td>
         </tr>
 
@@ -5080,7 +5092,7 @@ Drowsy Aura
 Greenhouse
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates strong sunlight when it's hit by an attack.</td>
         </tr>
 
@@ -5092,7 +5104,7 @@ Greenhouse
 Hydration
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Heals status conditions if it's raining.</td>
         </tr>
 
@@ -5104,7 +5116,7 @@ Hydration
 Immunity
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -5116,7 +5128,7 @@ Immunity
 Liquid Ooze
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The oozed liquid has a strong stench, which damages attackers using draining moves.</td>
         </tr>
 
@@ -5128,7 +5140,7 @@ Liquid Ooze
 Natural Cure
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>All status conditions heal when the Pokémon switches out.</td>
         </tr>
 
@@ -5140,7 +5152,7 @@ Natural Cure
 Overgrow
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Grass-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5152,7 +5164,7 @@ Overgrow
 <b>Poison Heal</b>
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -5164,7 +5176,7 @@ Overgrow
 Power Spore
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Amplifies the effects of all primary statuses on the field.</td>
         </tr>
 
@@ -5176,7 +5188,7 @@ Power Spore
 <i>Quick Feet</i>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts the Speed stat if the Pokémon has a status condition.</td>
         </tr>
 
@@ -5188,7 +5200,7 @@ Power Spore
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -5200,7 +5212,7 @@ Regenerator
 Ripen
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Ripens Berries and doubles their effect.</td>
         </tr>
 
@@ -5212,7 +5224,7 @@ Ripen
 Sap Sipper
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat if hit by a Grass-type move instead of taking damage.</td>
         </tr>
 
@@ -5224,7 +5236,7 @@ Sap Sipper
 Seed Sower
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.</td>
         </tr>
 
@@ -5236,7 +5248,7 @@ Seed Sower
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -5248,7 +5260,7 @@ Stall
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -5260,7 +5272,7 @@ Stamina
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -5272,7 +5284,7 @@ Stench
 Swarm
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Powers up Bug-type moves when the Pokémon's HP is low.</td>
         </tr>
 
@@ -5284,7 +5296,7 @@ Swarm
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -5313,6 +5325,11 @@ Truant
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

@@ -20,6 +20,7 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
     </head>
     <body>
         
@@ -97,6 +98,115 @@ Haban Berry
 <p>
 A hold item that weakens a Dragon move if weak to it.
 </p>
+
+
+<h2>
+Wild Pokémon
+</h2>
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_wild_list" content-id="wild_list" class="tablinks" onclick="changetab(event, 'wild_list')">List</button>
+    <button id="tab_wild_grid" content-id="wild_grid" class="tablinks" onclick="changetab(event, 'wild_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="wild_list" class="tabcontent"> -->
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>222</td>
+            <td style="width: 32px;"><a href="species/gible.html"><img class="iconsprite" src="sprites/pokemon/gible/icon.png"></a></td>
+            <td id="Name" data-sortkey="Gible"><a href="species/gible.html">Gible</a></td>
+
+            <td id="Type" data-sortkey="DRAGONGROUND"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>223</td>
+            <td style="width: 32px;"><a href="species/gabite.html"><img class="iconsprite" src="sprites/pokemon/gabite/icon.png"></a></td>
+            <td id="Name" data-sortkey="Gabite"><a href="species/gabite.html">Gabite</a></td>
+
+            <td id="Type" data-sortkey="DRAGONGROUND"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>224</td>
+            <td style="width: 32px;"><a href="species/garchomp.html"><img class="iconsprite" src="sprites/pokemon/garchomp/icon.png"></a></td>
+            <td id="Name" data-sortkey="Garchomp"><a href="species/garchomp.html">Garchomp</a></td>
+
+            <td id="Type" data-sortkey="DRAGONGROUND"><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a>
+            <br><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a></td>
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="wild_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/gible.html"><img class="frontsprite" src="sprites/pokemon/gible/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/gabite.html"><img class="frontsprite" src="sprites/pokemon/gabite/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/garchomp.html"><img class="frontsprite" src="sprites/pokemon/garchomp/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_wild_list').click();
+</script>
+
+
 
 
 

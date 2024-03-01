@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -158,7 +165,23 @@
         <tr>
             <td align="center">
             
-                <img class="iconsprite" src="sprites/pokemon/snorlax/icon.png">
+                <table>
+                    <tr align="center">
+                        <td></td>
+                        <td><img class="owsprite_32x32_up" src="sprites/pokemon/snorlax/object_event.png"></td>
+                        <td></td>
+                    </tr>
+                    <tr align="center">
+                        <td><img class="owsprite_32x32_left" src="sprites/pokemon/snorlax/object_event.png"></td>
+                        <td><img class="iconsprite" src="sprites/pokemon/snorlax/icon.png"></td>
+                        <td><img class="owsprite_32x32_right" src="sprites/pokemon/snorlax/object_event.png"></td>
+                    </tr>
+                    <tr align="center">
+                        <td></td>
+                        <td><img class="owsprite_32x32_down" src="sprites/pokemon/snorlax/object_event.png"></td>
+                        <td></td>
+                    </tr>
+                </table>
 
 
             </td>
@@ -173,9 +196,11 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/monster.html">MONSTER</a>
+                <br>
+                
+    <a href="pokedex/egg_groups/monster.html">Monster</a>
+
 
 
             </td>
@@ -197,6 +222,7 @@
                 25
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -219,9 +245,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/munchlax.html">Munchlax<br><img class="frontsprite" src="sprites/pokemon/munchlax/front.png"></a></td><td align="center" rowspan=1>Level up with high friendship</td><td align="center" rowspan=1><a href="species/snorlax.html">Snorlax<br><img class="frontsprite" src="sprites/pokemon/snorlax/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -2851,27 +2874,6 @@ Brick Break
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-<b>Facade</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -2930,6 +2932,27 @@ Attract
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_038.html">TM 038</a></td>
+            <td id="Move"><a href="moves/incinerate.html">
+
+
+Incinerate
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fighting.png"></td>
             <td><a href="items/tm_040.html">TM 040</a></td>
             <td id="Move"><a href="moves/body_press.html">
@@ -2972,29 +2995,8 @@ Focus Blast
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_052.html">TM 052</a></td>
-            <td id="Move"><a href="moves/terrain_pulse.html">
-
-
-<b>Terrain Pulse</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">50</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -3015,7 +3017,7 @@ Bulldoze
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_bug.png"></td>
-            <td><a href="items/tm_065.html">TM 065</a></td>
+            <td><a href="items/tm_066.html">TM 066</a></td>
             <td id="Move"><a href="moves/floral_terrain.html">
 
 Floral Terrain
@@ -3034,7 +3036,7 @@ Floral Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fighting.png"></td>
-            <td><a href="items/tm_075.html">TM 075</a></td>
+            <td><a href="items/tm_076.html">TM 076</a></td>
             <td id="Move"><a href="moves/combat_terrain.html">
 
 Combat Terrain
@@ -3053,7 +3055,7 @@ Combat Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_079.html">TM 079</a></td>
+            <td><a href="items/tm_081.html">TM 081</a></td>
             <td id="Move"><a href="moves/surf.html">
 
 
@@ -3074,7 +3076,7 @@ Surf
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_101.html">TM 101</a></td>
+            <td><a href="items/tm_104.html">TM 104</a></td>
             <td id="Move"><a href="moves/stomping_tantrum.html">
 
 
@@ -3095,7 +3097,7 @@ Stomping Tantrum
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ice.png"></td>
-            <td><a href="items/tm_103.html">TM 103</a></td>
+            <td><a href="items/tm_107.html">TM 107</a></td>
             <td id="Move"><a href="moves/ice_beam.html">
 
 
@@ -3116,7 +3118,7 @@ Ice Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_108.html">TM 108</a></td>
             <td id="Move"><a href="moves/hyper_beam.html">
 
 
@@ -3137,7 +3139,7 @@ Ice Beam
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
-            <td><a href="items/tm_105.html">TM 105</a></td>
+            <td><a href="items/tm_109.html">TM 109</a></td>
             <td id="Move"><a href="moves/flamethrower.html">
 
 
@@ -3157,8 +3159,50 @@ Flamethrower
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_fire.png"></td>
+            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td id="Move"><a href="moves/fire_blast.html">
+
+
+Fire Blast
+
+
+</a></td>
+            <td id="Type" data-sortkey="FIRE">
+    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">110</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">5</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
-            <td><a href="items/tm_108.html">TM 108</a></td>
+            <td><a href="items/tm_112.html">TM 112</a></td>
+            <td id="Move"><a href="moves/water_pulse.html">
+
+
+Water Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="WATER">
+    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_water.png"></td>
+            <td><a href="items/tm_114.html">TM 114</a></td>
             <td id="Move"><a href="moves/hydro_pump.html">
 
 
@@ -3179,7 +3223,7 @@ Hydro Pump
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_110.html">TM 110</a></td>
+            <td><a href="items/tm_117.html">TM 117</a></td>
             <td id="Move"><a href="moves/giga_impact.html">
 
 
@@ -3200,7 +3244,28 @@ Hydro Pump
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
-            <td><a href="items/tm_114.html">TM 114</a></td>
+            <td><a href="items/tm_118.html">TM 118</a></td>
+            <td id="Move"><a href="moves/wild_charge.html">
+
+
+Wild Charge
+
+
+</a></td>
+            <td id="Type" data-sortkey="ELECTRIC">
+    <a href="moves/type/electric.html"><img src="sprites/icons/electric.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_electric.png"></td>
+            <td><a href="items/tm_121.html">TM 121</a></td>
             <td id="Move"><a href="moves/thunder.html">
 
 
@@ -8002,20 +8067,20 @@ Endure
 
 
         <tr>
-            <td id="Move"><a href="moves/fire_blast.html">
+            <td id="Move"><a href="moves/facade.html">
 
 
-Fire Blast
+<b>Facade</b>
 
 
 </a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">110</td>
-            <td id="Accuracy">85</td>
-            <td id="PP">5</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -8296,25 +8361,6 @@ Icy Wind
             <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
             <td id="Power">55</td>
             <td id="Accuracy">95</td>
-            <td id="PP">15</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/incinerate.html">
-
-
-Incinerate
-
-
-</a></td>
-            <td id="Type" data-sortkey="FIRE">
-    <a href="moves/type/fire.html"><img src="sprites/icons/fire.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
             <td id="PP">15</td>
         </tr>
 
@@ -9059,25 +9105,6 @@ Water Gun
 
 
         <tr>
-            <td id="Move"><a href="moves/water_pulse.html">
-
-
-Water Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="WATER">
-    <a href="moves/type/water.html"><img src="sprites/icons/water.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/whirlpool.html">
 
 
@@ -9539,20 +9566,20 @@ Submission
 
 
         <tr>
-            <td id="Move"><a href="moves/wild_charge.html">
+            <td id="Move"><a href="moves/terrain_pulse.html">
 
 
-Wild Charge
+<b>Terrain Pulse</b>
 
 
 </a></td>
-            <td id="Type" data-sortkey="ELECTRIC">
-    <a href="moves/type/electric.html"><img src="sprites/icons/electric.png"></a>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
 </td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">90</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">50</td>
             <td id="Accuracy">100</td>
-            <td id="PP">15</td>
+            <td id="PP">10</td>
         </tr>
 
 
@@ -9627,7 +9654,7 @@ Zap Cannon
 <b>Immunity</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -9640,7 +9667,7 @@ Zap Cannon
 <b>Thick Fat</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>A layer of thick fat halves the damage the Pokémon takes from Fire- and Ice-type moves.</td>
         </tr>
 
@@ -9653,7 +9680,7 @@ Zap Cannon
 <i>Gluttony</i>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -9666,7 +9693,7 @@ Zap Cannon
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -9679,7 +9706,7 @@ Sturdy
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -9692,7 +9719,7 @@ Drowsy Aura
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -9705,7 +9732,7 @@ Oblivious
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -9718,7 +9745,7 @@ Soundproof
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -9755,7 +9782,7 @@ Simple
 Pickup
 
 </a></td>
-            <td>2</td>
+            <td align="center">2</td>
             <td>The Pokémon may pick up the items, both during and outside of battle.</td>
         </tr>
 
@@ -9769,7 +9796,7 @@ Pickup
 <b>Immunity</b>
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The immune system of the Pokémon prevents it from getting poisoned.</td>
         </tr>
 
@@ -9783,7 +9810,7 @@ Pickup
 Sturdy
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.</td>
         </tr>
 
@@ -9797,8 +9824,8 @@ Sturdy
 Frostproof
 
 </a></td>
-            <td>6</td>
-            <td>The Pokémon resists Ice-type moves and cannot be frostbitten.</td>
+            <td align="center">6</td>
+            <td>The Pokémon resists Ice-type moves and damage from frostbite.</td>
         </tr>
 
 
@@ -9811,7 +9838,7 @@ Frostproof
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -9846,7 +9873,7 @@ Oblivious
 Cheek Pouch
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Restores HP as well when the Pokémon eats a Berry.</td>
         </tr>
 
@@ -9858,7 +9885,7 @@ Cheek Pouch
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -9870,7 +9897,7 @@ Contrary
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -9882,7 +9909,7 @@ Defeatist
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -9894,7 +9921,7 @@ Frisk
 <i>Gluttony</i>
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Makes the Pokémon already eat a held Berry when its HP drops to half or less.</td>
         </tr>
 
@@ -9906,7 +9933,7 @@ Frisk
 Heatproof
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>The heatproof body of the Pokémon halves the damage from Fire-type moves that hit it.</td>
         </tr>
 
@@ -9918,7 +9945,7 @@ Heatproof
 Indigestion
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>The Pokémon summons acid rain when it's hit by an attack.</td>
         </tr>
 
@@ -9930,7 +9957,7 @@ Indigestion
 Inner Focus
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon's intensely focused, and that protects the Pokémon from flinching.</td>
         </tr>
 
@@ -9942,7 +9969,7 @@ Inner Focus
 Klutz
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon can't use any held items.</td>
         </tr>
 
@@ -9954,7 +9981,7 @@ Klutz
 Normalize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>All the Pokémon's moves become Normal type. Their power is boosted a little.</td>
         </tr>
 
@@ -9966,7 +9993,7 @@ Normalize
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -9978,7 +10005,7 @@ Own Tempo
 Resonance
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Boosts the damage given and received from sound-based moves.</td>
         </tr>
 
@@ -9990,7 +10017,7 @@ Resonance
 Simple
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>The stat changes the Pokémon receives are doubled.</td>
         </tr>
 
@@ -10002,7 +10029,7 @@ Simple
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -10014,7 +10041,7 @@ Slow Start
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -10026,7 +10053,7 @@ Stall
 Stamina
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Defense stat when hit by an attack.</td>
         </tr>
 
@@ -10038,7 +10065,7 @@ Stamina
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -10050,7 +10077,7 @@ Stench
 Super Luck
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.</td>
         </tr>
 
@@ -10062,7 +10089,7 @@ Super Luck
 <b>Thick Fat</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>A layer of thick fat halves the damage the Pokémon takes from Fire- and Ice-type moves.</td>
         </tr>
 
@@ -10074,7 +10101,7 @@ Super Luck
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -10086,7 +10113,7 @@ Truant
 Berserk
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Boosts its Sp. Atk stat when it takes a hit that causes its HP to become half or less.</td>
         </tr>
 
@@ -10098,7 +10125,7 @@ Berserk
 Comatose
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>It's always drowsing and will never wake up. It can attack without waking up.</td>
         </tr>
 
@@ -10110,7 +10137,7 @@ Comatose
 Defiant
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Pokémon's Attack stat sharply when its stats are lowered.</td>
         </tr>
 
@@ -10122,7 +10149,7 @@ Defiant
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -10134,7 +10161,7 @@ Drowsy Aura
 Pressure
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>By putting pressure on the opposing Pokémon, it raises their PP usage.</td>
         </tr>
 
@@ -10146,7 +10173,7 @@ Pressure
 Sheer Force
 
 </a></td>
-            <td>9</td>
+            <td align="center">9</td>
             <td>Removes additional effects to increase the power of moves when attacking.</td>
         </tr>
 
@@ -10158,7 +10185,7 @@ Sheer Force
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -10173,6 +10200,11 @@ Soundproof
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 

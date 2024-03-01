@@ -18,6 +18,13 @@
         <link href="css/pokedex.css" rel="stylesheet">
         <link href="css/sprites.css" rel="stylesheet">
 
+
+        <script>function playcry() {
+                    var cry = document.getElementById("cry-audio");
+                    cry.load();
+                    cry.play();
+                }</script>
+
     </head>
     <body>
         
@@ -177,7 +184,7 @@
 
 
                 <br>
-                Icon by <b></b>
+                Icon by <b>dillsacke</b>
 
 
             </td>
@@ -190,11 +197,16 @@
 
 
                 <b>Egg group(s):</b>
-                <br>
 
-                <a href="pokedex/egg_groups/field.html">FIELD</a>
                 <br>
-                <a href="pokedex/egg_grass.html">GRASS</a>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
+
+                <br>
+                
+    <a href="pokedex/egg_groups/grass.html">Grass</a>
+
 
 
             </td>
@@ -216,6 +228,7 @@
                 185
             </td>
         </tr>
+
     </tbody>
 </table>
 
@@ -238,9 +251,6 @@ Evolution
 <table class="table table-striped table-hover align-middle">
 <tr><td align="center" rowspan=1><a href="species/spudnik.html">Spudnik<br><img class="frontsprite" src="sprites/pokemon/spudnik/front.png"></a></td><td align="center" rowspan=1>Level 38</td><td align="center" rowspan=1><a href="species/jerusaleye.html">Jerusaleye<br><img class="frontsprite" src="sprites/pokemon/jerusaleye/front.png"></a></td></tr>
 </table>
-
-
-
 
 
 <h2>
@@ -1023,6 +1033,25 @@ Shed Tail
 
 
         <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/tm_003.html">TM 003</a></td>
+            <td id="Move"><a href="moves/worry_seed.html">
+
+Worry Seed
+
+</a></td>
+            <td id="Type" data-sortkey="GRASS">
+    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_010.html">TM 010</a></td>
             <td id="Move"><a href="moves/hidden_power.html">
@@ -1144,27 +1173,6 @@ Sandstorm
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_033.html">TM 033</a></td>
-            <td id="Move"><a href="moves/facade.html">
-
-
-Facade
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">70</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/tm_034.html">TM 034</a></td>
             <td id="Move"><a href="moves/secret_power.html">
 
@@ -1244,29 +1252,8 @@ Body Press
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_052.html">TM 052</a></td>
-            <td id="Move"><a href="moves/terrain_pulse.html">
-
-
-Terrain Pulse
-
-
-</a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">50</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td><a href="items/tm_055.html">TM 055</a></td>
             <td id="Move"><a href="moves/bulldoze.html">
 
 
@@ -1286,20 +1273,43 @@ Terrain Pulse
 
 
         <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/tm_078.html">TM 078</a></td>
-            <td id="Move"><a href="moves/nature_power.html">
+            <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
+            <td><a href="items/tm_056.html">TM 056</a></td>
+            <td id="Move"><a href="moves/mud_bomb.html">
 
-Nature Power
+
+<b>Mud Bomb</b>
+
 
 </a></td>
-            <td id="Type" data-sortkey="NORMAL">
-    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+            <td id="Type" data-sortkey="GROUND">
+    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
 </td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">95</td>
-            <td id="PP">20</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">85</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
+            <td><a href="items/tm_061.html">TM 061</a></td>
+            <td id="Move"><a href="moves/ancient_power.html">
+
+
+Ancient Power
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">60</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">5</td>
         </tr>
 
 
@@ -1310,7 +1320,7 @@ Nature Power
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
-            <td><a href="items/tm_097.html">TM 097</a></td>
+            <td><a href="items/tm_098.html">TM 098</a></td>
             <td id="Move"><a href="moves/bramble_snag.html">
 
 
@@ -1333,7 +1343,7 @@ Nature Power
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_101.html">TM 101</a></td>
+            <td><a href="items/tm_104.html">TM 104</a></td>
             <td id="Move"><a href="moves/stomping_tantrum.html">
 
 
@@ -1352,13 +1362,34 @@ Nature Power
 
 
 
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
+            <td><a href="items/tm_106.html">TM 106</a></td>
+            <td id="Move"><a href="moves/knock_off.html">
+
+
+Knock Off
+
+
+</a></td>
+            <td id="Type" data-sortkey="DARK">
+    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
 
 
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_115.html">TM 115</a></td>
+            <td><a href="items/tm_122.html">TM 122</a></td>
             <td id="Move"><a href="moves/earthquake.html">
 
 
@@ -1501,11 +1532,6 @@ Nature Power
 
 <td>
 <a href="species/camerupt.html"><img class="iconsprite" src="sprites/pokemon/camerupt/icon.png"></a>
-</td>
-
-
-<td>
-<a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a>
 </td>
 
 
@@ -2466,25 +2492,6 @@ Acid Spray
 
 
         <tr>
-            <td id="Move"><a href="moves/ancient_power.html">
-
-
-Ancient Power
-
-
-</a></td>
-            <td id="Type" data-sortkey="ROCK">
-    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">60</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">5</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/apple_acid.html">
 
 
@@ -3063,6 +3070,25 @@ Explosion
 
 
         <tr>
+            <td id="Move"><a href="moves/facade.html">
+
+
+Facade
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/flail.html">
 
 
@@ -3266,25 +3292,6 @@ Ingrain
 
 
         <tr>
-            <td id="Move"><a href="moves/knock_off.html">
-
-
-Knock Off
-
-
-</a></td>
-            <td id="Type" data-sortkey="DARK">
-    <a href="moves/type/dark.html"><img src="sprites/icons/dark.png"></a>
-</td>
-            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">20</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/lands_wrath.html">
 
 
@@ -3448,25 +3455,6 @@ Mimic
 
 
         <tr>
-            <td id="Move"><a href="moves/mud_bomb.html">
-
-
-<b>Mud Bomb</b>
-
-
-</a></td>
-            <td id="Type" data-sortkey="GROUND">
-    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
-</td>
-            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">65</td>
-            <td id="Accuracy">85</td>
-            <td id="PP">10</td>
-        </tr>
-
-
-
-        <tr>
             <td id="Move"><a href="moves/mud_shot.html">
 
 
@@ -3536,6 +3524,23 @@ Natural Gift
             <td id="Power">—</td>
             <td id="Accuracy">100</td>
             <td id="PP">15</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/nature_power.html">
+
+Nature Power
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
+            <td id="Accuracy">95</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -4212,6 +4217,25 @@ Take Down
 
 
         <tr>
+            <td id="Move"><a href="moves/terrain_pulse.html">
+
+
+Terrain Pulse
+
+
+</a></td>
+            <td id="Type" data-sortkey="NORMAL">
+    <a href="moves/type/normal.html"><img src="sprites/icons/normal.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/tickle.html">
 
 Tickle
@@ -4243,23 +4267,6 @@ Tickle
             <td id="Power">45</td>
             <td id="Accuracy">100</td>
             <td id="PP">25</td>
-        </tr>
-
-
-
-        <tr>
-            <td id="Move"><a href="moves/worry_seed.html">
-
-Worry Seed
-
-</a></td>
-            <td id="Type" data-sortkey="GRASS">
-    <a href="moves/type/grass.html"><img src="sprites/icons/grass.png"></a>
-</td>
-            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
-            <td id="Power">—</td>
-            <td id="Accuracy">100</td>
-            <td id="PP">10</td>
         </tr>
 
 
@@ -4355,7 +4362,7 @@ Zen Headbutt
 <b>Dry Skin</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Rain and Water-type moves restore HP. Sunlight and Fire-type damage hurt more.</td>
         </tr>
 
@@ -4368,7 +4375,7 @@ Zen Headbutt
 Ripen
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Ripens Berries and doubles their effect.</td>
         </tr>
 
@@ -4381,7 +4388,7 @@ Ripen
 Symbiosis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon passes its item to an ally that has used up an item.</td>
         </tr>
 
@@ -4394,7 +4401,7 @@ Symbiosis
 <i>Earth Eater</i>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.</td>
         </tr>
 
@@ -4407,7 +4414,7 @@ Symbiosis
 <b>Harvest</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -4420,7 +4427,7 @@ Symbiosis
 Innards Out
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Damages the attacker landing the finishing hit by the amount equal to its last HP.</td>
         </tr>
 
@@ -4433,7 +4440,7 @@ Innards Out
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -4446,7 +4453,7 @@ Poison Heal
 Rocky Payload
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Boosts the power of Rock-type moves.</td>
         </tr>
 
@@ -4483,7 +4490,7 @@ Rocky Payload
 Insomnia
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon is suffering from insomnia and cannot fall asleep.</td>
         </tr>
 
@@ -4497,7 +4504,7 @@ Insomnia
 Sand Force
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.</td>
         </tr>
 
@@ -4511,7 +4518,7 @@ Sand Force
 Poison Heal
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores HP if the Pokémon is poisoned instead of losing HP.</td>
         </tr>
 
@@ -4525,7 +4532,7 @@ Poison Heal
 Liquid Ooze
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The oozed liquid has a strong stench, which damages attackers using draining moves.</td>
         </tr>
 
@@ -4539,7 +4546,7 @@ Liquid Ooze
 Sand Veil
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
 
@@ -4553,7 +4560,7 @@ Sand Veil
 Toxic Boost
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Powers up physical attacks when the Pokémon is poisoned.</td>
         </tr>
 
@@ -4567,7 +4574,7 @@ Toxic Boost
 Oblivious
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon is oblivious, and that keeps it from being infatuated or taunted.</td>
         </tr>
 
@@ -4581,7 +4588,7 @@ Oblivious
 Cecity
 
 </a></td>
-            <td>-3</td>
+            <td align="center">-3</td>
             <td>This Pokémon's poor eyesight makes its moves more likely to miss.</td>
         </tr>
 
@@ -4616,7 +4623,7 @@ Cecity
 Adaptability
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Powers up moves of the same type as the Pokémon.</td>
         </tr>
 
@@ -4628,7 +4635,7 @@ Adaptability
 Aftermath
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Damages the attacker if it contacts the Pokémon with a finishing hit.</td>
         </tr>
 
@@ -4640,7 +4647,7 @@ Aftermath
 Anticipation
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon can sense an opposing Pokémon's dangerous moves.</td>
         </tr>
 
@@ -4652,7 +4659,7 @@ Anticipation
 Armor Tail
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>It makes opponents unable to use priority moves against the Pokémon or its allies.</td>
         </tr>
 
@@ -4664,7 +4671,7 @@ Armor Tail
 Cheek Pouch
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>Restores HP as well when the Pokémon eats a Berry.</td>
         </tr>
 
@@ -4676,7 +4683,7 @@ Cheek Pouch
 Chlorolize
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Grass-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -4688,7 +4695,7 @@ Chlorolize
 Contrary
 
 </a></td>
-            <td>12</td>
+            <td align="center">12</td>
             <td>Makes stat changes have an opposite effect.</td>
         </tr>
 
@@ -4700,7 +4707,7 @@ Contrary
 Cursed Body
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>May disable a move used on the Pokémon.</td>
         </tr>
 
@@ -4712,7 +4719,7 @@ Cursed Body
 Defeatist
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>Halves the Pokémon's Attack and Sp. Atk stats when its HP becomes half or less.</td>
         </tr>
 
@@ -4724,7 +4731,7 @@ Defeatist
 Drowsy Aura
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Contact with the Pokémon may put the attacker to sleep.</td>
         </tr>
 
@@ -4736,7 +4743,7 @@ Drowsy Aura
 <b>Dry Skin</b>
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Rain and Water-type moves restore HP. Sunlight and Fire-type damage hurt more.</td>
         </tr>
 
@@ -4748,7 +4755,7 @@ Drowsy Aura
 <i>Earth Eater</i>
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.</td>
         </tr>
 
@@ -4760,7 +4767,7 @@ Drowsy Aura
 Effect Spore
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.</td>
         </tr>
 
@@ -4772,7 +4779,7 @@ Effect Spore
 Filter
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Reduces the power of supereffective attacks taken.</td>
         </tr>
 
@@ -4784,7 +4791,7 @@ Filter
 Frisk
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>When it enters a battle, the Pokémon can check an opposing Pokémon's held item.</td>
         </tr>
 
@@ -4796,7 +4803,7 @@ Frisk
 Glass Bones
 
 </a></td>
-            <td>-4</td>
+            <td align="center">-4</td>
             <td>Halves the Pokémon's Defense stat.</td>
         </tr>
 
@@ -4808,7 +4815,7 @@ Glass Bones
 Greenhouse
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon generates strong sunlight when it's hit by an attack.</td>
         </tr>
 
@@ -4820,7 +4827,7 @@ Greenhouse
 <b>Harvest</b>
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>May create another Berry after one is used.</td>
         </tr>
 
@@ -4832,7 +4839,7 @@ Greenhouse
 Imperious
 
 </a></td>
-            <td>-9</td>
+            <td align="center">-9</td>
             <td>This Pokémon does not obey its Trainer.</td>
         </tr>
 
@@ -4844,7 +4851,7 @@ Imperious
 Inflexible
 
 </a></td>
-            <td>-3</td>
+            <td align="center">-3</td>
             <td>This Pokémon can only use the first move it uses in battle.</td>
         </tr>
 
@@ -4856,7 +4863,7 @@ Inflexible
 Innards Out
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Damages the attacker landing the finishing hit by the amount equal to its last HP.</td>
         </tr>
 
@@ -4868,7 +4875,7 @@ Innards Out
 Lifelink
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>The Pokémon may restore some of its HP after making contact.</td>
         </tr>
 
@@ -4880,7 +4887,7 @@ Lifelink
 Mimicry
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>Changes the Pokémon's type depending on the terrain.</td>
         </tr>
 
@@ -4892,7 +4899,7 @@ Mimicry
 Mummy
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Contact with the Pokémon changes all attacker's Abilities to Mummy.</td>
         </tr>
 
@@ -4904,7 +4911,7 @@ Mummy
 Mycelium Might
 
 </a></td>
-            <td>0</td>
+            <td align="center">0</td>
             <td></td>
         </tr>
 
@@ -4916,7 +4923,7 @@ Mycelium Might
 Own Tempo
 
 </a></td>
-            <td>4</td>
+            <td align="center">4</td>
             <td>This Pokémon has its own tempo, and that prevents it from becoming confused.</td>
         </tr>
 
@@ -4928,7 +4935,7 @@ Own Tempo
 Perish Body
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>When hit by a contact move, the Pokémon and the attacker will faint after three turns.</td>
         </tr>
 
@@ -4940,7 +4947,7 @@ Perish Body
 Rain Dish
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon gradually regains HP in rain.</td>
         </tr>
 
@@ -4952,7 +4959,7 @@ Rain Dish
 Regenerator
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Restores a little HP when withdrawn from battle.</td>
         </tr>
 
@@ -4964,7 +4971,7 @@ Regenerator
 Ripen
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Ripens Berries and doubles their effect.</td>
         </tr>
 
@@ -4976,7 +4983,7 @@ Ripen
 Rocky Payload
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>Boosts the power of Rock-type moves.</td>
         </tr>
 
@@ -4988,7 +4995,7 @@ Rocky Payload
 Sand Spit
 
 </a></td>
-            <td>5</td>
+            <td align="center">5</td>
             <td>The Pokémon creates a sandstorm when it's hit by an attack.</td>
         </tr>
 
@@ -5000,7 +5007,7 @@ Sand Spit
 Sap Sipper
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Boosts the Attack stat if hit by a Grass-type move instead of taking damage.</td>
         </tr>
 
@@ -5012,7 +5019,7 @@ Sap Sipper
 Seed Sower
 
 </a></td>
-            <td>6</td>
+            <td align="center">6</td>
             <td>Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.</td>
         </tr>
 
@@ -5024,7 +5031,7 @@ Seed Sower
 Slow Start
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>For five turns, the Pokémon's Attack and Speed stats are halved.</td>
         </tr>
 
@@ -5036,7 +5043,7 @@ Slow Start
 Soundproof
 
 </a></td>
-            <td>7</td>
+            <td align="center">7</td>
             <td>Soundproofing gives the Pokémon full immunity to all sound-based moves.</td>
         </tr>
 
@@ -5048,7 +5055,7 @@ Soundproof
 Stall
 
 </a></td>
-            <td>-2</td>
+            <td align="center">-2</td>
             <td>The Pokémon moves after all other Pokémon do.</td>
         </tr>
 
@@ -5060,7 +5067,7 @@ Stall
 Stench
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>By releasing stench when attacking, this Pokémon may cause the target to flinch.</td>
         </tr>
 
@@ -5072,7 +5079,7 @@ Stench
 Symbiosis
 
 </a></td>
-            <td>3</td>
+            <td align="center">3</td>
             <td>The Pokémon passes its item to an ally that has used up an item.</td>
         </tr>
 
@@ -5084,7 +5091,7 @@ Symbiosis
 Terralate
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Normal-type moves become Ground-type moves. Their power is boosted a little.</td>
         </tr>
 
@@ -5096,7 +5103,7 @@ Terralate
 Truant
 
 </a></td>
-            <td>-5</td>
+            <td align="center">-5</td>
             <td>The Pokémon can't use a move if it had used a move on the previous turn.</td>
         </tr>
 
@@ -5108,7 +5115,7 @@ Truant
 Unburden
 
 </a></td>
-            <td>8</td>
+            <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
 
@@ -5131,6 +5138,11 @@ Unburden
         </tr>
     </tbody>
 </table>
+
+
+
+
+
 
 
 
