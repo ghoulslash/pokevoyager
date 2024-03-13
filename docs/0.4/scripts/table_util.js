@@ -42,3 +42,28 @@ function sortTable() {
         .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
         .forEach(tr => tbody.appendChild(tr));
 }
+
+function species_list_filter(filter_function) {
+    var table = document.getElementById("species");
+    var tbody = table.getElementsByTagName("tbody");
+
+    var tr = tbody[0].getElementsByTagName("tr");
+
+    for (i = 0; i < tr.length; i++) {
+        if (filter_function(tr[i])) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+
+function species_list_filter_test(tr) {
+    var target = document.getElementById("species-filter").value.toUpperCase();
+    var name = tr.getElementsByTagName("td")[2];
+    if (name) {
+        return (name.textContent.toUpperCase().indexOf(target) > -1);
+    } else {
+        return true;
+    }
+}
