@@ -276,6 +276,12 @@ The following Pokémon can equip this ability after reaching a certain level.
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -902,6 +908,12 @@ The following Pokémon can have this ability when you find them in the wild.
 -->
 
 <!-- <div id="natural_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1012,6 +1024,12 @@ The following Pokémon can have this ability as their hidden ability.
 -->
 
 <!-- <div id="hidden_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1063,6 +1081,12 @@ The following Pokémon can be taught this ability.
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1355,6 +1379,20 @@ The following Pokémon can be taught this ability.
 
         <tr>
             <td>???</td>
+            <td style="width: 32px;"><a href="species/hydrapple.html"><img class="iconsprite" src="sprites/pokemon/hydrapple/icon.png"></a></td>
+            <td id="Name" data-sortkey="Hydrapple"><a href="species/hydrapple.html">Hydrapple</a></td>
+
+            <td id="Type" data-sortkey="GRASSDRAGON"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
             <td style="width: 32px;"><a href="species/trapinch.html"><img class="iconsprite" src="sprites/pokemon/trapinch/icon.png"></a></td>
             <td id="Name" data-sortkey="Trapinch"><a href="species/trapinch.html">Trapinch</a></td>
 
@@ -1545,7 +1583,8 @@ The following Pokémon can be taught this ability.
             <td style="width: 32px;"><a href="species/ezmergent.html"><img class="iconsprite" src="sprites/pokemon/ezmergent/icon.png"></a></td>
             <td id="Name" data-sortkey="Ezmergent"><a href="species/ezmergent.html">Ezmergent</a></td>
 
-            <td id="Type" data-sortkey="ICE"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Type" data-sortkey="ICEDARK"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
 
 
 
@@ -1755,6 +1794,11 @@ The following Pokémon can be taught this ability.
 
 
 <td>
+<a href="species/hydrapple.html"><img class="frontsprite" src="sprites/pokemon/hydrapple/front.png"></a>
+</td>
+
+
+<td>
 <a href="species/trapinch.html"><img class="frontsprite" src="sprites/pokemon/trapinch/front.png"></a>
 </td>
 
@@ -1768,13 +1812,13 @@ The following Pokémon can be taught this ability.
 <a href="species/carvanha.html"><img class="frontsprite" src="sprites/pokemon/carvanha/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/sharpedo.html"><img class="frontsprite" src="sprites/pokemon/sharpedo/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1801,13 +1845,13 @@ The following Pokémon can be taught this ability.
 <a href="species/boltund.html"><img class="frontsprite" src="sprites/pokemon/boltund/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/nemelt.html"><img class="frontsprite" src="sprites/pokemon/nemelt/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1834,13 +1878,13 @@ The following Pokémon can be taught this ability.
 <a href="species/ezmergent.html"><img class="frontsprite" src="sprites/pokemon/ezmergent/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/anphage.html"><img class="frontsprite" src="sprites/pokemon/anphage/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1866,6 +1910,9 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/hydreigon.html"><img class="frontsprite" src="sprites/pokemon/hydreigon/front.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 </tr>

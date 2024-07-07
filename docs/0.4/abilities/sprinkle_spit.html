@@ -111,6 +111,12 @@ The following Pokémon can equip this ability after reaching a certain level.
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -311,6 +317,12 @@ The following Pokémon can have this ability when you find them in the wild.
 -->
 
 <!-- <div id="natural_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -362,6 +374,12 @@ The following Pokémon can have this ability as their hidden ability.
 -->
 
 <!-- <div id="hidden_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -413,6 +431,12 @@ The following Pokémon can be taught this ability.
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1135,6 +1159,45 @@ The following Pokémon can be taught this ability.
 
         <tr>
             <td>???</td>
+            <td style="width: 32px;"><a href="species/monophlion.html"><img class="iconsprite" src="sprites/pokemon/monophlion/icon.png"></a></td>
+            <td id="Name" data-sortkey="Monophlion"><a href="species/monophlion.html">Monophlion</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/dicephlion.html"><img class="iconsprite" src="sprites/pokemon/dicephlion/icon.png"></a></td>
+            <td id="Name" data-sortkey="Dicephlion"><a href="species/dicephlion.html">Dicephlion</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/ydraphlion.html"><img class="iconsprite" src="sprites/pokemon/ydraphlion/icon.png"></a></td>
+            <td id="Name" data-sortkey="Ydraphlion"><a href="species/ydraphlion.html">Ydraphlion</a></td>
+
+            <td id="Type" data-sortkey="WATER"><a href="pokedex/type/water.html"><img src="sprites/icons/water.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
             <td style="width: 32px;"><a href="species/inkay.html"><img class="iconsprite" src="sprites/pokemon/inkay/icon.png"></a></td>
             <td id="Name" data-sortkey="Inkay"><a href="species/inkay.html">Inkay</a></td>
 
@@ -1203,13 +1266,13 @@ The following Pokémon can be taught this ability.
 <a href="species/goomy.html"><img class="frontsprite" src="sprites/pokemon/goomy/front.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/sliggoo.html"><img class="frontsprite" src="sprites/pokemon/sliggoo/front.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -1241,9 +1304,6 @@ The following Pokémon can be taught this ability.
 <a href="species/piplup.html"><img class="frontsprite" src="sprites/pokemon/piplup/front.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/prinplup.html"><img class="frontsprite" src="sprites/pokemon/prinplup/front.png"></a>
@@ -1253,6 +1313,9 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/empoleon.html"><img class="frontsprite" src="sprites/pokemon/empoleon/front.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -1279,9 +1342,6 @@ The following Pokémon can be taught this ability.
 <a href="species/walrein.html"><img class="frontsprite" src="sprites/pokemon/walrein/front.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/slowpoke.html"><img class="frontsprite" src="sprites/pokemon/slowpoke/front.png"></a>
@@ -1296,6 +1356,9 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/slowking.html"><img class="frontsprite" src="sprites/pokemon/slowking/front.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -1317,9 +1380,6 @@ The following Pokémon can be taught this ability.
 <a href="species/starmie.html"><img class="frontsprite" src="sprites/pokemon/starmie/front.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/vaporeon.html"><img class="frontsprite" src="sprites/pokemon/vaporeon/front.png"></a>
@@ -1340,6 +1400,9 @@ The following Pokémon can be taught this ability.
 <a href="species/horsea.html"><img class="frontsprite" src="sprites/pokemon/horsea/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/seadra.html"><img class="frontsprite" src="sprites/pokemon/seadra/front.png"></a>
@@ -1354,9 +1417,6 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/shellder.html"><img class="frontsprite" src="sprites/pokemon/shellder/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1383,6 +1443,9 @@ The following Pokémon can be taught this ability.
 <a href="species/kroaeakaoa.html"><img class="frontsprite" src="sprites/pokemon/kroaeakaoa/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/mareanie.html"><img class="frontsprite" src="sprites/pokemon/mareanie/front.png"></a>
@@ -1392,9 +1455,6 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/toxapex.html"><img class="frontsprite" src="sprites/pokemon/toxapex/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1426,13 +1486,13 @@ The following Pokémon can be taught this ability.
 <a href="species/swampert.html"><img class="frontsprite" src="sprites/pokemon/swampert/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/aquana.html"><img class="frontsprite" src="sprites/pokemon/aquana/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1451,8 +1511,26 @@ The following Pokémon can be taught this ability.
 
 
 <td>
+<a href="species/monophlion.html"><img class="frontsprite" src="sprites/pokemon/monophlion/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/dicephlion.html"><img class="frontsprite" src="sprites/pokemon/dicephlion/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/ydraphlion.html"><img class="frontsprite" src="sprites/pokemon/ydraphlion/front.png"></a>
+</td>
+
+
+<td>
 <a href="species/inkay.html"><img class="frontsprite" src="sprites/pokemon/inkay/front.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>

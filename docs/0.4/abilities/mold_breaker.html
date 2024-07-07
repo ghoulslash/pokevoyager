@@ -111,6 +111,12 @@ The following Pokémon can equip this ability after reaching a certain level.
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -333,6 +339,12 @@ The following Pokémon can have this ability when you find them in the wild.
 -->
 
 <!-- <div id="natural_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -427,6 +439,12 @@ The following Pokémon can have this ability as their hidden ability.
 -->
 
 <!-- <div id="hidden_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -478,6 +496,12 @@ The following Pokémon can be taught this ability.
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -884,6 +908,34 @@ The following Pokémon can be taught this ability.
 
         <tr>
             <td>???</td>
+            <td style="width: 32px;"><a href="species/dipplin.html"><img class="iconsprite" src="sprites/pokemon/dipplin/icon.png"></a></td>
+            <td id="Name" data-sortkey="Dipplin"><a href="species/dipplin.html">Dipplin</a></td>
+
+            <td id="Type" data-sortkey="GRASSDRAGON"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/hydrapple.html"><img class="iconsprite" src="sprites/pokemon/hydrapple/icon.png"></a></td>
+            <td id="Name" data-sortkey="Hydrapple"><a href="species/hydrapple.html">Hydrapple</a></td>
+
+            <td id="Type" data-sortkey="GRASSDRAGON"><a href="pokedex/type/grass.html"><img src="sprites/icons/grass.png"></a>
+            <br><a href="pokedex/type/dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
             <td style="width: 32px;"><a href="species/larvitar.html"><img class="iconsprite" src="sprites/pokemon/larvitar/icon.png"></a></td>
             <td id="Name" data-sortkey="Larvitar"><a href="species/larvitar.html">Larvitar</a></td>
 
@@ -930,6 +982,20 @@ The following Pokémon can be taught this ability.
             <td id="Name" data-sortkey="Snomel"><a href="species/snomel.html">Snomel</a></td>
 
             <td id="Type" data-sortkey="ICE"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a></td>
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a></td>
+            <td id="Name" data-sortkey="Cryorupt"><a href="species/cryorupt.html">Cryorupt</a></td>
+
+            <td id="Type" data-sortkey="FIREICE"><a href="pokedex/type/fire.html"><img src="sprites/icons/fire.png"></a>
+            <br><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a></td>
 
 
 
@@ -1349,6 +1415,16 @@ The following Pokémon can be taught this ability.
 
 
 <td>
+<a href="species/dipplin.html"><img class="frontsprite" src="sprites/pokemon/dipplin/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/hydrapple.html"><img class="frontsprite" src="sprites/pokemon/hydrapple/front.png"></a>
+</td>
+
+
+<td>
 <a href="species/larvitar.html"><img class="frontsprite" src="sprites/pokemon/larvitar/front.png"></a>
 </td>
 
@@ -1367,6 +1443,14 @@ The following Pokémon can be taught this ability.
 <a href="species/snomel.html"><img class="frontsprite" src="sprites/pokemon/snomel/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
+
+<td>
+<a href="species/cryorupt.html"><img class="frontsprite" src="sprites/pokemon/cryorupt/front.png"></a>
+</td>
+
 
 <td>
 <a href="species/archigloom.html"><img class="frontsprite" src="sprites/pokemon/archigloom/front.png"></a>
@@ -1376,9 +1460,6 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/rufflet.html"><img class="frontsprite" src="sprites/pokemon/rufflet/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1400,6 +1481,9 @@ The following Pokémon can be taught this ability.
 <a href="species/conkeldurr.html"><img class="frontsprite" src="sprites/pokemon/conkeldurr/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/crabrawler.html"><img class="frontsprite" src="sprites/pokemon/crabrawler/front.png"></a>
@@ -1414,9 +1498,6 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/absol.html"><img class="frontsprite" src="sprites/pokemon/absol/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
@@ -1438,6 +1519,9 @@ The following Pokémon can be taught this ability.
 <a href="species/pawmud.html"><img class="frontsprite" src="sprites/pokemon/pawmud/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/sloof.html"><img class="frontsprite" src="sprites/pokemon/sloof/front.png"></a>
@@ -1452,9 +1536,6 @@ The following Pokémon can be taught this ability.
 <td>
 <a href="species/omniczar.html"><img class="frontsprite" src="sprites/pokemon/omniczar/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
