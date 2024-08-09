@@ -322,6 +322,12 @@ N
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1122,6 +1128,12 @@ document.getElementById('tab_levelup_list').click();
 -->
 
 <!-- <div id="egg_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1204,6 +1216,12 @@ document.getElementById('tab_egg_list').click();
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1942,9 +1960,9 @@ document.getElementById('tab_egg_list').click();
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" colspan=2 data-sortkey="FLYING">
                 
-    <a href="pokedex/egg_groups/field.html">Field</a>
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
 
             </td>
 
@@ -1965,7 +1983,65 @@ document.getElementById('tab_egg_list').click();
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" colspan=2 data-sortkey="FLYING">
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/chinsumuri.html"><img class="iconsprite" src="sprites/pokemon/chinsumuri/icon.png"></a></td>
+            <td id="Name" data-sortkey="Chinsumuri"><a href="species/chinsumuri.html">Chinsumuri</a></td>
+
+            <td id="Type" data-sortkey="ROCKELECTRIC"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a></td>
+
+
+
+
+            <td id="EggGroup" data-sortkey="GRASS">
+                
+    <a href="pokedex/egg_groups/grass.html">Grass</a>
+
+            </td>
+            <td>
+                
+    <a href="pokedex/egg_groups/field.html">Field</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/lansumuri.html"><img class="iconsprite" src="sprites/pokemon/lansumuri/icon.png"></a></td>
+            <td id="Name" data-sortkey="Lansumuri"><a href="species/lansumuri.html">Lansumuri</a></td>
+
+            <td id="Type" data-sortkey="ROCKELECTRIC"><a href="pokedex/type/rock.html"><img src="sprites/icons/rock.png"></a>
+            <br><a href="pokedex/type/electric.html"><img src="sprites/icons/electric.png"></a></td>
+
+
+
+
+            <td id="EggGroup" data-sortkey="GRASS">
+                
+    <a href="pokedex/egg_groups/grass.html">Grass</a>
+
+            </td>
+            <td>
                 
     <a href="pokedex/egg_groups/field.html">Field</a>
 
@@ -2335,6 +2411,16 @@ document.getElementById('tab_egg_list').click();
 
 
 <td>
+<a href="species/chinsumuri.html"><img class="frontsprite" src="sprites/pokemon/chinsumuri/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/lansumuri.html"><img class="frontsprite" src="sprites/pokemon/lansumuri/front.png"></a>
+</td>
+
+
+<td>
 <a href="species/silhou.html"><img class="frontsprite" src="sprites/pokemon/silhou/front.png"></a>
 </td>
 
@@ -2348,6 +2434,9 @@ document.getElementById('tab_egg_list').click();
 <a href="species/cranisect.html"><img class="frontsprite" src="sprites/pokemon/cranisect/front.png"></a>
 </td>
 
+</tr>
+<tr>
+
 
 <td>
 <a href="species/skultulant.html"><img class="frontsprite" src="sprites/pokemon/skultulant/front.png"></a>
@@ -2357,9 +2446,6 @@ document.getElementById('tab_egg_list').click();
 <td>
 <a href="species/solarvae.html"><img class="frontsprite" src="sprites/pokemon/solarvae/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>

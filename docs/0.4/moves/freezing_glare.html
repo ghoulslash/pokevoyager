@@ -322,6 +322,12 @@ N
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -605,6 +611,12 @@ document.getElementById('tab_levelup_list').click();
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -875,6 +887,54 @@ document.getElementById('tab_levelup_list').click();
 
         <tr>
             <td>???</td>
+            <td style="width: 32px;"><a href="species/vellavale.html"><img class="iconsprite" src="sprites/pokemon/vellavale/icon.png"></a></td>
+            <td id="Name" data-sortkey="Vellavale"><a href="species/vellavale.html">Vellavale</a></td>
+
+            <td id="Type" data-sortkey="BUGDARK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="BUG">
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/vellidaxos.html"><img class="iconsprite" src="sprites/pokemon/vellidaxos/icon.png"></a></td>
+            <td id="Name" data-sortkey="Vellidaxos"><a href="species/vellidaxos.html">Vellidaxos</a></td>
+
+            <td id="Type" data-sortkey="BUGDARK"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="BUG">
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
             <td style="width: 32px;"><a href="species/nepteis.html"><img class="iconsprite" src="sprites/pokemon/nepteis/icon.png"></a></td>
             <td id="Name" data-sortkey="Nepteis"><a href="species/nepteis.html">Nepteis</a></td>
 
@@ -902,8 +962,8 @@ document.getElementById('tab_levelup_list').click();
             <td style="width: 32px;"><a href="species/uristage.html"><img class="iconsprite" src="sprites/pokemon/uristage/icon.png"></a></td>
             <td id="Name" data-sortkey="Uristage"><a href="species/uristage.html">Uristage</a></td>
 
-            <td id="Type" data-sortkey="ICEDARK"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
-            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Type" data-sortkey="ICEFLYING"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
 
 
 
@@ -943,13 +1003,13 @@ document.getElementById('tab_levelup_list').click();
 <a href="species/aerowyrm.html"><img class="frontsprite" src="sprites/pokemon/aerowyrm/front.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/arakid.html"><img class="frontsprite" src="sprites/pokemon/arakid/front.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -961,9 +1021,6 @@ document.getElementById('tab_levelup_list').click();
 <a href="species/wailowisp.html"><img class="frontsprite" src="sprites/pokemon/wailowisp/front.png"></a>
 </td>
 
-</tr>
-<tr>
-
 
 <td>
 <a href="species/glacriek.html"><img class="frontsprite" src="sprites/pokemon/glacriek/front.png"></a>
@@ -974,18 +1031,31 @@ document.getElementById('tab_levelup_list').click();
 <a href="species/omanyte.html"><img class="frontsprite" src="sprites/pokemon/omanyte/front.png"></a>
 </td>
 
-
-<td>
-<a href="species/omastar.html"><img class="frontsprite" src="sprites/pokemon/omastar/front.png"></a>
-</td>
-
 </tr>
 <tr>
 
 
 <td>
+<a href="species/omastar.html"><img class="frontsprite" src="sprites/pokemon/omastar/front.png"></a>
+</td>
+
+
+<td>
 <a href="species/cosmyriad.html"><img class="frontsprite" src="sprites/pokemon/cosmyriad/front.png"></a>
 </td>
+
+
+<td>
+<a href="species/vellavale.html"><img class="frontsprite" src="sprites/pokemon/vellavale/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/vellidaxos.html"><img class="frontsprite" src="sprites/pokemon/vellidaxos/front.png"></a>
+</td>
+
+</tr>
+<tr>
 
 
 <td>
@@ -996,9 +1066,6 @@ document.getElementById('tab_levelup_list').click();
 <td>
 <a href="species/uristage.html"><img class="frontsprite" src="sprites/pokemon/uristage/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 </tr>

@@ -313,8 +313,6 @@ N
 
 <p>-Boosts flying-type damage by 30%</p>
 
-<p>-Doubles the speed of Pokemon that can learn Fly</p>
-
 <p>-Boosts the power of 'Wind' moves (Razor Wind, Gust, Blizzard, Aeroblast, Powder Snow, Icy Wind, Air Cutter, Silver Wind, Air Slash, Ominous Wind, Hurricane, Glaciate, Fairy Wind, Wing Attack, Dual Wingbeat, Steel Wing, Oblivion Wing)</p>
 
 
@@ -335,6 +333,12 @@ N
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -527,6 +531,12 @@ document.getElementById('tab_levelup_list').click();
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1320,9 +1330,9 @@ document.getElementById('tab_levelup_list').click();
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" colspan=2 data-sortkey="FLYING">
                 
-    <a href="pokedex/egg_groups/field.html">Field</a>
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
 
             </td>
 
@@ -1343,9 +1353,9 @@ document.getElementById('tab_levelup_list').click();
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" colspan=2 data-sortkey="FLYING">
                 
-    <a href="pokedex/egg_groups/field.html">Field</a>
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
 
             </td>
 
@@ -1361,8 +1371,8 @@ document.getElementById('tab_levelup_list').click();
             <td style="width: 32px;"><a href="species/uristage.html"><img class="iconsprite" src="sprites/pokemon/uristage/icon.png"></a></td>
             <td id="Name" data-sortkey="Uristage"><a href="species/uristage.html">Uristage</a></td>
 
-            <td id="Type" data-sortkey="ICEDARK"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
-            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Type" data-sortkey="ICEFLYING"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
 
 
 

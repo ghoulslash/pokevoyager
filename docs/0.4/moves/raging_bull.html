@@ -327,6 +327,12 @@ N
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -344,32 +350,6 @@ N
         </tr>
     </thead>
     <tbody class="table-group-divider">
-
-        <tr>
-            <td>???</td>
-            <td style="width: 32px;"><a href="species/minitaur.html"><img class="iconsprite" src="sprites/pokemon/minitaur/icon.png"></a></td>
-            <td id="Name" data-sortkey="Minitaur"><a href="species/minitaur.html">Minitaur</a></td>
-
-            <td id="Type" data-sortkey="FIGHTINGFAIRY"><a href="pokedex/type/fighting.html"><img src="sprites/icons/fighting.png"></a>
-            <br><a href="pokedex/type/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
-
-
-
-
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
-                
-    <a href="pokedex/egg_groups/field.html">Field</a>
-
-            </td>
-
-
-
-
-            <td id="Level">65</td>
-
-
-
-        </tr>
 
         <tr>
             <td>???</td>
@@ -396,7 +376,7 @@ N
 
 
 
-            <td id="Level">74</td>
+            <td id="Level">Evolve</td>
 
 
 
@@ -504,34 +484,29 @@ N
 <table>
 
 <td>
-<a href="species/minitaur.html"><img class="frontsprite" src="sprites/pokemon/minitaur/front.png"></a>
-</td>
-
-
-<td>
 <a href="species/maxhitaur.html"><img class="frontsprite" src="sprites/pokemon/maxhitaur/front.png"></a>
 </td>
-
-</tr>
-<tr>
 
 
 <td>
 <a href="species/rhyhorn.html"><img class="frontsprite" src="sprites/pokemon/rhyhorn/front.png"></a>
 </td>
 
-
-<td>
-<a href="species/rhydon.html"><img class="frontsprite" src="sprites/pokemon/rhydon/front.png"></a>
-</td>
-
 </tr>
 <tr>
 
 
 <td>
+<a href="species/rhydon.html"><img class="frontsprite" src="sprites/pokemon/rhydon/front.png"></a>
+</td>
+
+
+<td>
 <a href="species/rhyperior.html"><img class="frontsprite" src="sprites/pokemon/rhyperior/front.png"></a>
 </td>
+
+</tr>
+<tr>
 
 
 </tr>
@@ -565,6 +540,12 @@ document.getElementById('tab_levelup_list').click();
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -749,14 +730,20 @@ document.getElementById('tab_levelup_list').click();
             <td style="width: 32px;"><a href="species/ezmergent.html"><img class="iconsprite" src="sprites/pokemon/ezmergent/icon.png"></a></td>
             <td id="Name" data-sortkey="Ezmergent"><a href="species/ezmergent.html">Ezmergent</a></td>
 
-            <td id="Type" data-sortkey="ICE"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Type" data-sortkey="ICEDARK"><a href="pokedex/type/ice.html"><img src="sprites/icons/ice.png"></a>
+            <br><a href="pokedex/type/dark.html"><img src="sprites/icons/dark.png"></a></td>
 
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" data-sortkey="FIELD">
                 
     <a href="pokedex/egg_groups/field.html">Field</a>
+
+            </td>
+            <td>
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
 
             </td>
 
@@ -777,9 +764,9 @@ document.getElementById('tab_levelup_list').click();
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" colspan=2 data-sortkey="FLYING">
                 
-    <a href="pokedex/egg_groups/field.html">Field</a>
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
 
             </td>
 

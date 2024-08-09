@@ -110,7 +110,7 @@
 <h2>Effect</h2>
 
 
-<p>{'name': 'Expanding_Force', 'description': None, 'same_effect': 'Hit'}</p>
+<p>{'name': 'Expanding_Force', 'description': 'More dmg, hit both on psy. terr.', 'same_effect': 'Hit'}</p>
 
 
 
@@ -322,6 +322,12 @@ N
 -->
 
 <!-- <div id="levelup_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -432,6 +438,274 @@ document.getElementById('tab_levelup_list').click();
 
 
 
+<h3>By breeding</h3>
+
+
+
+
+<!-- 
+<div class="tab">
+    <button id="tab_egg_list" content-id="egg_list" class="tablinks" onclick="changetab(event, 'egg_list')">List</button>
+    <button id="tab_egg_grid" content-id="egg_grid" class="tablinks" onclick="changetab(event, 'egg_grid')" display="none">Visual</button>
+</div>
+-->
+
+<!-- <div id="egg_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
+<table id="species" class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">#</th>
+            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+
+            <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/arakid.html"><img class="iconsprite" src="sprites/pokemon/arakid/icon.png"></a></td>
+            <td id="Name" data-sortkey="Arakid"><a href="species/arakid.html">Arakid</a></td>
+
+            <td id="Type" data-sortkey="BUGPSYCHIC"><a href="pokedex/type/bug.html"><img src="sprites/icons/bug.png"></a>
+            <br><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="BUG">
+                
+    <a href="pokedex/egg_groups/bug.html">Bug</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/natu.html"><img class="iconsprite" src="sprites/pokemon/natu/icon.png"></a></td>
+            <td id="Name" data-sortkey="Natu"><a href="species/natu.html">Natu</a></td>
+
+            <td id="Type" data-sortkey="PSYCHICFLYING"><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
+            <br><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="FLYING">
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/ralts.html"><img class="iconsprite" src="sprites/pokemon/ralts/icon.png"></a></td>
+            <td id="Name" data-sortkey="Ralts"><a href="species/ralts.html">Ralts</a></td>
+
+            <td id="Type" data-sortkey="PSYCHICFAIRY"><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a>
+            <br><a href="pokedex/type/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="AMORPHOUS">
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/solosis.html"><img class="iconsprite" src="sprites/pokemon/solosis/icon.png"></a></td>
+            <td id="Name" data-sortkey="Solosis"><a href="species/solosis.html">Solosis</a></td>
+
+            <td id="Type" data-sortkey="PSYCHIC"><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="AMORPHOUS">
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/baltoy.html"><img class="iconsprite" src="sprites/pokemon/baltoy/icon.png"></a></td>
+            <td id="Name" data-sortkey="Baltoy"><a href="species/baltoy.html">Baltoy</a></td>
+
+            <td id="Type" data-sortkey="GROUNDPSYCHIC"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a>
+            <br><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="MINERAL">
+                
+    <a href="pokedex/egg_groups/mineral.html">Mineral</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/baltoy.html"><img class="iconsprite" src="sprites/pokemon/baltoy/icon.png"></a></td>
+            <td id="Name" data-sortkey="Baltoy"><a href="species/baltoy.html">Baltoy</a></td>
+
+            <td id="Type" data-sortkey="GROUNDPSYCHIC"><a href="pokedex/type/ground.html"><img src="sprites/icons/ground.png"></a>
+            <br><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="MINERAL">
+                
+    <a href="pokedex/egg_groups/mineral.html">Mineral</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/cosmyriad.html"><img class="iconsprite" src="sprites/pokemon/cosmyriad/icon.png"></a></td>
+            <td id="Name" data-sortkey="Cosmyriad"><a href="species/cosmyriad.html">Cosmyriad</a></td>
+
+            <td id="Type" data-sortkey="STEELPSYCHIC"><a href="pokedex/type/steel.html"><img src="sprites/icons/steel.png"></a>
+            <br><a href="pokedex/type/psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+
+
+
+
+            <td id="EggGroup" data-sortkey="AMORPHOUS">
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
+
+            </td>
+            <td>
+                
+    <a href="pokedex/egg_groups/fairy.html">Fairy</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- </div> -->
+
+<!--- 
+<div id="egg_grid" class="tabcontent">
+<table>
+
+<td>
+<a href="species/arakid.html"><img class="frontsprite" src="sprites/pokemon/arakid/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/natu.html"><img class="frontsprite" src="sprites/pokemon/natu/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/ralts.html"><img class="frontsprite" src="sprites/pokemon/ralts/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/solosis.html"><img class="frontsprite" src="sprites/pokemon/solosis/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/baltoy.html"><img class="frontsprite" src="sprites/pokemon/baltoy/front.png"></a>
+</td>
+
+
+<td>
+<a href="species/baltoy.html"><img class="frontsprite" src="sprites/pokemon/baltoy/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
+<a href="species/cosmyriad.html"><img class="frontsprite" src="sprites/pokemon/cosmyriad/front.png"></a>
+</td>
+
+
+</tr>
+</table>
+</div>
+ --->
+
+<script>
+document.getElementById('tab_egg_list').click();
+</script>
+
+
+
+
 
 
 <h3>By Move Tutor</h3>
@@ -447,6 +721,12 @@ document.getElementById('tab_levelup_list').click();
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -1251,9 +1531,14 @@ document.getElementById('tab_levelup_list').click();
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" data-sortkey="FAIRY">
                 
-    <a href="pokedex/egg_groups/field.html">Field</a>
+    <a href="pokedex/egg_groups/fairy.html">Fairy</a>
+
+            </td>
+            <td>
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
 
             </td>
 
@@ -1275,9 +1560,14 @@ document.getElementById('tab_levelup_list').click();
 
 
 
-            <td id="EggGroup" colspan=2 data-sortkey="FIELD">
+            <td id="EggGroup" data-sortkey="FAIRY">
                 
-    <a href="pokedex/egg_groups/field.html">Field</a>
+    <a href="pokedex/egg_groups/fairy.html">Fairy</a>
+
+            </td>
+            <td>
+                
+    <a href="pokedex/egg_groups/amorphous.html">Amorphous</a>
 
             </td>
 

@@ -326,6 +326,12 @@ N
 -->
 
 <!-- <div id="egg_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
@@ -341,6 +347,30 @@ N
         </tr>
     </thead>
     <tbody class="table-group-divider">
+
+        <tr>
+            <td>???</td>
+            <td style="width: 32px;"><a href="species/crainbow.html"><img class="iconsprite" src="sprites/pokemon/crainbow/icon.png"></a></td>
+            <td id="Name" data-sortkey="Crainbow"><a href="species/crainbow.html">Crainbow</a></td>
+
+            <td id="Type" data-sortkey="FLYINGFAIRY"><a href="pokedex/type/flying.html"><img src="sprites/icons/flying.png"></a>
+            <br><a href="pokedex/type/fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+
+
+
+
+            <td id="EggGroup" colspan=2 data-sortkey="FLYING">
+                
+    <a href="pokedex/egg_groups/flying.html">Flying</a>
+
+            </td>
+
+
+
+
+
+
+        </tr>
 
         <tr>
             <td>???</td>
@@ -380,6 +410,14 @@ N
 <table>
 
 <td>
+<a href="species/crainbow.html"><img class="frontsprite" src="sprites/pokemon/crainbow/front.png"></a>
+</td>
+
+</tr>
+<tr>
+
+
+<td>
 <a href="species/cosmyriad.html"><img class="frontsprite" src="sprites/pokemon/cosmyriad/front.png"></a>
 </td>
 
@@ -414,6 +452,12 @@ document.getElementById('tab_egg_list').click();
 -->
 
 <!-- <div id="tutor_list" class="tabcontent"> -->
+
+
+<input type="text" id="species-filter" onkeyup="species_list_filter(species_list_filter_test)" placeholder="Filter species..." title="Filter Species">
+
+<script src="scripts/table_util.js"></script>
+
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>

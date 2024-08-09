@@ -159,25 +159,41 @@
             </td>
             <td>
 
-                #154
+                #155
 
             </td>
             <td colspan=2 align="center">
-                0' 0.0"
+                0' 4.7"
                 <br>
-                0.0 lbs.
+                33.17 lbs.
             </td>
             <td>
                 Flatworm Pokémon
             </td>
             <td colspan=5>
-                TODO
+                This worm's shovel-shaped head lets it dig at incredible speeds, but limited accuracy. As such, its burrow tends to be a difficult to navigate.
             </td>
         </tr>
         <tr>
             <td align="center">
             
-                <img class="iconsprite" src="sprites/pokemon/burowurm/icon.png">
+                <table>
+                    <tr align="center">
+                        <td></td>
+                        <td><img class="owsprite_16x32_up" src="sprites/pokemon/burowurm/object_event.png"></td>
+                        <td></td>
+                    </tr>
+                    <tr align="center">
+                        <td><img class="owsprite_16x32_left" src="sprites/pokemon/burowurm/object_event.png"></td>
+                        <td><img class="iconsprite" src="sprites/pokemon/burowurm/icon.png"></td>
+                        <td><img class="owsprite_16x32_right" src="sprites/pokemon/burowurm/object_event.png"></td>
+                    </tr>
+                    <tr align="center">
+                        <td></td>
+                        <td><img class="owsprite_16x32_down" src="sprites/pokemon/burowurm/object_event.png"></td>
+                        <td></td>
+                    </tr>
+                </table>
 
 
                 <br>
@@ -266,7 +282,7 @@ Wild Encounters
 
         <tr>
 
-            <th rowspan=6>Land</th>
+            <th rowspan=7>Land</th>
 
             <td>
     <a href="atlas/map_underground_gym_room1.html">Underground Gym</a>
@@ -315,6 +331,15 @@ Wild Encounters
 
             <td>
     <a href="atlas/map_mount_tvashtar_b2f.html">Mount Tvashtar</a>
+</td>
+            <td>10%</td>
+            <td>5</td>
+        </tr>
+
+        <tr>
+
+            <td>
+    <a href="atlas/map_mount_tvashtar_resurface_room.html">Mount Tvashtar</a>
 </td>
             <td>10%</td>
             <td>5</td>
@@ -1499,7 +1524,7 @@ Muddy Terrain
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/tm_104.html">TM 104</a></td>
+            <td><a href="items/tm_103.html">TM 103</a></td>
             <td id="Move"><a href="moves/stomping_tantrum.html">
 
 
@@ -1631,6 +1656,25 @@ Agility
             <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">30</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/arid_assault.html">
+
+
+Arid Assault
+
+
+</a></td>
+            <td id="Type" data-sortkey="ROCK">
+    <a href="moves/type/rock.html"><img src="sprites/icons/rock.png"></a>
+</td>
+            <td id="Category" data-sortkey="physical"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">20</td>
         </tr>
 
 
@@ -2116,6 +2160,25 @@ Mud Sport
 
 
         <tr>
+            <td id="Move"><a href="moves/muddy_mayhem.html">
+
+
+<b>Muddy Mayhem</b>
+
+
+</a></td>
+            <td id="Type" data-sortkey="GROUND">
+    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
+</td>
+            <td id="Category" data-sortkey="special"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">70</td>
+            <td id="Accuracy">100</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
             <td id="Move"><a href="moves/natural_gift.html">
 
 
@@ -2462,6 +2525,23 @@ Shed Tail
 </td>
             <td id="Category" data-sortkey="STATUS"><img class="split_status" src="sprites/icons/split_icons.png"></td>
             <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td id="PP">10</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Move"><a href="moves/shore_up.html">
+
+Shore Up
+
+</a></td>
+            <td id="Type" data-sortkey="GROUND">
+    <a href="moves/type/ground.html"><img src="sprites/icons/ground.png"></a>
+</td>
+            <td id="Category" data-sortkey="status"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="Power">—</td>
             <td id="Accuracy">—</td>
             <td id="PP">10</td>
         </tr>
@@ -2842,6 +2922,19 @@ Defiant
         </tr>
 
         <tr>
+
+            <td>100</td>
+
+            <td><a href="abilities/mud_armor.html">
+
+Mud Armor
+
+</a></td>
+            <td align="center">6</td>
+            <td>Boosts the Pokémon's Defensive stats on Muddy Terrain.</td>
+        </tr>
+
+        <tr>
             <td colspan="4">
                 <ul>
                     <li><b>Bold</b> indicates a default ability if multiple abilities are disabled</li>
@@ -2880,8 +2973,6 @@ Own Tempo
 
 
 
-
-
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
             <td><a href="items/disc_11.html">Disc 11</a></td>
@@ -2896,11 +2987,9 @@ Ball Fetch
 
 
 
-
-
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_normal.png"></td>
-            <td><a href="items/disc_17.html">Disc 17</a></td>
+            <td><a href="items/disc_18.html">Disc 18</a></td>
             <td><a href="abilities/mimicry.html">
 
 Mimicry
@@ -2914,7 +3003,7 @@ Mimicry
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
-            <td><a href="items/disc_19.html">Disc 19</a></td>
+            <td><a href="items/disc_20.html">Disc 20</a></td>
             <td><a href="abilities/sand_force.html">
 
 Sand Force
@@ -2926,25 +3015,27 @@ Sand Force
 
 
 
-        <tr>
-            <td style="width: 24px;"><img src="sprites/items/tm_rock.png"></td>
-            <td><a href="items/disc_29.html">Disc 29</a></td>
-            <td><a href="abilities/sand_spit.html">
 
-Sand Spit
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_ground.png"></td>
+            <td><a href="items/disc_45.html">Disc 45</a></td>
+            <td><a href="abilities/sand_veil.html">
+
+<b>Sand Veil</b>
 
 </a></td>
-            <td align="center">5</td>
-            <td>The Pokémon creates a sandstorm when it's hit by an attack.</td>
+            <td align="center">3</td>
+            <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
         </tr>
-
-
 
 
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_poison.png"></td>
-            <td><a href="items/disc_45.html">Disc 45</a></td>
+            <td><a href="items/disc_47.html">Disc 47</a></td>
             <td><a href="abilities/toxic_boost.html">
 
 Toxic Boost
@@ -2958,7 +3049,7 @@ Toxic Boost
 
         <tr>
             <td style="width: 24px;"><img src="sprites/items/tm_dark.png"></td>
-            <td><a href="items/disc_49.html">Disc 49</a></td>
+            <td><a href="items/disc_51.html">Disc 51</a></td>
             <td><a href="abilities/cecity.html">
 
 Cecity
@@ -2967,6 +3058,36 @@ Cecity
             <td align="center">-3</td>
             <td>This Pokémon's poor eyesight makes its moves more likely to miss.</td>
         </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_psychic.png"></td>
+            <td><a href="items/disc_53.html">Disc 53</a></td>
+            <td><a href="abilities/arena_lock.html">
+
+Arena Lock
+
+</a></td>
+            <td align="center">9</td>
+            <td>Negates statuses that affect the whole field.</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="width: 24px;"><img src="sprites/items/tm_grass.png"></td>
+            <td><a href="items/disc_55.html">Disc 55</a></td>
+            <td><a href="abilities/regenerator.html">
+
+Regenerator
+
+</a></td>
+            <td align="center">8</td>
+            <td>Restores a little HP when withdrawn from battle.</td>
+        </tr>
+
+
 
 
         <tr>
@@ -3006,18 +3127,6 @@ Analytic
 
 
         <tr>
-            <td><a href="abilities/arena_lock.html">
-
-Arena Lock
-
-</a></td>
-            <td align="center">9</td>
-            <td>Negates statuses that affect the whole field.</td>
-        </tr>
-
-
-
-        <tr>
             <td><a href="abilities/arena_trap.html">
 
 Arena Trap
@@ -3025,6 +3134,18 @@ Arena Trap
 </a></td>
             <td align="center">10</td>
             <td>Prevents opposing Pokémon from fleeing.</td>
+        </tr>
+
+
+
+        <tr>
+            <td><a href="abilities/arid_armor.html">
+
+Arid Armor
+
+</a></td>
+            <td align="center">6</td>
+            <td>Boosts the Pokémon's Defensive stats on Arid Terrain.</td>
         </tr>
 
 
@@ -3234,6 +3355,18 @@ Moody
 
 
         <tr>
+            <td><a href="abilities/mud_armor.html">
+
+Mud Armor
+
+</a></td>
+            <td align="center">6</td>
+            <td>Boosts the Pokémon's Defensive stats on Muddy Terrain.</td>
+        </tr>
+
+
+
+        <tr>
             <td><a href="abilities/muddy_surge.html">
 
 <i>Muddy Surge</i>
@@ -3294,18 +3427,6 @@ Reckless
 
 
         <tr>
-            <td><a href="abilities/regenerator.html">
-
-Regenerator
-
-</a></td>
-            <td align="center">8</td>
-            <td>Restores a little HP when withdrawn from battle.</td>
-        </tr>
-
-
-
-        <tr>
             <td><a href="abilities/run_away.html">
 
 Run Away
@@ -3330,13 +3451,13 @@ Run Away
 
 
         <tr>
-            <td><a href="abilities/sand_veil.html">
+            <td><a href="abilities/sand_spit.html">
 
-<b>Sand Veil</b>
+Sand Spit
 
 </a></td>
-            <td align="center">3</td>
-            <td>Boosts the Pokémon's evasiveness in a sandstorm.</td>
+            <td align="center">5</td>
+            <td>The Pokémon creates a sandstorm when it's hit by an attack.</td>
         </tr>
 
 
@@ -3410,6 +3531,8 @@ Unburden
             <td align="center">8</td>
             <td>Boosts the Speed stat if the Pokémon's held item is used or lost.</td>
         </tr>
+
+
 
 
 
