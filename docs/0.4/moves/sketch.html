@@ -110,7 +110,139 @@
 <h2>Effect</h2>
 
 
-<p>{'name': 'Sketch', 'description': 'Save last move.'}</p>
+<p>Save last move.</p>
+
+
+
+<h3>Unaffected Moves</h3>
+<p>The following moves cannot be copied.</p>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="blazing_torque"><a href="moves/blazing_torque.html">Blazing Torque</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>A blazing spinning attack that may burn the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="combat_torque"><a href="moves/combat_torque.html">Combat Torque</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A dextrous spinning attack that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dark_void"><a href="moves/dark_void.html">Dark Void</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">50</td>
+            <td>Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hyperspace_fury"><a href="moves/hyperspace_fury.html">Hyperspace Fury</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A barrage of attacks hits even protected targets but the user's Defense stat falls.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magical_torque"><a href="moves/magical_torque.html">Magical Torque</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A mystical spinning attack that may confuse the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="noxious_torque"><a href="moves/noxious_torque.html">Noxious Torque</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A nauseating spinning attack that may poison the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="revival_blessing"><a href="moves/revival_blessing.html">Revival Blessing</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">1</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">100</td>
+            <td>The user bestows a loving blessing to revive a fainted party {POKEMON} to half of its HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sketch"><a href="moves/sketch.html">Sketch</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">1</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>It enables the user to permanently learn the move last used by the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="struggle"><a href="moves/struggle.html">Struggle</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">1</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">—</td>
+            <td>Used only if all PP are gone. Also hurts the user a little.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="tera_starstorm"><a href="moves/tera_starstorm.html">Tera Starstorm</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>With the power of its crystals, the user bombards the target to inflict damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wicked_torque"><a href="moves/wicked_torque.html">Wicked Torque</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>A morbid spinning attack that may put the foe to sleep.</th>
+        </tr>
+
+    </tbody>
+</table>
 
 
 
@@ -135,11 +267,41 @@
             <td class="move-attribute-header">Beam move?</td>
         </tr>
         <tr>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
         </tr>
         <tr>
             <td class="move-attribute-header">Ballistic move?</td>
@@ -149,13 +311,39 @@
             <td class="move-attribute-header">Pulse move?</td>
         </tr>
         <tr>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
             <td class="move-attribute-cell">
 
+
 N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
 
 </td>
         </tr>
@@ -189,27 +377,35 @@ N
         <tr>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
-N
+Y
 
 </td>
         </tr>
@@ -237,17 +433,23 @@ N
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
-N
+
+Y
+
 
 </td>
         </tr>
@@ -347,7 +549,7 @@ N
     <tbody class="table-group-divider">
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -372,7 +574,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -397,7 +599,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -422,7 +624,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -447,7 +649,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -472,7 +674,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -497,7 +699,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -522,7 +724,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -547,7 +749,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -572,7 +774,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 
@@ -717,7 +919,7 @@ document.getElementById('tab_levelup_list').click();
     <tbody class="table-group-divider">
 
         <tr>
-            <td>???</td>
+            <td>405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 

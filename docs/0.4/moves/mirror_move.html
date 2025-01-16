@@ -110,7 +110,1939 @@
 <h2>Effect</h2>
 
 
-<p>{'name': 'Mirror_Move', 'description': 'Copy enemy move.'}</p>
+<p>Copy enemy move.</p>
+
+
+
+<h3>Unaffected Moves</h3>
+<p>The following moves cannot be copied.</p>
+
+<table id=moves class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th scope="col" onclick="sortTable()">Name</th>
+            <th scope="col" onclick="sortTable()">Type</th>
+            <th scope="col" onclick="sortTable()">Category</th>
+            <th scope="col" onclick="sortTable()">PP</th>
+            <th scope="col" onclick="sortTable()">Power</th>
+            <th scope="col" onclick="sortTable()">Accuracy</th>
+            <th scope="col"                      >Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td id="Name" data-sortkey="acid_armor"><a href="moves/acid_armor.html">Acid Armor</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user alters its cells to liquefy itself, sharply raising its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="acupressure"><a href="moves/acupressure.html">Acupressure</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user applies pressure to stress points, sharply boosting one of its or its allies' stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="after_you"><a href="moves/after_you.html">After You</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user helps the target and makes it use its move right after the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="agility"><a href="moves/agility.html">Agility</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ally_switch"><a href="moves/ally_switch.html">Ally Switch</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user teleports using a strange power and switches places with one of its allies.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="amnesia"><a href="moves/amnesia.html">Amnesia</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user temporarily forgets its concerns. This sharply raises its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aqua_ring"><a href="moves/aqua_ring.html">Aqua Ring</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user envelops itself in a veil made of water. It regains some HP every turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aromatherapy"><a href="moves/aromatherapy.html">Aromatherapy</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user releases a soothing scent that heals all status conditions affecting its party.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aromatic_mist"><a href="moves/aromatic_mist.html">Aromatic Mist</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="assist"><a href="moves/assist.html">Assist</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user hurriedly and randomly uses a move among those known by ally Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="aurora_veil"><a href="moves/aurora_veil.html">Aurora Veil</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Damage from all moves is halved for 5 turns. This move can be used only in a hailstorm.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="autotomize"><a href="moves/autotomize.html">Autotomize</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user sheds part of its body to make itself lighter and sharply raise its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="baddy_bad"><a href="moves/baddy_bad.html">Baddy Bad</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Acting badly, attacks. Sets wall, lowering Attack damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="baneful_bunker"><a href="moves/baneful_bunker.html">Baneful Bunker</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>This move protects the user from attacks and poisons any attacker that makes contact.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="barrier"><a href="moves/barrier.html">Barrier</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user throws up a sturdy wall that sharply raises its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="baton_pass"><a href="moves/baton_pass.html">Baton Pass</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user switches places with a party Pokémon in waiting and passes along any stat changes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="beak_blast"><a href="moves/beak_blast.html">Beak Blast</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user's heated beak hits the target. Contact with the user while heating up its beak burns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="belch"><a href="moves/belch.html">Belch</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">90</td>
+            <td>The user lets out a damaging belch at the target but must eat a held Berry to do so.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="belly_drum"><a href="moves/belly_drum.html">Belly Drum</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user maximizes its Attack stat in exchange for HP equal to half its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bide"><a href="moves/bide.html">Bide</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user endures attacks for two turns, then strikes back to cause double the damage taken.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="blazing_torque"><a href="moves/blazing_torque.html">Blazing Torque</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>A blazing spinning attack that may burn the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bouncy_bubble"><a href="moves/bouncy_bubble.html">Bouncy Bubble</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>An attack that absorbs half the damage inflicted.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="bulk_up"><a href="moves/bulk_up.html">Bulk Up</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="burning_bulwark"><a href="moves/burning_bulwark.html">Burning Bulwark</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>This move protects the user from attacks and burns any attacker that makes contact.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="buzzy_buzz"><a href="moves/buzzy_buzz.html">Buzzy Buzz</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Shoots a jolt of electricity that always paralyzes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="calm_mind"><a href="moves/calm_mind.html">Calm Mind</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user quietly focuses its mind to raise its Sp. Atk and Sp. Def stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="camouflage"><a href="moves/camouflage.html">Camouflage</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user's type is changed depending on its environment, such as at water's edge.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="celebrate"><a href="moves/celebrate.html">Celebrate</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The Pokémon congratulates you on your special day!</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="charge"><a href="moves/charge.html">Charge</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user boosts the power of the next Electric move it uses and raises its Sp. Def stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="chatter"><a href="moves/chatter.html">Chatter</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">65</td>
+            <td id="Accuracy">100</td>
+            <td>The target is hit with sound waves of deafening chatter and may be left confused.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="chilly_reception"><a href="moves/chilly_reception.html">Chilly Reception</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>A chillingly bad joke summons a snowstorm for 5 turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="clangorous_soul"><a href="moves/clangorous_soul.html">Clangorous Soul</a></td>
+            <td id="Type" data-sortkey="dragon" align="center"><a href="moves/type_dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user raises all its stats by using some of its HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="coaching"><a href="moves/coaching.html">Coaching</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>he user properly coaches its ally Pokémon, boosting their Attack and Defense stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="coil"><a href="moves/coil.html">Coil</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user coils up and concentrates, raising its physical stats and accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="combat_torque"><a href="moves/combat_torque.html">Combat Torque</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A dextrous spinning attack that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="conversion"><a href="moves/conversion.html">Conversion</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user changes its type to become the same type as the first move it knows.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="conversion_2"><a href="moves/conversion_2.html">Conversion 2</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user changes its type to make itself resistant to the target's last attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="copycat"><a href="moves/copycat.html">Copycat</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user mimics the move used immediately before it, if any.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="cosmic_power"><a href="moves/cosmic_power.html">Cosmic Power</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="cotton_guard"><a href="moves/cotton_guard.html">Cotton Guard</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user wraps its body in soft cotton, which drastically raises its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="crafty_shield"><a href="moves/crafty_shield.html">Crafty Shield</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user protects itself and its allies from status moves with a mysterious power.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="curse"><a href="moves/curse.html">Curse</a></td>
+            <td id="Type" data-sortkey="ghost" align="center"><a href="moves/type_ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>A move that works differently for the Ghost type than for all other types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="decorate"><a href="moves/decorate.html">Decorate</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user sharply raises the target's Attack and Sp. Atk stats by decorating the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="defend_order"><a href="moves/defend_order.html">Defend Order</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user calls out its underlings to shield its body, raising its defensive stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="defense_curl"><a href="moves/defense_curl.html">Defense Curl</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user curls up to conceal weak spots and raise its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="destiny_bond"><a href="moves/destiny_bond.html">Destiny Bond</a></td>
+            <td id="Type" data-sortkey="ghost" align="center"><a href="moves/type_ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>After using this move, if the user faints, whoever landed the knockout hit also faints.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="detect"><a href="moves/detect.html">Detect</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="doodle"><a href="moves/doodle.html">Doodle</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">100</td>
+            <td>Changes the abilities of the user and its allies to those of the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="doom_desire"><a href="moves/doom_desire.html">Doom Desire</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">140</td>
+            <td id="Accuracy">100</td>
+            <td>Two turns after this move is used, a concentrated bundle of light blasts the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="double_team"><a href="moves/double_team.html">Double Team</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dragon_dance"><a href="moves/dragon_dance.html">Dragon Dance</a></td>
+            <td id="Type" data-sortkey="dragon" align="center"><a href="moves/type_dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user vigorously performs a mystic dance that raises its Attack and Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="dynamax_cannon"><a href="moves/dynamax_cannon.html">Dynamax Cannon</a></td>
+            <td id="Type" data-sortkey="dragon" align="center"><a href="moves/type_dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>The user unleashes a strong beam that deals deals double damage to Dynamaxed targets.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="electric_terrain"><a href="moves/electric_terrain.html">Electric Terrain</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, grounded Pokémon stay awake and Electric-type moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="endure"><a href="moves/endure.html">Endure</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user endures any attack with at least 1 HP. It may fail if used in succession.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="feint"><a href="moves/feint.html">Feint</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">30</td>
+            <td id="Accuracy">100</td>
+            <td>This attack hits a target using moves like Protect or Detect. This also lifts such effects.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="fillet_away"><a href="moves/fillet_away.html">Fillet Away</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">100</td>
+            <td>The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="final_gambit"><a href="moves/final_gambit.html">Final Gambit</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user risks everything, fainting but inflicting damage equal to its HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="floaty_fall"><a href="moves/floaty_fall.html">Floaty Fall</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">95</td>
+            <td>Floats in air and dives at angle. May cause flinching.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="floral_healing"><a href="moves/floral_healing.html">Floral Healing</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores the target's HP by up to half of its max HP. It restores more HP on grass.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="flower_shield"><a href="moves/flower_shield.html">Flower Shield</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user raises the Defense stats of all Grass-type Pokémon with a mysterious power.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="focus_energy"><a href="moves/focus_energy.html">Focus Energy</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user takes a deep breath and focuses so that critical hits land more easily.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="focus_punch"><a href="moves/focus_punch.html">Focus Punch</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>The user focuses its mind before launching a punch. It fails if the user is hit first.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="follow_me"><a href="moves/follow_me.html">Follow Me</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user draws attention to itself, making all targets take aim only at the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="freezy_frost"><a href="moves/freezy_frost.html">Freezy Frost</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Crystal from cold haze hits. Eliminates all stat changes.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="future_sight"><a href="moves/future_sight.html">Future Sight</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">120</td>
+            <td id="Accuracy">100</td>
+            <td>Two turns after this move is used, a hunk of psychic energy attacks the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="gear_up"><a href="moves/gear_up.html">Gear Up</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Ally Pokémon with the Plus or Minus Ability have their offensive stats raised.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="glitzy_glow"><a href="moves/glitzy_glow.html">Glitzy Glow</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>Telekinetic force that sets wall, lowering Sp. Atk damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grassy_terrain"><a href="moves/grassy_terrain.html">Grassy Terrain</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, the HP of grounded Pokémon is restored and Grass type-moves are stronger.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="gravity"><a href="moves/gravity.html">Gravity</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Enables Flying-type and Levitating Pokémon to be hit by Ground-type moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="growth"><a href="moves/growth.html">Growth</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user's body grows all at once, raising the Attack and Sp. Atk stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="grudge"><a href="moves/grudge.html">Grudge</a></td>
+            <td id="Type" data-sortkey="ghost" align="center"><a href="moves/type_ghost.html"><img src="sprites/icons/ghost.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>If the user faints, the user's grudge fully depletes the PP of the move that knocked it out.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="guard_split"><a href="moves/guard_split.html">Guard Split</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user averages its Defense and Sp. Def stats with those of the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hail"><a href="moves/hail.html">Hail</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="happy_hour"><a href="moves/happy_hour.html">Happy Hour</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Using Happy Hour doubles the amount of prize money received after battle.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="harden"><a href="moves/harden.html">Harden</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user stiffens all the muscles in its body to raise its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="haze"><a href="moves/haze.html">Haze</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a haze that eliminates all stat changes among all Pokémon in battle.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heal_bell"><a href="moves/heal_bell.html">Heal Bell</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user makes a soothing bell chime to heal the status conditions of all allies.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heal_order"><a href="moves/heal_order.html">Heal Order</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user calls out its underlings to heal it, regaining up to half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="heal_pulse"><a href="moves/heal_pulse.html">Heal Pulse</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user emits a healing pulse that restores the target's HP by up to half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="healing_wish"><a href="moves/healing_wish.html">Healing Wish</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user faints, but whoever takes its place will have its HP restored and status cured.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="helping_hand"><a href="moves/helping_hand.html">Helping Hand</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user assists an ally by boosting the power of that ally's attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="hone_claws"><a href="moves/hone_claws.html">Hone Claws</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user sharpens its claws to boost its Attack stat and accuracy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="howl"><a href="moves/howl.html">Howl</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user howls loudly to raise the spirit of itself and allies. This raises their Attack stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="imprison"><a href="moves/imprison.html">Imprison</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>If opposing Pokémon know any move also known by the user, they may no longer use it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ingrain"><a href="moves/ingrain.html">Ingrain</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user lays roots that restore its HP on every turn but can no longer switch out.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="instruct"><a href="moves/instruct.html">Instruct</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user instructs the target to use the target's last move again.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="ion_deluge"><a href="moves/ion_deluge.html">Ion Deluge</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Dispersed electrically charged particles change Normal-type moves to Electric-type moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="iron_defense"><a href="moves/iron_defense.html">Iron Defense</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user hardens its body's surface like iron, sharply raising its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="jungle_healing"><a href="moves/jungle_healing.html">Jungle Healing</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores HP and cures any status conditions of itself and its ally Pokémon in battle.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="kings_shield"><a href="moves/kings_shield.html">King's Shield</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user protects itself from damage and lowers the Attack stat of those making contact.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="laser_focus"><a href="moves/laser_focus.html">Laser Focus</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user concentrates intensely. Its next attack always results in a critical hit.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="life_dew"><a href="moves/life_dew.html">Life Dew</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user scatters mysterious water around, restoring the HP of itself and its ally Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="light_screen"><a href="moves/light_screen.html">Light Screen</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>A wondrous wall of light is put up to reduce damage from special attacks for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lucky_chant"><a href="moves/lucky_chant.html">Lucky Chant</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user's incantation prevents opposing Pokémon from landing critical hits for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lunar_blessing"><a href="moves/lunar_blessing.html">Lunar Blessing</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>Restores HP and cures status conditions for itself and an ally.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="lunar_dance"><a href="moves/lunar_dance.html">Lunar Dance</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user faints, but whoever takes its place will have its HP restored and status cured.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magic_coat"><a href="moves/magic_coat.html">Magic Coat</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>Moves like Leech Seed and moves that inflict status conditions are reflected back.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magical_torque"><a href="moves/magical_torque.html">Magical Torque</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A mystical spinning attack that may confuse the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magnet_rise"><a href="moves/magnet_rise.html">Magnet Rise</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user levitates using electrically generated magnetism for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="magnetic_flux"><a href="moves/magnetic_flux.html">Magnetic Flux</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Ally Pokémon with the Plus or Minus Ability have their defensive stats raised.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mat_block"><a href="moves/mat_block.html">Mat Block</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Using a mat as a shield, the user protects itself and its allies from damaging moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="me_first"><a href="moves/me_first.html">Me First</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user tries to cut ahead of the target, using its intended move with greater power.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="meditate"><a href="moves/meditate.html">Meditate</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user meditates to awaken the power deep within its body and raise its Attack stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="metronome"><a href="moves/metronome.html">Metronome</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user waggles a finger and stimulates its brain into randomly using nearly any move.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="milk_drink"><a href="moves/milk_drink.html">Milk Drink</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores its own HP by up to half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="minimize"><a href="moves/minimize.html">Minimize</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mirror_coat"><a href="moves/mirror_coat.html">Mirror Coat</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>A retaliation move that counters any special hit with double the damage.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mist"><a href="moves/mist.html">Mist</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user cloaks its side in mist preventing any stats from being lowered for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="misty_terrain"><a href="moves/misty_terrain.html">Misty Terrain</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>For 5 turns, grounded Pokémon's status is protected and Dragon-type moves are weaker.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="moonlight"><a href="moves/moonlight.html">Moonlight</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores its own HP. The amount of HP regained varies with the weather.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="morning_sun"><a href="moves/morning_sun.html">Morning Sun</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores its own HP. The amount of HP regained varies with the weather.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="mud_sport"><a href="moves/mud_sport.html">Mud Sport</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user kicks up mud. This weakens Electric-type moves for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="nasty_plot"><a href="moves/nasty_plot.html">Nasty Plot</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user stimulates its brain by thinking bad thoughts. This sharply raises its Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="no_retreat"><a href="moves/no_retreat.html">No Retreat</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>This move raises all the user's stats but prevents the user from switching out or fleeing.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="noxious_torque"><a href="moves/noxious_torque.html">Noxious Torque</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">100</td>
+            <td id="Accuracy">100</td>
+            <td>A nauseating spinning attack that may poison the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="obstruct"><a href="moves/obstruct.html">Obstruct</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user Protects itself. Direct contact harshly lowers the attacker's Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="order_up"><a href="moves/order_up.html">Order Up</a></td>
+            <td id="Type" data-sortkey="dragon" align="center"><a href="moves/type_dragon.html"><img src="sprites/icons/dragon.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>The user attacks with elegant poise.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="perish_song"><a href="moves/perish_song.html">Perish Song</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Any Pokémon that hears this song faints in three turns, unless it switches out.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="pika_papow"><a href="moves/pika_papow.html">Pika Papow</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Pikachu's love increases its power. It never misses.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_shift"><a href="moves/power_shift.html">Power Shift</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user swaps its Attack and Defense stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_split"><a href="moves/power_split.html">Power Split</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user averages its Attack and Sp. Atk stats with those of the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="power_trick"><a href="moves/power_trick.html">Power Trick</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user employs its psychic power to switch its Attack stat with its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psych_up"><a href="moves/psych_up.html">Psych Up</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user hypnotizes itself into copying any stat change made by the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="psychic_terrain"><a href="moves/psychic_terrain.html">Psychic Terrain</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Grounded Pokémon are safe from priority and Psychic-type moves are stronger for 5 turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="purify"><a href="moves/purify.html">Purify</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user heals the target's status condition and the user's own HP if successful.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="quick_guard"><a href="moves/quick_guard.html">Quick Guard</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user protects itself and its allies from priority moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="quiver_dance"><a href="moves/quiver_dance.html">Quiver Dance</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user performs a beautiful dance, boosting its Sp. Atk, Sp. Def, and Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rage_powder"><a href="moves/rage_powder.html">Rage Powder</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user scatters a cloud of irritating powder. Opposing Pokémon aim only at the user.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rain_dance"><a href="moves/rain_dance.html">Rain Dance</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user summons a heavy rain that falls for five turns, powering up Water-type moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="recover"><a href="moves/recover.html">Recover</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Restoring its own cells, the user restores its own HP by half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="recycle"><a href="moves/recycle.html">Recycle</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user recycles a held item that has been used in battle so it can be used again.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="reflect"><a href="moves/reflect.html">Reflect</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>A wondrous wall of light is put up to reduce damage from physical attacks for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="reflect_type"><a href="moves/reflect_type.html">Reflect Type</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user reflects the target's type, making the user the same type as the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="refresh"><a href="moves/refresh.html">Refresh</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user rests to cure itself of poisoning, a burn, or paralysis.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rest"><a href="moves/rest.html">Rest</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user sleeps for two turns, fully restoring its HP and healing any status conditions.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="revival_blessing"><a href="moves/revival_blessing.html">Revival Blessing</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">1</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">100</td>
+            <td>The user bestows a loving blessing to revive a fainted party {POKEMON} to half of its HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rock_polish"><a href="moves/rock_polish.html">Rock Polish</a></td>
+            <td id="Type" data-sortkey="rock" align="center"><a href="moves/type_rock.html"><img src="sprites/icons/rock.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user polishes its body to reduce drag. This sharply raises the Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="role_play"><a href="moves/role_play.html">Role Play</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user mimics the target completely, copying the target's abilities.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="roost"><a href="moves/roost.html">Roost</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user lands and rests its body. This restores its HP by up to half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="rototiller"><a href="moves/rototiller.html">Rototiller</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Tilling the soil helps plants grow, raising the offensive stats of Grass-type Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="safeguard"><a href="moves/safeguard.html">Safeguard</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">25</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a protective field that prevents status conditions for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sandstorm"><a href="moves/sandstorm.html">Sandstorm</a></td>
+            <td id="Type" data-sortkey="rock" align="center"><a href="moves/type_rock.html"><img src="sprites/icons/rock.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>A five-turn sandstorm is summoned to hurt all except Rock, Ground, and Steel types.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sappy_seed"><a href="moves/sappy_seed.html">Sappy Seed</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>The user grows a gigantic stalk that scatters Leech Seeds to attack the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sharpen"><a href="moves/sharpen.html">Sharpen</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user makes its edges more jagged, which raises its Attack stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shed_tail"><a href="moves/shed_tail.html">Shed Tail</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a substitute before switching out of battle.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shell_smash"><a href="moves/shell_smash.html">Shell Smash</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user lowers its defenses but sharply raises its Attack, Sp. Atk, and Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shell_trap"><a href="moves/shell_trap.html">Shell Trap</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">150</td>
+            <td id="Accuracy">100</td>
+            <td>The user sets a shell trap. Physical moves blow it up, damaging opposing Pokémon.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shelter"><a href="moves/shelter.html">Shelter</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user makes its skin as hard as an iron shield to sharply boost Defense.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shift_gear"><a href="moves/shift_gear.html">Shift Gear</a></td>
+            <td id="Type" data-sortkey="steel" align="center"><a href="moves/type_steel.html"><img src="sprites/icons/steel.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user rotates its gears, raising its Attack stat and sharply raising its Speed stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="shore_up"><a href="moves/shore_up.html">Shore Up</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user regains up to half of its max HP. It restores more HP in a sandstorm.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="silk_trap"><a href="moves/silk_trap.html">Silk Trap</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">100</td>
+            <td>The user spins a silken trap to protect itself. Contact lower's the attacker's Speed.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sizzly_slide"><a href="moves/sizzly_slide.html">Sizzly Slide</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>User cloaked in fire charges. Leaves the foe with a burn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sketch"><a href="moves/sketch.html">Sketch</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">1</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>It enables the user to permanently learn the move last used by the target.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="slack_off"><a href="moves/slack_off.html">Slack Off</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user slacks off, restoring its own HP by up to half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sleep_talk"><a href="moves/sleep_talk.html">Sleep Talk</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>While it is asleep, the user randomly uses one of the moves it knows.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="snowscape"><a href="moves/snowscape.html">Snowscape</a></td>
+            <td id="Type" data-sortkey="ice" align="center"><a href="moves/type_ice.html"><img src="sprites/icons/ice.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user summons a snowstorm lasting five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="soft_boiled"><a href="moves/soft_boiled.html">Soft-Boiled</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user restores its own HP by up to half of its max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sparkly_swirl"><a href="moves/sparkly_swirl.html">Sparkly Swirl</a></td>
+            <td id="Type" data-sortkey="fairy" align="center"><a href="moves/type_fairy.html"><img src="sprites/icons/fairy.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>A whirlwind of scent attacks the target and cures the user's party's status conditions.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spikes"><a href="moves/spikes.html">Spikes</a></td>
+            <td id="Type" data-sortkey="ground" align="center"><a href="moves/type_ground.html"><img src="sprites/icons/ground.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user lays a trap of spikes at the opposing team's feet to hurt Pokémon switching in.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spiky_shield"><a href="moves/spiky_shield.html">Spiky Shield</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>This move protects the user from attacks and damages any attacker that makes contact.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spit_up"><a href="moves/spit_up.html">Spit Up</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The power stored using the move Stockpile is released at once in an attack.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="splash"><a href="moves/splash.html">Splash</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">40</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user just flops and splashes around to no effect at all…</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="splishy_splash"><a href="moves/splishy_splash.html">Splishy Splash</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="special" align="center"><img class="split_special" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">90</td>
+            <td id="Accuracy">100</td>
+            <td>A huge electrified wave that may paralyze the foe.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="spotlight"><a href="moves/spotlight.html">Spotlight</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user shines a spotlight on a target so that only the target will be attacked this turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="stealth_rock"><a href="moves/stealth_rock.html">Stealth Rock</a></td>
+            <td id="Type" data-sortkey="rock" align="center"><a href="moves/type_rock.html"><img src="sprites/icons/rock.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user lays levitating stones at the opposing team's feet to hurt Pokémon switching in.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sticky_web"><a href="moves/sticky_web.html">Sticky Web</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user weaves a sticky net around the opposing team, lowering Speed when switching.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="stockpile"><a href="moves/stockpile.html">Stockpile</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user charges up power, raising its Defense and Sp. Def stats. It can be used thrice.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="struggle"><a href="moves/struggle.html">Struggle</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">1</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">—</td>
+            <td>Used only if all PP are gone. Also hurts the user a little.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="stuff_cheeks"><a href="moves/stuff_cheeks.html">Stuff Cheeks</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user eats its held Berry, then sharply raises its Defense stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="substitute"><a href="moves/substitute.html">Substitute</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user creates a substitute for itself using some of its HP which serves as its decoy.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="sunny_day"><a href="moves/sunny_day.html">Sunny Day</a></td>
+            <td id="Type" data-sortkey="fire" align="center"><a href="moves/type_fire.html"><img src="sprites/icons/fire.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user intensifies the sun for five turns, powering up Fire-type moves.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="swallow"><a href="moves/swallow.html">Swallow</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The power stored using the move Stockpile is absorbed by the user to heal its HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="synthesis"><a href="moves/synthesis.html">Synthesis</a></td>
+            <td id="Type" data-sortkey="grass" align="center"><a href="moves/type_grass.html"><img src="sprites/icons/grass.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">5</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user restores its own HP. The amount of HP regained varies with the weather.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="tail_glow"><a href="moves/tail_glow.html">Tail Glow</a></td>
+            <td id="Type" data-sortkey="bug" align="center"><a href="moves/type_bug.html"><img src="sprites/icons/bug.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user stares at lights to focus its mind, drastically raising its Sp. Atk stat.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="tailwind"><a href="moves/tailwind.html">Tailwind</a></td>
+            <td id="Type" data-sortkey="flying" align="center"><a href="moves/type_flying.html"><img src="sprites/icons/flying.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user whips up a whirlwind that ups its and its allies' Speed stats for four turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="take_heart"><a href="moves/take_heart.html">Take Heart</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user lifts its spirits to cure status conditions and boost Sp. Atk and Sp. Def.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="teatime"><a href="moves/teatime.html">Teatime</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="teeter_dance"><a href="moves/teeter_dance.html">Teeter Dance</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user performs a wobbly dance that confuses the Pokémon around it.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="teleport"><a href="moves/teleport.html">Teleport</a></td>
+            <td id="Type" data-sortkey="psychic" align="center"><a href="moves/type_psychic.html"><img src="sprites/icons/psychic.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user switches places with a party Pokémon in waiting. Wild Pokémon using this move flee.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="tidy_up"><a href="moves/tidy_up.html">Tidy Up</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>Removes the effects of entry hazards and boosts Atk. and Speed.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="toxic_spikes"><a href="moves/toxic_spikes.html">Toxic Spikes</a></td>
+            <td id="Type" data-sortkey="poison" align="center"><a href="moves/type_poison.html"><img src="sprites/icons/poison.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user lays toxic spikes at the opposing team's feet to poison those switching in.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="transform"><a href="moves/transform.html">Transform</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user transforms into a copy of the target right down to having the same move set.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="veevee_volley"><a href="moves/veevee_volley.html">Veevee Volley</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>Eevee's love increases its power. It never misses.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="victory_dance"><a href="moves/victory_dance.html">Victory Dance</a></td>
+            <td id="Type" data-sortkey="fighting" align="center"><a href="moves/type_fighting.html"><img src="sprites/icons/fighting.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">0</td>
+            <td id="Accuracy">—</td>
+            <td>The user performs an intense dance to boost Attack, Defense, and Speed stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="water_sport"><a href="moves/water_sport.html">Water Sport</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>The user soaks the battlefield with water. This weakens Fire-type moves for five turns.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wicked_torque"><a href="moves/wicked_torque.html">Wicked Torque</a></td>
+            <td id="Type" data-sortkey="dark" align="center"><a href="moves/type_dark.html"><img src="sprites/icons/dark.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">80</td>
+            <td id="Accuracy">100</td>
+            <td>A morbid spinning attack that may put the foe to sleep.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wide_guard"><a href="moves/wide_guard.html">Wide Guard</a></td>
+            <td id="Type" data-sortkey="rock" align="center"><a href="moves/type_rock.html"><img src="sprites/icons/rock.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user and its allies are protected from wide-ranging attacks for one turn.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="wish"><a href="moves/wish.html">Wish</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">10</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">100</td>
+            <td>In one turn, the user's or its replacement's HP is restored by half the user's max HP.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="withdraw"><a href="moves/withdraw.html">Withdraw</a></td>
+            <td id="Type" data-sortkey="water" align="center"><a href="moves/type_water.html"><img src="sprites/icons/water.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">20</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user withdraws its body into its hard shell, raising its Defense and Sp. Def stats.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="work_up"><a href="moves/work_up.html">Work Up</a></td>
+            <td id="Type" data-sortkey="normal" align="center"><a href="moves/type_normal.html"><img src="sprites/icons/normal.png"></a></td>
+            <td id="Category" data-sortkey="status" align="center"><img class="split_status" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">30</td>
+            <td id="Power">—</td>
+            <td id="Accuracy">—</td>
+            <td>The user is roused, and its Attack and Sp. Atk stats increase.</th>
+        </tr>
+
+        <tr>
+            <td id="Name" data-sortkey="zippy_zap"><a href="moves/zippy_zap.html">Zippy Zap</a></td>
+            <td id="Type" data-sortkey="electric" align="center"><a href="moves/type_electric.html"><img src="sprites/icons/electric.png"></a></td>
+            <td id="Category" data-sortkey="physical" align="center"><img class="split_physical" src="sprites/icons/split_icons.png"></td>
+            <td id="PP">15</td>
+            <td id="Power">50</td>
+            <td id="Accuracy">100</td>
+            <td>Electric bursts always go first and land a critical hit.</th>
+        </tr>
+
+    </tbody>
+</table>
 
 
 
@@ -135,11 +2067,41 @@
             <td class="move-attribute-header">Beam move?</td>
         </tr>
         <tr>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
         </tr>
         <tr>
             <td class="move-attribute-header">Ballistic move?</td>
@@ -149,13 +2111,39 @@
             <td class="move-attribute-header">Pulse move?</td>
         </tr>
         <tr>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
-            <td class="move-attribute-cell">N</td>
             <td class="move-attribute-cell">
 
+
 N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
+
+</td>
+            <td class="move-attribute-cell">
+
+
+N
+
 
 </td>
         </tr>
@@ -189,22 +2177,30 @@ N
         <tr>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
@@ -237,17 +2233,23 @@ N
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
             <td class="move-attribute-cell">
 
+
 N
+
 
 </td>
         </tr>
@@ -347,7 +2349,7 @@ N
     <tbody class="table-group-divider">
 
         <tr>
-            <td>???</td>
+            <td>47</td>
             <td style="width: 32px;"><a href="species/swablu.html"><img class="iconsprite" src="sprites/pokemon/swablu/icon.png"></a></td>
             <td id="Name" data-sortkey="Swablu"><a href="species/swablu.html">Swablu</a></td>
 
@@ -378,7 +2380,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>138</td>
             <td style="width: 32px;"><a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a></td>
             <td id="Name" data-sortkey="Torchic"><a href="species/torchic.html">Torchic</a></td>
 
@@ -403,7 +2405,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>139</td>
             <td style="width: 32px;"><a href="species/combusken.html"><img class="iconsprite" src="sprites/pokemon/combusken/icon.png"></a></td>
             <td id="Name" data-sortkey="Combusken"><a href="species/combusken.html">Combusken</a></td>
 
@@ -429,7 +2431,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>289</td>
             <td style="width: 32px;"><a href="species/aquana.html"><img class="iconsprite" src="sprites/pokemon/aquana/icon.png"></a></td>
             <td id="Name" data-sortkey="Aquana"><a href="species/aquana.html">Aquana</a></td>
 
@@ -455,7 +2457,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>290</td>
             <td style="width: 32px;"><a href="species/iguastol.html"><img class="iconsprite" src="sprites/pokemon/iguastol/icon.png"></a></td>
             <td id="Name" data-sortkey="Iguastol"><a href="species/iguastol.html">Iguastol</a></td>
 
@@ -571,7 +2573,7 @@ document.getElementById('tab_levelup_list').click();
     <tbody class="table-group-divider">
 
         <tr>
-            <td>???</td>
+            <td>58</td>
             <td style="width: 32px;"><a href="species/starly.html"><img class="iconsprite" src="sprites/pokemon/starly/icon.png"></a></td>
             <td id="Name" data-sortkey="Starly"><a href="species/starly.html">Starly</a></td>
 
@@ -595,7 +2597,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>16</td>
             <td style="width: 32px;"><a href="species/murkrow.html"><img class="iconsprite" src="sprites/pokemon/murkrow/icon.png"></a></td>
             <td id="Name" data-sortkey="Murkrow"><a href="species/murkrow.html">Murkrow</a></td>
 
@@ -619,7 +2621,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>304</td>
             <td style="width: 32px;"><a href="species/togepi.html"><img class="iconsprite" src="sprites/pokemon/togepi/icon.png"></a></td>
             <td id="Name" data-sortkey="Togepi"><a href="species/togepi.html">Togepi</a></td>
 
@@ -636,7 +2638,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>322</td>
             <td style="width: 32px;"><a href="species/glastro.html"><img class="iconsprite" src="sprites/pokemon/glastro/icon.png"></a></td>
             <td id="Name" data-sortkey="Glastro"><a href="species/glastro.html">Glastro</a></td>
 
@@ -748,7 +2750,7 @@ document.getElementById('tab_egg_list').click();
     <tbody class="table-group-divider">
 
         <tr>
-            <td>???</td>
+            <td>58</td>
             <td style="width: 32px;"><a href="species/starly.html"><img class="iconsprite" src="sprites/pokemon/starly/icon.png"></a></td>
             <td id="Name" data-sortkey="Starly"><a href="species/starly.html">Starly</a></td>
 
@@ -772,7 +2774,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>59</td>
             <td style="width: 32px;"><a href="species/staravia.html"><img class="iconsprite" src="sprites/pokemon/staravia/icon.png"></a></td>
             <td id="Name" data-sortkey="Staravia"><a href="species/staravia.html">Staravia</a></td>
 
@@ -796,7 +2798,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>60</td>
             <td style="width: 32px;"><a href="species/staraptor.html"><img class="iconsprite" src="sprites/pokemon/staraptor/icon.png"></a></td>
             <td id="Name" data-sortkey="Staraptor"><a href="species/staraptor.html">Staraptor</a></td>
 
@@ -820,7 +2822,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>16</td>
             <td style="width: 32px;"><a href="species/murkrow.html"><img class="iconsprite" src="sprites/pokemon/murkrow/icon.png"></a></td>
             <td id="Name" data-sortkey="Murkrow"><a href="species/murkrow.html">Murkrow</a></td>
 
@@ -844,7 +2846,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>17</td>
             <td style="width: 32px;"><a href="species/honchkrow.html"><img class="iconsprite" src="sprites/pokemon/honchkrow/icon.png"></a></td>
             <td id="Name" data-sortkey="Honchkrow"><a href="species/honchkrow.html">Honchkrow</a></td>
 
@@ -868,7 +2870,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>47</td>
             <td style="width: 32px;"><a href="species/swablu.html"><img class="iconsprite" src="sprites/pokemon/swablu/icon.png"></a></td>
             <td id="Name" data-sortkey="Swablu"><a href="species/swablu.html">Swablu</a></td>
 
@@ -897,7 +2899,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>48</td>
             <td style="width: 32px;"><a href="species/altaria.html"><img class="iconsprite" src="sprites/pokemon/altaria/icon.png"></a></td>
             <td id="Name" data-sortkey="Altaria"><a href="species/altaria.html">Altaria</a></td>
 
@@ -926,7 +2928,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>304</td>
             <td style="width: 32px;"><a href="species/togepi.html"><img class="iconsprite" src="sprites/pokemon/togepi/icon.png"></a></td>
             <td id="Name" data-sortkey="Togepi"><a href="species/togepi.html">Togepi</a></td>
 
@@ -943,7 +2945,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>305</td>
             <td style="width: 32px;"><a href="species/togetic.html"><img class="iconsprite" src="sprites/pokemon/togetic/icon.png"></a></td>
             <td id="Name" data-sortkey="Togetic"><a href="species/togetic.html">Togetic</a></td>
 
@@ -972,7 +2974,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>306</td>
             <td style="width: 32px;"><a href="species/togekiss.html"><img class="iconsprite" src="sprites/pokemon/togekiss/icon.png"></a></td>
             <td id="Name" data-sortkey="Togekiss"><a href="species/togekiss.html">Togekiss</a></td>
 
@@ -1001,7 +3003,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>138</td>
             <td style="width: 32px;"><a href="species/torchic.html"><img class="iconsprite" src="sprites/pokemon/torchic/icon.png"></a></td>
             <td id="Name" data-sortkey="Torchic"><a href="species/torchic.html">Torchic</a></td>
 
@@ -1024,7 +3026,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>139</td>
             <td style="width: 32px;"><a href="species/combusken.html"><img class="iconsprite" src="sprites/pokemon/combusken/icon.png"></a></td>
             <td id="Name" data-sortkey="Combusken"><a href="species/combusken.html">Combusken</a></td>
 
@@ -1048,7 +3050,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>140</td>
             <td style="width: 32px;"><a href="species/blaziken.html"><img class="iconsprite" src="sprites/pokemon/blaziken/icon.png"></a></td>
             <td id="Name" data-sortkey="Blaziken"><a href="species/blaziken.html">Blaziken</a></td>
 
@@ -1072,7 +3074,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>289</td>
             <td style="width: 32px;"><a href="species/aquana.html"><img class="iconsprite" src="sprites/pokemon/aquana/icon.png"></a></td>
             <td id="Name" data-sortkey="Aquana"><a href="species/aquana.html">Aquana</a></td>
 
@@ -1096,7 +3098,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>290</td>
             <td style="width: 32px;"><a href="species/iguastol.html"><img class="iconsprite" src="sprites/pokemon/iguastol/icon.png"></a></td>
             <td id="Name" data-sortkey="Iguastol"><a href="species/iguastol.html">Iguastol</a></td>
 
@@ -1120,7 +3122,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>293</td>
             <td style="width: 32px;"><a href="species/crainbow.html"><img class="iconsprite" src="sprites/pokemon/crainbow/icon.png"></a></td>
             <td id="Name" data-sortkey="Crainbow"><a href="species/crainbow.html">Crainbow</a></td>
 
@@ -1144,7 +3146,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>366</td>
             <td style="width: 32px;"><a href="species/glimmora.html"><img class="iconsprite" src="sprites/pokemon/glimmora/icon.png"></a></td>
             <td id="Name" data-sortkey="Glimmora"><a href="species/glimmora.html">Glimmora</a></td>
 
@@ -1168,7 +3170,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>322</td>
             <td style="width: 32px;"><a href="species/glastro.html"><img class="iconsprite" src="sprites/pokemon/glastro/icon.png"></a></td>
             <td id="Name" data-sortkey="Glastro"><a href="species/glastro.html">Glastro</a></td>
 
@@ -1197,7 +3199,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>323</td>
             <td style="width: 32px;"><a href="species/glastle.html"><img class="iconsprite" src="sprites/pokemon/glastle/icon.png"></a></td>
             <td id="Name" data-sortkey="Glastle"><a href="species/glastle.html">Glastle</a></td>
 
@@ -1226,7 +3228,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>273</td>
             <td style="width: 32px;"><a href="species/monophlion.html"><img class="iconsprite" src="sprites/pokemon/monophlion/icon.png"></a></td>
             <td id="Name" data-sortkey="Monophlion"><a href="species/monophlion.html">Monophlion</a></td>
 
@@ -1254,7 +3256,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>274</td>
             <td style="width: 32px;"><a href="species/dicephlion.html"><img class="iconsprite" src="sprites/pokemon/dicephlion/icon.png"></a></td>
             <td id="Name" data-sortkey="Dicephlion"><a href="species/dicephlion.html">Dicephlion</a></td>
 
@@ -1282,7 +3284,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td>275</td>
             <td style="width: 32px;"><a href="species/ydraphlion.html"><img class="iconsprite" src="sprites/pokemon/ydraphlion/icon.png"></a></td>
             <td id="Name" data-sortkey="Ydraphlion"><a href="species/ydraphlion.html">Ydraphlion</a></td>
 
