@@ -226,27 +226,28 @@
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
 
 
             <th scope="col" onclick="sortTable()">HP</th>
-            <th scope="col" onclick="sortTable()">Atk.</th>
-            <th scope="col" onclick="sortTable()">Def.</th>
-            <th scope="col" onclick="sortTable()">Sp. Atk.</th>
-            <th scope="col" onclick="sortTable()">Sp. Def.</th>
+            <th scope="col" onclick="sortTable('Attack')">Atk.</th>
+            <th scope="col" onclick="sortTable('Defense')">Def.</th>
+            <th scope="col" onclick="sortTable('SpAttack')">Sp. Atk.</th>
+            <th scope="col" onclick="sortTable('SpDefense')">Sp. Def.</th>
             <th scope="col" onclick="sortTable()">Speed</th>
             <th scope="col" onclick="sortTable()">Total</th>
+            <th scope="col" onclick="sortTable('AbilityCapacity')">Abl. Cap.</th>
 
         </tr>
     </thead>
     <tbody class="table-group-divider">
 
         <tr>
-            <td>401</td>
+            <td id="DexNo">401</td>
             <td style="width: 32px;"><a href="species/roxxik.html"><img class="iconsprite" src="sprites/pokemon/roxxik/icon.png"></a></td>
             <td id="Name" data-sortkey="Roxxik"><a href="species/roxxik.html">Roxxik</a></td>
 
@@ -264,11 +265,12 @@
             <td id="SpDefense">45</td>
             <td id="Speed">72</td>
             <td id="Total">355</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>402</td>
+            <td id="DexNo">402</td>
             <td style="width: 32px;"><a href="species/gravelisk.html"><img class="iconsprite" src="sprites/pokemon/gravelisk/icon.png"></a></td>
             <td id="Name" data-sortkey="Gravelisk"><a href="species/gravelisk.html">Gravelisk</a></td>
 
@@ -286,11 +288,12 @@
             <td id="SpDefense">65</td>
             <td id="Speed">103</td>
             <td id="Total">515</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>411</td>
+            <td id="DexNo">411</td>
             <td style="width: 32px;"><a href="species/velokota.html"><img class="iconsprite" src="sprites/pokemon/velokota/icon.png"></a></td>
             <td id="Name" data-sortkey="Velokota"><a href="species/velokota.html">Velokota</a></td>
 
@@ -308,6 +311,7 @@
             <td id="SpDefense">68</td>
             <td id="Speed">110</td>
             <td id="Total">460</td>
+            <td id="AbilityCapacity">64</td>
 
         </tr>
 

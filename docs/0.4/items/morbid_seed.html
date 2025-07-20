@@ -124,8 +124,8 @@ Wild Pokémon
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
@@ -136,7 +136,7 @@ Wild Pokémon
     <tbody class="table-group-divider">
 
         <tr>
-            <td>276</td>
+            <td id="DexNo">276</td>
             <td style="width: 32px;"><a href="species/sneasel.html"><img class="iconsprite" src="sprites/pokemon/sneasel/icon.png"></a></td>
             <td id="Name" data-sortkey="Sneasel"><a href="species/sneasel.html">Sneasel</a></td>
 
@@ -150,7 +150,7 @@ Wild Pokémon
         </tr>
 
         <tr>
-            <td>277</td>
+            <td id="DexNo">277</td>
             <td style="width: 32px;"><a href="species/weavile.html"><img class="iconsprite" src="sprites/pokemon/weavile/icon.png"></a></td>
             <td id="Name" data-sortkey="Weavile"><a href="species/weavile.html">Weavile</a></td>
 

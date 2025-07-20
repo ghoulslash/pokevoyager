@@ -406,8 +406,8 @@ N
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
             <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
@@ -420,7 +420,7 @@ N
     <tbody class="table-group-divider">
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/solarvae.html"><img class="iconsprite" src="sprites/pokemon/solarvae/icon.png"></a></td>
             <td id="Name" data-sortkey="Solarvae"><a href="species/solarvae.html">Solarvae</a></td>
 
@@ -495,8 +495,8 @@ document.getElementById('tab_egg_list').click();
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
             <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
@@ -509,7 +509,7 @@ document.getElementById('tab_egg_list').click();
     <tbody class="table-group-divider">
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/solarvae.html"><img class="iconsprite" src="sprites/pokemon/solarvae/icon.png"></a></td>
             <td id="Name" data-sortkey="Solarvae"><a href="species/solarvae.html">Solarvae</a></td>
 
@@ -533,7 +533,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/xenofuge.html"><img class="iconsprite" src="sprites/pokemon/xenofuge/icon.png"></a></td>
             <td id="Name" data-sortkey="Xenofuge"><a href="species/xenofuge.html">Xenofuge</a></td>
 

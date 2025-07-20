@@ -408,8 +408,8 @@ N
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
             <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
@@ -422,7 +422,7 @@ N
     <tbody class="table-group-divider">
 
         <tr>
-            <td>331</td>
+            <td id="DexNo">331</td>
             <td style="width: 32px;"><a href="species/resurrenix.html"><img class="iconsprite" src="sprites/pokemon/resurrenix/icon.png"></a></td>
             <td id="Name" data-sortkey="Resurrenix"><a href="species/resurrenix.html">Resurrenix</a></td>
 
@@ -446,7 +446,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/xenofuge.html"><img class="iconsprite" src="sprites/pokemon/xenofuge/icon.png"></a></td>
             <td id="Name" data-sortkey="Xenofuge"><a href="species/xenofuge.html">Xenofuge</a></td>
 
@@ -470,7 +470,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/venoph.html"><img class="iconsprite" src="sprites/pokemon/venoph/icon.png"></a></td>
             <td id="Name" data-sortkey="Venoph"><a href="species/venoph.html">Venoph</a></td>
 

@@ -124,8 +124,8 @@ Wild Pokémon
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
@@ -136,7 +136,7 @@ Wild Pokémon
     <tbody class="table-group-divider">
 
         <tr>
-            <td>123</td>
+            <td id="DexNo">123</td>
             <td style="width: 32px;"><a href="species/beldum.html"><img class="iconsprite" src="sprites/pokemon/beldum/icon.png"></a></td>
             <td id="Name" data-sortkey="Beldum"><a href="species/beldum.html">Beldum</a></td>
 
@@ -150,7 +150,7 @@ Wild Pokémon
         </tr>
 
         <tr>
-            <td>124</td>
+            <td id="DexNo">124</td>
             <td style="width: 32px;"><a href="species/metang.html"><img class="iconsprite" src="sprites/pokemon/metang/icon.png"></a></td>
             <td id="Name" data-sortkey="Metang"><a href="species/metang.html">Metang</a></td>
 
@@ -164,7 +164,7 @@ Wild Pokémon
         </tr>
 
         <tr>
-            <td>125</td>
+            <td id="DexNo">125</td>
             <td style="width: 32px;"><a href="species/metagross.html"><img class="iconsprite" src="sprites/pokemon/metagross/icon.png"></a></td>
             <td id="Name" data-sortkey="Metagross"><a href="species/metagross.html">Metagross</a></td>
 

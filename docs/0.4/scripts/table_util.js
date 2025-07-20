@@ -24,7 +24,7 @@ function changetab(evt, divname) {
 
 function sortTable() {
     const th = event.srcElement;
-    const header_id = th.textContent;
+    const header_id = (arguments.length > 0 ? arguments[0] : th.textContent);
 
     const getCellValue = (tr, idx) => {
         const elt = tr.querySelector('#' + header_id);

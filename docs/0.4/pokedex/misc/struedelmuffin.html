@@ -226,27 +226,28 @@
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
 
 
             <th scope="col" onclick="sortTable()">HP</th>
-            <th scope="col" onclick="sortTable()">Atk.</th>
-            <th scope="col" onclick="sortTable()">Def.</th>
-            <th scope="col" onclick="sortTable()">Sp. Atk.</th>
-            <th scope="col" onclick="sortTable()">Sp. Def.</th>
+            <th scope="col" onclick="sortTable('Attack')">Atk.</th>
+            <th scope="col" onclick="sortTable('Defense')">Def.</th>
+            <th scope="col" onclick="sortTable('SpAttack')">Sp. Atk.</th>
+            <th scope="col" onclick="sortTable('SpDefense')">Sp. Def.</th>
             <th scope="col" onclick="sortTable()">Speed</th>
             <th scope="col" onclick="sortTable()">Total</th>
+            <th scope="col" onclick="sortTable('AbilityCapacity')">Abl. Cap.</th>
 
         </tr>
     </thead>
     <tbody class="table-group-divider">
 
         <tr>
-            <td>445</td>
+            <td id="DexNo">445</td>
             <td style="width: 32px;"><a href="species/photoguar.html"><img class="iconsprite" src="sprites/pokemon/photoguar/icon.png"></a></td>
             <td id="Name" data-sortkey="Photoguar"><a href="species/photoguar.html">Photoguar</a></td>
 
@@ -264,11 +265,12 @@
             <td id="SpDefense">70</td>
             <td id="Speed">115</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/ghoulslash.html"><img class="iconsprite" src="sprites/pokemon/ghoulslash/icon.png"></a></td>
             <td id="Name" data-sortkey="Ghoulslash"><a href="species/ghoulslash.html">Ghoulslash</a></td>
 
@@ -286,6 +288,7 @@
             <td id="SpDefense">85</td>
             <td id="Speed">109</td>
             <td id="Total">532</td>
+            <td id="AbilityCapacity">82</td>
 
         </tr>
 

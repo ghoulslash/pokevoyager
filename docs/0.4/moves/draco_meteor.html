@@ -408,8 +408,8 @@ N
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
             <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
@@ -422,7 +422,7 @@ N
     <tbody class="table-group-divider">
 
         <tr>
-            <td>177</td>
+            <td id="DexNo">177</td>
             <td style="width: 32px;"><a href="species/goomy.html"><img class="iconsprite" src="sprites/pokemon/goomy/icon.png"></a></td>
             <td id="Name" data-sortkey="Goomy"><a href="species/goomy.html">Goomy</a></td>
 
@@ -445,7 +445,7 @@ N
         </tr>
 
         <tr>
-            <td>178</td>
+            <td id="DexNo">178</td>
             <td style="width: 32px;"><a href="species/sliggoo.html"><img class="iconsprite" src="sprites/pokemon/sliggoo/icon.png"></a></td>
             <td id="Name" data-sortkey="Sliggoo"><a href="species/sliggoo.html">Sliggoo</a></td>
 
@@ -468,7 +468,7 @@ N
         </tr>
 
         <tr>
-            <td>179</td>
+            <td id="DexNo">179</td>
             <td style="width: 32px;"><a href="species/goodra.html"><img class="iconsprite" src="sprites/pokemon/goodra/icon.png"></a></td>
             <td id="Name" data-sortkey="Goodra"><a href="species/goodra.html">Goodra</a></td>
 
@@ -491,7 +491,7 @@ N
         </tr>
 
         <tr>
-            <td>229</td>
+            <td id="DexNo">229</td>
             <td style="width: 32px;"><a href="species/quervyne.html"><img class="iconsprite" src="sprites/pokemon/quervyne/icon.png"></a></td>
             <td id="Name" data-sortkey="Quervyne"><a href="species/quervyne.html">Quervyne</a></td>
 
@@ -520,7 +520,7 @@ N
         </tr>
 
         <tr>
-            <td>230</td>
+            <td id="DexNo">230</td>
             <td style="width: 32px;"><a href="species/sampervyne.html"><img class="iconsprite" src="sprites/pokemon/sampervyne/icon.png"></a></td>
             <td id="Name" data-sortkey="Sampervyne"><a href="species/sampervyne.html">Sampervyne</a></td>
 
@@ -549,7 +549,7 @@ N
         </tr>
 
         <tr>
-            <td>439</td>
+            <td id="DexNo">439</td>
             <td style="width: 32px;"><a href="species/gravitomix.html"><img class="iconsprite" src="sprites/pokemon/gravitomix/icon.png"></a></td>
             <td id="Name" data-sortkey="Gravitomix"><a href="species/gravitomix.html">Gravitomix</a></td>
 
@@ -578,7 +578,7 @@ N
         </tr>
 
         <tr>
-            <td>271</td>
+            <td id="DexNo">271</td>
             <td style="width: 32px;"><a href="species/totsicle.html"><img class="iconsprite" src="sprites/pokemon/totsicle/icon.png"></a></td>
             <td id="Name" data-sortkey="Totsicle"><a href="species/totsicle.html">Totsicle</a></td>
 
@@ -607,7 +607,7 @@ N
         </tr>
 
         <tr>
-            <td>272</td>
+            <td id="DexNo">272</td>
             <td style="width: 32px;"><a href="species/frostidon.html"><img class="iconsprite" src="sprites/pokemon/frostidon/icon.png"></a></td>
             <td id="Name" data-sortkey="Frostidon"><a href="species/frostidon.html">Frostidon</a></td>
 
@@ -636,7 +636,7 @@ N
         </tr>
 
         <tr>
-            <td>312</td>
+            <td id="DexNo">312</td>
             <td style="width: 32px;"><a href="species/bagon.html"><img class="iconsprite" src="sprites/pokemon/bagon/icon.png"></a></td>
             <td id="Name" data-sortkey="Bagon"><a href="species/bagon.html">Bagon</a></td>
 
@@ -659,7 +659,7 @@ N
         </tr>
 
         <tr>
-            <td>313</td>
+            <td id="DexNo">313</td>
             <td style="width: 32px;"><a href="species/shelgon.html"><img class="iconsprite" src="sprites/pokemon/shelgon/icon.png"></a></td>
             <td id="Name" data-sortkey="Shelgon"><a href="species/shelgon.html">Shelgon</a></td>
 
@@ -682,7 +682,7 @@ N
         </tr>
 
         <tr>
-            <td>314</td>
+            <td id="DexNo">314</td>
             <td style="width: 32px;"><a href="species/salamence.html"><img class="iconsprite" src="sprites/pokemon/salamence/icon.png"></a></td>
             <td id="Name" data-sortkey="Salamence"><a href="species/salamence.html">Salamence</a></td>
 
@@ -706,7 +706,7 @@ N
         </tr>
 
         <tr>
-            <td>48</td>
+            <td id="DexNo">48</td>
             <td style="width: 32px;"><a href="species/altaria.html"><img class="iconsprite" src="sprites/pokemon/altaria/icon.png"></a></td>
             <td id="Name" data-sortkey="Altaria"><a href="species/altaria.html">Altaria</a></td>
 
@@ -735,7 +735,7 @@ N
         </tr>
 
         <tr>
-            <td>356</td>
+            <td id="DexNo">356</td>
             <td style="width: 32px;"><a href="species/tyrunt.html"><img class="iconsprite" src="sprites/pokemon/tyrunt/icon.png"></a></td>
             <td id="Name" data-sortkey="Tyrunt"><a href="species/tyrunt.html">Tyrunt</a></td>
 
@@ -764,7 +764,7 @@ N
         </tr>
 
         <tr>
-            <td>357</td>
+            <td id="DexNo">357</td>
             <td style="width: 32px;"><a href="species/tyrantrum.html"><img class="iconsprite" src="sprites/pokemon/tyrantrum/icon.png"></a></td>
             <td id="Name" data-sortkey="Tyrantrum"><a href="species/tyrantrum.html">Tyrantrum</a></td>
 
@@ -793,7 +793,7 @@ N
         </tr>
 
         <tr>
-            <td>219</td>
+            <td id="DexNo">219</td>
             <td style="width: 32px;"><a href="species/gible.html"><img class="iconsprite" src="sprites/pokemon/gible/icon.png"></a></td>
             <td id="Name" data-sortkey="Gible"><a href="species/gible.html">Gible</a></td>
 
@@ -822,7 +822,7 @@ N
         </tr>
 
         <tr>
-            <td>220</td>
+            <td id="DexNo">220</td>
             <td style="width: 32px;"><a href="species/gabite.html"><img class="iconsprite" src="sprites/pokemon/gabite/icon.png"></a></td>
             <td id="Name" data-sortkey="Gabite"><a href="species/gabite.html">Gabite</a></td>
 
@@ -851,7 +851,7 @@ N
         </tr>
 
         <tr>
-            <td>221</td>
+            <td id="DexNo">221</td>
             <td style="width: 32px;"><a href="species/garchomp.html"><img class="iconsprite" src="sprites/pokemon/garchomp/icon.png"></a></td>
             <td id="Name" data-sortkey="Garchomp"><a href="species/garchomp.html">Garchomp</a></td>
 
@@ -880,7 +880,7 @@ N
         </tr>
 
         <tr>
-            <td>410</td>
+            <td id="DexNo">410</td>
             <td style="width: 32px;"><a href="species/ovarapt.html"><img class="iconsprite" src="sprites/pokemon/ovarapt/icon.png"></a></td>
             <td id="Name" data-sortkey="Ovarapt"><a href="species/ovarapt.html">Ovarapt</a></td>
 
@@ -904,7 +904,7 @@ N
         </tr>
 
         <tr>
-            <td>411</td>
+            <td id="DexNo">411</td>
             <td style="width: 32px;"><a href="species/velokota.html"><img class="iconsprite" src="sprites/pokemon/velokota/icon.png"></a></td>
             <td id="Name" data-sortkey="Velokota"><a href="species/velokota.html">Velokota</a></td>
 
@@ -928,7 +928,7 @@ N
         </tr>
 
         <tr>
-            <td>412</td>
+            <td id="DexNo">412</td>
             <td style="width: 32px;"><a href="species/utabazai.html"><img class="iconsprite" src="sprites/pokemon/utabazai/icon.png"></a></td>
             <td id="Name" data-sortkey="Utabazai"><a href="species/utabazai.html">Utabazai</a></td>
 
@@ -952,7 +952,7 @@ N
         </tr>
 
         <tr>
-            <td>38</td>
+            <td id="DexNo">38</td>
             <td style="width: 32px;"><a href="species/kingdra.html"><img class="iconsprite" src="sprites/pokemon/kingdra/icon.png"></a></td>
             <td id="Name" data-sortkey="Kingdra"><a href="species/kingdra.html">Kingdra</a></td>
 
@@ -981,7 +981,7 @@ N
         </tr>
 
         <tr>
-            <td>188</td>
+            <td id="DexNo">188</td>
             <td style="width: 32px;"><a href="species/applin.html"><img class="iconsprite" src="sprites/pokemon/applin/icon.png"></a></td>
             <td id="Name" data-sortkey="Applin"><a href="species/applin.html">Applin</a></td>
 
@@ -1010,7 +1010,7 @@ N
         </tr>
 
         <tr>
-            <td>189</td>
+            <td id="DexNo">189</td>
             <td style="width: 32px;"><a href="species/flapple.html"><img class="iconsprite" src="sprites/pokemon/flapple/icon.png"></a></td>
             <td id="Name" data-sortkey="Flapple"><a href="species/flapple.html">Flapple</a></td>
 
@@ -1039,7 +1039,7 @@ N
         </tr>
 
         <tr>
-            <td>190</td>
+            <td id="DexNo">190</td>
             <td style="width: 32px;"><a href="species/appletun.html"><img class="iconsprite" src="sprites/pokemon/appletun/icon.png"></a></td>
             <td id="Name" data-sortkey="Appletun"><a href="species/appletun.html">Appletun</a></td>
 
@@ -1068,7 +1068,7 @@ N
         </tr>
 
         <tr>
-            <td>191</td>
+            <td id="DexNo">191</td>
             <td style="width: 32px;"><a href="species/dipplin.html"><img class="iconsprite" src="sprites/pokemon/dipplin/icon.png"></a></td>
             <td id="Name" data-sortkey="Dipplin"><a href="species/dipplin.html">Dipplin</a></td>
 
@@ -1097,7 +1097,7 @@ N
         </tr>
 
         <tr>
-            <td>192</td>
+            <td id="DexNo">192</td>
             <td style="width: 32px;"><a href="species/hydrapple.html"><img class="iconsprite" src="sprites/pokemon/hydrapple/icon.png"></a></td>
             <td id="Name" data-sortkey="Hydrapple"><a href="species/hydrapple.html">Hydrapple</a></td>
 
@@ -1126,7 +1126,7 @@ N
         </tr>
 
         <tr>
-            <td>335</td>
+            <td id="DexNo">335</td>
             <td style="width: 32px;"><a href="species/vibrava.html"><img class="iconsprite" src="sprites/pokemon/vibrava/icon.png"></a></td>
             <td id="Name" data-sortkey="Vibrava"><a href="species/vibrava.html">Vibrava</a></td>
 
@@ -1155,7 +1155,7 @@ N
         </tr>
 
         <tr>
-            <td>336</td>
+            <td id="DexNo">336</td>
             <td style="width: 32px;"><a href="species/flygon.html"><img class="iconsprite" src="sprites/pokemon/flygon/icon.png"></a></td>
             <td id="Name" data-sortkey="Flygon"><a href="species/flygon.html">Flygon</a></td>
 
@@ -1184,7 +1184,7 @@ N
         </tr>
 
         <tr>
-            <td>121</td>
+            <td id="DexNo">121</td>
             <td style="width: 32px;"><a href="species/dragalge.html"><img class="iconsprite" src="sprites/pokemon/dragalge/icon.png"></a></td>
             <td id="Name" data-sortkey="Dragalge"><a href="species/dragalge.html">Dragalge</a></td>
 
@@ -1213,7 +1213,7 @@ N
         </tr>
 
         <tr>
-            <td>167</td>
+            <td id="DexNo">167</td>
             <td style="width: 32px;"><a href="species/noibat.html"><img class="iconsprite" src="sprites/pokemon/noibat/icon.png"></a></td>
             <td id="Name" data-sortkey="Noibat"><a href="species/noibat.html">Noibat</a></td>
 
@@ -1242,7 +1242,7 @@ N
         </tr>
 
         <tr>
-            <td>168</td>
+            <td id="DexNo">168</td>
             <td style="width: 32px;"><a href="species/noivern.html"><img class="iconsprite" src="sprites/pokemon/noivern/icon.png"></a></td>
             <td id="Name" data-sortkey="Noivern"><a href="species/noivern.html">Noivern</a></td>
 
@@ -1271,7 +1271,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/deino.html"><img class="iconsprite" src="sprites/pokemon/deino/icon.png"></a></td>
             <td id="Name" data-sortkey="Deino"><a href="species/deino.html">Deino</a></td>
 
@@ -1295,7 +1295,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/zweilous.html"><img class="iconsprite" src="sprites/pokemon/zweilous/icon.png"></a></td>
             <td id="Name" data-sortkey="Zweilous"><a href="species/zweilous.html">Zweilous</a></td>
 
@@ -1319,7 +1319,7 @@ N
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/hydreigon.html"><img class="iconsprite" src="sprites/pokemon/hydreigon/icon.png"></a></td>
             <td id="Name" data-sortkey="Hydreigon"><a href="species/hydreigon.html">Hydreigon</a></td>
 

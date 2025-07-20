@@ -226,27 +226,28 @@
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
 
 
             <th scope="col" onclick="sortTable()">HP</th>
-            <th scope="col" onclick="sortTable()">Atk.</th>
-            <th scope="col" onclick="sortTable()">Def.</th>
-            <th scope="col" onclick="sortTable()">Sp. Atk.</th>
-            <th scope="col" onclick="sortTable()">Sp. Def.</th>
+            <th scope="col" onclick="sortTable('Attack')">Atk.</th>
+            <th scope="col" onclick="sortTable('Defense')">Def.</th>
+            <th scope="col" onclick="sortTable('SpAttack')">Sp. Atk.</th>
+            <th scope="col" onclick="sortTable('SpDefense')">Sp. Def.</th>
             <th scope="col" onclick="sortTable()">Speed</th>
             <th scope="col" onclick="sortTable()">Total</th>
+            <th scope="col" onclick="sortTable('AbilityCapacity')">Abl. Cap.</th>
 
         </tr>
     </thead>
     <tbody class="table-group-divider">
 
         <tr>
-            <td>51</td>
+            <td id="DexNo">51</td>
             <td style="width: 32px;"><a href="species/elephloat.html"><img class="iconsprite" src="sprites/pokemon/elephloat/icon.png"></a></td>
             <td id="Name" data-sortkey="Elephloat"><a href="species/elephloat.html">Elephloat</a></td>
 
@@ -263,11 +264,12 @@
             <td id="SpDefense">50</td>
             <td id="Speed">60</td>
             <td id="Total">325</td>
+            <td id="AbilityCapacity">79</td>
 
         </tr>
 
         <tr>
-            <td>52</td>
+            <td id="DexNo">52</td>
             <td style="width: 32px;"><a href="species/mastadrone.html"><img class="iconsprite" src="sprites/pokemon/mastadrone/icon.png"></a></td>
             <td id="Name" data-sortkey="Mastadrone"><a href="species/mastadrone.html">Mastadrone</a></td>
 
@@ -284,11 +286,12 @@
             <td id="SpDefense">70</td>
             <td id="Speed">110</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">79</td>
 
         </tr>
 
         <tr>
-            <td>56</td>
+            <td id="DexNo">56</td>
             <td style="width: 32px;"><a href="species/scuiret.html"><img class="iconsprite" src="sprites/pokemon/scuiret/icon.png"></a></td>
             <td id="Name" data-sortkey="Scuiret"><a href="species/scuiret.html">Scuiret</a></td>
 
@@ -305,11 +308,12 @@
             <td id="SpDefense">38</td>
             <td id="Speed">70</td>
             <td id="Total">285</td>
+            <td id="AbilityCapacity">178</td>
 
         </tr>
 
         <tr>
-            <td>57</td>
+            <td id="DexNo">57</td>
             <td style="width: 32px;"><a href="species/pteroret.html"><img class="iconsprite" src="sprites/pokemon/pteroret/icon.png"></a></td>
             <td id="Name" data-sortkey="Pteroret"><a href="species/pteroret.html">Pteroret</a></td>
 
@@ -327,11 +331,12 @@
             <td id="SpDefense">61</td>
             <td id="Speed">36</td>
             <td id="Total">412</td>
+            <td id="AbilityCapacity">178</td>
 
         </tr>
 
         <tr>
-            <td>75</td>
+            <td id="DexNo">75</td>
             <td style="width: 32px;"><a href="species/trilopod.html"><img class="iconsprite" src="sprites/pokemon/trilopod/icon.png"></a></td>
             <td id="Name" data-sortkey="Trilopod"><a href="species/trilopod.html">Trilopod</a></td>
 
@@ -349,11 +354,12 @@
             <td id="SpDefense">80</td>
             <td id="Speed">20</td>
             <td id="Total">300</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>76</td>
+            <td id="DexNo">76</td>
             <td style="width: 32px;"><a href="species/nautilazer.html"><img class="iconsprite" src="sprites/pokemon/nautilazer/icon.png"></a></td>
             <td id="Name" data-sortkey="Nautilazer"><a href="species/nautilazer.html">Nautilazer</a></td>
 
@@ -371,11 +377,12 @@
             <td id="SpDefense">100</td>
             <td id="Speed">45</td>
             <td id="Total">525</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>134</td>
+            <td id="DexNo">134</td>
             <td style="width: 32px;"><a href="species/kroa.html"><img class="iconsprite" src="sprites/pokemon/kroa/icon.png"></a></td>
             <td id="Name" data-sortkey="Kroa"><a href="species/kroa.html">Kroa</a></td>
 
@@ -386,17 +393,18 @@
 
 
             <td id="HP">50</td>
-            <td id="Attack">52</td>
+            <td id="Attack">48</td>
             <td id="Defense">37</td>
             <td id="SpAttack">81</td>
-            <td id="SpDefense">62</td>
+            <td id="SpDefense">61</td>
             <td id="Speed">58</td>
-            <td id="Total">340</td>
+            <td id="Total">335</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>135</td>
+            <td id="DexNo">135</td>
             <td style="width: 32px;"><a href="species/kroaea.html"><img class="iconsprite" src="sprites/pokemon/kroaea/icon.png"></a></td>
             <td id="Name" data-sortkey="Kroaea"><a href="species/kroaea.html">Kroaea</a></td>
 
@@ -408,17 +416,18 @@
 
 
             <td id="HP">65</td>
-            <td id="Attack">82</td>
+            <td id="Attack">72</td>
             <td id="Defense">52</td>
             <td id="SpAttack">86</td>
             <td id="SpDefense">62</td>
             <td id="Speed">68</td>
-            <td id="Total">415</td>
+            <td id="Total">405</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>136</td>
+            <td id="DexNo">136</td>
             <td style="width: 32px;"><a href="species/kroaeakaoa.html"><img class="iconsprite" src="sprites/pokemon/kroaeakaoa/icon.png"></a></td>
             <td id="Name" data-sortkey="Kroaeakaoa"><a href="species/kroaeakaoa.html">Kroaeakaoa</a></td>
 
@@ -429,18 +438,19 @@
 
 
 
-            <td id="HP">91</td>
-            <td id="Attack">92</td>
-            <td id="Defense">72</td>
-            <td id="SpAttack">123</td>
-            <td id="SpDefense">86</td>
+            <td id="HP">90</td>
+            <td id="Attack">89</td>
+            <td id="Defense">71</td>
+            <td id="SpAttack">122</td>
+            <td id="SpDefense">82</td>
             <td id="Speed">86</td>
-            <td id="Total">550</td>
+            <td id="Total">540</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>156</td>
+            <td id="DexNo">156</td>
             <td style="width: 32px;"><a href="species/burowurm.html"><img class="iconsprite" src="sprites/pokemon/burowurm/icon.png"></a></td>
             <td id="Name" data-sortkey="Burowurm"><a href="species/burowurm.html">Burowurm</a></td>
 
@@ -457,11 +467,12 @@
             <td id="SpDefense">35</td>
             <td id="Speed">55</td>
             <td id="Total">265</td>
+            <td id="AbilityCapacity">102</td>
 
         </tr>
 
         <tr>
-            <td>157</td>
+            <td id="DexNo">157</td>
             <td style="width: 32px;"><a href="species/burosphyrn.html"><img class="iconsprite" src="sprites/pokemon/burosphyrn/icon.png"></a></td>
             <td id="Name" data-sortkey="Burosphyrn"><a href="species/burosphyrn.html">Burosphyrn</a></td>
 
@@ -478,11 +489,12 @@
             <td id="SpDefense">70</td>
             <td id="Speed">115</td>
             <td id="Total">505</td>
+            <td id="AbilityCapacity">102</td>
 
         </tr>
 
         <tr>
-            <td>158</td>
+            <td id="DexNo">158</td>
             <td style="width: 32px;"><a href="species/aerowyrm.html"><img class="iconsprite" src="sprites/pokemon/aerowyrm/icon.png"></a></td>
             <td id="Name" data-sortkey="Aerowyrm"><a href="species/aerowyrm.html">Aerowyrm</a></td>
 
@@ -500,11 +512,12 @@
             <td id="SpDefense">75</td>
             <td id="Speed">95</td>
             <td id="Total">505</td>
+            <td id="AbilityCapacity">102</td>
 
         </tr>
 
         <tr>
-            <td>161</td>
+            <td id="DexNo">161</td>
             <td style="width: 32px;"><a href="species/arakid.html"><img class="iconsprite" src="sprites/pokemon/arakid/icon.png"></a></td>
             <td id="Name" data-sortkey="Arakid"><a href="species/arakid.html">Arakid</a></td>
 
@@ -522,11 +535,12 @@
             <td id="SpDefense">34</td>
             <td id="Speed">21</td>
             <td id="Total">270</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>162</td>
+            <td id="DexNo">162</td>
             <td style="width: 32px;"><a href="species/rakidone.html"><img class="iconsprite" src="sprites/pokemon/rakidone/icon.png"></a></td>
             <td id="Name" data-sortkey="Rakidone"><a href="species/rakidone.html">Rakidone</a></td>
 
@@ -544,11 +558,12 @@
             <td id="SpDefense">91</td>
             <td id="Speed">31</td>
             <td id="Total">450</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>237</td>
+            <td id="DexNo">237</td>
             <td style="width: 32px;"><a href="species/spudnik.html"><img class="iconsprite" src="sprites/pokemon/spudnik/icon.png"></a></td>
             <td id="Name" data-sortkey="Spudnik"><a href="species/spudnik.html">Spudnik</a></td>
 
@@ -566,11 +581,12 @@
             <td id="SpDefense">60</td>
             <td id="Speed">45</td>
             <td id="Total">330</td>
+            <td id="AbilityCapacity">79</td>
 
         </tr>
 
         <tr>
-            <td>238</td>
+            <td id="DexNo">238</td>
             <td style="width: 32px;"><a href="species/jerusaleye.html"><img class="iconsprite" src="sprites/pokemon/jerusaleye/icon.png"></a></td>
             <td id="Name" data-sortkey="Jerusaleye"><a href="species/jerusaleye.html">Jerusaleye</a></td>
 
@@ -588,11 +604,12 @@
             <td id="SpDefense">100</td>
             <td id="Speed">60</td>
             <td id="Total">505</td>
+            <td id="AbilityCapacity">79</td>
 
         </tr>
 
         <tr>
-            <td>250</td>
+            <td id="DexNo">250</td>
             <td style="width: 32px;"><a href="species/rangife.html"><img class="iconsprite" src="sprites/pokemon/rangife/icon.png"></a></td>
             <td id="Name" data-sortkey="Rangife"><a href="species/rangife.html">Rangife</a></td>
 
@@ -609,11 +626,12 @@
             <td id="SpDefense">42</td>
             <td id="Speed">30</td>
             <td id="Total">315</td>
+            <td id="AbilityCapacity">63</td>
 
         </tr>
 
         <tr>
-            <td>251</td>
+            <td id="DexNo">251</td>
             <td style="width: 32px;"><a href="species/taranalloy.html"><img class="iconsprite" src="sprites/pokemon/taranalloy/icon.png"></a></td>
             <td id="Name" data-sortkey="Taranalloy"><a href="species/taranalloy.html">Taranalloy</a></td>
 
@@ -630,11 +648,12 @@
             <td id="SpDefense">62</td>
             <td id="Speed">35</td>
             <td id="Total">435</td>
+            <td id="AbilityCapacity">63</td>
 
         </tr>
 
         <tr>
-            <td>252</td>
+            <td id="DexNo">252</td>
             <td style="width: 32px;"><a href="species/alcesteel.html"><img class="iconsprite" src="sprites/pokemon/alcesteel/icon.png"></a></td>
             <td id="Name" data-sortkey="Alcesteel"><a href="species/alcesteel.html">Alcesteel</a></td>
 
@@ -652,11 +671,12 @@
             <td id="SpDefense">91</td>
             <td id="Speed">44</td>
             <td id="Total">600</td>
+            <td id="AbilityCapacity">63</td>
 
         </tr>
 
         <tr>
-            <td>259</td>
+            <td id="DexNo">259</td>
             <td style="width: 32px;"><a href="species/mouseed.html"><img class="iconsprite" src="sprites/pokemon/mouseed/icon.png"></a></td>
             <td id="Name" data-sortkey="Mouseed"><a href="species/mouseed.html">Mouseed</a></td>
 
@@ -674,11 +694,12 @@
             <td id="SpDefense">45</td>
             <td id="Speed">35</td>
             <td id="Total">295</td>
+            <td id="AbilityCapacity">64</td>
 
         </tr>
 
         <tr>
-            <td>260</td>
+            <td id="DexNo">260</td>
             <td style="width: 32px;"><a href="species/pawllen.html"><img class="iconsprite" src="sprites/pokemon/pawllen/icon.png"></a></td>
             <td id="Name" data-sortkey="Pawllen"><a href="species/pawllen.html">Pawllen</a></td>
 
@@ -696,11 +717,12 @@
             <td id="SpDefense">60</td>
             <td id="Speed">55</td>
             <td id="Total">420</td>
+            <td id="AbilityCapacity">64</td>
 
         </tr>
 
         <tr>
-            <td>261</td>
+            <td id="DexNo">261</td>
             <td style="width: 32px;"><a href="species/grandelion.html"><img class="iconsprite" src="sprites/pokemon/grandelion/icon.png"></a></td>
             <td id="Name" data-sortkey="Grandelion"><a href="species/grandelion.html">Grandelion</a></td>
 
@@ -718,11 +740,12 @@
             <td id="SpDefense">75</td>
             <td id="Speed">70</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">64</td>
 
         </tr>
 
         <tr>
-            <td>271</td>
+            <td id="DexNo">271</td>
             <td style="width: 32px;"><a href="species/totsicle.html"><img class="iconsprite" src="sprites/pokemon/totsicle/icon.png"></a></td>
             <td id="Name" data-sortkey="Totsicle"><a href="species/totsicle.html">Totsicle</a></td>
 
@@ -740,11 +763,12 @@
             <td id="SpDefense">61</td>
             <td id="Speed">42</td>
             <td id="Total">330</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>272</td>
+            <td id="DexNo">272</td>
             <td style="width: 32px;"><a href="species/frostidon.html"><img class="iconsprite" src="sprites/pokemon/frostidon/icon.png"></a></td>
             <td id="Name" data-sortkey="Frostidon"><a href="species/frostidon.html">Frostidon</a></td>
 
@@ -762,11 +786,12 @@
             <td id="SpDefense">100</td>
             <td id="Speed">72</td>
             <td id="Total">530</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>279</td>
+            <td id="DexNo">279</td>
             <td style="width: 32px;"><a href="species/wailowisp.html"><img class="iconsprite" src="sprites/pokemon/wailowisp/icon.png"></a></td>
             <td id="Name" data-sortkey="Wailowisp"><a href="species/wailowisp.html">Wailowisp</a></td>
 
@@ -783,11 +808,12 @@
             <td id="SpDefense">63</td>
             <td id="Speed">75</td>
             <td id="Total">360</td>
+            <td id="AbilityCapacity">57</td>
 
         </tr>
 
         <tr>
-            <td>280</td>
+            <td id="DexNo">280</td>
             <td style="width: 32px;"><a href="species/glacriek.html"><img class="iconsprite" src="sprites/pokemon/glacriek/icon.png"></a></td>
             <td id="Name" data-sortkey="Glacriek"><a href="species/glacriek.html">Glacriek</a></td>
 
@@ -805,11 +831,12 @@
             <td id="SpDefense">94</td>
             <td id="Speed">108</td>
             <td id="Total">535</td>
+            <td id="AbilityCapacity">57</td>
 
         </tr>
 
         <tr>
-            <td>289</td>
+            <td id="DexNo">289</td>
             <td style="width: 32px;"><a href="species/aquana.html"><img class="iconsprite" src="sprites/pokemon/aquana/icon.png"></a></td>
             <td id="Name" data-sortkey="Aquana"><a href="species/aquana.html">Aquana</a></td>
 
@@ -827,11 +854,12 @@
             <td id="SpDefense">67</td>
             <td id="Speed">60</td>
             <td id="Total">325</td>
+            <td id="AbilityCapacity">80</td>
 
         </tr>
 
         <tr>
-            <td>290</td>
+            <td id="DexNo">290</td>
             <td style="width: 32px;"><a href="species/iguastol.html"><img class="iconsprite" src="sprites/pokemon/iguastol/icon.png"></a></td>
             <td id="Name" data-sortkey="Iguastol"><a href="species/iguastol.html">Iguastol</a></td>
 
@@ -849,11 +877,12 @@
             <td id="SpDefense">120</td>
             <td id="Speed">85</td>
             <td id="Total">525</td>
+            <td id="AbilityCapacity">80</td>
 
         </tr>
 
         <tr>
-            <td>322</td>
+            <td id="DexNo">322</td>
             <td style="width: 32px;"><a href="species/glastro.html"><img class="iconsprite" src="sprites/pokemon/glastro/icon.png"></a></td>
             <td id="Name" data-sortkey="Glastro"><a href="species/glastro.html">Glastro</a></td>
 
@@ -871,11 +900,12 @@
             <td id="SpDefense">45</td>
             <td id="Speed">40</td>
             <td id="Total">310</td>
+            <td id="AbilityCapacity">92</td>
 
         </tr>
 
         <tr>
-            <td>323</td>
+            <td id="DexNo">323</td>
             <td style="width: 32px;"><a href="species/glastle.html"><img class="iconsprite" src="sprites/pokemon/glastle/icon.png"></a></td>
             <td id="Name" data-sortkey="Glastle"><a href="species/glastle.html">Glastle</a></td>
 
@@ -893,11 +923,12 @@
             <td id="SpDefense">80</td>
             <td id="Speed">50</td>
             <td id="Total">495</td>
+            <td id="AbilityCapacity">92</td>
 
         </tr>
 
         <tr>
-            <td>330</td>
+            <td id="DexNo">330</td>
             <td style="width: 32px;"><a href="species/phenyxy.html"><img class="iconsprite" src="sprites/pokemon/phenyxy/icon.png"></a></td>
             <td id="Name" data-sortkey="Phenyxy"><a href="species/phenyxy.html">Phenyxy</a></td>
 
@@ -915,11 +946,12 @@
             <td id="SpDefense">75</td>
             <td id="Speed">65</td>
             <td id="Total">365</td>
+            <td id="AbilityCapacity">79</td>
 
         </tr>
 
         <tr>
-            <td>331</td>
+            <td id="DexNo">331</td>
             <td style="width: 32px;"><a href="species/resurrenix.html"><img class="iconsprite" src="sprites/pokemon/resurrenix/icon.png"></a></td>
             <td id="Name" data-sortkey="Resurrenix"><a href="species/resurrenix.html">Resurrenix</a></td>
 
@@ -937,11 +969,12 @@
             <td id="SpDefense">119</td>
             <td id="Speed">91</td>
             <td id="Total">546</td>
+            <td id="AbilityCapacity">79</td>
 
         </tr>
 
         <tr>
-            <td>346</td>
+            <td id="DexNo">346</td>
             <td style="width: 32px;"><a href="species/raiad.html"><img class="iconsprite" src="sprites/pokemon/raiad/icon.png"></a></td>
             <td id="Name" data-sortkey="Raiad"><a href="species/raiad.html">Raiad</a></td>
 
@@ -958,11 +991,12 @@
             <td id="SpDefense">65</td>
             <td id="Speed">51</td>
             <td id="Total">310</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>347</td>
+            <td id="DexNo">347</td>
             <td style="width: 32px;"><a href="species/rusalka.html"><img class="iconsprite" src="sprites/pokemon/rusalka/icon.png"></a></td>
             <td id="Name" data-sortkey="Rusalka"><a href="species/rusalka.html">Rusalka</a></td>
 
@@ -979,11 +1013,12 @@
             <td id="SpDefense">80</td>
             <td id="Speed">64</td>
             <td id="Total">430</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>348</td>
+            <td id="DexNo">348</td>
             <td style="width: 32px;"><a href="species/fallsheer.html"><img class="iconsprite" src="sprites/pokemon/fallsheer/icon.png"></a></td>
             <td id="Name" data-sortkey="Fallsheer"><a href="species/fallsheer.html">Fallsheer</a></td>
 
@@ -1001,11 +1036,12 @@
             <td id="SpDefense">110</td>
             <td id="Speed">65</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">78</td>
 
         </tr>
 
         <tr>
-            <td>363</td>
+            <td id="DexNo">363</td>
             <td style="width: 32px;"><a href="species/gomm.html"><img class="iconsprite" src="sprites/pokemon/gomm/icon.png"></a></td>
             <td id="Name" data-sortkey="Gomm"><a href="species/gomm.html">Gomm</a></td>
 
@@ -1023,11 +1059,12 @@
             <td id="SpDefense">67</td>
             <td id="Speed">41</td>
             <td id="Total">323</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>364</td>
+            <td id="DexNo">364</td>
             <td style="width: 32px;"><a href="species/mountegrom.html"><img class="iconsprite" src="sprites/pokemon/mountegrom/icon.png"></a></td>
             <td id="Name" data-sortkey="Mountegrom"><a href="species/mountegrom.html">Mountegrom</a></td>
 
@@ -1045,11 +1082,12 @@
             <td id="SpDefense">107</td>
             <td id="Speed">65</td>
             <td id="Total">516</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>375</td>
+            <td id="DexNo">375</td>
             <td style="width: 32px;"><a href="species/snomel.html"><img class="iconsprite" src="sprites/pokemon/snomel/icon.png"></a></td>
             <td id="Name" data-sortkey="Snomel"><a href="species/snomel.html">Snomel</a></td>
 
@@ -1066,11 +1104,12 @@
             <td id="SpDefense">50</td>
             <td id="Speed">35</td>
             <td id="Total">305</td>
+            <td id="AbilityCapacity">102</td>
 
         </tr>
 
         <tr>
-            <td>377</td>
+            <td id="DexNo">377</td>
             <td style="width: 32px;"><a href="species/axeldown.html"><img class="iconsprite" src="sprites/pokemon/axeldown/icon.png"></a></td>
             <td id="Name" data-sortkey="Axeldown"><a href="species/axeldown.html">Axeldown</a></td>
 
@@ -1088,11 +1127,12 @@
             <td id="SpDefense">90</td>
             <td id="Speed">65</td>
             <td id="Total">520</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>384</td>
+            <td id="DexNo">384</td>
             <td style="width: 32px;"><a href="species/totemna.html"><img class="iconsprite" src="sprites/pokemon/totemna/icon.png"></a></td>
             <td id="Name" data-sortkey="Totemna"><a href="species/totemna.html">Totemna</a></td>
 
@@ -1110,11 +1150,12 @@
             <td id="SpDefense">67</td>
             <td id="Speed">33</td>
             <td id="Total">325</td>
+            <td id="AbilityCapacity">80</td>
 
         </tr>
 
         <tr>
-            <td>385</td>
+            <td id="DexNo">385</td>
             <td style="width: 32px;"><a href="species/pskulpt.html"><img class="iconsprite" src="sprites/pokemon/pskulpt/icon.png"></a></td>
             <td id="Name" data-sortkey="Pskulpt"><a href="species/pskulpt.html">Pskulpt</a></td>
 
@@ -1132,11 +1173,12 @@
             <td id="SpDefense">98</td>
             <td id="Speed">38</td>
             <td id="Total">440</td>
+            <td id="AbilityCapacity">80</td>
 
         </tr>
 
         <tr>
-            <td>386</td>
+            <td id="DexNo">386</td>
             <td style="width: 32px;"><a href="species/espatch.html"><img class="iconsprite" src="sprites/pokemon/espatch/icon.png"></a></td>
             <td id="Name" data-sortkey="Espatch"><a href="species/espatch.html">Espatch</a></td>
 
@@ -1154,11 +1196,12 @@
             <td id="SpDefense">118</td>
             <td id="Speed">42</td>
             <td id="Total">525</td>
+            <td id="AbilityCapacity">80</td>
 
         </tr>
 
         <tr>
-            <td>387</td>
+            <td id="DexNo">387</td>
             <td style="width: 32px;"><a href="species/omnibyte.html"><img class="iconsprite" src="sprites/pokemon/omnibyte/icon.png"></a></td>
             <td id="Name" data-sortkey="Omnibyte"><a href="species/omnibyte.html">Omnibyte</a></td>
 
@@ -1176,11 +1219,12 @@
             <td id="SpDefense">55</td>
             <td id="Speed">35</td>
             <td id="Total">355</td>
+            <td id="AbilityCapacity">108</td>
 
         </tr>
 
         <tr>
-            <td>388</td>
+            <td id="DexNo">388</td>
             <td style="width: 32px;"><a href="species/omniczar.html"><img class="iconsprite" src="sprites/pokemon/omniczar/icon.png"></a></td>
             <td id="Name" data-sortkey="Omniczar"><a href="species/omniczar.html">Omniczar</a></td>
 
@@ -1198,11 +1242,12 @@
             <td id="SpDefense">70</td>
             <td id="Speed">40</td>
             <td id="Total">495</td>
+            <td id="AbilityCapacity">108</td>
 
         </tr>
 
         <tr>
-            <td>392</td>
+            <td id="DexNo">392</td>
             <td style="width: 32px;"><a href="species/archigloom.html"><img class="iconsprite" src="sprites/pokemon/archigloom/icon.png"></a></td>
             <td id="Name" data-sortkey="Archigloom"><a href="species/archigloom.html">Archigloom</a></td>
 
@@ -1220,11 +1265,12 @@
             <td id="SpDefense">90</td>
             <td id="Speed">78</td>
             <td id="Total">535</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>402</td>
+            <td id="DexNo">402</td>
             <td style="width: 32px;"><a href="species/gravelisk.html"><img class="iconsprite" src="sprites/pokemon/gravelisk/icon.png"></a></td>
             <td id="Name" data-sortkey="Gravelisk"><a href="species/gravelisk.html">Gravelisk</a></td>
 
@@ -1242,11 +1288,12 @@
             <td id="SpDefense">65</td>
             <td id="Speed">103</td>
             <td id="Total">515</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>404</td>
+            <td id="DexNo">404</td>
             <td style="width: 32px;"><a href="species/aerophagus.html"><img class="iconsprite" src="sprites/pokemon/aerophagus/icon.png"></a></td>
             <td id="Name" data-sortkey="Aerophagus"><a href="species/aerophagus.html">Aerophagus</a></td>
 
@@ -1264,11 +1311,12 @@
             <td id="SpDefense">62</td>
             <td id="Speed">41</td>
             <td id="Total">515</td>
+            <td id="AbilityCapacity">102</td>
 
         </tr>
 
         <tr>
-            <td>410</td>
+            <td id="DexNo">410</td>
             <td style="width: 32px;"><a href="species/ovarapt.html"><img class="iconsprite" src="sprites/pokemon/ovarapt/icon.png"></a></td>
             <td id="Name" data-sortkey="Ovarapt"><a href="species/ovarapt.html">Ovarapt</a></td>
 
@@ -1286,11 +1334,12 @@
             <td id="SpDefense">108</td>
             <td id="Speed">22</td>
             <td id="Total">390</td>
+            <td id="AbilityCapacity">64</td>
 
         </tr>
 
         <tr>
-            <td>411</td>
+            <td id="DexNo">411</td>
             <td style="width: 32px;"><a href="species/velokota.html"><img class="iconsprite" src="sprites/pokemon/velokota/icon.png"></a></td>
             <td id="Name" data-sortkey="Velokota"><a href="species/velokota.html">Velokota</a></td>
 
@@ -1308,11 +1357,12 @@
             <td id="SpDefense">68</td>
             <td id="Speed">110</td>
             <td id="Total">460</td>
+            <td id="AbilityCapacity">64</td>
 
         </tr>
 
         <tr>
-            <td>412</td>
+            <td id="DexNo">412</td>
             <td style="width: 32px;"><a href="species/utabazai.html"><img class="iconsprite" src="sprites/pokemon/utabazai/icon.png"></a></td>
             <td id="Name" data-sortkey="Utabazai"><a href="species/utabazai.html">Utabazai</a></td>
 
@@ -1330,11 +1380,12 @@
             <td id="SpDefense">108</td>
             <td id="Speed">76</td>
             <td id="Total">600</td>
+            <td id="AbilityCapacity">64</td>
 
         </tr>
 
         <tr>
-            <td>417</td>
+            <td id="DexNo">417</td>
             <td style="width: 32px;"><a href="species/gropp.html"><img class="iconsprite" src="sprites/pokemon/gropp/icon.png"></a></td>
             <td id="Name" data-sortkey="Gropp"><a href="species/gropp.html">Gropp</a></td>
 
@@ -1351,11 +1402,12 @@
             <td id="SpDefense">49</td>
             <td id="Speed">20</td>
             <td id="Total">350</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>418</td>
+            <td id="DexNo">418</td>
             <td style="width: 32px;"><a href="species/cyclobber.html"><img class="iconsprite" src="sprites/pokemon/cyclobber/icon.png"></a></td>
             <td id="Name" data-sortkey="Cyclobber"><a href="species/cyclobber.html">Cyclobber</a></td>
 
@@ -1373,11 +1425,12 @@
             <td id="SpDefense">92</td>
             <td id="Speed">30</td>
             <td id="Total">535</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>430</td>
+            <td id="DexNo">430</td>
             <td style="width: 32px;"><a href="species/shleepy.html"><img class="iconsprite" src="sprites/pokemon/shleepy/icon.png"></a></td>
             <td id="Name" data-sortkey="Shleepy"><a href="species/shleepy.html">Shleepy</a></td>
 
@@ -1394,11 +1447,12 @@
             <td id="SpDefense">54</td>
             <td id="Speed">43</td>
             <td id="Total">310</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>431</td>
+            <td id="DexNo">431</td>
             <td style="width: 32px;"><a href="species/privinee.html"><img class="iconsprite" src="sprites/pokemon/privinee/icon.png"></a></td>
             <td id="Name" data-sortkey="Privinee"><a href="species/privinee.html">Privinee</a></td>
 
@@ -1415,11 +1469,12 @@
             <td id="SpDefense">77</td>
             <td id="Speed">55</td>
             <td id="Total">430</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>432</td>
+            <td id="DexNo">432</td>
             <td style="width: 32px;"><a href="species/flairdries.html"><img class="iconsprite" src="sprites/pokemon/flairdries/icon.png"></a></td>
             <td id="Name" data-sortkey="Flairdries"><a href="species/flairdries.html">Flairdries</a></td>
 
@@ -1437,11 +1492,12 @@
             <td id="SpDefense">103</td>
             <td id="Speed">70</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>436</td>
+            <td id="DexNo">436</td>
             <td style="width: 32px;"><a href="species/chinsumuri.html"><img class="iconsprite" src="sprites/pokemon/chinsumuri/icon.png"></a></td>
             <td id="Name" data-sortkey="Chinsumuri"><a href="species/chinsumuri.html">Chinsumuri</a></td>
 
@@ -1459,11 +1515,12 @@
             <td id="SpDefense">56</td>
             <td id="Speed">38</td>
             <td id="Total">330</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>437</td>
+            <td id="DexNo">437</td>
             <td style="width: 32px;"><a href="species/lansumuri.html"><img class="iconsprite" src="sprites/pokemon/lansumuri/icon.png"></a></td>
             <td id="Name" data-sortkey="Lansumuri"><a href="species/lansumuri.html">Lansumuri</a></td>
 
@@ -1481,11 +1538,12 @@
             <td id="SpDefense">76</td>
             <td id="Speed">58</td>
             <td id="Total">460</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>438</td>
+            <td id="DexNo">438</td>
             <td style="width: 32px;"><a href="species/fizzix.html"><img class="iconsprite" src="sprites/pokemon/fizzix/icon.png"></a></td>
             <td id="Name" data-sortkey="Fizzix"><a href="species/fizzix.html">Fizzix</a></td>
 
@@ -1503,11 +1561,12 @@
             <td id="SpDefense">100</td>
             <td id="Speed">50</td>
             <td id="Total">325</td>
+            <td id="AbilityCapacity">132</td>
 
         </tr>
 
         <tr>
-            <td>439</td>
+            <td id="DexNo">439</td>
             <td style="width: 32px;"><a href="species/gravitomix.html"><img class="iconsprite" src="sprites/pokemon/gravitomix/icon.png"></a></td>
             <td id="Name" data-sortkey="Gravitomix"><a href="species/gravitomix.html">Gravitomix</a></td>
 
@@ -1525,11 +1584,12 @@
             <td id="SpDefense">210</td>
             <td id="Speed">81</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">132</td>
 
         </tr>
 
         <tr>
-            <td>443</td>
+            <td id="DexNo">443</td>
             <td style="width: 32px;"><a href="species/kipvine.html"><img class="iconsprite" src="sprites/pokemon/kipvine/icon.png"></a></td>
             <td id="Name" data-sortkey="Kipvine"><a href="species/kipvine.html">Kipvine</a></td>
 
@@ -1546,11 +1606,12 @@
             <td id="SpDefense">52</td>
             <td id="Speed">65</td>
             <td id="Total">310</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>444</td>
+            <td id="DexNo">444</td>
             <td style="width: 32px;"><a href="species/plaguar.html"><img class="iconsprite" src="sprites/pokemon/plaguar/icon.png"></a></td>
             <td id="Name" data-sortkey="Plaguar"><a href="species/plaguar.html">Plaguar</a></td>
 
@@ -1567,11 +1628,12 @@
             <td id="SpDefense">65</td>
             <td id="Speed">92</td>
             <td id="Total">430</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>445</td>
+            <td id="DexNo">445</td>
             <td style="width: 32px;"><a href="species/photoguar.html"><img class="iconsprite" src="sprites/pokemon/photoguar/icon.png"></a></td>
             <td id="Name" data-sortkey="Photoguar"><a href="species/photoguar.html">Photoguar</a></td>
 
@@ -1589,11 +1651,12 @@
             <td id="SpDefense">70</td>
             <td id="Speed">115</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">77</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/silhou.html"><img class="iconsprite" src="sprites/pokemon/silhou/icon.png"></a></td>
             <td id="Name" data-sortkey="Silhou"><a href="species/silhou.html">Silhou</a></td>
 
@@ -1611,11 +1674,12 @@
             <td id="SpDefense">75</td>
             <td id="Speed">155</td>
             <td id="Total">390</td>
+            <td id="AbilityCapacity">110</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/silgaunt.html"><img class="iconsprite" src="sprites/pokemon/silgaunt/icon.png"></a></td>
             <td id="Name" data-sortkey="Silgaunt"><a href="species/silgaunt.html">Silgaunt</a></td>
 
@@ -1633,11 +1697,12 @@
             <td id="SpDefense">115</td>
             <td id="Speed">130</td>
             <td id="Total">535</td>
+            <td id="AbilityCapacity">110</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/vaileye.html"><img class="iconsprite" src="sprites/pokemon/vaileye/icon.png"></a></td>
             <td id="Name" data-sortkey="Vaileye"><a href="species/vaileye.html">Vaileye</a></td>
 
@@ -1654,11 +1719,12 @@
             <td id="SpDefense">60</td>
             <td id="Speed">90</td>
             <td id="Total">375</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/bloodnaut.html"><img class="iconsprite" src="sprites/pokemon/bloodnaut/icon.png"></a></td>
             <td id="Name" data-sortkey="Bloodnaut"><a href="species/bloodnaut.html">Bloodnaut</a></td>
 
@@ -1676,11 +1742,12 @@
             <td id="SpDefense">90</td>
             <td id="Speed">90</td>
             <td id="Total">535</td>
+            <td id="AbilityCapacity">84</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/anphage.html"><img class="iconsprite" src="sprites/pokemon/anphage/icon.png"></a></td>
             <td id="Name" data-sortkey="Anphage"><a href="species/anphage.html">Anphage</a></td>
 
@@ -1698,11 +1765,12 @@
             <td id="SpDefense">52</td>
             <td id="Speed">55</td>
             <td id="Total">306</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/tusgoyf.html"><img class="iconsprite" src="sprites/pokemon/tusgoyf/icon.png"></a></td>
             <td id="Name" data-sortkey="Tusgoyf"><a href="species/tusgoyf.html">Tusgoyf</a></td>
 
@@ -1720,11 +1788,12 @@
             <td id="SpDefense">68</td>
             <td id="Speed">55</td>
             <td id="Total">407</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/llurscayf.html"><img class="iconsprite" src="sprites/pokemon/llurscayf/icon.png"></a></td>
             <td id="Name" data-sortkey="Llurscayf"><a href="species/llurscayf.html">Llurscayf</a></td>
 
@@ -1742,11 +1811,12 @@
             <td id="SpDefense">85</td>
             <td id="Speed">120</td>
             <td id="Total">560</td>
+            <td id="AbilityCapacity">68</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/cranisect.html"><img class="iconsprite" src="sprites/pokemon/cranisect/icon.png"></a></td>
             <td id="Name" data-sortkey="Cranisect"><a href="species/cranisect.html">Cranisect</a></td>
 
@@ -1764,11 +1834,12 @@
             <td id="SpDefense">42</td>
             <td id="Speed">44</td>
             <td id="Total">295</td>
+            <td id="AbilityCapacity">104</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/skultulant.html"><img class="iconsprite" src="sprites/pokemon/skultulant/icon.png"></a></td>
             <td id="Name" data-sortkey="Skultulant"><a href="species/skultulant.html">Skultulant</a></td>
 
@@ -1786,11 +1857,12 @@
             <td id="SpDefense">85</td>
             <td id="Speed">42</td>
             <td id="Total">515</td>
+            <td id="AbilityCapacity">104</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/chrysal.html"><img class="iconsprite" src="sprites/pokemon/chrysal/icon.png"></a></td>
             <td id="Name" data-sortkey="Chrysal"><a href="species/chrysal.html">Chrysal</a></td>
 
@@ -1808,11 +1880,12 @@
             <td id="SpDefense">68</td>
             <td id="Speed">33</td>
             <td id="Total">310</td>
+            <td id="AbilityCapacity">76</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/vellavale.html"><img class="iconsprite" src="sprites/pokemon/vellavale/icon.png"></a></td>
             <td id="Name" data-sortkey="Vellavale"><a href="species/vellavale.html">Vellavale</a></td>
 
@@ -1830,11 +1903,12 @@
             <td id="SpDefense">69</td>
             <td id="Speed">66</td>
             <td id="Total">390</td>
+            <td id="AbilityCapacity">76</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/vellidaxos.html"><img class="iconsprite" src="sprites/pokemon/vellidaxos/icon.png"></a></td>
             <td id="Name" data-sortkey="Vellidaxos"><a href="species/vellidaxos.html">Vellidaxos</a></td>
 
@@ -1852,11 +1926,12 @@
             <td id="SpDefense">108</td>
             <td id="Speed">77</td>
             <td id="Total">540</td>
+            <td id="AbilityCapacity">76</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/solarvae.html"><img class="iconsprite" src="sprites/pokemon/solarvae/icon.png"></a></td>
             <td id="Name" data-sortkey="Solarvae"><a href="species/solarvae.html">Solarvae</a></td>
 
@@ -1874,11 +1949,12 @@
             <td id="SpDefense">80</td>
             <td id="Speed">30</td>
             <td id="Total">365</td>
+            <td id="AbilityCapacity">83</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/xenofuge.html"><img class="iconsprite" src="sprites/pokemon/xenofuge/icon.png"></a></td>
             <td id="Name" data-sortkey="Xenofuge"><a href="species/xenofuge.html">Xenofuge</a></td>
 
@@ -1896,11 +1972,12 @@
             <td id="SpDefense">105</td>
             <td id="Speed">60</td>
             <td id="Total">530</td>
+            <td id="AbilityCapacity">83</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/ghoulslash.html"><img class="iconsprite" src="sprites/pokemon/ghoulslash/icon.png"></a></td>
             <td id="Name" data-sortkey="Ghoulslash"><a href="species/ghoulslash.html">Ghoulslash</a></td>
 
@@ -1918,11 +1995,12 @@
             <td id="SpDefense">85</td>
             <td id="Speed">109</td>
             <td id="Total">532</td>
+            <td id="AbilityCapacity">82</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/hermescura.html"><img class="iconsprite" src="sprites/pokemon/hermescura/icon.png"></a></td>
             <td id="Name" data-sortkey="Hermescura"><a href="species/hermescura.html">Hermescura</a></td>
 
@@ -1940,11 +2018,12 @@
             <td id="SpDefense">90</td>
             <td id="Speed">150</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/venoph.html"><img class="iconsprite" src="sprites/pokemon/venoph/icon.png"></a></td>
             <td id="Name" data-sortkey="Venoph"><a href="species/venoph.html">Venoph</a></td>
 
@@ -1962,11 +2041,12 @@
             <td id="SpDefense">95</td>
             <td id="Speed">115</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/gaiac.html"><img class="iconsprite" src="sprites/pokemon/gaiac/icon.png"></a></td>
             <td id="Name" data-sortkey="Gaiac"><a href="species/gaiac.html">Gaiac</a></td>
 
@@ -1984,11 +2064,12 @@
             <td id="SpDefense">95</td>
             <td id="Speed">140</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/maer.html"><img class="iconsprite" src="sprites/pokemon/maer/icon.png"></a></td>
             <td id="Name" data-sortkey="Maer"><a href="species/maer.html">Maer</a></td>
 
@@ -2006,11 +2087,12 @@
             <td id="SpDefense">120</td>
             <td id="Speed">70</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/zepitras.html"><img class="iconsprite" src="sprites/pokemon/zepitras/icon.png"></a></td>
             <td id="Name" data-sortkey="Zepitras"><a href="species/zepitras.html">Zepitras</a></td>
 
@@ -2028,11 +2110,12 @@
             <td id="SpDefense">90</td>
             <td id="Speed">65</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/catarnos.html"><img class="iconsprite" src="sprites/pokemon/catarnos/icon.png"></a></td>
             <td id="Name" data-sortkey="Catarnos"><a href="species/catarnos.html">Catarnos</a></td>
 
@@ -2050,11 +2133,12 @@
             <td id="SpDefense">100</td>
             <td id="Speed">45</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/nepteis.html"><img class="iconsprite" src="sprites/pokemon/nepteis/icon.png"></a></td>
             <td id="Name" data-sortkey="Nepteis"><a href="species/nepteis.html">Nepteis</a></td>
 
@@ -2072,11 +2156,12 @@
             <td id="SpDefense">140</td>
             <td id="Speed">95</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/uristage.html"><img class="iconsprite" src="sprites/pokemon/uristage/icon.png"></a></td>
             <td id="Name" data-sortkey="Uristage"><a href="species/uristage.html">Uristage</a></td>
 
@@ -2094,11 +2179,12 @@
             <td id="SpDefense">105</td>
             <td id="Speed">85</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/phthides.html"><img class="iconsprite" src="sprites/pokemon/phthides/icon.png"></a></td>
             <td id="Name" data-sortkey="Phthides"><a href="species/phthides.html">Phthides</a></td>
 
@@ -2116,11 +2202,12 @@
             <td id="SpDefense">80</td>
             <td id="Speed">120</td>
             <td id="Total">650</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/korneforos.html"><img class="iconsprite" src="sprites/pokemon/korneforos/icon.png"></a></td>
             <td id="Name" data-sortkey="Korneforos"><a href="species/korneforos.html">Korneforos</a></td>
 
@@ -2138,6 +2225,7 @@
             <td id="SpDefense">155</td>
             <td id="Speed">110</td>
             <td id="Total">750</td>
+            <td id="AbilityCapacity">-255</td>
 
         </tr>
 

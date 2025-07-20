@@ -120,8 +120,8 @@ The following Pokémon can equip this ability after reaching a certain level.
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
@@ -178,8 +178,8 @@ The following Pokémon can have this ability when you find them in the wild.
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
@@ -235,8 +235,8 @@ The following Pokémon can have this ability as their hidden ability.
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
@@ -292,8 +292,8 @@ The following Pokémon can be taught this ability.
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
 
@@ -304,7 +304,7 @@ The following Pokémon can be taught this ability.
     <tbody class="table-group-divider">
 
         <tr>
-            <td>57</td>
+            <td id="DexNo">57</td>
             <td style="width: 32px;"><a href="species/pteroret.html"><img class="iconsprite" src="sprites/pokemon/pteroret/icon.png"></a></td>
             <td id="Name" data-sortkey="Pteroret"><a href="species/pteroret.html">Pteroret</a></td>
 
@@ -318,7 +318,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>250</td>
+            <td id="DexNo">250</td>
             <td style="width: 32px;"><a href="species/rangife.html"><img class="iconsprite" src="sprites/pokemon/rangife/icon.png"></a></td>
             <td id="Name" data-sortkey="Rangife"><a href="species/rangife.html">Rangife</a></td>
 
@@ -331,7 +331,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>251</td>
+            <td id="DexNo">251</td>
             <td style="width: 32px;"><a href="species/taranalloy.html"><img class="iconsprite" src="sprites/pokemon/taranalloy/icon.png"></a></td>
             <td id="Name" data-sortkey="Taranalloy"><a href="species/taranalloy.html">Taranalloy</a></td>
 
@@ -344,7 +344,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>252</td>
+            <td id="DexNo">252</td>
             <td style="width: 32px;"><a href="species/alcesteel.html"><img class="iconsprite" src="sprites/pokemon/alcesteel/icon.png"></a></td>
             <td id="Name" data-sortkey="Alcesteel"><a href="species/alcesteel.html">Alcesteel</a></td>
 
@@ -358,7 +358,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>215</td>
+            <td id="DexNo">215</td>
             <td style="width: 32px;"><a href="species/ferrothorn.html"><img class="iconsprite" src="sprites/pokemon/ferrothorn/icon.png"></a></td>
             <td id="Name" data-sortkey="Ferrothorn"><a href="species/ferrothorn.html">Ferrothorn</a></td>
 
@@ -372,7 +372,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>399</td>
+            <td id="DexNo">399</td>
             <td style="width: 32px;"><a href="species/bisharp.html"><img class="iconsprite" src="sprites/pokemon/bisharp/icon.png"></a></td>
             <td id="Name" data-sortkey="Bisharp"><a href="species/bisharp.html">Bisharp</a></td>
 
@@ -386,7 +386,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>400</td>
+            <td id="DexNo">400</td>
             <td style="width: 32px;"><a href="species/kingambit.html"><img class="iconsprite" src="sprites/pokemon/kingambit/icon.png"></a></td>
             <td id="Name" data-sortkey="Kingambit"><a href="species/kingambit.html">Kingambit</a></td>
 
@@ -400,7 +400,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>124</td>
+            <td id="DexNo">124</td>
             <td style="width: 32px;"><a href="species/metang.html"><img class="iconsprite" src="sprites/pokemon/metang/icon.png"></a></td>
             <td id="Name" data-sortkey="Metang"><a href="species/metang.html">Metang</a></td>
 
@@ -414,7 +414,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>125</td>
+            <td id="DexNo">125</td>
             <td style="width: 32px;"><a href="species/metagross.html"><img class="iconsprite" src="sprites/pokemon/metagross/icon.png"></a></td>
             <td id="Name" data-sortkey="Metagross"><a href="species/metagross.html">Metagross</a></td>
 
@@ -428,7 +428,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>101</td>
+            <td id="DexNo">101</td>
             <td style="width: 32px;"><a href="species/empoleon.html"><img class="iconsprite" src="sprites/pokemon/empoleon/icon.png"></a></td>
             <td id="Name" data-sortkey="Empoleon"><a href="species/empoleon.html">Empoleon</a></td>
 
@@ -442,7 +442,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>218</td>
+            <td id="DexNo">218</td>
             <td style="width: 32px;"><a href="species/aggron.html"><img class="iconsprite" src="sprites/pokemon/aggron/icon.png"></a></td>
             <td id="Name" data-sortkey="Aggron"><a href="species/aggron.html">Aggron</a></td>
 
@@ -456,7 +456,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>308</td>
+            <td id="DexNo">308</td>
             <td style="width: 32px;"><a href="species/skarmory.html"><img class="iconsprite" src="sprites/pokemon/skarmory/icon.png"></a></td>
             <td id="Name" data-sortkey="Skarmory"><a href="species/skarmory.html">Skarmory</a></td>
 
@@ -470,7 +470,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>427</td>
+            <td id="DexNo">427</td>
             <td style="width: 32px;"><a href="species/torkyllium.html"><img class="iconsprite" src="sprites/pokemon/torkyllium/icon.png"></a></td>
             <td id="Name" data-sortkey="Torkyllium"><a href="species/torkyllium.html">Torkyllium</a></td>
 
@@ -484,7 +484,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>412</td>
+            <td id="DexNo">412</td>
             <td style="width: 32px;"><a href="species/utabazai.html"><img class="iconsprite" src="sprites/pokemon/utabazai/icon.png"></a></td>
             <td id="Name" data-sortkey="Utabazai"><a href="species/utabazai.html">Utabazai</a></td>
 
@@ -498,7 +498,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>243</td>
+            <td id="DexNo">243</td>
             <td style="width: 32px;"><a href="species/scizor.html"><img class="iconsprite" src="sprites/pokemon/scizor/icon.png"></a></td>
             <td id="Name" data-sortkey="Scizor"><a href="species/scizor.html">Scizor</a></td>
 
@@ -512,7 +512,7 @@ The following Pokémon can be taught this ability.
         </tr>
 
         <tr>
-            <td>405</td>
+            <td id="DexNo">405</td>
             <td style="width: 32px;"><a href="species/smeargle.html"><img class="iconsprite" src="sprites/pokemon/smeargle/icon.png"></a></td>
             <td id="Name" data-sortkey="Smeargle"><a href="species/smeargle.html">Smeargle</a></td>
 

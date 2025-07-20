@@ -402,8 +402,8 @@ N
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
             <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
@@ -418,7 +418,7 @@ N
     <tbody class="table-group-divider">
 
         <tr>
-            <td>58</td>
+            <td id="DexNo">58</td>
             <td style="width: 32px;"><a href="species/starly.html"><img class="iconsprite" src="sprites/pokemon/starly/icon.png"></a></td>
             <td id="Name" data-sortkey="Starly"><a href="species/starly.html">Starly</a></td>
 
@@ -444,7 +444,7 @@ N
         </tr>
 
         <tr>
-            <td>59</td>
+            <td id="DexNo">59</td>
             <td style="width: 32px;"><a href="species/staravia.html"><img class="iconsprite" src="sprites/pokemon/staravia/icon.png"></a></td>
             <td id="Name" data-sortkey="Staravia"><a href="species/staravia.html">Staravia</a></td>
 
@@ -470,7 +470,7 @@ N
         </tr>
 
         <tr>
-            <td>60</td>
+            <td id="DexNo">60</td>
             <td style="width: 32px;"><a href="species/staraptor.html"><img class="iconsprite" src="sprites/pokemon/staraptor/icon.png"></a></td>
             <td id="Name" data-sortkey="Staraptor"><a href="species/staraptor.html">Staraptor</a></td>
 
@@ -496,7 +496,7 @@ N
         </tr>
 
         <tr>
-            <td>203</td>
+            <td id="DexNo">203</td>
             <td style="width: 32px;"><a href="species/phanpy.html"><img class="iconsprite" src="sprites/pokemon/phanpy/icon.png"></a></td>
             <td id="Name" data-sortkey="Phanpy"><a href="species/phanpy.html">Phanpy</a></td>
 
@@ -521,7 +521,7 @@ N
         </tr>
 
         <tr>
-            <td>264</td>
+            <td id="DexNo">264</td>
             <td style="width: 32px;"><a href="species/swinub.html"><img class="iconsprite" src="sprites/pokemon/swinub/icon.png"></a></td>
             <td id="Name" data-sortkey="Swinub"><a href="species/swinub.html">Swinub</a></td>
 
@@ -547,7 +547,7 @@ N
         </tr>
 
         <tr>
-            <td>265</td>
+            <td id="DexNo">265</td>
             <td style="width: 32px;"><a href="species/piloswine.html"><img class="iconsprite" src="sprites/pokemon/piloswine/icon.png"></a></td>
             <td id="Name" data-sortkey="Piloswine"><a href="species/piloswine.html">Piloswine</a></td>
 
@@ -573,7 +573,7 @@ N
         </tr>
 
         <tr>
-            <td>266</td>
+            <td id="DexNo">266</td>
             <td style="width: 32px;"><a href="species/mamoswine.html"><img class="iconsprite" src="sprites/pokemon/mamoswine/icon.png"></a></td>
             <td id="Name" data-sortkey="Mamoswine"><a href="species/mamoswine.html">Mamoswine</a></td>
 
@@ -599,7 +599,7 @@ N
         </tr>
 
         <tr>
-            <td>123</td>
+            <td id="DexNo">123</td>
             <td style="width: 32px;"><a href="species/beldum.html"><img class="iconsprite" src="sprites/pokemon/beldum/icon.png"></a></td>
             <td id="Name" data-sortkey="Beldum"><a href="species/beldum.html">Beldum</a></td>
 
@@ -625,7 +625,7 @@ N
         </tr>
 
         <tr>
-            <td>124</td>
+            <td id="DexNo">124</td>
             <td style="width: 32px;"><a href="species/metang.html"><img class="iconsprite" src="sprites/pokemon/metang/icon.png"></a></td>
             <td id="Name" data-sortkey="Metang"><a href="species/metang.html">Metang</a></td>
 
@@ -651,7 +651,7 @@ N
         </tr>
 
         <tr>
-            <td>125</td>
+            <td id="DexNo">125</td>
             <td style="width: 32px;"><a href="species/metagross.html"><img class="iconsprite" src="sprites/pokemon/metagross/icon.png"></a></td>
             <td id="Name" data-sortkey="Metagross"><a href="species/metagross.html">Metagross</a></td>
 
@@ -677,7 +677,7 @@ N
         </tr>
 
         <tr>
-            <td>216</td>
+            <td id="DexNo">216</td>
             <td style="width: 32px;"><a href="species/aron.html"><img class="iconsprite" src="sprites/pokemon/aron/icon.png"></a></td>
             <td id="Name" data-sortkey="Aron"><a href="species/aron.html">Aron</a></td>
 
@@ -703,7 +703,7 @@ N
         </tr>
 
         <tr>
-            <td>217</td>
+            <td id="DexNo">217</td>
             <td style="width: 32px;"><a href="species/lairon.html"><img class="iconsprite" src="sprites/pokemon/lairon/icon.png"></a></td>
             <td id="Name" data-sortkey="Lairon"><a href="species/lairon.html">Lairon</a></td>
 
@@ -729,7 +729,7 @@ N
         </tr>
 
         <tr>
-            <td>218</td>
+            <td id="DexNo">218</td>
             <td style="width: 32px;"><a href="species/aggron.html"><img class="iconsprite" src="sprites/pokemon/aggron/icon.png"></a></td>
             <td id="Name" data-sortkey="Aggron"><a href="species/aggron.html">Aggron</a></td>
 
@@ -755,7 +755,7 @@ N
         </tr>
 
         <tr>
-            <td>25</td>
+            <td id="DexNo">25</td>
             <td style="width: 32px;"><a href="species/eevee.html"><img class="iconsprite" src="sprites/pokemon/eevee/icon.png"></a></td>
             <td id="Name" data-sortkey="Eevee"><a href="species/eevee.html">Eevee</a></td>
 
@@ -780,7 +780,7 @@ N
         </tr>
 
         <tr>
-            <td>26</td>
+            <td id="DexNo">26</td>
             <td style="width: 32px;"><a href="species/flareon.html"><img class="iconsprite" src="sprites/pokemon/flareon/icon.png"></a></td>
             <td id="Name" data-sortkey="Flareon"><a href="species/flareon.html">Flareon</a></td>
 
@@ -805,7 +805,7 @@ N
         </tr>
 
         <tr>
-            <td>27</td>
+            <td id="DexNo">27</td>
             <td style="width: 32px;"><a href="species/vaporeon.html"><img class="iconsprite" src="sprites/pokemon/vaporeon/icon.png"></a></td>
             <td id="Name" data-sortkey="Vaporeon"><a href="species/vaporeon.html">Vaporeon</a></td>
 
@@ -830,7 +830,7 @@ N
         </tr>
 
         <tr>
-            <td>28</td>
+            <td id="DexNo">28</td>
             <td style="width: 32px;"><a href="species/jolteon.html"><img class="iconsprite" src="sprites/pokemon/jolteon/icon.png"></a></td>
             <td id="Name" data-sortkey="Jolteon"><a href="species/jolteon.html">Jolteon</a></td>
 
@@ -855,7 +855,7 @@ N
         </tr>
 
         <tr>
-            <td>30</td>
+            <td id="DexNo">30</td>
             <td style="width: 32px;"><a href="species/umbreon.html"><img class="iconsprite" src="sprites/pokemon/umbreon/icon.png"></a></td>
             <td id="Name" data-sortkey="Umbreon"><a href="species/umbreon.html">Umbreon</a></td>
 
@@ -880,7 +880,7 @@ N
         </tr>
 
         <tr>
-            <td>29</td>
+            <td id="DexNo">29</td>
             <td style="width: 32px;"><a href="species/espeon.html"><img class="iconsprite" src="sprites/pokemon/espeon/icon.png"></a></td>
             <td id="Name" data-sortkey="Espeon"><a href="species/espeon.html">Espeon</a></td>
 
@@ -905,7 +905,7 @@ N
         </tr>
 
         <tr>
-            <td>31</td>
+            <td id="DexNo">31</td>
             <td style="width: 32px;"><a href="species/glaceon.html"><img class="iconsprite" src="sprites/pokemon/glaceon/icon.png"></a></td>
             <td id="Name" data-sortkey="Glaceon"><a href="species/glaceon.html">Glaceon</a></td>
 
@@ -930,7 +930,7 @@ N
         </tr>
 
         <tr>
-            <td>32</td>
+            <td id="DexNo">32</td>
             <td style="width: 32px;"><a href="species/leafeon.html"><img class="iconsprite" src="sprites/pokemon/leafeon/icon.png"></a></td>
             <td id="Name" data-sortkey="Leafeon"><a href="species/leafeon.html">Leafeon</a></td>
 
@@ -955,7 +955,7 @@ N
         </tr>
 
         <tr>
-            <td>33</td>
+            <td id="DexNo">33</td>
             <td style="width: 32px;"><a href="species/sylveon.html"><img class="iconsprite" src="sprites/pokemon/sylveon/icon.png"></a></td>
             <td id="Name" data-sortkey="Sylveon"><a href="species/sylveon.html">Sylveon</a></td>
 
@@ -980,7 +980,7 @@ N
         </tr>
 
         <tr>
-            <td>285</td>
+            <td id="DexNo">285</td>
             <td style="width: 32px;"><a href="species/chansey.html"><img class="iconsprite" src="sprites/pokemon/chansey/icon.png"></a></td>
             <td id="Name" data-sortkey="Chansey"><a href="species/chansey.html">Chansey</a></td>
 
@@ -1005,7 +1005,7 @@ N
         </tr>
 
         <tr>
-            <td>286</td>
+            <td id="DexNo">286</td>
             <td style="width: 32px;"><a href="species/blissey.html"><img class="iconsprite" src="sprites/pokemon/blissey/icon.png"></a></td>
             <td id="Name" data-sortkey="Blissey"><a href="species/blissey.html">Blissey</a></td>
 
@@ -1030,7 +1030,7 @@ N
         </tr>
 
         <tr>
-            <td>340</td>
+            <td id="DexNo">340</td>
             <td style="width: 32px;"><a href="species/tauros.html"><img class="iconsprite" src="sprites/pokemon/tauros/icon.png"></a></td>
             <td id="Name" data-sortkey="Tauros"><a href="species/tauros.html">Tauros</a></td>
 
@@ -1055,7 +1055,7 @@ N
         </tr>
 
         <tr>
-            <td>47</td>
+            <td id="DexNo">47</td>
             <td style="width: 32px;"><a href="species/swablu.html"><img class="iconsprite" src="sprites/pokemon/swablu/icon.png"></a></td>
             <td id="Name" data-sortkey="Swablu"><a href="species/swablu.html">Swablu</a></td>
 
@@ -1086,7 +1086,7 @@ N
         </tr>
 
         <tr>
-            <td>48</td>
+            <td id="DexNo">48</td>
             <td style="width: 32px;"><a href="species/altaria.html"><img class="iconsprite" src="sprites/pokemon/altaria/icon.png"></a></td>
             <td id="Name" data-sortkey="Altaria"><a href="species/altaria.html">Altaria</a></td>
 
@@ -1117,7 +1117,7 @@ N
         </tr>
 
         <tr>
-            <td>95</td>
+            <td id="DexNo">95</td>
             <td style="width: 32px;"><a href="species/growlithe.html"><img class="iconsprite" src="sprites/pokemon/growlithe/icon.png"></a></td>
             <td id="Name" data-sortkey="Growlithe"><a href="species/growlithe.html">Growlithe</a></td>
 
@@ -1142,7 +1142,7 @@ N
         </tr>
 
         <tr>
-            <td>80</td>
+            <td id="DexNo">80</td>
             <td style="width: 32px;"><a href="species/stufful.html"><img class="iconsprite" src="sprites/pokemon/stufful/icon.png"></a></td>
             <td id="Name" data-sortkey="Stufful"><a href="species/stufful.html">Stufful</a></td>
 
@@ -1168,7 +1168,7 @@ N
         </tr>
 
         <tr>
-            <td>81</td>
+            <td id="DexNo">81</td>
             <td style="width: 32px;"><a href="species/bewear.html"><img class="iconsprite" src="sprites/pokemon/bewear/icon.png"></a></td>
             <td id="Name" data-sortkey="Bewear"><a href="species/bewear.html">Bewear</a></td>
 
@@ -1194,7 +1194,7 @@ N
         </tr>
 
         <tr>
-            <td>73</td>
+            <td id="DexNo">73</td>
             <td style="width: 32px;"><a href="species/mantyke.html"><img class="iconsprite" src="sprites/pokemon/mantyke/icon.png"></a></td>
             <td id="Name" data-sortkey="Mantyke"><a href="species/mantyke.html">Mantyke</a></td>
 
@@ -1214,7 +1214,7 @@ N
         </tr>
 
         <tr>
-            <td>74</td>
+            <td id="DexNo">74</td>
             <td style="width: 32px;"><a href="species/mantine.html"><img class="iconsprite" src="sprites/pokemon/mantine/icon.png"></a></td>
             <td id="Name" data-sortkey="Mantine"><a href="species/mantine.html">Mantine</a></td>
 
@@ -1240,7 +1240,7 @@ N
         </tr>
 
         <tr>
-            <td>219</td>
+            <td id="DexNo">219</td>
             <td style="width: 32px;"><a href="species/gible.html"><img class="iconsprite" src="sprites/pokemon/gible/icon.png"></a></td>
             <td id="Name" data-sortkey="Gible"><a href="species/gible.html">Gible</a></td>
 
@@ -1271,7 +1271,7 @@ N
         </tr>
 
         <tr>
-            <td>220</td>
+            <td id="DexNo">220</td>
             <td style="width: 32px;"><a href="species/gabite.html"><img class="iconsprite" src="sprites/pokemon/gabite/icon.png"></a></td>
             <td id="Name" data-sortkey="Gabite"><a href="species/gabite.html">Gabite</a></td>
 
@@ -1302,7 +1302,7 @@ N
         </tr>
 
         <tr>
-            <td>221</td>
+            <td id="DexNo">221</td>
             <td style="width: 32px;"><a href="species/garchomp.html"><img class="iconsprite" src="sprites/pokemon/garchomp/icon.png"></a></td>
             <td id="Name" data-sortkey="Garchomp"><a href="species/garchomp.html">Garchomp</a></td>
 
@@ -1333,7 +1333,7 @@ N
         </tr>
 
         <tr>
-            <td>247</td>
+            <td id="DexNo">247</td>
             <td style="width: 32px;"><a href="species/mareep.html"><img class="iconsprite" src="sprites/pokemon/mareep/icon.png"></a></td>
             <td id="Name" data-sortkey="Mareep"><a href="species/mareep.html">Mareep</a></td>
 
@@ -1363,7 +1363,7 @@ N
         </tr>
 
         <tr>
-            <td>248</td>
+            <td id="DexNo">248</td>
             <td style="width: 32px;"><a href="species/flaaffy.html"><img class="iconsprite" src="sprites/pokemon/flaaffy/icon.png"></a></td>
             <td id="Name" data-sortkey="Flaaffy"><a href="species/flaaffy.html">Flaaffy</a></td>
 
@@ -1393,7 +1393,7 @@ N
         </tr>
 
         <tr>
-            <td>249</td>
+            <td id="DexNo">249</td>
             <td style="width: 32px;"><a href="species/ampharos.html"><img class="iconsprite" src="sprites/pokemon/ampharos/icon.png"></a></td>
             <td id="Name" data-sortkey="Ampharos"><a href="species/ampharos.html">Ampharos</a></td>
 
@@ -1423,7 +1423,7 @@ N
         </tr>
 
         <tr>
-            <td>424</td>
+            <td id="DexNo">424</td>
             <td style="width: 32px;"><a href="species/larvesta.html"><img class="iconsprite" src="sprites/pokemon/larvesta/icon.png"></a></td>
             <td id="Name" data-sortkey="Larvesta"><a href="species/larvesta.html">Larvesta</a></td>
 
@@ -1449,7 +1449,7 @@ N
         </tr>
 
         <tr>
-            <td>196</td>
+            <td id="DexNo">196</td>
             <td style="width: 32px;"><a href="species/rhyhorn.html"><img class="iconsprite" src="sprites/pokemon/rhyhorn/icon.png"></a></td>
             <td id="Name" data-sortkey="Rhyhorn"><a href="species/rhyhorn.html">Rhyhorn</a></td>
 
@@ -1480,7 +1480,7 @@ N
         </tr>
 
         <tr>
-            <td>197</td>
+            <td id="DexNo">197</td>
             <td style="width: 32px;"><a href="species/rhydon.html"><img class="iconsprite" src="sprites/pokemon/rhydon/icon.png"></a></td>
             <td id="Name" data-sortkey="Rhydon"><a href="species/rhydon.html">Rhydon</a></td>
 
@@ -1511,7 +1511,7 @@ N
         </tr>
 
         <tr>
-            <td>198</td>
+            <td id="DexNo">198</td>
             <td style="width: 32px;"><a href="species/rhyperior.html"><img class="iconsprite" src="sprites/pokemon/rhyperior/icon.png"></a></td>
             <td id="Name" data-sortkey="Rhyperior"><a href="species/rhyperior.html">Rhyperior</a></td>
 
@@ -1542,7 +1542,7 @@ N
         </tr>
 
         <tr>
-            <td>419</td>
+            <td id="DexNo">419</td>
             <td style="width: 32px;"><a href="species/numel.html"><img class="iconsprite" src="sprites/pokemon/numel/icon.png"></a></td>
             <td id="Name" data-sortkey="Numel"><a href="species/numel.html">Numel</a></td>
 
@@ -1568,7 +1568,7 @@ N
         </tr>
 
         <tr>
-            <td>420</td>
+            <td id="DexNo">420</td>
             <td style="width: 32px;"><a href="species/camerupt.html"><img class="iconsprite" src="sprites/pokemon/camerupt/icon.png"></a></td>
             <td id="Name" data-sortkey="Camerupt"><a href="species/camerupt.html">Camerupt</a></td>
 
@@ -1594,7 +1594,7 @@ N
         </tr>
 
         <tr>
-            <td>375</td>
+            <td id="DexNo">375</td>
             <td style="width: 32px;"><a href="species/snomel.html"><img class="iconsprite" src="sprites/pokemon/snomel/icon.png"></a></td>
             <td id="Name" data-sortkey="Snomel"><a href="species/snomel.html">Snomel</a></td>
 
@@ -1619,7 +1619,7 @@ N
         </tr>
 
         <tr>
-            <td>376</td>
+            <td id="DexNo">376</td>
             <td style="width: 32px;"><a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a></td>
             <td id="Name" data-sortkey="Cryorupt"><a href="species/cryorupt.html">Cryorupt</a></td>
 
@@ -1645,7 +1645,7 @@ N
         </tr>
 
         <tr>
-            <td>22</td>
+            <td id="DexNo">22</td>
             <td style="width: 32px;"><a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a></td>
             <td id="Name" data-sortkey="Lillipup"><a href="species/lillipup.html">Lillipup</a></td>
 
@@ -1670,7 +1670,7 @@ N
         </tr>
 
         <tr>
-            <td>23</td>
+            <td id="DexNo">23</td>
             <td style="width: 32px;"><a href="species/herdier.html"><img class="iconsprite" src="sprites/pokemon/herdier/icon.png"></a></td>
             <td id="Name" data-sortkey="Herdier"><a href="species/herdier.html">Herdier</a></td>
 
@@ -1695,7 +1695,7 @@ N
         </tr>
 
         <tr>
-            <td>24</td>
+            <td id="DexNo">24</td>
             <td style="width: 32px;"><a href="species/stoutland.html"><img class="iconsprite" src="sprites/pokemon/stoutland/icon.png"></a></td>
             <td id="Name" data-sortkey="Stoutland"><a href="species/stoutland.html">Stoutland</a></td>
 
@@ -1720,7 +1720,7 @@ N
         </tr>
 
         <tr>
-            <td>291</td>
+            <td id="DexNo">291</td>
             <td style="width: 32px;"><a href="species/wooloo.html"><img class="iconsprite" src="sprites/pokemon/wooloo/icon.png"></a></td>
             <td id="Name" data-sortkey="Wooloo"><a href="species/wooloo.html">Wooloo</a></td>
 
@@ -1745,7 +1745,7 @@ N
         </tr>
 
         <tr>
-            <td>292</td>
+            <td id="DexNo">292</td>
             <td style="width: 32px;"><a href="species/dubwool.html"><img class="iconsprite" src="sprites/pokemon/dubwool/icon.png"></a></td>
             <td id="Name" data-sortkey="Dubwool"><a href="species/dubwool.html">Dubwool</a></td>
 
@@ -1770,7 +1770,7 @@ N
         </tr>
 
         <tr>
-            <td>245</td>
+            <td id="DexNo">245</td>
             <td style="width: 32px;"><a href="species/heracross.html"><img class="iconsprite" src="sprites/pokemon/heracross/icon.png"></a></td>
             <td id="Name" data-sortkey="Heracross"><a href="species/heracross.html">Heracross</a></td>
 
@@ -1796,7 +1796,7 @@ N
         </tr>
 
         <tr>
-            <td>294</td>
+            <td id="DexNo">294</td>
             <td style="width: 32px;"><a href="species/mudkip.html"><img class="iconsprite" src="sprites/pokemon/mudkip/icon.png"></a></td>
             <td id="Name" data-sortkey="Mudkip"><a href="species/mudkip.html">Mudkip</a></td>
 
@@ -1826,7 +1826,7 @@ N
         </tr>
 
         <tr>
-            <td>295</td>
+            <td id="DexNo">295</td>
             <td style="width: 32px;"><a href="species/marshtomp.html"><img class="iconsprite" src="sprites/pokemon/marshtomp/icon.png"></a></td>
             <td id="Name" data-sortkey="Marshtomp"><a href="species/marshtomp.html">Marshtomp</a></td>
 
@@ -1857,7 +1857,7 @@ N
         </tr>
 
         <tr>
-            <td>296</td>
+            <td id="DexNo">296</td>
             <td style="width: 32px;"><a href="species/swampert.html"><img class="iconsprite" src="sprites/pokemon/swampert/icon.png"></a></td>
             <td id="Name" data-sortkey="Swampert"><a href="species/swampert.html">Swampert</a></td>
 
@@ -1888,7 +1888,7 @@ N
         </tr>
 
         <tr>
-            <td>107</td>
+            <td id="DexNo">107</td>
             <td style="width: 32px;"><a href="species/trubbish.html"><img class="iconsprite" src="sprites/pokemon/trubbish/icon.png"></a></td>
             <td id="Name" data-sortkey="Trubbish"><a href="species/trubbish.html">Trubbish</a></td>
 
@@ -1913,7 +1913,7 @@ N
         </tr>
 
         <tr>
-            <td>152</td>
+            <td id="DexNo">152</td>
             <td style="width: 32px;"><a href="species/chinchou.html"><img class="iconsprite" src="sprites/pokemon/chinchou/icon.png"></a></td>
             <td id="Name" data-sortkey="Chinchou"><a href="species/chinchou.html">Chinchou</a></td>
 
@@ -1939,7 +1939,7 @@ N
         </tr>
 
         <tr>
-            <td>153</td>
+            <td id="DexNo">153</td>
             <td style="width: 32px;"><a href="species/lanturn.html"><img class="iconsprite" src="sprites/pokemon/lanturn/icon.png"></a></td>
             <td id="Name" data-sortkey="Lanturn"><a href="species/lanturn.html">Lanturn</a></td>
 
@@ -1965,7 +1965,7 @@ N
         </tr>
 
         <tr>
-            <td>343</td>
+            <td id="DexNo">343</td>
             <td style="width: 32px;"><a href="species/luvdisc.html"><img class="iconsprite" src="sprites/pokemon/luvdisc/icon.png"></a></td>
             <td id="Name" data-sortkey="Luvdisc"><a href="species/luvdisc.html">Luvdisc</a></td>
 
@@ -2351,8 +2351,8 @@ document.getElementById('tab_levelup_list').click();
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
             <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
@@ -2365,7 +2365,7 @@ document.getElementById('tab_levelup_list').click();
     <tbody class="table-group-divider">
 
         <tr>
-            <td>211</td>
+            <td id="DexNo">211</td>
             <td style="width: 32px;"><a href="species/roggenrola.html"><img class="iconsprite" src="sprites/pokemon/roggenrola/icon.png"></a></td>
             <td id="Name" data-sortkey="Roggenrola"><a href="species/roggenrola.html">Roggenrola</a></td>
 
@@ -2388,7 +2388,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>63</td>
+            <td id="DexNo">63</td>
             <td style="width: 32px;"><a href="species/venipede.html"><img class="iconsprite" src="sprites/pokemon/venipede/icon.png"></a></td>
             <td id="Name" data-sortkey="Venipede"><a href="species/venipede.html">Venipede</a></td>
 
@@ -2412,7 +2412,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>225</td>
+            <td id="DexNo">225</td>
             <td style="width: 32px;"><a href="species/seedot.html"><img class="iconsprite" src="sprites/pokemon/seedot/icon.png"></a></td>
             <td id="Name" data-sortkey="Seedot"><a href="species/seedot.html">Seedot</a></td>
 
@@ -2440,7 +2440,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>264</td>
+            <td id="DexNo">264</td>
             <td style="width: 32px;"><a href="species/swinub.html"><img class="iconsprite" src="sprites/pokemon/swinub/icon.png"></a></td>
             <td id="Name" data-sortkey="Swinub"><a href="species/swinub.html">Swinub</a></td>
 
@@ -2464,7 +2464,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>320</td>
+            <td id="DexNo">320</td>
             <td style="width: 32px;"><a href="species/kabuto.html"><img class="iconsprite" src="sprites/pokemon/kabuto/icon.png"></a></td>
             <td id="Name" data-sortkey="Kabuto"><a href="species/kabuto.html">Kabuto</a></td>
 
@@ -2493,7 +2493,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>247</td>
+            <td id="DexNo">247</td>
             <td style="width: 32px;"><a href="species/mareep.html"><img class="iconsprite" src="sprites/pokemon/mareep/icon.png"></a></td>
             <td id="Name" data-sortkey="Mareep"><a href="species/mareep.html">Mareep</a></td>
 
@@ -2521,7 +2521,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>97</td>
+            <td id="DexNo">97</td>
             <td style="width: 32px;"><a href="species/shellder.html"><img class="iconsprite" src="sprites/pokemon/shellder/icon.png"></a></td>
             <td id="Name" data-sortkey="Shellder"><a href="species/shellder.html">Shellder</a></td>
 
@@ -2544,7 +2544,7 @@ document.getElementById('tab_levelup_list').click();
         </tr>
 
         <tr>
-            <td>245</td>
+            <td id="DexNo">245</td>
             <td style="width: 32px;"><a href="species/heracross.html"><img class="iconsprite" src="sprites/pokemon/heracross/icon.png"></a></td>
             <td id="Name" data-sortkey="Heracross"><a href="species/heracross.html">Heracross</a></td>
 
@@ -2657,8 +2657,8 @@ document.getElementById('tab_egg_list').click();
 <table id="species" class="table table-striped table-hover align-middle">
     <thead>
         <tr>
-            <th scope="col" onclick="sortTable()">#</th>
-            <th scope="col" colspan=2 onclick="sortTable()">Pokémon</th>
+            <th scope="col" onclick="sortTable('DexNo')">#</th>
+            <th scope="col" colspan=2 onclick="sortTable('Name')">Pokémon</th>
             <th scope="col" onclick="sortTable()">Type</th>
 
             <th scope="col" colspan=2 onclick="sortTable()">Egg Groups</th>
@@ -2671,7 +2671,7 @@ document.getElementById('tab_egg_list').click();
     <tbody class="table-group-divider">
 
         <tr>
-            <td>443</td>
+            <td id="DexNo">443</td>
             <td style="width: 32px;"><a href="species/kipvine.html"><img class="iconsprite" src="sprites/pokemon/kipvine/icon.png"></a></td>
             <td id="Name" data-sortkey="Kipvine"><a href="species/kipvine.html">Kipvine</a></td>
 
@@ -2699,7 +2699,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>444</td>
+            <td id="DexNo">444</td>
             <td style="width: 32px;"><a href="species/plaguar.html"><img class="iconsprite" src="sprites/pokemon/plaguar/icon.png"></a></td>
             <td id="Name" data-sortkey="Plaguar"><a href="species/plaguar.html">Plaguar</a></td>
 
@@ -2727,7 +2727,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>445</td>
+            <td id="DexNo">445</td>
             <td style="width: 32px;"><a href="species/photoguar.html"><img class="iconsprite" src="sprites/pokemon/photoguar/icon.png"></a></td>
             <td id="Name" data-sortkey="Photoguar"><a href="species/photoguar.html">Photoguar</a></td>
 
@@ -2756,7 +2756,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>430</td>
+            <td id="DexNo">430</td>
             <td style="width: 32px;"><a href="species/shleepy.html"><img class="iconsprite" src="sprites/pokemon/shleepy/icon.png"></a></td>
             <td id="Name" data-sortkey="Shleepy"><a href="species/shleepy.html">Shleepy</a></td>
 
@@ -2779,7 +2779,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>431</td>
+            <td id="DexNo">431</td>
             <td style="width: 32px;"><a href="species/privinee.html"><img class="iconsprite" src="sprites/pokemon/privinee/icon.png"></a></td>
             <td id="Name" data-sortkey="Privinee"><a href="species/privinee.html">Privinee</a></td>
 
@@ -2802,7 +2802,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>432</td>
+            <td id="DexNo">432</td>
             <td style="width: 32px;"><a href="species/flairdries.html"><img class="iconsprite" src="sprites/pokemon/flairdries/icon.png"></a></td>
             <td id="Name" data-sortkey="Flairdries"><a href="species/flairdries.html">Flairdries</a></td>
 
@@ -2826,7 +2826,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>165</td>
+            <td id="DexNo">165</td>
             <td style="width: 32px;"><a href="species/diglett.html"><img class="iconsprite" src="sprites/pokemon/diglett/icon.png"></a></td>
             <td id="Name" data-sortkey="Diglett"><a href="species/diglett.html">Diglett</a></td>
 
@@ -2849,7 +2849,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>166</td>
+            <td id="DexNo">166</td>
             <td style="width: 32px;"><a href="species/dugtrio.html"><img class="iconsprite" src="sprites/pokemon/dugtrio/icon.png"></a></td>
             <td id="Name" data-sortkey="Dugtrio"><a href="species/dugtrio.html">Dugtrio</a></td>
 
@@ -2872,7 +2872,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>169</td>
+            <td id="DexNo">169</td>
             <td style="width: 32px;"><a href="species/brubat.html"><img class="iconsprite" src="sprites/pokemon/brubat/icon.png"></a></td>
             <td id="Name" data-sortkey="Brubat"><a href="species/brubat.html">Brubat</a></td>
 
@@ -2896,7 +2896,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>170</td>
+            <td id="DexNo">170</td>
             <td style="width: 32px;"><a href="species/ogbat.html"><img class="iconsprite" src="sprites/pokemon/ogbat/icon.png"></a></td>
             <td id="Name" data-sortkey="Ogbat"><a href="species/ogbat.html">Ogbat</a></td>
 
@@ -2920,7 +2920,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>171</td>
+            <td id="DexNo">171</td>
             <td style="width: 32px;"><a href="species/yagabat.html"><img class="iconsprite" src="sprites/pokemon/yagabat/icon.png"></a></td>
             <td id="Name" data-sortkey="Yagabat"><a href="species/yagabat.html">Yagabat</a></td>
 
@@ -2944,7 +2944,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>156</td>
+            <td id="DexNo">156</td>
             <td style="width: 32px;"><a href="species/burowurm.html"><img class="iconsprite" src="sprites/pokemon/burowurm/icon.png"></a></td>
             <td id="Name" data-sortkey="Burowurm"><a href="species/burowurm.html">Burowurm</a></td>
 
@@ -2967,7 +2967,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>157</td>
+            <td id="DexNo">157</td>
             <td style="width: 32px;"><a href="species/burosphyrn.html"><img class="iconsprite" src="sprites/pokemon/burosphyrn/icon.png"></a></td>
             <td id="Name" data-sortkey="Burosphyrn"><a href="species/burosphyrn.html">Burosphyrn</a></td>
 
@@ -2990,7 +2990,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>158</td>
+            <td id="DexNo">158</td>
             <td style="width: 32px;"><a href="species/aerowyrm.html"><img class="iconsprite" src="sprites/pokemon/aerowyrm/icon.png"></a></td>
             <td id="Name" data-sortkey="Aerowyrm"><a href="species/aerowyrm.html">Aerowyrm</a></td>
 
@@ -3014,7 +3014,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>211</td>
+            <td id="DexNo">211</td>
             <td style="width: 32px;"><a href="species/roggenrola.html"><img class="iconsprite" src="sprites/pokemon/roggenrola/icon.png"></a></td>
             <td id="Name" data-sortkey="Roggenrola"><a href="species/roggenrola.html">Roggenrola</a></td>
 
@@ -3037,7 +3037,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>212</td>
+            <td id="DexNo">212</td>
             <td style="width: 32px;"><a href="species/boldore.html"><img class="iconsprite" src="sprites/pokemon/boldore/icon.png"></a></td>
             <td id="Name" data-sortkey="Boldore"><a href="species/boldore.html">Boldore</a></td>
 
@@ -3060,7 +3060,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>213</td>
+            <td id="DexNo">213</td>
             <td style="width: 32px;"><a href="species/gigalith.html"><img class="iconsprite" src="sprites/pokemon/gigalith/icon.png"></a></td>
             <td id="Name" data-sortkey="Gigalith"><a href="species/gigalith.html">Gigalith</a></td>
 
@@ -3083,7 +3083,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>56</td>
+            <td id="DexNo">56</td>
             <td style="width: 32px;"><a href="species/scuiret.html"><img class="iconsprite" src="sprites/pokemon/scuiret/icon.png"></a></td>
             <td id="Name" data-sortkey="Scuiret"><a href="species/scuiret.html">Scuiret</a></td>
 
@@ -3106,7 +3106,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>57</td>
+            <td id="DexNo">57</td>
             <td style="width: 32px;"><a href="species/pteroret.html"><img class="iconsprite" src="sprites/pokemon/pteroret/icon.png"></a></td>
             <td id="Name" data-sortkey="Pteroret"><a href="species/pteroret.html">Pteroret</a></td>
 
@@ -3135,7 +3135,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>58</td>
+            <td id="DexNo">58</td>
             <td style="width: 32px;"><a href="species/starly.html"><img class="iconsprite" src="sprites/pokemon/starly/icon.png"></a></td>
             <td id="Name" data-sortkey="Starly"><a href="species/starly.html">Starly</a></td>
 
@@ -3159,7 +3159,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>59</td>
+            <td id="DexNo">59</td>
             <td style="width: 32px;"><a href="species/staravia.html"><img class="iconsprite" src="sprites/pokemon/staravia/icon.png"></a></td>
             <td id="Name" data-sortkey="Staravia"><a href="species/staravia.html">Staravia</a></td>
 
@@ -3183,7 +3183,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>60</td>
+            <td id="DexNo">60</td>
             <td style="width: 32px;"><a href="species/staraptor.html"><img class="iconsprite" src="sprites/pokemon/staraptor/icon.png"></a></td>
             <td id="Name" data-sortkey="Staraptor"><a href="species/staraptor.html">Staraptor</a></td>
 
@@ -3207,7 +3207,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>63</td>
+            <td id="DexNo">63</td>
             <td style="width: 32px;"><a href="species/venipede.html"><img class="iconsprite" src="sprites/pokemon/venipede/icon.png"></a></td>
             <td id="Name" data-sortkey="Venipede"><a href="species/venipede.html">Venipede</a></td>
 
@@ -3231,7 +3231,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>64</td>
+            <td id="DexNo">64</td>
             <td style="width: 32px;"><a href="species/whirlipede.html"><img class="iconsprite" src="sprites/pokemon/whirlipede/icon.png"></a></td>
             <td id="Name" data-sortkey="Whirlipede"><a href="species/whirlipede.html">Whirlipede</a></td>
 
@@ -3255,7 +3255,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>65</td>
+            <td id="DexNo">65</td>
             <td style="width: 32px;"><a href="species/scolipede.html"><img class="iconsprite" src="sprites/pokemon/scolipede/icon.png"></a></td>
             <td id="Name" data-sortkey="Scolipede"><a href="species/scolipede.html">Scolipede</a></td>
 
@@ -3279,7 +3279,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>174</td>
+            <td id="DexNo">174</td>
             <td style="width: 32px;"><a href="species/psyduck.html"><img class="iconsprite" src="sprites/pokemon/psyduck/icon.png"></a></td>
             <td id="Name" data-sortkey="Psyduck"><a href="species/psyduck.html">Psyduck</a></td>
 
@@ -3307,7 +3307,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>175</td>
+            <td id="DexNo">175</td>
             <td style="width: 32px;"><a href="species/golduck.html"><img class="iconsprite" src="sprites/pokemon/golduck/icon.png"></a></td>
             <td id="Name" data-sortkey="Golduck"><a href="species/golduck.html">Golduck</a></td>
 
@@ -3335,7 +3335,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>176</td>
+            <td id="DexNo">176</td>
             <td style="width: 32px;"><a href="species/malduck.html"><img class="iconsprite" src="sprites/pokemon/malduck/icon.png"></a></td>
             <td id="Name" data-sortkey="Malduck"><a href="species/malduck.html">Malduck</a></td>
 
@@ -3364,7 +3364,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>11</td>
+            <td id="DexNo">11</td>
             <td style="width: 32px;"><a href="species/birrobird.html"><img class="iconsprite" src="sprites/pokemon/birrobird/icon.png"></a></td>
             <td id="Name" data-sortkey="Birrobird"><a href="species/birrobird.html">Birrobird</a></td>
 
@@ -3388,7 +3388,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>12</td>
+            <td id="DexNo">12</td>
             <td style="width: 32px;"><a href="species/eageleag.html"><img class="iconsprite" src="sprites/pokemon/eageleag/icon.png"></a></td>
             <td id="Name" data-sortkey="Eageleag"><a href="species/eageleag.html">Eageleag</a></td>
 
@@ -3412,7 +3412,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>13</td>
+            <td id="DexNo">13</td>
             <td style="width: 32px;"><a href="species/griffogrif.html"><img class="iconsprite" src="sprites/pokemon/griffogrif/icon.png"></a></td>
             <td id="Name" data-sortkey="Griffogrif"><a href="species/griffogrif.html">Griffogrif</a></td>
 
@@ -3436,7 +3436,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>43</td>
+            <td id="DexNo">43</td>
             <td style="width: 32px;"><a href="species/poliwag.html"><img class="iconsprite" src="sprites/pokemon/poliwag/icon.png"></a></td>
             <td id="Name" data-sortkey="Poliwag"><a href="species/poliwag.html">Poliwag</a></td>
 
@@ -3459,7 +3459,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>44</td>
+            <td id="DexNo">44</td>
             <td style="width: 32px;"><a href="species/poliwhirl.html"><img class="iconsprite" src="sprites/pokemon/poliwhirl/icon.png"></a></td>
             <td id="Name" data-sortkey="Poliwhirl"><a href="species/poliwhirl.html">Poliwhirl</a></td>
 
@@ -3482,7 +3482,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>45</td>
+            <td id="DexNo">45</td>
             <td style="width: 32px;"><a href="species/poliwrath.html"><img class="iconsprite" src="sprites/pokemon/poliwrath/icon.png"></a></td>
             <td id="Name" data-sortkey="Poliwrath"><a href="species/poliwrath.html">Poliwrath</a></td>
 
@@ -3506,7 +3506,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>46</td>
+            <td id="DexNo">46</td>
             <td style="width: 32px;"><a href="species/politoed.html"><img class="iconsprite" src="sprites/pokemon/politoed/icon.png"></a></td>
             <td id="Name" data-sortkey="Politoed"><a href="species/politoed.html">Politoed</a></td>
 
@@ -3529,7 +3529,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>199</td>
+            <td id="DexNo">199</td>
             <td style="width: 32px;"><a href="species/venonat.html"><img class="iconsprite" src="sprites/pokemon/venonat/icon.png"></a></td>
             <td id="Name" data-sortkey="Venonat"><a href="species/venonat.html">Venonat</a></td>
 
@@ -3553,7 +3553,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>200</td>
+            <td id="DexNo">200</td>
             <td style="width: 32px;"><a href="species/venomoth.html"><img class="iconsprite" src="sprites/pokemon/venomoth/icon.png"></a></td>
             <td id="Name" data-sortkey="Venomoth"><a href="species/venomoth.html">Venomoth</a></td>
 
@@ -3577,7 +3577,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>2</td>
+            <td id="DexNo">2</td>
             <td style="width: 32px;"><a href="species/pikachu.html"><img class="iconsprite" src="sprites/pokemon/pikachu/icon.png"></a></td>
             <td id="Name" data-sortkey="Pikachu"><a href="species/pikachu.html">Pikachu</a></td>
 
@@ -3605,7 +3605,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>3</td>
+            <td id="DexNo">3</td>
             <td style="width: 32px;"><a href="species/raichu.html"><img class="iconsprite" src="sprites/pokemon/raichu/icon.png"></a></td>
             <td id="Name" data-sortkey="Raichu"><a href="species/raichu.html">Raichu</a></td>
 
@@ -3633,7 +3633,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>4</td>
+            <td id="DexNo">4</td>
             <td style="width: 32px;"><a href="species/kinetichu.html"><img class="iconsprite" src="sprites/pokemon/kinetichu/icon.png"></a></td>
             <td id="Name" data-sortkey="Kinetichu"><a href="species/kinetichu.html">Kinetichu</a></td>
 
@@ -3662,7 +3662,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>5</td>
+            <td id="DexNo">5</td>
             <td style="width: 32px;"><a href="species/mafichu.html"><img class="iconsprite" src="sprites/pokemon/mafichu/icon.png"></a></td>
             <td id="Name" data-sortkey="Mafichu"><a href="species/mafichu.html">Mafichu</a></td>
 
@@ -3691,7 +3691,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>6</td>
+            <td id="DexNo">6</td>
             <td style="width: 32px;"><a href="species/demichu.html"><img class="iconsprite" src="sprites/pokemon/demichu/icon.png"></a></td>
             <td id="Name" data-sortkey="Demichu"><a href="species/demichu.html">Demichu</a></td>
 
@@ -3720,7 +3720,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>193</td>
+            <td id="DexNo">193</td>
             <td style="width: 32px;"><a href="species/cutbit.html"><img class="iconsprite" src="sprites/pokemon/cutbit/icon.png"></a></td>
             <td id="Name" data-sortkey="Cutbit"><a href="species/cutbit.html">Cutbit</a></td>
 
@@ -3743,7 +3743,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>194</td>
+            <td id="DexNo">194</td>
             <td style="width: 32px;"><a href="species/flabbit.html"><img class="iconsprite" src="sprites/pokemon/flabbit/icon.png"></a></td>
             <td id="Name" data-sortkey="Flabbit"><a href="species/flabbit.html">Flabbit</a></td>
 
@@ -3767,7 +3767,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>195</td>
+            <td id="DexNo">195</td>
             <td style="width: 32px;"><a href="species/blitzrdrix.html"><img class="iconsprite" src="sprites/pokemon/blitzrdrix/icon.png"></a></td>
             <td id="Name" data-sortkey="Blitzrdrix"><a href="species/blitzrdrix.html">Blitzrdrix</a></td>
 
@@ -3791,7 +3791,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>201</td>
+            <td id="DexNo">201</td>
             <td style="width: 32px;"><a href="species/sandshrew.html"><img class="iconsprite" src="sprites/pokemon/sandshrew/icon.png"></a></td>
             <td id="Name" data-sortkey="Sandshrew"><a href="species/sandshrew.html">Sandshrew</a></td>
 
@@ -3814,7 +3814,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>202</td>
+            <td id="DexNo">202</td>
             <td style="width: 32px;"><a href="species/sandslash.html"><img class="iconsprite" src="sprites/pokemon/sandslash/icon.png"></a></td>
             <td id="Name" data-sortkey="Sandslash"><a href="species/sandslash.html">Sandslash</a></td>
 
@@ -3837,7 +3837,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>86</td>
+            <td id="DexNo">86</td>
             <td style="width: 32px;"><a href="species/vulpix.html"><img class="iconsprite" src="sprites/pokemon/vulpix/icon.png"></a></td>
             <td id="Name" data-sortkey="Vulpix"><a href="species/vulpix.html">Vulpix</a></td>
 
@@ -3860,7 +3860,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>87</td>
+            <td id="DexNo">87</td>
             <td style="width: 32px;"><a href="species/ninetales.html"><img class="iconsprite" src="sprites/pokemon/ninetales/icon.png"></a></td>
             <td id="Name" data-sortkey="Ninetales"><a href="species/ninetales.html">Ninetales</a></td>
 
@@ -3883,7 +3883,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>203</td>
+            <td id="DexNo">203</td>
             <td style="width: 32px;"><a href="species/phanpy.html"><img class="iconsprite" src="sprites/pokemon/phanpy/icon.png"></a></td>
             <td id="Name" data-sortkey="Phanpy"><a href="species/phanpy.html">Phanpy</a></td>
 
@@ -3906,7 +3906,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>204</td>
+            <td id="DexNo">204</td>
             <td style="width: 32px;"><a href="species/donphan.html"><img class="iconsprite" src="sprites/pokemon/donphan/icon.png"></a></td>
             <td id="Name" data-sortkey="Donphan"><a href="species/donphan.html">Donphan</a></td>
 
@@ -3929,7 +3929,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>228</td>
+            <td id="DexNo">228</td>
             <td style="width: 32px;"><a href="species/spruvyne.html"><img class="iconsprite" src="sprites/pokemon/spruvyne/icon.png"></a></td>
             <td id="Name" data-sortkey="Spruvyne"><a href="species/spruvyne.html">Spruvyne</a></td>
 
@@ -3952,7 +3952,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>229</td>
+            <td id="DexNo">229</td>
             <td style="width: 32px;"><a href="species/quervyne.html"><img class="iconsprite" src="sprites/pokemon/quervyne/icon.png"></a></td>
             <td id="Name" data-sortkey="Quervyne"><a href="species/quervyne.html">Quervyne</a></td>
 
@@ -3981,7 +3981,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>230</td>
+            <td id="DexNo">230</td>
             <td style="width: 32px;"><a href="species/sampervyne.html"><img class="iconsprite" src="sprites/pokemon/sampervyne/icon.png"></a></td>
             <td id="Name" data-sortkey="Sampervyne"><a href="species/sampervyne.html">Sampervyne</a></td>
 
@@ -4010,7 +4010,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>225</td>
+            <td id="DexNo">225</td>
             <td style="width: 32px;"><a href="species/seedot.html"><img class="iconsprite" src="sprites/pokemon/seedot/icon.png"></a></td>
             <td id="Name" data-sortkey="Seedot"><a href="species/seedot.html">Seedot</a></td>
 
@@ -4038,7 +4038,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>226</td>
+            <td id="DexNo">226</td>
             <td style="width: 32px;"><a href="species/nuzleaf.html"><img class="iconsprite" src="sprites/pokemon/nuzleaf/icon.png"></a></td>
             <td id="Name" data-sortkey="Nuzleaf"><a href="species/nuzleaf.html">Nuzleaf</a></td>
 
@@ -4067,7 +4067,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>227</td>
+            <td id="DexNo">227</td>
             <td style="width: 32px;"><a href="species/shiftry.html"><img class="iconsprite" src="sprites/pokemon/shiftry/icon.png"></a></td>
             <td id="Name" data-sortkey="Shiftry"><a href="species/shiftry.html">Shiftry</a></td>
 
@@ -4096,7 +4096,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>250</td>
+            <td id="DexNo">250</td>
             <td style="width: 32px;"><a href="species/rangife.html"><img class="iconsprite" src="sprites/pokemon/rangife/icon.png"></a></td>
             <td id="Name" data-sortkey="Rangife"><a href="species/rangife.html">Rangife</a></td>
 
@@ -4124,7 +4124,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>251</td>
+            <td id="DexNo">251</td>
             <td style="width: 32px;"><a href="species/taranalloy.html"><img class="iconsprite" src="sprites/pokemon/taranalloy/icon.png"></a></td>
             <td id="Name" data-sortkey="Taranalloy"><a href="species/taranalloy.html">Taranalloy</a></td>
 
@@ -4152,7 +4152,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>252</td>
+            <td id="DexNo">252</td>
             <td style="width: 32px;"><a href="species/alcesteel.html"><img class="iconsprite" src="sprites/pokemon/alcesteel/icon.png"></a></td>
             <td id="Name" data-sortkey="Alcesteel"><a href="species/alcesteel.html">Alcesteel</a></td>
 
@@ -4181,7 +4181,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>264</td>
+            <td id="DexNo">264</td>
             <td style="width: 32px;"><a href="species/swinub.html"><img class="iconsprite" src="sprites/pokemon/swinub/icon.png"></a></td>
             <td id="Name" data-sortkey="Swinub"><a href="species/swinub.html">Swinub</a></td>
 
@@ -4205,7 +4205,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>265</td>
+            <td id="DexNo">265</td>
             <td style="width: 32px;"><a href="species/piloswine.html"><img class="iconsprite" src="sprites/pokemon/piloswine/icon.png"></a></td>
             <td id="Name" data-sortkey="Piloswine"><a href="species/piloswine.html">Piloswine</a></td>
 
@@ -4229,7 +4229,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>266</td>
+            <td id="DexNo">266</td>
             <td style="width: 32px;"><a href="species/mamoswine.html"><img class="iconsprite" src="sprites/pokemon/mamoswine/icon.png"></a></td>
             <td id="Name" data-sortkey="Mamoswine"><a href="species/mamoswine.html">Mamoswine</a></td>
 
@@ -4253,7 +4253,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>438</td>
+            <td id="DexNo">438</td>
             <td style="width: 32px;"><a href="species/fizzix.html"><img class="iconsprite" src="sprites/pokemon/fizzix/icon.png"></a></td>
             <td id="Name" data-sortkey="Fizzix"><a href="species/fizzix.html">Fizzix</a></td>
 
@@ -4282,7 +4282,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>439</td>
+            <td id="DexNo">439</td>
             <td style="width: 32px;"><a href="species/gravitomix.html"><img class="iconsprite" src="sprites/pokemon/gravitomix/icon.png"></a></td>
             <td id="Name" data-sortkey="Gravitomix"><a href="species/gravitomix.html">Gravitomix</a></td>
 
@@ -4311,7 +4311,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>378</td>
+            <td id="DexNo">378</td>
             <td style="width: 32px;"><a href="species/cubone.html"><img class="iconsprite" src="sprites/pokemon/cubone/icon.png"></a></td>
             <td id="Name" data-sortkey="Cubone"><a href="species/cubone.html">Cubone</a></td>
 
@@ -4334,7 +4334,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>379</td>
+            <td id="DexNo">379</td>
             <td style="width: 32px;"><a href="species/marowak.html"><img class="iconsprite" src="sprites/pokemon/marowak/icon.png"></a></td>
             <td id="Name" data-sortkey="Marowak"><a href="species/marowak.html">Marowak</a></td>
 
@@ -4357,7 +4357,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>380</td>
+            <td id="DexNo">380</td>
             <td style="width: 32px;"><a href="species/marowail.html"><img class="iconsprite" src="sprites/pokemon/marowail/icon.png"></a></td>
             <td id="Name" data-sortkey="Marowail"><a href="species/marowail.html">Marowail</a></td>
 
@@ -4381,7 +4381,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>417</td>
+            <td id="DexNo">417</td>
             <td style="width: 32px;"><a href="species/gropp.html"><img class="iconsprite" src="sprites/pokemon/gropp/icon.png"></a></td>
             <td id="Name" data-sortkey="Gropp"><a href="species/gropp.html">Gropp</a></td>
 
@@ -4404,7 +4404,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>418</td>
+            <td id="DexNo">418</td>
             <td style="width: 32px;"><a href="species/cyclobber.html"><img class="iconsprite" src="sprites/pokemon/cyclobber/icon.png"></a></td>
             <td id="Name" data-sortkey="Cyclobber"><a href="species/cyclobber.html">Cyclobber</a></td>
 
@@ -4428,7 +4428,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>326</td>
+            <td id="DexNo">326</td>
             <td style="width: 32px;"><a href="species/aerodactyl.html"><img class="iconsprite" src="sprites/pokemon/aerodactyl/icon.png"></a></td>
             <td id="Name" data-sortkey="Aerodactyl"><a href="species/aerodactyl.html">Aerodactyl</a></td>
 
@@ -4452,7 +4452,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>123</td>
+            <td id="DexNo">123</td>
             <td style="width: 32px;"><a href="species/beldum.html"><img class="iconsprite" src="sprites/pokemon/beldum/icon.png"></a></td>
             <td id="Name" data-sortkey="Beldum"><a href="species/beldum.html">Beldum</a></td>
 
@@ -4476,7 +4476,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>124</td>
+            <td id="DexNo">124</td>
             <td style="width: 32px;"><a href="species/metang.html"><img class="iconsprite" src="sprites/pokemon/metang/icon.png"></a></td>
             <td id="Name" data-sortkey="Metang"><a href="species/metang.html">Metang</a></td>
 
@@ -4500,7 +4500,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>125</td>
+            <td id="DexNo">125</td>
             <td style="width: 32px;"><a href="species/metagross.html"><img class="iconsprite" src="sprites/pokemon/metagross/icon.png"></a></td>
             <td id="Name" data-sortkey="Metagross"><a href="species/metagross.html">Metagross</a></td>
 
@@ -4524,7 +4524,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>216</td>
+            <td id="DexNo">216</td>
             <td style="width: 32px;"><a href="species/aron.html"><img class="iconsprite" src="sprites/pokemon/aron/icon.png"></a></td>
             <td id="Name" data-sortkey="Aron"><a href="species/aron.html">Aron</a></td>
 
@@ -4548,7 +4548,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>217</td>
+            <td id="DexNo">217</td>
             <td style="width: 32px;"><a href="species/lairon.html"><img class="iconsprite" src="sprites/pokemon/lairon/icon.png"></a></td>
             <td id="Name" data-sortkey="Lairon"><a href="species/lairon.html">Lairon</a></td>
 
@@ -4572,7 +4572,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>218</td>
+            <td id="DexNo">218</td>
             <td style="width: 32px;"><a href="species/aggron.html"><img class="iconsprite" src="sprites/pokemon/aggron/icon.png"></a></td>
             <td id="Name" data-sortkey="Aggron"><a href="species/aggron.html">Aggron</a></td>
 
@@ -4596,7 +4596,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>270</td>
+            <td id="DexNo">270</td>
             <td style="width: 32px;"><a href="species/jynx.html"><img class="iconsprite" src="sprites/pokemon/jynx/icon.png"></a></td>
             <td id="Name" data-sortkey="Jynx"><a href="species/jynx.html">Jynx</a></td>
 
@@ -4620,7 +4620,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>271</td>
+            <td id="DexNo">271</td>
             <td style="width: 32px;"><a href="species/totsicle.html"><img class="iconsprite" src="sprites/pokemon/totsicle/icon.png"></a></td>
             <td id="Name" data-sortkey="Totsicle"><a href="species/totsicle.html">Totsicle</a></td>
 
@@ -4649,7 +4649,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>272</td>
+            <td id="DexNo">272</td>
             <td style="width: 32px;"><a href="species/frostidon.html"><img class="iconsprite" src="sprites/pokemon/frostidon/icon.png"></a></td>
             <td id="Name" data-sortkey="Frostidon"><a href="species/frostidon.html">Frostidon</a></td>
 
@@ -4678,7 +4678,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>77</td>
+            <td id="DexNo">77</td>
             <td style="width: 32px;"><a href="species/slowpoke.html"><img class="iconsprite" src="sprites/pokemon/slowpoke/icon.png"></a></td>
             <td id="Name" data-sortkey="Slowpoke"><a href="species/slowpoke.html">Slowpoke</a></td>
 
@@ -4707,7 +4707,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>78</td>
+            <td id="DexNo">78</td>
             <td style="width: 32px;"><a href="species/slowbro.html"><img class="iconsprite" src="sprites/pokemon/slowbro/icon.png"></a></td>
             <td id="Name" data-sortkey="Slowbro"><a href="species/slowbro.html">Slowbro</a></td>
 
@@ -4736,7 +4736,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>79</td>
+            <td id="DexNo">79</td>
             <td style="width: 32px;"><a href="species/slowking.html"><img class="iconsprite" src="sprites/pokemon/slowking/icon.png"></a></td>
             <td id="Name" data-sortkey="Slowking"><a href="species/slowking.html">Slowking</a></td>
 
@@ -4765,7 +4765,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>102</td>
+            <td id="DexNo">102</td>
             <td style="width: 32px;"><a href="species/seel.html"><img class="iconsprite" src="sprites/pokemon/seel/icon.png"></a></td>
             <td id="Name" data-sortkey="Seel"><a href="species/seel.html">Seel</a></td>
 
@@ -4793,7 +4793,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>103</td>
+            <td id="DexNo">103</td>
             <td style="width: 32px;"><a href="species/dewgong.html"><img class="iconsprite" src="sprites/pokemon/dewgong/icon.png"></a></td>
             <td id="Name" data-sortkey="Dewgong"><a href="species/dewgong.html">Dewgong</a></td>
 
@@ -4822,7 +4822,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>278</td>
+            <td id="DexNo">278</td>
             <td style="width: 32px;"><a href="species/ameoberg.html"><img class="iconsprite" src="sprites/pokemon/ameoberg/icon.png"></a></td>
             <td id="Name" data-sortkey="Ameoberg"><a href="species/ameoberg.html">Ameoberg</a></td>
 
@@ -4846,7 +4846,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>34</td>
+            <td id="DexNo">34</td>
             <td style="width: 32px;"><a href="species/staryu.html"><img class="iconsprite" src="sprites/pokemon/staryu/icon.png"></a></td>
             <td id="Name" data-sortkey="Staryu"><a href="species/staryu.html">Staryu</a></td>
 
@@ -4869,7 +4869,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>35</td>
+            <td id="DexNo">35</td>
             <td style="width: 32px;"><a href="species/starmie.html"><img class="iconsprite" src="sprites/pokemon/starmie/icon.png"></a></td>
             <td id="Name" data-sortkey="Starmie"><a href="species/starmie.html">Starmie</a></td>
 
@@ -4893,7 +4893,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>401</td>
+            <td id="DexNo">401</td>
             <td style="width: 32px;"><a href="species/roxxik.html"><img class="iconsprite" src="sprites/pokemon/roxxik/icon.png"></a></td>
             <td id="Name" data-sortkey="Roxxik"><a href="species/roxxik.html">Roxxik</a></td>
 
@@ -4922,7 +4922,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>402</td>
+            <td id="DexNo">402</td>
             <td style="width: 32px;"><a href="species/gravelisk.html"><img class="iconsprite" src="sprites/pokemon/gravelisk/icon.png"></a></td>
             <td id="Name" data-sortkey="Gravelisk"><a href="species/gravelisk.html">Gravelisk</a></td>
 
@@ -4951,7 +4951,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>25</td>
+            <td id="DexNo">25</td>
             <td style="width: 32px;"><a href="species/eevee.html"><img class="iconsprite" src="sprites/pokemon/eevee/icon.png"></a></td>
             <td id="Name" data-sortkey="Eevee"><a href="species/eevee.html">Eevee</a></td>
 
@@ -4974,7 +4974,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>26</td>
+            <td id="DexNo">26</td>
             <td style="width: 32px;"><a href="species/flareon.html"><img class="iconsprite" src="sprites/pokemon/flareon/icon.png"></a></td>
             <td id="Name" data-sortkey="Flareon"><a href="species/flareon.html">Flareon</a></td>
 
@@ -4997,7 +4997,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>27</td>
+            <td id="DexNo">27</td>
             <td style="width: 32px;"><a href="species/vaporeon.html"><img class="iconsprite" src="sprites/pokemon/vaporeon/icon.png"></a></td>
             <td id="Name" data-sortkey="Vaporeon"><a href="species/vaporeon.html">Vaporeon</a></td>
 
@@ -5020,7 +5020,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>28</td>
+            <td id="DexNo">28</td>
             <td style="width: 32px;"><a href="species/jolteon.html"><img class="iconsprite" src="sprites/pokemon/jolteon/icon.png"></a></td>
             <td id="Name" data-sortkey="Jolteon"><a href="species/jolteon.html">Jolteon</a></td>
 
@@ -5043,7 +5043,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>30</td>
+            <td id="DexNo">30</td>
             <td style="width: 32px;"><a href="species/umbreon.html"><img class="iconsprite" src="sprites/pokemon/umbreon/icon.png"></a></td>
             <td id="Name" data-sortkey="Umbreon"><a href="species/umbreon.html">Umbreon</a></td>
 
@@ -5066,7 +5066,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>29</td>
+            <td id="DexNo">29</td>
             <td style="width: 32px;"><a href="species/espeon.html"><img class="iconsprite" src="sprites/pokemon/espeon/icon.png"></a></td>
             <td id="Name" data-sortkey="Espeon"><a href="species/espeon.html">Espeon</a></td>
 
@@ -5089,7 +5089,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>31</td>
+            <td id="DexNo">31</td>
             <td style="width: 32px;"><a href="species/glaceon.html"><img class="iconsprite" src="sprites/pokemon/glaceon/icon.png"></a></td>
             <td id="Name" data-sortkey="Glaceon"><a href="species/glaceon.html">Glaceon</a></td>
 
@@ -5112,7 +5112,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>32</td>
+            <td id="DexNo">32</td>
             <td style="width: 32px;"><a href="species/leafeon.html"><img class="iconsprite" src="sprites/pokemon/leafeon/icon.png"></a></td>
             <td id="Name" data-sortkey="Leafeon"><a href="species/leafeon.html">Leafeon</a></td>
 
@@ -5135,7 +5135,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>33</td>
+            <td id="DexNo">33</td>
             <td style="width: 32px;"><a href="species/sylveon.html"><img class="iconsprite" src="sprites/pokemon/sylveon/icon.png"></a></td>
             <td id="Name" data-sortkey="Sylveon"><a href="species/sylveon.html">Sylveon</a></td>
 
@@ -5158,7 +5158,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>285</td>
+            <td id="DexNo">285</td>
             <td style="width: 32px;"><a href="species/chansey.html"><img class="iconsprite" src="sprites/pokemon/chansey/icon.png"></a></td>
             <td id="Name" data-sortkey="Chansey"><a href="species/chansey.html">Chansey</a></td>
 
@@ -5181,7 +5181,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>286</td>
+            <td id="DexNo">286</td>
             <td style="width: 32px;"><a href="species/blissey.html"><img class="iconsprite" src="sprites/pokemon/blissey/icon.png"></a></td>
             <td id="Name" data-sortkey="Blissey"><a href="species/blissey.html">Blissey</a></td>
 
@@ -5204,7 +5204,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>318</td>
+            <td id="DexNo">318</td>
             <td style="width: 32px;"><a href="species/omanyte.html"><img class="iconsprite" src="sprites/pokemon/omanyte/icon.png"></a></td>
             <td id="Name" data-sortkey="Omanyte"><a href="species/omanyte.html">Omanyte</a></td>
 
@@ -5233,7 +5233,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>319</td>
+            <td id="DexNo">319</td>
             <td style="width: 32px;"><a href="species/omastar.html"><img class="iconsprite" src="sprites/pokemon/omastar/icon.png"></a></td>
             <td id="Name" data-sortkey="Omastar"><a href="species/omastar.html">Omastar</a></td>
 
@@ -5262,7 +5262,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>320</td>
+            <td id="DexNo">320</td>
             <td style="width: 32px;"><a href="species/kabuto.html"><img class="iconsprite" src="sprites/pokemon/kabuto/icon.png"></a></td>
             <td id="Name" data-sortkey="Kabuto"><a href="species/kabuto.html">Kabuto</a></td>
 
@@ -5291,7 +5291,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>321</td>
+            <td id="DexNo">321</td>
             <td style="width: 32px;"><a href="species/kabutops.html"><img class="iconsprite" src="sprites/pokemon/kabutops/icon.png"></a></td>
             <td id="Name" data-sortkey="Kabutops"><a href="species/kabutops.html">Kabutops</a></td>
 
@@ -5320,7 +5320,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>330</td>
+            <td id="DexNo">330</td>
             <td style="width: 32px;"><a href="species/phenyxy.html"><img class="iconsprite" src="sprites/pokemon/phenyxy/icon.png"></a></td>
             <td id="Name" data-sortkey="Phenyxy"><a href="species/phenyxy.html">Phenyxy</a></td>
 
@@ -5344,7 +5344,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>331</td>
+            <td id="DexNo">331</td>
             <td style="width: 32px;"><a href="species/resurrenix.html"><img class="iconsprite" src="sprites/pokemon/resurrenix/icon.png"></a></td>
             <td id="Name" data-sortkey="Resurrenix"><a href="species/resurrenix.html">Resurrenix</a></td>
 
@@ -5368,7 +5368,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>147</td>
+            <td id="DexNo">147</td>
             <td style="width: 32px;"><a href="species/charmander.html"><img class="iconsprite" src="sprites/pokemon/charmander/icon.png"></a></td>
             <td id="Name" data-sortkey="Charmander"><a href="species/charmander.html">Charmander</a></td>
 
@@ -5396,7 +5396,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>148</td>
+            <td id="DexNo">148</td>
             <td style="width: 32px;"><a href="species/charmeleon.html"><img class="iconsprite" src="sprites/pokemon/charmeleon/icon.png"></a></td>
             <td id="Name" data-sortkey="Charmeleon"><a href="species/charmeleon.html">Charmeleon</a></td>
 
@@ -5424,7 +5424,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>149</td>
+            <td id="DexNo">149</td>
             <td style="width: 32px;"><a href="species/charizard.html"><img class="iconsprite" src="sprites/pokemon/charizard/icon.png"></a></td>
             <td id="Name" data-sortkey="Charizard"><a href="species/charizard.html">Charizard</a></td>
 
@@ -5453,7 +5453,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>287</td>
+            <td id="DexNo">287</td>
             <td style="width: 32px;"><a href="species/minitaur.html"><img class="iconsprite" src="sprites/pokemon/minitaur/icon.png"></a></td>
             <td id="Name" data-sortkey="Minitaur"><a href="species/minitaur.html">Minitaur</a></td>
 
@@ -5477,7 +5477,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>288</td>
+            <td id="DexNo">288</td>
             <td style="width: 32px;"><a href="species/maxhitaur.html"><img class="iconsprite" src="sprites/pokemon/maxhitaur/icon.png"></a></td>
             <td id="Name" data-sortkey="Maxhitaur"><a href="species/maxhitaur.html">Maxhitaur</a></td>
 
@@ -5506,7 +5506,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>340</td>
+            <td id="DexNo">340</td>
             <td style="width: 32px;"><a href="species/tauros.html"><img class="iconsprite" src="sprites/pokemon/tauros/icon.png"></a></td>
             <td id="Name" data-sortkey="Tauros"><a href="species/tauros.html">Tauros</a></td>
 
@@ -5529,7 +5529,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>89</td>
+            <td id="DexNo">89</td>
             <td style="width: 32px;"><a href="species/jigglyruff.html"><img class="iconsprite" src="sprites/pokemon/jigglyruff/icon.png"></a></td>
             <td id="Name" data-sortkey="Jigglyruff"><a href="species/jigglyruff.html">Jigglyruff</a></td>
 
@@ -5553,7 +5553,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>90</td>
+            <td id="DexNo">90</td>
             <td style="width: 32px;"><a href="species/zigglygruf.html"><img class="iconsprite" src="sprites/pokemon/zigglygruf/icon.png"></a></td>
             <td id="Name" data-sortkey="Zigglygruf"><a href="species/zigglygruf.html">Zigglygruf</a></td>
 
@@ -5577,7 +5577,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>47</td>
+            <td id="DexNo">47</td>
             <td style="width: 32px;"><a href="species/swablu.html"><img class="iconsprite" src="sprites/pokemon/swablu/icon.png"></a></td>
             <td id="Name" data-sortkey="Swablu"><a href="species/swablu.html">Swablu</a></td>
 
@@ -5606,7 +5606,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>48</td>
+            <td id="DexNo">48</td>
             <td style="width: 32px;"><a href="species/altaria.html"><img class="iconsprite" src="sprites/pokemon/altaria/icon.png"></a></td>
             <td id="Name" data-sortkey="Altaria"><a href="species/altaria.html">Altaria</a></td>
 
@@ -5635,7 +5635,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>363</td>
+            <td id="DexNo">363</td>
             <td style="width: 32px;"><a href="species/gomm.html"><img class="iconsprite" src="sprites/pokemon/gomm/icon.png"></a></td>
             <td id="Name" data-sortkey="Gomm"><a href="species/gomm.html">Gomm</a></td>
 
@@ -5664,7 +5664,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>364</td>
+            <td id="DexNo">364</td>
             <td style="width: 32px;"><a href="species/mountegrom.html"><img class="iconsprite" src="sprites/pokemon/mountegrom/icon.png"></a></td>
             <td id="Name" data-sortkey="Mountegrom"><a href="species/mountegrom.html">Mountegrom</a></td>
 
@@ -5693,7 +5693,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>95</td>
+            <td id="DexNo">95</td>
             <td style="width: 32px;"><a href="species/growlithe.html"><img class="iconsprite" src="sprites/pokemon/growlithe/icon.png"></a></td>
             <td id="Name" data-sortkey="Growlithe"><a href="species/growlithe.html">Growlithe</a></td>
 
@@ -5716,7 +5716,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>96</td>
+            <td id="DexNo">96</td>
             <td style="width: 32px;"><a href="species/arcanine.html"><img class="iconsprite" src="sprites/pokemon/arcanine/icon.png"></a></td>
             <td id="Name" data-sortkey="Arcanine"><a href="species/arcanine.html">Arcanine</a></td>
 
@@ -5739,7 +5739,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>80</td>
+            <td id="DexNo">80</td>
             <td style="width: 32px;"><a href="species/stufful.html"><img class="iconsprite" src="sprites/pokemon/stufful/icon.png"></a></td>
             <td id="Name" data-sortkey="Stufful"><a href="species/stufful.html">Stufful</a></td>
 
@@ -5763,7 +5763,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>81</td>
+            <td id="DexNo">81</td>
             <td style="width: 32px;"><a href="species/bewear.html"><img class="iconsprite" src="sprites/pokemon/bewear/icon.png"></a></td>
             <td id="Name" data-sortkey="Bewear"><a href="species/bewear.html">Bewear</a></td>
 
@@ -5787,7 +5787,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>207</td>
+            <td id="DexNo">207</td>
             <td style="width: 32px;"><a href="species/skiddo.html"><img class="iconsprite" src="sprites/pokemon/skiddo/icon.png"></a></td>
             <td id="Name" data-sortkey="Skiddo"><a href="species/skiddo.html">Skiddo</a></td>
 
@@ -5810,7 +5810,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>208</td>
+            <td id="DexNo">208</td>
             <td style="width: 32px;"><a href="species/gogoat.html"><img class="iconsprite" src="sprites/pokemon/gogoat/icon.png"></a></td>
             <td id="Name" data-sortkey="Gogoat"><a href="species/gogoat.html">Gogoat</a></td>
 
@@ -5833,7 +5833,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>73</td>
+            <td id="DexNo">73</td>
             <td style="width: 32px;"><a href="species/mantyke.html"><img class="iconsprite" src="sprites/pokemon/mantyke/icon.png"></a></td>
             <td id="Name" data-sortkey="Mantyke"><a href="species/mantyke.html">Mantyke</a></td>
 
@@ -5851,7 +5851,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>74</td>
+            <td id="DexNo">74</td>
             <td style="width: 32px;"><a href="species/mantine.html"><img class="iconsprite" src="sprites/pokemon/mantine/icon.png"></a></td>
             <td id="Name" data-sortkey="Mantine"><a href="species/mantine.html">Mantine</a></td>
 
@@ -5875,7 +5875,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>219</td>
+            <td id="DexNo">219</td>
             <td style="width: 32px;"><a href="species/gible.html"><img class="iconsprite" src="sprites/pokemon/gible/icon.png"></a></td>
             <td id="Name" data-sortkey="Gible"><a href="species/gible.html">Gible</a></td>
 
@@ -5904,7 +5904,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>220</td>
+            <td id="DexNo">220</td>
             <td style="width: 32px;"><a href="species/gabite.html"><img class="iconsprite" src="sprites/pokemon/gabite/icon.png"></a></td>
             <td id="Name" data-sortkey="Gabite"><a href="species/gabite.html">Gabite</a></td>
 
@@ -5933,7 +5933,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>221</td>
+            <td id="DexNo">221</td>
             <td style="width: 32px;"><a href="species/garchomp.html"><img class="iconsprite" src="sprites/pokemon/garchomp/icon.png"></a></td>
             <td id="Name" data-sortkey="Garchomp"><a href="species/garchomp.html">Garchomp</a></td>
 
@@ -5962,7 +5962,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>129</td>
+            <td id="DexNo">129</td>
             <td style="width: 32px;"><a href="species/magnemite.html"><img class="iconsprite" src="sprites/pokemon/magnemite/icon.png"></a></td>
             <td id="Name" data-sortkey="Magnemite"><a href="species/magnemite.html">Magnemite</a></td>
 
@@ -5986,7 +5986,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>130</td>
+            <td id="DexNo">130</td>
             <td style="width: 32px;"><a href="species/magneton.html"><img class="iconsprite" src="sprites/pokemon/magneton/icon.png"></a></td>
             <td id="Name" data-sortkey="Magneton"><a href="species/magneton.html">Magneton</a></td>
 
@@ -6010,7 +6010,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>131</td>
+            <td id="DexNo">131</td>
             <td style="width: 32px;"><a href="species/magnezone.html"><img class="iconsprite" src="sprites/pokemon/magnezone/icon.png"></a></td>
             <td id="Name" data-sortkey="Magnezone"><a href="species/magnezone.html">Magnezone</a></td>
 
@@ -6034,7 +6034,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>247</td>
+            <td id="DexNo">247</td>
             <td style="width: 32px;"><a href="species/mareep.html"><img class="iconsprite" src="sprites/pokemon/mareep/icon.png"></a></td>
             <td id="Name" data-sortkey="Mareep"><a href="species/mareep.html">Mareep</a></td>
 
@@ -6062,7 +6062,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>248</td>
+            <td id="DexNo">248</td>
             <td style="width: 32px;"><a href="species/flaaffy.html"><img class="iconsprite" src="sprites/pokemon/flaaffy/icon.png"></a></td>
             <td id="Name" data-sortkey="Flaaffy"><a href="species/flaaffy.html">Flaaffy</a></td>
 
@@ -6090,7 +6090,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>249</td>
+            <td id="DexNo">249</td>
             <td style="width: 32px;"><a href="species/ampharos.html"><img class="iconsprite" src="sprites/pokemon/ampharos/icon.png"></a></td>
             <td id="Name" data-sortkey="Ampharos"><a href="species/ampharos.html">Ampharos</a></td>
 
@@ -6118,7 +6118,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>410</td>
+            <td id="DexNo">410</td>
             <td style="width: 32px;"><a href="species/ovarapt.html"><img class="iconsprite" src="sprites/pokemon/ovarapt/icon.png"></a></td>
             <td id="Name" data-sortkey="Ovarapt"><a href="species/ovarapt.html">Ovarapt</a></td>
 
@@ -6142,7 +6142,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>411</td>
+            <td id="DexNo">411</td>
             <td style="width: 32px;"><a href="species/velokota.html"><img class="iconsprite" src="sprites/pokemon/velokota/icon.png"></a></td>
             <td id="Name" data-sortkey="Velokota"><a href="species/velokota.html">Velokota</a></td>
 
@@ -6166,7 +6166,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>412</td>
+            <td id="DexNo">412</td>
             <td style="width: 32px;"><a href="species/utabazai.html"><img class="iconsprite" src="sprites/pokemon/utabazai/icon.png"></a></td>
             <td id="Name" data-sortkey="Utabazai"><a href="species/utabazai.html">Utabazai</a></td>
 
@@ -6190,7 +6190,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>36</td>
+            <td id="DexNo">36</td>
             <td style="width: 32px;"><a href="species/horsea.html"><img class="iconsprite" src="sprites/pokemon/horsea/icon.png"></a></td>
             <td id="Name" data-sortkey="Horsea"><a href="species/horsea.html">Horsea</a></td>
 
@@ -6218,7 +6218,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>37</td>
+            <td id="DexNo">37</td>
             <td style="width: 32px;"><a href="species/seadra.html"><img class="iconsprite" src="sprites/pokemon/seadra/icon.png"></a></td>
             <td id="Name" data-sortkey="Seadra"><a href="species/seadra.html">Seadra</a></td>
 
@@ -6246,7 +6246,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>38</td>
+            <td id="DexNo">38</td>
             <td style="width: 32px;"><a href="species/kingdra.html"><img class="iconsprite" src="sprites/pokemon/kingdra/icon.png"></a></td>
             <td id="Name" data-sortkey="Kingdra"><a href="species/kingdra.html">Kingdra</a></td>
 
@@ -6275,7 +6275,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>424</td>
+            <td id="DexNo">424</td>
             <td style="width: 32px;"><a href="species/larvesta.html"><img class="iconsprite" src="sprites/pokemon/larvesta/icon.png"></a></td>
             <td id="Name" data-sortkey="Larvesta"><a href="species/larvesta.html">Larvesta</a></td>
 
@@ -6299,7 +6299,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>425</td>
+            <td id="DexNo">425</td>
             <td style="width: 32px;"><a href="species/volcarona.html"><img class="iconsprite" src="sprites/pokemon/volcarona/icon.png"></a></td>
             <td id="Name" data-sortkey="Volcarona"><a href="species/volcarona.html">Volcarona</a></td>
 
@@ -6323,7 +6323,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>191</td>
+            <td id="DexNo">191</td>
             <td style="width: 32px;"><a href="species/dipplin.html"><img class="iconsprite" src="sprites/pokemon/dipplin/icon.png"></a></td>
             <td id="Name" data-sortkey="Dipplin"><a href="species/dipplin.html">Dipplin</a></td>
 
@@ -6352,7 +6352,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>192</td>
+            <td id="DexNo">192</td>
             <td style="width: 32px;"><a href="species/hydrapple.html"><img class="iconsprite" src="sprites/pokemon/hydrapple/icon.png"></a></td>
             <td id="Name" data-sortkey="Hydrapple"><a href="species/hydrapple.html">Hydrapple</a></td>
 
@@ -6381,7 +6381,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>68</td>
+            <td id="DexNo">68</td>
             <td style="width: 32px;"><a href="species/porygon.html"><img class="iconsprite" src="sprites/pokemon/porygon/icon.png"></a></td>
             <td id="Name" data-sortkey="Porygon"><a href="species/porygon.html">Porygon</a></td>
 
@@ -6404,7 +6404,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>69</td>
+            <td id="DexNo">69</td>
             <td style="width: 32px;"><a href="species/porygon2.html"><img class="iconsprite" src="sprites/pokemon/porygon2/icon.png"></a></td>
             <td id="Name" data-sortkey="Porygon2"><a href="species/porygon2.html">Porygon2</a></td>
 
@@ -6427,7 +6427,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>70</td>
+            <td id="DexNo">70</td>
             <td style="width: 32px;"><a href="species/porygon_z.html"><img class="iconsprite" src="sprites/pokemon/porygon_z/icon.png"></a></td>
             <td id="Name" data-sortkey="Porygon-Z"><a href="species/porygon_z.html">Porygon-Z</a></td>
 
@@ -6450,7 +6450,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>299</td>
+            <td id="DexNo">299</td>
             <td style="width: 32px;"><a href="species/munchlax.html"><img class="iconsprite" src="sprites/pokemon/munchlax/icon.png"></a></td>
             <td id="Name" data-sortkey="Munchlax"><a href="species/munchlax.html">Munchlax</a></td>
 
@@ -6467,7 +6467,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>300</td>
+            <td id="DexNo">300</td>
             <td style="width: 32px;"><a href="species/snorlax.html"><img class="iconsprite" src="sprites/pokemon/snorlax/icon.png"></a></td>
             <td id="Name" data-sortkey="Snorlax"><a href="species/snorlax.html">Snorlax</a></td>
 
@@ -6490,7 +6490,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>242</td>
+            <td id="DexNo">242</td>
             <td style="width: 32px;"><a href="species/scyther.html"><img class="iconsprite" src="sprites/pokemon/scyther/icon.png"></a></td>
             <td id="Name" data-sortkey="Scyther"><a href="species/scyther.html">Scyther</a></td>
 
@@ -6514,7 +6514,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>243</td>
+            <td id="DexNo">243</td>
             <td style="width: 32px;"><a href="species/scizor.html"><img class="iconsprite" src="sprites/pokemon/scizor/icon.png"></a></td>
             <td id="Name" data-sortkey="Scizor"><a href="species/scizor.html">Scizor</a></td>
 
@@ -6538,7 +6538,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>244</td>
+            <td id="DexNo">244</td>
             <td style="width: 32px;"><a href="species/kleavor.html"><img class="iconsprite" src="sprites/pokemon/kleavor/icon.png"></a></td>
             <td id="Name" data-sortkey="Kleavor"><a href="species/kleavor.html">Kleavor</a></td>
 
@@ -6562,7 +6562,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>97</td>
+            <td id="DexNo">97</td>
             <td style="width: 32px;"><a href="species/shellder.html"><img class="iconsprite" src="sprites/pokemon/shellder/icon.png"></a></td>
             <td id="Name" data-sortkey="Shellder"><a href="species/shellder.html">Shellder</a></td>
 
@@ -6585,7 +6585,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>98</td>
+            <td id="DexNo">98</td>
             <td style="width: 32px;"><a href="species/cloyster.html"><img class="iconsprite" src="sprites/pokemon/cloyster/icon.png"></a></td>
             <td id="Name" data-sortkey="Cloyster"><a href="species/cloyster.html">Cloyster</a></td>
 
@@ -6609,7 +6609,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>132</td>
+            <td id="DexNo">132</td>
             <td style="width: 32px;"><a href="species/carvanha.html"><img class="iconsprite" src="sprites/pokemon/carvanha/icon.png"></a></td>
             <td id="Name" data-sortkey="Carvanha"><a href="species/carvanha.html">Carvanha</a></td>
 
@@ -6633,7 +6633,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>133</td>
+            <td id="DexNo">133</td>
             <td style="width: 32px;"><a href="species/sharpedo.html"><img class="iconsprite" src="sprites/pokemon/sharpedo/icon.png"></a></td>
             <td id="Name" data-sortkey="Sharpedo"><a href="species/sharpedo.html">Sharpedo</a></td>
 
@@ -6657,7 +6657,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>315</td>
+            <td id="DexNo">315</td>
             <td style="width: 32px;"><a href="species/lapras.html"><img class="iconsprite" src="sprites/pokemon/lapras/icon.png"></a></td>
             <td id="Name" data-sortkey="Lapras"><a href="species/lapras.html">Lapras</a></td>
 
@@ -6686,7 +6686,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>196</td>
+            <td id="DexNo">196</td>
             <td style="width: 32px;"><a href="species/rhyhorn.html"><img class="iconsprite" src="sprites/pokemon/rhyhorn/icon.png"></a></td>
             <td id="Name" data-sortkey="Rhyhorn"><a href="species/rhyhorn.html">Rhyhorn</a></td>
 
@@ -6715,7 +6715,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>197</td>
+            <td id="DexNo">197</td>
             <td style="width: 32px;"><a href="species/rhydon.html"><img class="iconsprite" src="sprites/pokemon/rhydon/icon.png"></a></td>
             <td id="Name" data-sortkey="Rhydon"><a href="species/rhydon.html">Rhydon</a></td>
 
@@ -6744,7 +6744,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>198</td>
+            <td id="DexNo">198</td>
             <td style="width: 32px;"><a href="species/rhyperior.html"><img class="iconsprite" src="sprites/pokemon/rhyperior/icon.png"></a></td>
             <td id="Name" data-sortkey="Rhyperior"><a href="species/rhyperior.html">Rhyperior</a></td>
 
@@ -6773,7 +6773,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>135</td>
+            <td id="DexNo">135</td>
             <td style="width: 32px;"><a href="species/kroaea.html"><img class="iconsprite" src="sprites/pokemon/kroaea/icon.png"></a></td>
             <td id="Name" data-sortkey="Kroaea"><a href="species/kroaea.html">Kroaea</a></td>
 
@@ -6802,7 +6802,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>136</td>
+            <td id="DexNo">136</td>
             <td style="width: 32px;"><a href="species/kroaeakaoa.html"><img class="iconsprite" src="sprites/pokemon/kroaeakaoa/icon.png"></a></td>
             <td id="Name" data-sortkey="Kroaeakaoa"><a href="species/kroaeakaoa.html">Kroaeakaoa</a></td>
 
@@ -6831,7 +6831,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>419</td>
+            <td id="DexNo">419</td>
             <td style="width: 32px;"><a href="species/numel.html"><img class="iconsprite" src="sprites/pokemon/numel/icon.png"></a></td>
             <td id="Name" data-sortkey="Numel"><a href="species/numel.html">Numel</a></td>
 
@@ -6855,7 +6855,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>420</td>
+            <td id="DexNo">420</td>
             <td style="width: 32px;"><a href="species/camerupt.html"><img class="iconsprite" src="sprites/pokemon/camerupt/icon.png"></a></td>
             <td id="Name" data-sortkey="Camerupt"><a href="species/camerupt.html">Camerupt</a></td>
 
@@ -6879,7 +6879,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>375</td>
+            <td id="DexNo">375</td>
             <td style="width: 32px;"><a href="species/snomel.html"><img class="iconsprite" src="sprites/pokemon/snomel/icon.png"></a></td>
             <td id="Name" data-sortkey="Snomel"><a href="species/snomel.html">Snomel</a></td>
 
@@ -6902,7 +6902,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>376</td>
+            <td id="DexNo">376</td>
             <td style="width: 32px;"><a href="species/cryorupt.html"><img class="iconsprite" src="sprites/pokemon/cryorupt/icon.png"></a></td>
             <td id="Name" data-sortkey="Cryorupt"><a href="species/cryorupt.html">Cryorupt</a></td>
 
@@ -6926,7 +6926,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>22</td>
+            <td id="DexNo">22</td>
             <td style="width: 32px;"><a href="species/lillipup.html"><img class="iconsprite" src="sprites/pokemon/lillipup/icon.png"></a></td>
             <td id="Name" data-sortkey="Lillipup"><a href="species/lillipup.html">Lillipup</a></td>
 
@@ -6949,7 +6949,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>23</td>
+            <td id="DexNo">23</td>
             <td style="width: 32px;"><a href="species/herdier.html"><img class="iconsprite" src="sprites/pokemon/herdier/icon.png"></a></td>
             <td id="Name" data-sortkey="Herdier"><a href="species/herdier.html">Herdier</a></td>
 
@@ -6972,7 +6972,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>24</td>
+            <td id="DexNo">24</td>
             <td style="width: 32px;"><a href="species/stoutland.html"><img class="iconsprite" src="sprites/pokemon/stoutland/icon.png"></a></td>
             <td id="Name" data-sortkey="Stoutland"><a href="species/stoutland.html">Stoutland</a></td>
 
@@ -6995,7 +6995,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>205</td>
+            <td id="DexNo">205</td>
             <td style="width: 32px;"><a href="species/tangela.html"><img class="iconsprite" src="sprites/pokemon/tangela/icon.png"></a></td>
             <td id="Name" data-sortkey="Tangela"><a href="species/tangela.html">Tangela</a></td>
 
@@ -7018,7 +7018,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>206</td>
+            <td id="DexNo">206</td>
             <td style="width: 32px;"><a href="species/tangrowth.html"><img class="iconsprite" src="sprites/pokemon/tangrowth/icon.png"></a></td>
             <td id="Name" data-sortkey="Tangrowth"><a href="species/tangrowth.html">Tangrowth</a></td>
 
@@ -7041,7 +7041,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>291</td>
+            <td id="DexNo">291</td>
             <td style="width: 32px;"><a href="species/wooloo.html"><img class="iconsprite" src="sprites/pokemon/wooloo/icon.png"></a></td>
             <td id="Name" data-sortkey="Wooloo"><a href="species/wooloo.html">Wooloo</a></td>
 
@@ -7064,7 +7064,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>292</td>
+            <td id="DexNo">292</td>
             <td style="width: 32px;"><a href="species/dubwool.html"><img class="iconsprite" src="sprites/pokemon/dubwool/icon.png"></a></td>
             <td id="Name" data-sortkey="Dubwool"><a href="species/dubwool.html">Dubwool</a></td>
 
@@ -7087,7 +7087,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>245</td>
+            <td id="DexNo">245</td>
             <td style="width: 32px;"><a href="species/heracross.html"><img class="iconsprite" src="sprites/pokemon/heracross/icon.png"></a></td>
             <td id="Name" data-sortkey="Heracross"><a href="species/heracross.html">Heracross</a></td>
 
@@ -7111,7 +7111,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>294</td>
+            <td id="DexNo">294</td>
             <td style="width: 32px;"><a href="species/mudkip.html"><img class="iconsprite" src="sprites/pokemon/mudkip/icon.png"></a></td>
             <td id="Name" data-sortkey="Mudkip"><a href="species/mudkip.html">Mudkip</a></td>
 
@@ -7139,7 +7139,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>295</td>
+            <td id="DexNo">295</td>
             <td style="width: 32px;"><a href="species/marshtomp.html"><img class="iconsprite" src="sprites/pokemon/marshtomp/icon.png"></a></td>
             <td id="Name" data-sortkey="Marshtomp"><a href="species/marshtomp.html">Marshtomp</a></td>
 
@@ -7168,7 +7168,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>296</td>
+            <td id="DexNo">296</td>
             <td style="width: 32px;"><a href="species/swampert.html"><img class="iconsprite" src="sprites/pokemon/swampert/icon.png"></a></td>
             <td id="Name" data-sortkey="Swampert"><a href="species/swampert.html">Swampert</a></td>
 
@@ -7197,7 +7197,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>39</td>
+            <td id="DexNo">39</td>
             <td style="width: 32px;"><a href="species/krabby.html"><img class="iconsprite" src="sprites/pokemon/krabby/icon.png"></a></td>
             <td id="Name" data-sortkey="Krabby"><a href="species/krabby.html">Krabby</a></td>
 
@@ -7220,7 +7220,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>40</td>
+            <td id="DexNo">40</td>
             <td style="width: 32px;"><a href="species/kingler.html"><img class="iconsprite" src="sprites/pokemon/kingler/icon.png"></a></td>
             <td id="Name" data-sortkey="Kingler"><a href="species/kingler.html">Kingler</a></td>
 
@@ -7243,7 +7243,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>442</td>
+            <td id="DexNo">442</td>
             <td style="width: 32px;"><a href="species/carcinodjinn.html"><img class="iconsprite" src="sprites/pokemon/carcinodjinn/icon.png"></a></td>
             <td id="Name" data-sortkey="Carcinodjinn"><a href="species/carcinodjinn.html">Carcinodjinn</a></td>
 
@@ -7267,7 +7267,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>110</td>
+            <td id="DexNo">110</td>
             <td style="width: 32px;"><a href="species/electabuzz.html"><img class="iconsprite" src="sprites/pokemon/electabuzz/icon.png"></a></td>
             <td id="Name" data-sortkey="Electabuzz"><a href="species/electabuzz.html">Electabuzz</a></td>
 
@@ -7290,7 +7290,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>111</td>
+            <td id="DexNo">111</td>
             <td style="width: 32px;"><a href="species/electivire.html"><img class="iconsprite" src="sprites/pokemon/electivire/icon.png"></a></td>
             <td id="Name" data-sortkey="Electivire"><a href="species/electivire.html">Electivire</a></td>
 
@@ -7314,7 +7314,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>421</td>
+            <td id="DexNo">421</td>
             <td style="width: 32px;"><a href="species/nemelt.html"><img class="iconsprite" src="sprites/pokemon/nemelt/icon.png"></a></td>
             <td id="Name" data-sortkey="Nemelt"><a href="species/nemelt.html">Nemelt</a></td>
 
@@ -7342,7 +7342,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>422</td>
+            <td id="DexNo">422</td>
             <td style="width: 32px;"><a href="species/varaflare.html"><img class="iconsprite" src="sprites/pokemon/varaflare/icon.png"></a></td>
             <td id="Name" data-sortkey="Varaflare"><a href="species/varaflare.html">Varaflare</a></td>
 
@@ -7370,7 +7370,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>423</td>
+            <td id="DexNo">423</td>
             <td style="width: 32px;"><a href="species/komodor.html"><img class="iconsprite" src="sprites/pokemon/komodor/icon.png"></a></td>
             <td id="Name" data-sortkey="Komodor"><a href="species/komodor.html">Komodor</a></td>
 
@@ -7399,7 +7399,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>349</td>
+            <td id="DexNo">349</td>
             <td style="width: 32px;"><a href="species/silicobra.html"><img class="iconsprite" src="sprites/pokemon/silicobra/icon.png"></a></td>
             <td id="Name" data-sortkey="Silicobra"><a href="species/silicobra.html">Silicobra</a></td>
 
@@ -7427,7 +7427,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>350</td>
+            <td id="DexNo">350</td>
             <td style="width: 32px;"><a href="species/sandaconda.html"><img class="iconsprite" src="sprites/pokemon/sandaconda/icon.png"></a></td>
             <td id="Name" data-sortkey="Sandaconda"><a href="species/sandaconda.html">Sandaconda</a></td>
 
@@ -7455,7 +7455,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>107</td>
+            <td id="DexNo">107</td>
             <td style="width: 32px;"><a href="species/trubbish.html"><img class="iconsprite" src="sprites/pokemon/trubbish/icon.png"></a></td>
             <td id="Name" data-sortkey="Trubbish"><a href="species/trubbish.html">Trubbish</a></td>
 
@@ -7478,7 +7478,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>108</td>
+            <td id="DexNo">108</td>
             <td style="width: 32px;"><a href="species/garbodor.html"><img class="iconsprite" src="sprites/pokemon/garbodor/icon.png"></a></td>
             <td id="Name" data-sortkey="Garbodor"><a href="species/garbodor.html">Garbodor</a></td>
 
@@ -7501,7 +7501,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>255</td>
+            <td id="DexNo">255</td>
             <td style="width: 32px;"><a href="species/butterfree.html"><img class="iconsprite" src="sprites/pokemon/butterfree/icon.png"></a></td>
             <td id="Name" data-sortkey="Butterfree"><a href="species/butterfree.html">Butterfree</a></td>
 
@@ -7525,7 +7525,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>258</td>
+            <td id="DexNo">258</td>
             <td style="width: 32px;"><a href="species/beedrill.html"><img class="iconsprite" src="sprites/pokemon/beedrill/icon.png"></a></td>
             <td id="Name" data-sortkey="Beedrill"><a href="species/beedrill.html">Beedrill</a></td>
 
@@ -7549,7 +7549,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>338</td>
+            <td id="DexNo">338</td>
             <td style="width: 32px;"><a href="species/clefairy.html"><img class="iconsprite" src="sprites/pokemon/clefairy/icon.png"></a></td>
             <td id="Name" data-sortkey="Clefairy"><a href="species/clefairy.html">Clefairy</a></td>
 
@@ -7572,7 +7572,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>339</td>
+            <td id="DexNo">339</td>
             <td style="width: 32px;"><a href="species/clefable.html"><img class="iconsprite" src="sprites/pokemon/clefable/icon.png"></a></td>
             <td id="Name" data-sortkey="Clefable"><a href="species/clefable.html">Clefable</a></td>
 
@@ -7595,7 +7595,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>391</td>
+            <td id="DexNo">391</td>
             <td style="width: 32px;"><a href="species/gengar.html"><img class="iconsprite" src="sprites/pokemon/gengar/icon.png"></a></td>
             <td id="Name" data-sortkey="Gengar"><a href="species/gengar.html">Gengar</a></td>
 
@@ -7619,7 +7619,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>152</td>
+            <td id="DexNo">152</td>
             <td style="width: 32px;"><a href="species/chinchou.html"><img class="iconsprite" src="sprites/pokemon/chinchou/icon.png"></a></td>
             <td id="Name" data-sortkey="Chinchou"><a href="species/chinchou.html">Chinchou</a></td>
 
@@ -7643,7 +7643,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>153</td>
+            <td id="DexNo">153</td>
             <td style="width: 32px;"><a href="species/lanturn.html"><img class="iconsprite" src="sprites/pokemon/lanturn/icon.png"></a></td>
             <td id="Name" data-sortkey="Lanturn"><a href="species/lanturn.html">Lanturn</a></td>
 
@@ -7667,7 +7667,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>343</td>
+            <td id="DexNo">343</td>
             <td style="width: 32px;"><a href="species/luvdisc.html"><img class="iconsprite" src="sprites/pokemon/luvdisc/icon.png"></a></td>
             <td id="Name" data-sortkey="Luvdisc"><a href="species/luvdisc.html">Luvdisc</a></td>
 
@@ -7690,7 +7690,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>409</td>
+            <td id="DexNo">409</td>
             <td style="width: 32px;"><a href="species/kangaskhan.html"><img class="iconsprite" src="sprites/pokemon/kangaskhan/icon.png"></a></td>
             <td id="Name" data-sortkey="Kangaskhan"><a href="species/kangaskhan.html">Kangaskhan</a></td>
 
@@ -7713,7 +7713,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>344</td>
+            <td id="DexNo">344</td>
             <td style="width: 32px;"><a href="species/qwilfish.html"><img class="iconsprite" src="sprites/pokemon/qwilfish/icon.png"></a></td>
             <td id="Name" data-sortkey="Qwilfish"><a href="species/qwilfish.html">Qwilfish</a></td>
 
@@ -7737,7 +7737,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>345</td>
+            <td id="DexNo">345</td>
             <td style="width: 32px;"><a href="species/overqwil.html"><img class="iconsprite" src="sprites/pokemon/overqwil/icon.png"></a></td>
             <td id="Name" data-sortkey="Overqwil"><a href="species/overqwil.html">Overqwil</a></td>
 
@@ -7761,7 +7761,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>369</td>
+            <td id="DexNo">369</td>
             <td style="width: 32px;"><a href="species/exeggcute.html"><img class="iconsprite" src="sprites/pokemon/exeggcute/icon.png"></a></td>
             <td id="Name" data-sortkey="Exeggcute"><a href="species/exeggcute.html">Exeggcute</a></td>
 
@@ -7785,7 +7785,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>371</td>
+            <td id="DexNo">371</td>
             <td style="width: 32px;"><a href="species/exeggutor.html"><img class="iconsprite" src="sprites/pokemon/exeggutor/icon.png"></a></td>
             <td id="Name" data-sortkey="Exeggutor"><a href="species/exeggutor.html">Exeggutor</a></td>
 
@@ -7809,7 +7809,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>370</td>
+            <td id="DexNo">370</td>
             <td style="width: 32px;"><a href="species/exegutower.html"><img class="iconsprite" src="sprites/pokemon/exegutower/icon.png"></a></td>
             <td id="Name" data-sortkey="Exegutower"><a href="species/exegutower.html">Exegutower</a></td>
 
@@ -7833,7 +7833,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>66</td>
+            <td id="DexNo">66</td>
             <td style="width: 32px;"><a href="species/pawmud.html"><img class="iconsprite" src="sprites/pokemon/pawmud/icon.png"></a></td>
             <td id="Name" data-sortkey="Pawmud"><a href="species/pawmud.html">Pawmud</a></td>
 
@@ -7857,7 +7857,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>67</td>
+            <td id="DexNo">67</td>
             <td style="width: 32px;"><a href="species/sloof.html"><img class="iconsprite" src="sprites/pokemon/sloof/icon.png"></a></td>
             <td id="Name" data-sortkey="Sloof"><a href="species/sloof.html">Sloof</a></td>
 
@@ -7881,7 +7881,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>372</td>
+            <td id="DexNo">372</td>
             <td style="width: 32px;"><a href="species/ellipseal.html"><img class="iconsprite" src="sprites/pokemon/ellipseal/icon.png"></a></td>
             <td id="Name" data-sortkey="Ellipseal"><a href="species/ellipseal.html">Ellipseal</a></td>
 
@@ -7909,7 +7909,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>373</td>
+            <td id="DexNo">373</td>
             <td style="width: 32px;"><a href="species/selatinous.html"><img class="iconsprite" src="sprites/pokemon/selatinous/icon.png"></a></td>
             <td id="Name" data-sortkey="Selatinous"><a href="species/selatinous.html">Selatinous</a></td>
 
@@ -7937,7 +7937,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>374</td>
+            <td id="DexNo">374</td>
             <td style="width: 32px;"><a href="species/ezmergent.html"><img class="iconsprite" src="sprites/pokemon/ezmergent/icon.png"></a></td>
             <td id="Name" data-sortkey="Ezmergent"><a href="species/ezmergent.html">Ezmergent</a></td>
 
@@ -7966,7 +7966,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>51</td>
+            <td id="DexNo">51</td>
             <td style="width: 32px;"><a href="species/elephloat.html"><img class="iconsprite" src="sprites/pokemon/elephloat/icon.png"></a></td>
             <td id="Name" data-sortkey="Elephloat"><a href="species/elephloat.html">Elephloat</a></td>
 
@@ -7989,7 +7989,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>52</td>
+            <td id="DexNo">52</td>
             <td style="width: 32px;"><a href="species/mastadrone.html"><img class="iconsprite" src="sprites/pokemon/mastadrone/icon.png"></a></td>
             <td id="Name" data-sortkey="Mastadrone"><a href="species/mastadrone.html">Mastadrone</a></td>
 
@@ -8012,7 +8012,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>237</td>
+            <td id="DexNo">237</td>
             <td style="width: 32px;"><a href="species/spudnik.html"><img class="iconsprite" src="sprites/pokemon/spudnik/icon.png"></a></td>
             <td id="Name" data-sortkey="Spudnik"><a href="species/spudnik.html">Spudnik</a></td>
 
@@ -8041,7 +8041,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>238</td>
+            <td id="DexNo">238</td>
             <td style="width: 32px;"><a href="species/jerusaleye.html"><img class="iconsprite" src="sprites/pokemon/jerusaleye/icon.png"></a></td>
             <td id="Name" data-sortkey="Jerusaleye"><a href="species/jerusaleye.html">Jerusaleye</a></td>
 
@@ -8070,7 +8070,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>259</td>
+            <td id="DexNo">259</td>
             <td style="width: 32px;"><a href="species/mouseed.html"><img class="iconsprite" src="sprites/pokemon/mouseed/icon.png"></a></td>
             <td id="Name" data-sortkey="Mouseed"><a href="species/mouseed.html">Mouseed</a></td>
 
@@ -8099,7 +8099,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>260</td>
+            <td id="DexNo">260</td>
             <td style="width: 32px;"><a href="species/pawllen.html"><img class="iconsprite" src="sprites/pokemon/pawllen/icon.png"></a></td>
             <td id="Name" data-sortkey="Pawllen"><a href="species/pawllen.html">Pawllen</a></td>
 
@@ -8128,7 +8128,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>261</td>
+            <td id="DexNo">261</td>
             <td style="width: 32px;"><a href="species/grandelion.html"><img class="iconsprite" src="sprites/pokemon/grandelion/icon.png"></a></td>
             <td id="Name" data-sortkey="Grandelion"><a href="species/grandelion.html">Grandelion</a></td>
 
@@ -8157,7 +8157,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>413</td>
+            <td id="DexNo">413</td>
             <td style="width: 32px;"><a href="species/cosmyriad.html"><img class="iconsprite" src="sprites/pokemon/cosmyriad/icon.png"></a></td>
             <td id="Name" data-sortkey="Cosmyriad"><a href="species/cosmyriad.html">Cosmyriad</a></td>
 
@@ -8186,7 +8186,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>341</td>
+            <td id="DexNo">341</td>
             <td style="width: 32px;"><a href="species/pinsir.html"><img class="iconsprite" src="sprites/pokemon/pinsir/icon.png"></a></td>
             <td id="Name" data-sortkey="Pinsir"><a href="species/pinsir.html">Pinsir</a></td>
 
@@ -8209,7 +8209,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>446</td>
+            <td id="DexNo">446</td>
             <td style="width: 32px;"><a href="species/calicoil.html"><img class="iconsprite" src="sprites/pokemon/calicoil/icon.png"></a></td>
             <td id="Name" data-sortkey="Calicoil"><a href="species/calicoil.html">Calicoil</a></td>
 
@@ -8232,7 +8232,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>447</td>
+            <td id="DexNo">447</td>
             <td style="width: 32px;"><a href="species/calichary.html"><img class="iconsprite" src="sprites/pokemon/calichary/icon.png"></a></td>
             <td id="Name" data-sortkey="Calichary"><a href="species/calichary.html">Calichary</a></td>
 
@@ -8255,7 +8255,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>448</td>
+            <td id="DexNo">448</td>
             <td style="width: 32px;"><a href="species/calicobra.html"><img class="iconsprite" src="sprites/pokemon/calicobra/icon.png"></a></td>
             <td id="Name" data-sortkey="Calicobra"><a href="species/calicobra.html">Calicobra</a></td>
 
@@ -8278,7 +8278,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/tusgoyf.html"><img class="iconsprite" src="sprites/pokemon/tusgoyf/icon.png"></a></td>
             <td id="Name" data-sortkey="Tusgoyf"><a href="species/tusgoyf.html">Tusgoyf</a></td>
 
@@ -8302,7 +8302,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/llurscayf.html"><img class="iconsprite" src="sprites/pokemon/llurscayf/icon.png"></a></td>
             <td id="Name" data-sortkey="Llurscayf"><a href="species/llurscayf.html">Llurscayf</a></td>
 
@@ -8326,7 +8326,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/chrysal.html"><img class="iconsprite" src="sprites/pokemon/chrysal/icon.png"></a></td>
             <td id="Name" data-sortkey="Chrysal"><a href="species/chrysal.html">Chrysal</a></td>
 
@@ -8350,7 +8350,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/vellavale.html"><img class="iconsprite" src="sprites/pokemon/vellavale/icon.png"></a></td>
             <td id="Name" data-sortkey="Vellavale"><a href="species/vellavale.html">Vellavale</a></td>
 
@@ -8374,7 +8374,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/vellidaxos.html"><img class="iconsprite" src="sprites/pokemon/vellidaxos/icon.png"></a></td>
             <td id="Name" data-sortkey="Vellidaxos"><a href="species/vellidaxos.html">Vellidaxos</a></td>
 
@@ -8398,7 +8398,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/ghoulslash.html"><img class="iconsprite" src="sprites/pokemon/ghoulslash/icon.png"></a></td>
             <td id="Name" data-sortkey="Ghoulslash"><a href="species/ghoulslash.html">Ghoulslash</a></td>
 
@@ -8422,7 +8422,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/venoph.html"><img class="iconsprite" src="sprites/pokemon/venoph/icon.png"></a></td>
             <td id="Name" data-sortkey="Venoph"><a href="species/venoph.html">Venoph</a></td>
 
@@ -8446,7 +8446,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/gaiac.html"><img class="iconsprite" src="sprites/pokemon/gaiac/icon.png"></a></td>
             <td id="Name" data-sortkey="Gaiac"><a href="species/gaiac.html">Gaiac</a></td>
 
@@ -8470,7 +8470,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/nepteis.html"><img class="iconsprite" src="sprites/pokemon/nepteis/icon.png"></a></td>
             <td id="Name" data-sortkey="Nepteis"><a href="species/nepteis.html">Nepteis</a></td>
 
@@ -8494,7 +8494,7 @@ document.getElementById('tab_egg_list').click();
         </tr>
 
         <tr>
-            <td>???</td>
+            <td id="DexNo">???</td>
             <td style="width: 32px;"><a href="species/uristage.html"><img class="iconsprite" src="sprites/pokemon/uristage/icon.png"></a></td>
             <td id="Name" data-sortkey="Uristage"><a href="species/uristage.html">Uristage</a></td>
 
